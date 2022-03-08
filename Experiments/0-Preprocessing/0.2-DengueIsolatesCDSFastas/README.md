@@ -10,4 +10,4 @@ All genomes were selected and the CDS Fastas were downloaded.
 
 ## Data
 
-+ ./data/dengue_isolates.fa: Fasta file of all Dengue isolate CDS sequences
++ **./data/dengue_isolates.fa**: Fasta file of all Dengue isolate CDS sequences
