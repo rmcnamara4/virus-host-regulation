@@ -11,6 +11,7 @@ library(seqinr)
 library(Biostrings)
 library(tibble)
 library(writexl)
+library(stringr)
 
 ################################################################################
 # Initiate file names
