@@ -20,8 +20,7 @@ across the three cell types.
 + **./data/human_csc_all_methods**: whole dataset from the paper, showing all CSC values
 
 + **./data/human_endo_csc.csv**: filtered dataset, showing endogenous CSCs and average CSC
-
-
+---
 To reproduce the data:
 
 ```bash
