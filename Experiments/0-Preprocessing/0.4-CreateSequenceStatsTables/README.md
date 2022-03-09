@@ -4,7 +4,12 @@ Here I convert the sequence tables of human, mosquito, and the dengue isolates
 into sequence stats tables. The Excel files for each species contain 4 sheets:
 Nucleotides, Codons, Amino Acids, and RSCU.
 
-The tables are produced in the *data* folder.
+## Scripts
+
++ **./make_sequence_stats_tables.R**: calculates nucleotide frequency, codon frequency,
+amino acid frequency, and RSCU for the CDSs
+
++ **./run_all.sh**: runs the R script to create the sequence stats tables
 
 ## Data
 
@@ -19,9 +24,7 @@ The tables are produced in the *data* folder.
 + **./data/dengue_3_isolates_stats.xlsx**: sequence stats tables of Dengue 3 isolates CDSs
 
 + **./data/dengue_4_isolates_stats.xlsx**: sequence stats tables of Dengue 4 isolates CDSs
-
-The script *run_all.sh* will run the R script to create these tables.
-
+---
 To reproduce the analysis:
 
 ```bash

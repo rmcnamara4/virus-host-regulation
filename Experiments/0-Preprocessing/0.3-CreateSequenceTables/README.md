@@ -3,7 +3,15 @@
 Here I convert the CDS fasta files of human, mosquito, and the dengue isolates
 into tables of species, gene_ID, and sequence.
 
-The tables are produced in the *data* folder.
+# Scripts
+
++ **./make_human_mosquito_seq_tables.R**: converts human and mosquito fastas to
+sequence tables
+
++ **./make_isolates_seq_tables.R**: converts Dengue isolates fasta to sequence
+tables
+
++ **./run_all.sh**: Runs the R scripts to produce the sequence tables
 
 ## Data
 
@@ -18,9 +26,7 @@ The tables are produced in the *data* folder.
 + **./data/dengue_3_isolates_seq.csv**: sequence table of Dengue 3 isolates CDSs
 
 + **./data/dengue_4_isolates_seq.csv**: sequence table of Dengue 4 isolates CDSs
-
-The script *run_all.sh* will run all of the R scripts to perform the analysis.
-
+---
 To reproduce the analysis:
 
 ```bash
