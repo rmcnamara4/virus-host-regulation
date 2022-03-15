@@ -1,0 +1,157 @@
+---
+title: "C6/36 (Mosquito) CSC Calculation"
+author: "Ryan McNamara"
+date: "3/15/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = T, message = F, warning = F, collapse = T, 
+  fig.path = './figures/', dev = c('png', 'pdf'), dpi = 300
+)
+
+# libraries needed for the analysis 
+library(dplyr)
+library(gridExtra)
+library(readxl)
+library(stats)
+library(GGally)
+library(ggthemes)
+library(ggplot2)
+
+theme_set(theme_tufte())
+```
+
+### 1. Load and tidy data required for analysis 
+
+Here I will load the mosquito exon tpm data and the mosquito codon composition data for analysis. 
+
+```{r data-1} 
+# load mosquito tpms 
+mosquito_tpms = read.table('./data/tpms/exon_tpms.csv', sep = ',', header = T)
+mosquito_tpms = mosquito_tpms[-2]
+colnames(mosquito_tpms) = c('gene_ID', 'dmso', 'drb', 'flavopiridol', 'triptolide')
+
+# keep only genes that are expressed in DMSO (control)
+iv = mosquito_tpms$dmso > 5
+mosquito_tpms = mosquito_tpms[iv, ]
+
+# remove genes that are not expressed at all in any of the drug conditions 
+iv = apply(mosquito_tpms[-1], 1, function(row) any(row == 0))
+mosquito_tpms = mosquito_tpms[!iv, ]
+
+# load mosquito codon composition 
+mosquito_codons = read_excel('../0-Preprocessing/0.4-CreateSequenceStatsTables/data/mosquito_AaloF1_stats.xlsx', 
+                             sheet = 'Codons')
+mosquito_codons = mosquito_codons[c(-1, -3)] %>%
+  select(-c('TAG', 'TGA', 'TAA')) # remove stop codons from optimality calculation 
+
+# get vector of codon names 
+all_codons = colnames(mosquito_codons)[-1]
+```
+
+### 2. Calculate CSC
+
+The codon stability coefficient (CSC) is calculated as the Pearson correlation between the occurence of a codon (y-axis) and the stability (x-axis), where each point in the plot is a gene. In this case, the stability is calculated as the log2(drug_tpm / dmso_tpm). 
+
+First, I'll calculate these stability values for each drug. 
+
+```{r stability_calc}
+# calc stability 
+gene_ID = mosquito_tpms$gene_ID
+
+drb_stab = data.frame(
+  gene_ID = gene_ID, 
+  stab = log2(mosquito_tpms$drb / mosquito_tpms$dmso)
+) 
+
+flavopiridol_stab = data.frame(
+  gene_ID = gene_ID, 
+  stab = log2(mosquito_tpms$flavopiridol / mosquito_tpms$dmso)
+) 
+
+triptolide_stab = data.frame(
+  gene_ID = gene_ID, 
+  stab = log2(mosquito_tpms$triptolide / mosquito_tpms$dmso)
+) 
+```
+
+Now, I will merge the stability data.frames with the codon composition of mosquito. 
+
+```{r merge_data}
+# merge with codon composition 
+drb = merge(drb_stab, mosquito_codons, by = 'gene_ID') 
+flavopiridol = merge(flavopiridol_stab, mosquito_codons, by = 'gene_ID')
+triptolide = merge(triptolide_stab, mosquito_codons, by = 'gene_ID')
+```
+
+To calculate the CSC, I will take the Pearson correlation between occurence of each codon and the stability. For each codon, I will remove the genes that have 0 percent of that codon before doing the correlation. 
+
+```{r csc_calc}
+# loop to calculate the CSC of each codon for each drug 
+csc = c()
+for (c in all_codons) {
+  
+  drb_temp = drb %>%
+    filter(c > 0) # remove genes that have 0 codon frequency 
+  drb_cor = cor(drb_temp$stab, drb_temp[[c]], method = 'pearson') # pearson correlation between stability and codon frequency
+  
+  flavopiridol_temp = flavopiridol %>%
+    filter(c > 0)
+  flavopiridol_cor = cor(flavopiridol_temp$stab, flavopiridol_temp[[c]], method = 'pearson')
+  
+  triptolide_temp = triptolide %>%
+    filter(c > 0) 
+  triptolide_cor = cor(triptolide_temp$stab, triptolide_temp[[c]], method = 'pearson')
+  
+  csc = rbind(csc, c(drb_cor, flavopiridol_cor, triptolide_cor))
+    
+}
+
+csc = as.data.frame(csc)
+rownames(csc) = all_codons
+colnames(csc) = c('drb', 'flavopiridol', 'triptolide')
+
+# add average csc
+csc$mosquito = rowMeans(csc)
+
+# save a copy 
+csc = csc %>%
+  mutate(
+    codon = rownames(csc), 
+    .before = 1
+  )
+rownames(csc) = NULL
+write.table(csc, './data/mosquito_csc.csv', sep = ',', col.names = T, row.names = F)
+```
+
+Here are the first few rows of the table. 
+
+```{r} 
+head(csc)
+```
+
+### 3. Validate consistency between drugs
+
+Now, let's check that the CSCs calculated using each of the drugs correlate with each other. 
+
+```{r pairs_plot, fig.height = 4, fig.width = 4}
+# create pairplot 
+pair_plot = GGally::ggpairs(csc[-c(1, 5)]) +
+  theme_bw() +
+  theme(axis.line = element_line(color='black'),
+    plot.background = element_blank(),
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(), 
+    panel.border = element_rect(color = 'black'))
+
+pair_plot
+```
+
+The correlations are great!!
+
+
+
+
+
