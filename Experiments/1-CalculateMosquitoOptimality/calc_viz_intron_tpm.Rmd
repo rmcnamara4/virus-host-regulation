@@ -2,9 +2,7 @@
 title: "Intron TPM Calculation"
 author: "Ryan McNamara"
 date: "11/4/2021"
-output: 
-  html_document:
-    keep_md: true
+output: html_document
 ---
 
 ### Overview: 
