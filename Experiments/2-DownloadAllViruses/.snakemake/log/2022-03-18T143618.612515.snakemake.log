@@ -1,0 +1,25 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	create_codon_count_tables
+	1
+
+[Fri Mar 18 14:36:19 2022]
+rule create_codon_count_tables:
+    input: data/fastas/Zika_virus.fna.gz
+    output: data/codon_tables/codon_counts/Zika_virus.csv, data/codon_tables/codon_counts_total/Zika_virus.csv
+    jobid: 0
+    wildcards: virus=Zika_virus
+    threads: 10
+
+[Fri Mar 18 14:36:25 2022]
+Error in rule create_codon_count_tables:
+    jobid: 0
+    output: data/codon_tables/codon_counts/Zika_virus.csv, data/codon_tables/codon_counts_total/Zika_virus.csv
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /n/projects/rm2498/virus-host-regulation/Experiments/2-DownloadAllViruses/.snakemake/log/2022-03-18T143618.612515.snakemake.log
