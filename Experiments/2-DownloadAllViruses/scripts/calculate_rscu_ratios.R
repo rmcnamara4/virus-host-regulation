@@ -2,14 +2,14 @@
 # Load libraries
 
 library(dplyr)
-library(ggplot2)
 library(readxl)
 library(writexl)
 
 ################################################################################
 # Source functions
 
-source('/n/projects/rm2498/Virus_Project/Viral_Seq_Analysis/Scripts/Functions/create_rscu_df_functions.R')
+source('../../Src/calc_rscu.R')
+source('../../Src/synonymous_codons.R')
 
 ################################################################################
 # Load rscu data 
@@ -32,13 +32,13 @@ viral_rscu_total = read.table(
 # Load human and mosquito codon counts
 
 human_counts = read_excel(
-  '/n/projects/rm2498/Virus_Project/Data_Files/Full_Species_Data/human_hg38.xls', 
+  '../0-Preprocessing/0.4-CreateSequenceStatsTables/data/human_hg38_stats.xlsx', 
   sheet = 'Codons'
 )
 human_counts = human_counts[-c(1:3)]
 
 mosquito_counts = read_excel(
-  '/n/projects/rm2498/Virus_Project/Data_Files/Full_Species_Data/mosquito_AaloF1.xls', 
+  '../0-Preprocessing/0.4-CreateSequenceStatsTables/data/mosquito_AaloF1_stats.xlsx', 
   sheet = 'Codons'
 )
 mosquito_counts = mosquito_counts[-c(1:3)]
