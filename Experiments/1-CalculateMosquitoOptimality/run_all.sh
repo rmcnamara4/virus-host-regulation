@@ -8,4 +8,4 @@ bash get_files.sh
 bash split_gff.sh
 
 # run script to map the introns 
-bash count_ex_int.sh
+bash count_introns.sh
