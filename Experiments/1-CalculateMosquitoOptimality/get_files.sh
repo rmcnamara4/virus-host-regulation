@@ -41,12 +41,12 @@ mv s_triptolide_3.Aligned.sortedByCoord.out.bam.bai data/bam/s_triptolide_3.Alig
 
 # get exon tpm table
 wget https://webfs/n/core/Bioinformatics/secondary/Bazzini/lc2196/MOLNG-3268/secundo/RSEM_TPM_table.csv
-mv RSEM_TPM_table.csv data/tpms/exon_tpms_compBio.csv
+mv RSEM_TPM_table.csv data/tpms/exon_tpms.csv
 
 # get exon counts table
 wget https://webfs/n/core/Bioinformatics/secondary/Bazzini/lc2196/MOLNG-3268/secundo/star_count.csv
-mv star_count.csv data/counts/exon_counts_compBio.csv
+mv star_count.csv data/counts/exon_counts.csv
 
 # get ercc counts table
 wget https://webfs/n/core/Bioinformatics/secondary/Bazzini/lc2196/MOLNG-3268/secundo/ercc_count.csv
-mv ercc_count.csv data/counts/ercc_counts_compBio.csv
+mv ercc_count.csv data/counts/ercc_counts.csv
