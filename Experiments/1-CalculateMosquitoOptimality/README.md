@@ -13,26 +13,26 @@ using each of the samples.
 
 + **./split_gff.sh**: splits the *Aedes albopictus* gff into introns and exons
 
-+ **./map_introns.sh**: maps the reads to intronic regions and produces a counts file (note: uses htseq-count)
++ **./count_introns.sh**: maps the reads to intronic regions and produces a counts file (note: uses htseq-count)
 
 + **./run_all.sh**: runs all of the bash scripts in order to complete the preprocessing
 
 ## RMarkdown
 
-+ **./calc_viz_intron_tpm.Rmd**: calculates TPMs from the raw intron counts; visualizes the raw reads
++ **./calc_viz_tpms.Rmd**: calculates TPMs from the raw counts; visualizes the raw reads
 from the exons, introns, and ercc; visualizes the distribution of the TPMs of the exons and introns
 
 + **./calc_mosquito_csc**: calculates the CSC for each of the drug samples
 
 ## HTML
 
-+ **./calc_viz_intron_tpm.html**: output of the calc_viz_intron_tpm.Rmd file
++ **./calc_viz_tpms.html**: output of the calc_viz_intron_tpm.Rmd file
 
-+ **./calc_mosquito_csc**: output of the calc_mosquito_csc.Rmd file
++ **./calc_mosquito_csc.html**: output of the calc_mosquito_csc.Rmd file
 
 ## Data
 
-### GFF
+### GFF/GTF
 
 + **./data/AaloF1.EnsGen_50.gff**: Ensembl GFF file of *Aedes albopictus*
 
@@ -40,19 +40,21 @@ from the exons, introns, and ercc; visualizes the distribution of the TPMs of th
 
 + **./data/AaloF1.introns.gff**: Ensembl GFF file of *Aedes albopictus* filtered for introns
 
++ **./data/AaloF1.EnsGen_50.gtf**: Ensembl GTF file of *Aedes albopictus*
+
 ### CSC
 
 + **./data/mosquito_csc.csv**: CSC calculated for each drug sample and the average
 
 ### BAM
 
-+ **./data/bam/s_dmso.Aligned.sortedByCoord.out.bam/bai**: alignment bam and bai file for DMSO sample
++ **./data/bam/s_dmso.Aligned.sortedByCoord.out.(bam|bai)**: alignment bam and bai file for DMSO sample
 
-+ **./data/bam/s_drb_1.Aligned.sortedByCoord.out.bam/bai**: alignment bam and bai file for DRB sample
++ **./data/bam/s_drb_1.Aligned.sortedByCoord.out.(bam|bai)**: alignment bam and bai file for DRB sample
 
-+ **./data/bam/s_flavopiridol_2.Aligned.sortedByCoord.out.bam/bai**: alignment bam and bai file for Flavopiridol sample
++ **./data/bam/s_flavopiridol_2.Aligned.sortedByCoord.out.(bam|bai)**: alignment bam and bai file for Flavopiridol sample
 
-+ **./data/bam/s_triptolide_3.Aligned.sortedByCoord.out.bam/bai**: alignment bam and bai file for Triptolide sample
++ **./data/bam/s_triptolide_3.Aligned.sortedByCoord.out.(bam|bai)**: alignment bam and bai file for Triptolide sample
 
 ### Counts
 
@@ -72,9 +74,11 @@ from the exons, introns, and ercc; visualizes the distribution of the TPMs of th
 
 ### TPMs
 
-+ **./data/tpms/intron_tpms.csv**: intron TPMs for all samples
++ **./data/tpms/intron_tpms_manual.csv**: intron TPMs for all samples calculated by me
 
-+ **./data/tpms/exon_tpms.csv**: exon TPMs for all samples
++ **./data/tpms/exon_tpms_manual.csv**: exon TPMs for all samples calculated by me
+
++ **./data/tpms/exon_tpms.csv**: exon TPMs for all samples calculated by CompBio
 
 ## Figures
 
@@ -95,4 +99,4 @@ To reproduce the analysis:
 bash run_all.sh
 ```
 The RMarkdown files need to be knitted to reproduce their calculations. However,
-all results are already produced. 
+all results are already produced.
