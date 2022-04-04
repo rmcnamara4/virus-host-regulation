@@ -11,6 +11,10 @@ mkdir -p data/tpms
 wget https://webfs/n/analysis/indexes/AaloF1/annotation/EnsGen_50/gtfs/AaloF1.EnsGen_50.gff
 mv AaloF1.EnsGen_50.gff data/AaloF1.EnsGen_50.gff
 
+# get Aedes albopictus gtf file
+wget https://webfs/n/analysis/indexes/AaloF1/annotation/EnsGen_50/gtfs/AaloF1.EnsGen_50.gtf
+mv AaloF1.EnsGen_50.gtf data/AaloF1.EnsGen_50.gtf
+
 # get dmso aligned bam file and bai file 
 wget https://webfs/n/core/Bioinformatics/secondary/Bazzini/lc2196/MOLNG-3268/s_dmso/s_dmso.Aligned.sortedByCoord.out.bam 
 mv s_dmso.Aligned.sortedByCoord.out.bam data/bam/s_dmso.Aligned.sortedByCoord.out.bam
