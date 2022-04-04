@@ -1,5 +1,5 @@
 ---
-title: "Intron TPM Calculation"
+title: "TPM Calculation"
 author: "Ryan McNamara"
 date: "11/4/2021"
 output: html_document
@@ -83,7 +83,7 @@ Now, I determine the length of each gene in order to calculate TPMs.
 
 ```{r intron_lengths}
 # define gff file path 
-gff_file = '/n/analysis/indexes/AaloF1/annotation/EnsGen_50/gtfs/AaloF1.EnsGen_50.gtf'
+gff_file = './data/AaloF1.EnsGen_50.gtf'
 
 # make TxDb
 txdb = makeTxDbFromGFF(file = gff_file)
