@@ -1,5 +1,5 @@
 ################################################################################
-# Load libraries 
+# Load libraries
 
 library(dplyr)
 library(rio)
@@ -8,12 +8,12 @@ library(stats)
 library(writexl)
 
 ################################################################################
-# Load and split data 
+# Load and split data
 
 human_ratio = read.table(
-  snakemake@input[['human_ratios']], 
-  sep = ',', 
-  header = TRUE, 
+  snakemake@input[['human_ratios']],
+  sep = ',',
+  header = TRUE,
   quote = "\""
 )
 
@@ -21,9 +21,9 @@ human_ratio = human_ratio %>%
   select(-c('TAG', 'TGA', 'TAA', 'ATG', 'TGG'))
 
 mosquito_ratio = read.table(
-  snakemake@input[['mosquito_ratios']], 
-  sep = ',', 
-  header = TRUE, 
+  snakemake@input[['mosquito_ratios']],
+  sep = ',',
+  header = TRUE,
   quote = "\""
 )
 
@@ -31,9 +31,9 @@ mosquito_ratio = mosquito_ratio %>%
   select(-c('TAG', 'TGA', 'TAA', 'ATG', 'TGG'))
 
 ################################################################################
-# Load codon optimalities 
+# Load codon optimalities
 
-optimalities = read.table('/n/projects/rm2498/Virus_Project/Data_Files/Basic_Files/codon_optimalities.csv', 
+optimalities = read.table('../2-ConcatenateOptimalities/data/codon_optimalities.csv',
                           sep = ',', header = TRUE)
 
 optimalities = optimalities %>%
@@ -55,26 +55,26 @@ inf2NA = function(x) { x[is.infinite(x)] = NA; x }
 ################################################################################
 # Get the correlation stats for humans
 
-human_corr_stats = 
+human_corr_stats =
   sapply(1:nrow(human_ratio), function(x) {
-    
+
   row = as.numeric(human_ratio[x, iv])
   correlation = cor.test(inf2NA(row), inf2NA(optimalities$human_csc), method = 'spearman')
   return(c(corr = correlation$estimate[[1]], p.value = correlation$p.value))
-  
+
 }) %>%
   t() %>%
-  as.data.frame() 
+  as.data.frame()
 
 ################################################################################
 # Get the correlation stats for mosquitos
 
 mosquito_corr_stats = sapply(1:nrow(mosquito_ratio), function(x) {
-  
+
   row = as.numeric(mosquito_ratio[x, iv])
   correlation = cor.test(inf2NA(row), inf2NA(optimalities$mosquito_csc), method = 'spearman')
   return(c(corr = correlation$estimate[[1]], p.value = correlation$p.value))
-  
+
 }) %>%
   t() %>%
   as.data.frame()
@@ -92,20 +92,20 @@ mosquito_corr = mosquito_ratio[-iv] %>%
 # Write files
 
 write.table(
-  human_corr, 
-  snakemake@output[['human_corr']], 
-  sep = ',', 
-  col.names = TRUE, 
-  row.names = FALSE, 
+  human_corr,
+  snakemake@output[['human_corr']],
+  sep = ',',
+  col.names = TRUE,
+  row.names = FALSE,
   quote = FALSE
 )
 
 write.table(
-  mosquito_corr, 
-  snakemake@output[['mosquito_corr']], 
-  sep = ',', 
-  col.names = TRUE, 
-  row.names = FALSE, 
+  mosquito_corr,
+  snakemake@output[['mosquito_corr']],
+  sep = ',',
+  col.names = TRUE,
+  row.names = FALSE,
   quote = FALSE
 )
 
