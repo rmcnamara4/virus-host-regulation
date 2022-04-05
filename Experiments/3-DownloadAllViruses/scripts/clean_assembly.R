@@ -1,7 +1,7 @@
 ################################################################################
 # Load data 
 
-data = read.table('../complete_assembly.txt', 
+data = read.table('./complete_assembly.txt', 
                   sep = '\t', header = F, fill = TRUE, quote = "\"")
 
 ################################################################################
@@ -26,7 +26,7 @@ data = data[-iv, ]
 
 write.table(
   data, 
-  '../complete_assembly.txt', 
+  './complete_assembly.txt', 
   sep = '\t', 
   col.names = F, 
   row.names = F, 

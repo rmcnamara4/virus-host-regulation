@@ -8,7 +8,7 @@ library(stringr)
 # Load metadata
 
 metadata = readLines(
-  '../metadata.txt'
+  './metadata.txt'
 )
 metadata = metadata[-c(1:2)]
 
@@ -66,7 +66,7 @@ names(host_metadata_df) = c('virus', 'host', 'realm')
 
 write.table(
   host_metadata_df, 
-  '../host_metadata.txt', 
+  './host_metadata.txt', 
   sep = '\t', 
   col.names = TRUE, 
   row.names = FALSE, 
