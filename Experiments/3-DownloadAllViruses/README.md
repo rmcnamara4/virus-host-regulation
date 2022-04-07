@@ -14,7 +14,7 @@ Here I download the CDS fastas of all of the available complete viral genomes th
 
 ## Snakemake
 
-**./Snakefile**: file defining all of the rules of the analysis using Snakemake
++ **./Snakefile**: file defining all of the rules of the analysis using Snakemake
 
 ## Scripts
 
