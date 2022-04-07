@@ -9,3 +9,5 @@ all_rscu_ratio_human.csv filter=lfs diff=lfs merge=lfs -text
 all_rscu_ratio_mosquito.csv filter=lfs diff=lfs merge=lfs -text
 all_rscu_ratio_total_human.csv filter=lfs diff=lfs merge=lfs -text
 all_rscu_ratio_total_mosquito.csv filter=lfs diff=lfs merge=lfs -text
+counts_dengue.tsv filter=lfs diff=lfs merge=lfs -text
+counts_zika.tsv filter=lfs diff=lfs merge=lfs -text
