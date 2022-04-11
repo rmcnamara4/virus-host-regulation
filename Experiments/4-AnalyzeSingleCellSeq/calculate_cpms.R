@@ -66,7 +66,7 @@ zika_cpm = as.data.frame(cpm(zika_counts[-1])) %>%
 ################################################################################
 # Write tables
 
-write.table(dengue_counts, './data/cpms/cpm_dengue.csv', sep = ',', col.names = TRUE, row.names = FALSE, quote = FALSE)
-write.table(zika_counts, './data/cpms/cpm_zika.csv', sep = ',', col.names = TRUE, row.names = FALSE, quote = FALSE)
+write.table(dengue_cpm, './data/cpms/cpm_dengue.csv', sep = ',', col.names = TRUE, row.names = FALSE, quote = FALSE)
+write.table(zika_cpm, './data/cpms/cpm_zika.csv', sep = ',', col.names = TRUE, row.names = FALSE, quote = FALSE)
 
 ################################################################################
