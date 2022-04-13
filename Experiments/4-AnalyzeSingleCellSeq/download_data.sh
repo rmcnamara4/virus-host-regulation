@@ -4,12 +4,14 @@
 # "Single-cell transcriptional dynamics of flavivirus infection"
 # script also downloads the Dengue and Zika sequences used for infection in
 # the paper.
+# script also downloads the gtf for the human genome.
 
 # make folders for data
 mkdir -p data
 mkdir -p data/metadata
 mkdir -p data/counts
 mkdir -p data/fastas
+mkdir -p data/gtfs 
 
 # download the folder
 wget -O temp "https://elifesciences.org/download/aHR0cHM6Ly9jZG4uZWxpZmVzY2llbmNlcy5vcmcvYXJ0aWNsZXMvMzI5NDIvZWxpZmUtMzI5NDItc3VwcDctdjIuZ3o-/elife-32942-supp7-v2.gz?_hash=EyCaZA9wZcUhyxTkbnyGtHzZUVxVyyp9Qq4Qdmu4V%2Fc%3D"
@@ -32,3 +34,7 @@ wget -O zika_PRVABC59.fa 'https://www.ncbi.nlm.nih.gov/sviewer/viewer.cgi?tool=p
 
 # move files
 mv *.fa data/fastas
+
+# download human gtf
+wget https://webfs/n/analysis/indexes/hg38/annotation/Ens_102/gtfs/hg38.Ens_102.gtf
+mv hg38.Ens_102.gtf data/gtfs
