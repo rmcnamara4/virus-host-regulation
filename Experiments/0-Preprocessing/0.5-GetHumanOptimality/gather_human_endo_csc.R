@@ -48,3 +48,13 @@ write.table(
 )
 
 ################################################################################
+# Create a file with the human codons ordered in increasing optimality 
+
+ordered_csc = csc_data[c(1, 6)]
+ordered_csc = ordered_csc[order(ordered_csc$mean_endo_csc), ]
+colnames(ordered_csc) = c('codon', 'human_csc')
+
+write.table('./data/ordered_human_codons.csv', 
+            sep = ',', col.names = TRUE, row.names = FALSE, quote = FALSE)
+
+################################################################################
