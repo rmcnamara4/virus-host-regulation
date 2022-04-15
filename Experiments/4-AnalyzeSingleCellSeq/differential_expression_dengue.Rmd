@@ -1,0 +1,623 @@
+---
+title: "Dengue Differential Analysis"
+author: "Ryan McNamara"
+date: "4/12/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = T, message = F, warning = F, collapse = T, 
+  fig.path = './figures/', dev = c('png', 'pdf'), dpi = 300
+)
+
+# libraries needed for the analysis 
+library(dplyr)
+library(edgeR)
+library(ggthemes)
+library(ggplot2)
+library(gridExtra)
+library(data.table)
+library(readxl)
+library(Biostrings)
+library(seqinr)
+library(ggpubr)
+library(ggrepel)
+library(GenomicFeatures)
+library(rstatix)
+
+# source needed functions 
+source('../../Src/calc_rscu.R')
+source('../../Src/codon_to_aa.R')
+source('../../Src/synonymous_codons.R')
+
+theme_set(theme_tufte())
+```
+
+### 1. Load and tidy data required for analysis
+
+Here I will load the required data files for the differential expression analysis using edgeR. 
+
+```{r data_loading}
+# define paths for the data files 
+virus = 'dengue'
+
+countsFile = paste0('./data/counts/counts_', virus, '.tsv')
+metadataFile = paste0('./data/metadata/cell_metadata_', virus, '.tsv')
+cpmFile = paste0('./data/cpms/cpm_', virus, '.csv')
+virusFasta = paste0('./data/fastas/', virus, '_2_16681.fa')
+
+# read in raw counts
+raw_counts = read.table(countsFile, 
+                        sep = '\t', header = T)
+
+rownames(raw_counts) = raw_counts[[1]]
+raw_counts = raw_counts[-1]
+colnames(raw_counts) = sub('^X', '', colnames(raw_counts))
+
+# read in metadata 
+metadata = read.table(metadataFile, 
+                      sep = '\t', header = T)
+
+# read in CPMs
+cpms = read.table(cpmFile, 
+                  sep = ',', header = T)
+
+rownames(cpms) = cpms[[1]]
+cpms = cpms[-1]
+colnames(cpms) = sub('^X', '', colnames(cpms))
+```
+
+### 2. Prepare data for edgeR analysis 
+
+Here I will determine which cells have zero infection, low infection, medium infection, and high infection. These groups of cells will be the groups on which the differential expression analysis is performed. 
+
+```{r data_preparation}
+# get the names of the samples (cells) with 0 Dengue CPM (non-infected)
+zero_iv = which(cpms[1, ] == 0)
+zero_cells = names(cpms)[zero_iv]
+
+# remove the cells with 0 Dengue CPM from the data 
+cpms_no_zeros = cpms[-zero_iv]
+
+# calculate the ventiles of the remaining infected cells 
+ventiles = quantile(cpms_no_zeros[1, ], seq.int(0, 1, 0.05))
+
+# get the names of the samples (cells) with LOW Dengue CPM (between the 10th and 20th percentiles, inclusive)
+low_iv = which(cpms[1, ] <= ventiles[['20%']] & 
+                 cpms[1, ] >= ventiles[['10%']])
+low_cells = names(cpms)[low_iv]
+
+# get the names of the samples (cells) with MEDIUM Dengue CPM (between the 45th and 55th percentiles, inclusive)
+med_iv = which(cpms[1, ] <= ventiles[['55%']] & 
+                 cpms[1, ] >= ventiles[['45%']])
+med_cells = names(cpms)[med_iv]
+
+# get the names of the samples (cells) with HIGH Dengue CPM (between the 80th and 90th percentiles, inclusive)
+high_iv = which(cpms[1, ] <= ventiles[['90%']] & 
+                  cpms[1, ] >= ventiles[['80%']])
+high_cells = names(cpms)[high_iv]
+
+# combine all of the data 
+group_len = length(low_iv) # I know all of them will be the same length because they are sample percentile width 
+cell_names = c(zero_cells[1:group_len], low_cells, med_cells, high_cells) # take the first _ number of uninfected cells to make groups the same length 
+
+# define group names vector 
+group = rep(c('zero', 'low', 'med', 'high'), each = group_len)
+
+# select the cells of interest from the raw counts table
+counts = raw_counts %>%
+  dplyr::select(all_of(cell_names))
+```
+
+### 3. Perform edgeR differential expression analysis 
+
+Now, I will use the groups of Dengue infection to perform differential expression analysis on the endogenous human genes using edgeR. 
+
+```{r edgeR_analysis}
+# create DGEList and design matrix 
+y = DGEList(counts, group = group)
+design = model.matrix(~0+group, data = y$samples)
+colnames(design) = levels(y$samples$group)
+
+# filter, as per the instructions in the edgeR manual 
+keep = filterByExpr(y, design)
+y = y[keep, , keep.lib.sizes = F]
+
+# calculate norm factors 
+y = calcNormFactors(y)
+
+# estimate dispersion 
+y = estimateDisp(y, design)
+
+# fit the QLF model 
+qlf.fit = glmQLFit(y, design)
+
+# perform comparison tests between the groups
+qlf.low = glmQLFTest(qlf.fit, contrast = c(0, 1, 0, -1))
+qlf.med = glmQLFTest(qlf.fit, contrast = c(0, 0, 1, -1))
+qlf.high = glmQLFTest(qlf.fit, contrast = c(1, 0, 0, -1))
+
+# adjust the p-values 
+qlf.low$table$padj = p.adjust(qlf.low$table$PValue, method = 'BH')
+qlf.med$table$padj = p.adjust(qlf.med$table$PValue, method = 'BH')
+qlf.high$table$padj = p.adjust(qlf.high$table$PValue, method = 'BH')
+```
+
+### 4. Visualization 
+
+#### Approach 1
+
+In this section, I will focus on analyzing the codon composition of the significantly upregulated and downregulated endogenous genes during the infection. 
+
+After performing the differential expression analysis, I will now visualize some of the results. First, I will plot the volcano plots for each of the comparisons to get an idea of the genes that are significantly upregulated and downregulated during the infection. 
+
+```{r volcano_plots, fig.height = 4, fig.width = 12}
+# function for getting the indices of the significantly up and down regulated genes 
+get_indices = function(data, direction = c('up', 'down')) {
+  if (direction == 'up') {
+    return(data$table$padj < 0.01 & data$table$logFC > 1)
+  }
+  if (direction == 'down') {
+    return(data$table$padj < 0.01 & data$table$logFC < -1) 
+  }
+}
+
+# get indices for zero-low comparison
+low.sig.up = get_indices(qlf.low, 'up')
+low.sig.down = get_indices(qlf.low, 'down')
+
+# get indices for zero-med comparison
+med.sig.up = get_indices(qlf.med, 'up')
+med.sig.down = get_indices(qlf.med, 'down')
+
+# get indices for zero-high comparison 
+high.sig.up = get_indices(qlf.high, 'up')
+high.sig.down = get_indices(qlf.high, 'down')
+
+# function for plotting the volcano plots 
+plot_volcano = function(df, title, sig.up, sig.down) {
+    ggplot(NULL, aes(x = logFC, y = -10 * log10(padj))) +
+    geom_point(data = df[!(sig.up | sig.down), ]) + 
+    geom_point(data = df[sig.up, ], color = 'orange') +
+    geom_point(data = df[sig.down, ], color = 'purple') +
+    geom_vline(xintercept = c(-1, 1), linetype = 'dashed', color = 'grey') + 
+    geom_hline(yintercept = 20, linetype = 'dashed', color = 'grey') +
+    theme_classic() +
+    theme(
+      panel.border = element_rect(color = 'black', fill = NA, size = 2), 
+      axis.title.x = element_blank(), 
+      axis.title.y = element_blank()
+    ) +
+    coord_cartesian(ylim = c(0, 200), xlim = c(-2, 2)) +
+    labs(
+      title = title
+    )
+}
+
+# plot volcano plots 
+low_volcano = plot_volcano(qlf.low$table, 'Low Infection', low.sig.up, low.sig.down)
+med_volcano = plot_volcano(qlf.med$table, 'Medium Infection', med.sig.up, med.sig.down)
+high_volcano = plot_volcano(qlf.high$table, 'High Infection', high.sig.up, high.sig.down)
+
+# plot all together 
+grid.arrange(low_volcano, med_volcano, high_volcano, nrow = 1, left = '-10 * log10(padj)', bottom = 'log2(FC)')
+```
+Great! It looks like there are a bunch of endogenous genes that are significantly upregulated or downregulated during Dengue infection. Now, let's focus on the comparison between the non-infected cells and the high-infected cells.
+
+Let's get the names of the genes that are upregulated and downregulated.
+
+```{r gene_names} 
+# get the names of the upregulated and downregulated genes
+upregulated_genes = rownames(qlf.high$table)[high.sig.up]
+downregulated_genes = rownames(qlf.high$table)[high.sig.down]
+
+# get the names of the genes that do not significantly change 
+no_change_genes = rownames(qlf.high$table)[!(high.sig.up | high.sig.down)]
+
+# write files 
+fwrite(list(upregulated_genes), './data/genes/upregulated_genes_dengue.txt')
+fwrite(list(downregulated_genes), './data/genes/downregulated_genes_dengue.txt')
+fwrite(list(no_change_genes), './data/genes/no_change_genes_dengue.txt')
+```
+
+Now that we have the genes that are differentially expressed during the infection, let's analyze the codon composition of the upregulated and downregulated genes. 
+
+```{r diff_expressed_codon_comp, fig.height = 4, fig.width = 8}
+# load in the human codon composition 
+human_codons_percent = read_excel('../0-Preprocessing/0.4-CreateSequenceStatsTables/data/human_hg38_stats.xlsx', 
+                          sheet = 'Codons') %>%
+  as.data.frame(.)
+rownames(human_codons_percent) = human_codons_percent$gene_ID
+human_codons_percent = human_codons_percent[-(1:3)]
+
+# match the upregulated and downregulated genes to the endogenous genes
+upregulated_iv = match(upregulated_genes, rownames(human_codons_percent)) 
+downregulated_iv = match(downregulated_genes, rownames(human_codons_percent))
+
+# calculate the median codon composition for the upregulated and downregulated genes
+upregulated_codons = apply(human_codons_percent[upregulated_iv, ], 2, function(x) median(as.numeric(x), na.rm = TRUE))
+downregulated_codons = apply(human_codons_percent[downregulated_iv, ], 2, function(x) median(as.numeric(x), na.rm = TRUE))
+
+# calculate the 'enrichment' of each codon in the upregulated genes vs the downregulated genes 
+enrichment = log2(upregulated_codons / downregulated_codons)
+remove = which(names(enrichment) %in% c('TAA', 'TAG', 'TGA'))
+enrichment = enrichment[-remove]
+
+# load in the ordered human optimality 
+ordered_codons = read.table('../0-Preprocessing/0.5-GetHumanOptimality/data/ordered_human_codons.csv', 
+                            sep = ',', header = TRUE)
+
+# match enrichment codons to the optimality 
+iv = match(names(enrichment), ordered_codons$codon)
+
+# combine data together for plotting 
+enrichment_df = data.frame(
+  codon = names(enrichment), 
+  enrichment = as.numeric(enrichment), 
+  opt = ordered_codons$human_csc[iv]
+)
+
+# plot the data 
+enrichment_plot = enrichment_df %>%
+  ggplot(aes(x = factor(codon, levels = ordered_codons$codon), y = enrichment, fill = opt)) +
+  geom_bar(stat = "identity", position = "dodge2", color = 'black') +
+  scale_fill_gradient2(low = 'blue', high = 'red', mid = 'white', midpoint = 0) +
+  labs(
+    x = 'Codon', 
+    y = 'log2(upregulated / downregulated)', 
+    fill = 'Human CSC'
+  ) + 
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, size = 7))
+
+# get correlation between enrichment and optimality 
+correlation = cor.test(enrichment_df$opt, enrichment_df$enrichment, method = 'spearman')
+
+# add correlation to the plot 
+enrichment_plot = enrichment_plot + 
+  geom_text(label = sprintf('R = %0.2f, p = %0.6f', round(correlation$estimate, digits = 2), round(correlation$p.value, digits = 6)), x = 30, y = -0.6)
+
+enrichment_plot
+```
+
+There is a significant negative correlation between human CSC and the enrichment scores. The upregulated genes are enriched in non-optimal codons compared to the downregulated genes. This might indicate that non-optimal codons are increasing in optimality during the infection. 
+
+Let's check for correlations between the enrichment scores and the relative codon composition and RSCU of the virus compared to humans. 
+
+```{r codon_usage_fc_vs_enrichment, fig.height = 4, fig.width = 8}
+# load the viral sequence 
+strain_seq = read.fasta(virusFasta, 
+                        forceDNAtolower = FALSE, seqtype = 'DNA', as.string = TRUE)
+strain_seq = as.character(strain_seq)
+strain_seq = DNAString(strain_seq)
+
+# calculate the codon frequency of the viral strain 
+strain_codons = trinucleotideFrequency(strain_seq, step = 3, as.prob = TRUE)
+strain_codons = strain_codons[!(names(strain_codons) %in% c('TAG', 'TAA', 'TGA'))]
+
+# calculate overall codon composition of human endogenous genes 
+human_seq = read.table('../0-Preprocessing/0.3-CreateSequenceTables/data/human_hg38_seq.csv', 
+                       sep = ',', header = TRUE)
+human_seq = DNAStringSet(human_seq$coding)
+
+human_codons_count = as.data.frame(trinucleotideFrequency(human_seq, step = 3))
+human_codons_total = apply(human_codons_count, 2, function(x) sum(x))
+human_codons_total = human_codons_total[!(names(human_codons_total) %in% c('TAG', 'TGA', 'TAA'))]
+
+human_codon_comp = human_codons_total / sum(human_codons_total)
+
+# calculate the fold change of the Dengue strain codon usage relative to the human codon usage
+codon_usage_fc = log2(strain_codons / human_codon_comp)
+
+# combine data 
+enrichment_df = enrichment_df %>%
+  mutate(
+    codon_usage_fc = as.numeric(codon_usage_fc)
+  )
+
+# plot the data 
+codon_usage_vs_enrichment_plot = enrichment_df %>%
+  ggplot(aes(x = codon_usage_fc, y = enrichment)) + 
+  geom_point() +
+  stat_cor(method = 'spearman') + 
+  geom_label_repel(aes(label = codon, fill = opt), size = 2, force_pull = 2, force = 2, color = 'black') + 
+  scale_fill_gradient2(low = 'blue', high = 'red', mid = 'white', midpoint = 0) +
+  geom_hline(yintercept = 0, linetype = 'dashed', color = 'grey') +
+  geom_vline(xintercept = 0, linetype = 'dashed', color = 'grey') +
+  labs(
+    x = 'log2(codon_comp(virus) / codon_comp(human))', 
+    y = 'log2(upregulated / downregulated)', 
+    fill = 'Human CSC'
+  ) + 
+  theme_classic()
+
+codon_usage_vs_enrichment_plot
+```
+
+There is also a significant positive correlation between the enrichment of codons in the upregulated vs downregulated genes and the codon usage enrichment of the virus relative to humans. This suggests that the codons that Dengue uses in a higher frequency than humans tend to be upregulated during the infection. 
+
+Let's also see if the enrichment scores correlate with the RSCU fold change of the virus relative to humans. 
+
+```{r rscu_fc_vs_enrichment, fig.height = 4, fig.width = 8}
+# calculate the RSCU values for the Dengue 2 strain 
+strain_rscu = calc_rscu(strain_codons)
+
+# calculate the RSCU values for the human genome 
+human_rscu = calc_rscu(human_codons_total)
+
+# calculate the fold change between the viral rscu and the human rscu 
+rscu_fc = log2(strain_rscu / human_rscu)
+
+# add to the enrichment df 
+enrichment_df = enrichment_df %>%
+  mutate(
+    rscu_fc = as.numeric(rscu_fc), 
+    aa = codon_to_aa(codon)
+  )
+
+# plot data 
+rscu_fc_vs_enrichment_plot = enrichment_df %>%
+  filter(!(codon %in% c('ATG', 'TGG'))) %>% # remove because the RSCU will always be 1 for these codons
+  ggplot(aes(x = rscu_fc, y = enrichment)) +
+  geom_point() + 
+  stat_cor(method = 'spearman') +
+  geom_label_repel(aes(label = codon, fill = opt), size = 2, force_pull = 2, force = 2, color = 'black') +
+  scale_fill_gradient2(low = 'blue', high = 'red', mid = 'white', midpoint = 0) +
+  theme_classic() + 
+  labs(
+    x = 'log2(rscu(virus) / rscu(human))', 
+    y = 'log2(upregulated / downregulated)', 
+    fill = 'Human CSC'
+  )
+
+rscu_fc_vs_enrichment_plot
+```
+
+Wow! So there is also a significant positive correlation between the enrichment scores and the RSCU fold change! This suggests that the codons that the Dengue strain preferentially uses relative to humans are more prevalent in the group of upregulated genes than the group of downregulated genes. It appears that the codons that Dengue uses preferentially (non-optimal in humans) are increasing in optimality during the infection. 
+
+#### Approach 2
+
+In this next section, I will seek to strengthen the above findings using a different approach. Instead of evaluating the codon composition of the upregulated and downregulated genes, I will now evaluate the change in RNA level of genes with specific codon compositions. Essentially, this approach is the oppposite of the first. 
+
+In order to do this, I first need to separate the 61 codons into groups of interest. These groups are the codons that I believe will be the most affected, in terms of optimality, during the infection. 
+
+I define six groups as follows: 
+
++ **Preferentially Used**: These codons are the ones that have an RSCU fold change greater than or equal to 0.5. These are the codons that Dengue preferentially uses with respect to humans. 
+
++ **Frequently Used**: These are the 16 codons with the highest frequency within the Dengue strain genome. There is no dependence on the human genome here, they are simply the most used codons. 
+
++ **Denguenized**: These are the codons that are both Preferentially Used and Frequently Used. The codons in this group are the intersection of the two above groups. 
+
++ **Non-Preferentially Used**: These codons are the ones that have an RSCU fold change less than or equal to -0.5. These are the codons that Dengue non-preferentially uses with respect to humans. 
+
++ **Infrequently Used**: These are the 16 codons with the lowest frequency within the Dengue strain genome. There is no dependence on the human genome here, they are simply the least used codons. 
+
++ **Non-Denguenized**: These are the codons that are both Non-Preferentially Used and Infrequently Used. The codons in this group are the intersection of the two above groups. 
+
+Let's start by calculating the FPKMs for the endogenous genes. 
+
+```{r calculate_fpkm} 
+# make txdb object 
+txdb = makeTxDbFromGFF(file = './data/gtfs/hg38.Ens_102.gtf')
+
+# get transcripts by gene 
+tx_by_gene = transcriptsBy(txdb, 'gene')
+
+# calculate gene lengths 
+geneLengths = sum(width(reduce(tx_by_gene)))
+
+# match the gene ids
+iv = match(rownames(y), names(geneLengths))
+
+# calculate fpkm 
+fpkm = rpkm(y, geneLengths[iv])
+fpkm = as.data.frame(fpkm)
+
+# get median of uninfected and high infected cells 
+zero_infection_fpkm = rowMedians(as.matrix(fpkm[zero_cells[1:group_len]]))
+high_infection_fpkm = rowMedians(as.matrix(fpkm[high_cells]))
+
+# create df 
+fpkm_df = data.frame(
+  gene_ID = rownames(fpkm), 
+  uninfected = zero_infection_fpkm, 
+  infected = high_infection_fpkm
+)
+
+# modify the qlf.high$table
+change_data = qlf.high$table %>%
+  mutate(
+    gene_ID = rownames(qlf.high$table), 
+    .before = 1
+  )
+rownames(change_data) = NULL
+
+# merge tables 
+fpkm_df = merge(fpkm_df, change_data, by = 'gene_ID')
+```
+
+Now, let's define the groups mentioned above. 
+
+```{r}
+# select only genes in human codons that are present in the edgeR analysis 
+iv = match(rownames(qlf.high$table), rownames(human_codons_percent))
+iv = iv[!is.na(iv)]
+human_codons_percent_filtered = human_codons_percent[iv, ]
+
+# define Dengue groups 
+strain_codons = strain_codons[order(-strain_codons)]
+
+frequently_used_codons = names(strain_codons)[1:16]
+infrequently_used_codons = names(strain_codons)[46:61]
+
+rscu_fc = round(rscu_fc, digits = 2)
+preferentially_used_codons = names(rscu_fc)[which(rscu_fc >= 0.5)]
+non_preferentially_used_codons = names(rscu_fc)[which(rscu_fc <= -0.5)]
+
+denguenized_codons = intersect(frequently_used_codons, preferentially_used_codons)
+non_denguenized_codons = intersect(infrequently_used_codons, non_preferentially_used_codons)
+```
+
+Perfect! Now let's calculate the sum of each of these groups for each gene. 
+
+```{r infrequent_frequent_plot}
+# function to calculate sum of groups 
+create_groups = function(group1, name1, group2, name2) {
+  
+  group1_sum = rowSums(human_codons_percent_filtered[group1])
+  group2_sum = rowSums(human_codons_percent_filtered[group2])
+  
+  group1_names = names(group1_sum[order(-group1_sum)][1:250])
+  group2_names = names(group2_sum[order(-group2_sum)][1:250])
+  
+  group1_fc = qlf.high$table %>%
+    dplyr::select(logFC) %>%
+    dplyr::filter(rownames(.) %in% group1_names) %>%
+    mutate(
+      group = name1
+    )
+  
+  group2_fc = qlf.high$table %>%
+    dplyr::select(logFC) %>%
+    dplyr::filter(rownames(.) %in% group2_names) %>%
+    mutate(
+      group = name2
+    )
+  
+  final_df = rbind(group1_fc, group2_fc)
+  
+  gene_ids_remove = unique(rownames(final_df)) 
+  all_other_fc = qlf.high$table %>%
+    dplyr::select(logFC) %>%
+    dplyr::filter(!(rownames(.) %in% gene_ids_remove)) %>%
+    mutate(
+      group = 'all'
+    )
+  
+  final_df = rbind(final_df, all_other_fc)
+  
+  for (i in 1:50) {
+    iv = sample(1:nrow(all_other_fc), 250, replace = TRUE)
+    hold = all_other_fc[iv, ] %>%
+      mutate(
+        group = paste0('group_', i)
+      )
+    
+    final_df = rbind(final_df, hold)
+  }
+  
+  final_df$c = ifelse(grepl('group_', final_df$group), 'other', final_df$group)
+  
+  return(final_df)
+  
+}
+
+# calculate top 250 genes containing frequently used and infrequently used codons
+usage_fc = create_groups(infrequently_used_codons, 'Infrequently Used', frequently_used_codons, 'Frequently Used')
+
+# calculate top 250 genes containing preferentially used and non-preferentially used codons
+preference_fc = create_groups(non_preferentially_used_codons, 'Unpreferentially Used', preferentially_used_codons, 'Preferentially Used')
+
+# calculate top 250 genes containing Denguenized and Non-denguenized codons
+denguenized_fc = create_groups(non_denguenized_codons, 'Non-denguenized', denguenized_codons, 'Denguenized')
+```
+
+Now, let's plot. First, we'll define a function to assist with the plots. 
+
+```{r plot_func} 
+make_cum_plot = function(data, my_levels, my_colors, significance) {
+  
+  data %>%
+    ggplot(aes(x = logFC, group = group, color = factor(c, levels = my_levels), alpha = factor(c, levels = my_levels))) +
+    geom_line(aes(y = ..y.., size = factor(c, levels = my_levels)), stat = 'ecdf') +
+    scale_alpha_manual(values = c(1, 1, 1, 0.2)) +
+    scale_size_manual(values = c(1.5, 1.5, 1.5, 0.5)) +
+    scale_color_manual(values = my_colors) +
+    coord_cartesian(xlim = c(-2.25, 2.25)) +
+    geom_text(label = paste0(significance$group1[1], '-', significance$group2[1], ' = ', significance$p.adj[1]), x = -1.1, y = 1, size = 3, color = 'black', inherit.aes = F) +
+    geom_text(label = paste0(significance$group1[2], '-', significance$group2[2], ' = ', significance$p.adj[2]), x = -1.1, y = .95, size = 3, color = 'black', inherit.aes = F) +
+    geom_text(label = paste0(significance$group1[3], '-', significance$group2[3], ' = ', significance$p.adj[3]), x = -1.1, y = .9, size = 3, color = 'black', inherit.aes = F) +
+    theme_classic() +
+    theme(
+      legend.title = element_blank()
+    ) +
+    labs(
+      x = 'logFC', 
+      y = 'Fraction'
+    )
+  
+}
+```
+
+We will start with the usage groups. 
+
+```{r frequency_codons_plot}
+# calculate wilcox_test 
+frequency_sig = usage_fc %>%
+  dplyr::filter(c != 'other') %>%
+  wilcox_test(logFC ~ c, paired = FALSE)
+
+# plot
+make_cum_plot(usage_fc, c('Infrequently Used', 'Frequently Used', 'all', 'other'), c('#B5025C', '#DD8505', 'black', 'gray'), frequency_sig)
+```
+
+Interesting... it appears that the genes that are enriched in the Frequently Used codons are upregulated more than the other groups of genes during the infection. Also of note, the genes enriched in the Infrequently Used codons are also upregulated compared to all other genes. 
+
+Now, let's do the same for the Preferentially Used and Non-preferentially Used groups. 
+
+```{r preference_codons_plot}
+# calculate wilcox_test 
+preference_sig = preference_fc %>%
+  dplyr::filter(c != 'other') %>%
+  wilcox_test(logFC ~ c, paired = FALSE)
+
+# plot 
+make_cum_plot(preference_fc, c('Unpreferentially Used', 'Preferentially Used', 'all', 'other'), c('#8A668A', '#008A46', 'black', 'gray'), preference_sig)
+```
+
+We see a similar result here. The genes enriched in the Preferentially Used codons are upregulatd more than the other groups of genes during the infection. 
+
+Lastly, let's check the Denguenized and Non-denguenized groups of codons. 
+
+```{r denguenized_codons_plot}
+# calculate wilcox_test
+denguenized_sig = denguenized_fc %>%
+  dplyr::filter(c != 'other') %>%
+  wilcox_test(logFC ~ c, paired = FALSE)
+
+# plot 
+make_cum_plot(denguenized_fc, c('Non-denguenized', 'Denguenized', 'all', 'other'), c('#24C9C9', '#CF3CD3', 'black', 'gray'), denguenized_sig)
+```
+
+Perfect! These three plots suggest the conclusion we reached with the first approach: the codons that Dengue frequently uses and preferentially uses relative to humans (non-optimal) are upregulated during the viral infection. We hypothesize that this is due to the increase in non-optimal encoding tRNA levels in response to the increased demand for these codons during the Dengue infection. 
+
+To end this analysis, let's save a copy of the differential expression tables for future usage!
+
+```{r save_file}
+# make sure the tables have a gene_ID column
+# function to do this 
+add_gene_ID_col = function(data) {
+  
+  data = data %>%
+    mutate(
+      gene_ID = rownames(.), 
+      .before = 1
+    )
+  
+  rownames(data) = NULL
+  
+  return(data)
+  
+}
+
+# apply function to each table and save 
+qlf.low$table = add_gene_ID_col(qlf.low$table)
+qlf.med$table = add_gene_ID_col(qlf.med$table)
+qlf.high$table = add_gene_ID_col(qlf.high$table)
+
+write.table(qlf.low$table, './data/edgeR/uninfected-low.csv', sep = ',', col.names = TRUE, row.names = FALSE, quote = FALSE)
+write.table(qlf.med$table, './data/edgeR/uninfected-med.csv', sep = ',', col.names = TRUE, row.names = FALSE, quote = FALSE)
+write.table(qlf.high$table, './data/edgeR/uninfected-high.csv', sep = ',', col.names = TRUE, row.names = FALSE, quote = FALSE)
+```
