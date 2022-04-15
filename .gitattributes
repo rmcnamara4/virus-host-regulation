@@ -13,3 +13,4 @@ counts_dengue.tsv filter=lfs diff=lfs merge=lfs -text
 counts_zika.tsv filter=lfs diff=lfs merge=lfs -text
 cpm_dengue.csv filter=lfs diff=lfs merge=lfs -text
 cpm_zika.csv filter=lfs diff=lfs merge=lfs -text
+hg38.Ens_102.gtf filter=lfs diff=lfs merge=lfs -text

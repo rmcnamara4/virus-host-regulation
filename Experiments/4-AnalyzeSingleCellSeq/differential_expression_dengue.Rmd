@@ -1,7 +1,7 @@
 ---
 title: "Dengue Differential Analysis"
 author: "Ryan McNamara"
-date: "4/12/2022"
+date: "8/16/2021"
 output: html_document
 ---
 
@@ -536,9 +536,9 @@ make_cum_plot = function(data, my_levels, my_colors, significance) {
     scale_size_manual(values = c(1.5, 1.5, 1.5, 0.5)) +
     scale_color_manual(values = my_colors) +
     coord_cartesian(xlim = c(-2.25, 2.25)) +
-    geom_text(label = paste0(significance$group1[1], '-', significance$group2[1], ' = ', significance$p.adj[1]), x = -1.1, y = 1, size = 3, color = 'black', inherit.aes = F) +
-    geom_text(label = paste0(significance$group1[2], '-', significance$group2[2], ' = ', significance$p.adj[2]), x = -1.1, y = .95, size = 3, color = 'black', inherit.aes = F) +
-    geom_text(label = paste0(significance$group1[3], '-', significance$group2[3], ' = ', significance$p.adj[3]), x = -1.1, y = .9, size = 3, color = 'black', inherit.aes = F) +
+    geom_text(label = paste0(significance$group1[1], '-', significance$group2[1], ' = ', significance$p.adj[1]), x = -1.1, y = 1, size = 2.5, color = 'black', inherit.aes = F) +
+    geom_text(label = paste0(significance$group1[2], '-', significance$group2[2], ' = ', significance$p.adj[2]), x = -1.1, y = .95, size = 2.5, color = 'black', inherit.aes = F) +
+    geom_text(label = paste0(significance$group1[3], '-', significance$group2[3], ' = ', significance$p.adj[3]), x = -1.1, y = .9, size = 2.5, color = 'black', inherit.aes = F) +
     theme_classic() +
     theme(
       legend.title = element_blank()
