@@ -364,6 +364,8 @@ rscu_fc_vs_enrichment_plot = enrichment_df %>%
   stat_cor(method = 'spearman') +
   geom_label_repel(aes(label = codon, fill = opt), size = 2, force_pull = 2, force = 2, color = 'black') +
   scale_fill_gradient2(low = 'blue', high = 'red', mid = 'white', midpoint = 0) +
+  geom_hline(yintercept = 0, linetype = 'dashed', color = 'grey') +
+  geom_vline(xintercept = 0, linetype = 'dashed', color = 'grey') +
   theme_classic() + 
   labs(
     x = 'log2(rscu(virus) / rscu(human))', 
