@@ -48,6 +48,22 @@ In this folder I download the counts produced in the paper and perform edgeR dif
 
 + **./data/gtfs/hg38.Ens_102.gtf**: GTF file of the human genome (hg38 - Ensembl version 102)
 
-+ **./data/metadata/cell_metadata_dengue.tsv**: Dengue metadata file from the single-cell paper showing the cell names, Dengue counts, MOI, time, etc. 
++ **./data/metadata/cell_metadata_dengue.tsv**: Dengue metadata file from the single-cell paper showing the cell names, Dengue counts, MOI, time, etc.
 
 + **./data/metadata/cell_metadata_zika.tsv**: Zika metadata file from the single-cell paper showing the cell names, Zika counts, MOI, time, etc.
+
+## Figures
+
++ **./figures/codon_usage_fc_vs_enrichment-1.(png|pdf)**: dot plot of the codon composition of upregulated/downregulated genes vs codon composition of Dengue relative to human
+
++ **./figures/diff_expressed_codon_comp-1.(png|pdf)**: bar plot of the codon composition of upregulated/downregulated genes vs codons
+
++ **./figures/preference_codons_plot-1.(png|pdf)**: cumulative plot of the logFC of genes enriched in Dengue's preferentially used and not preferentially used codons during infection
+
++ **./figures/volcano_plots-1.(png|pdf)**: volcano plots (p-value vs fold change) of genes in low infected cells, medium infected cells, and high infected cells
+
++ **./figures/denguenized_codons_plot-1.(png|pdf)**: cumulative plot of the logFC of genes enriched in Denguenized and Non-denguenized codons during infection
+
++ **./figures/frequency_codons_plot-1.(png|pdf)**: cumulative plot of the logFC of genes enriched in Dengue's frequently used and infrequently used codons during infection
+
++ **./figures/rscu_fc_vs_enrichment-1.(png|pdf)**: dot plot of the codon composition of upregulated/downregulated genes vs RSCU of Dengue relative to human
