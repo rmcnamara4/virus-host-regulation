@@ -1,0 +1,26 @@
+---
+title: "Dengue Mutation Analysis"
+author: "Ryan McNamara"
+date: "1/20/2022"
+output: html_document
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  echo = T, message = F, warning = F, collapse = T, 
+  fig.path = './figures/', dev = c('png', 'pdf'), dpi = 300
+)
+
+# libraries needed for the analysis 
+library(dplyr)
+library(hash) 
+library(reshape2)
+library(ggplot2)
+library(ggthemes)
+
+# source needed functions 
+source('./helper_functions.R')
+
+# set theme 
+theme_set(theme_tufte())
+```
