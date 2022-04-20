@@ -5,6 +5,12 @@ library(seqinr)
 library(Biostrings)
 
 ################################################################################
+# Source required files 
+
+source('../../Src/calc_rscu.R')
+source('../../Src/synonymous_codons.R')
+
+################################################################################
 # Load data 
 
 # load Dengue strain CDS 
