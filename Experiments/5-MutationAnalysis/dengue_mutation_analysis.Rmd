@@ -7,8 +7,7 @@ output: html_document
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(
-  echo = T, message = F, warning = F, collapse = T, 
-  fig.path = './figures/', dev = c('png', 'pdf'), dpi = 300
+  echo = T, message = F, warning = F, collapse = T, dpi = 300
 )
 
 # libraries needed for the analysis 
@@ -17,10 +16,187 @@ library(hash)
 library(reshape2)
 library(ggplot2)
 library(ggthemes)
+library(ggrepel)
+library(ggpubr)
 
 # source needed functions 
 source('./helper_functions.R')
+source('../../Src/calc_rscu.R')
+source('../../Src/synonymous_codons.R')
+source('../../Src/codon_to_aa.R')
 
 # set theme 
 theme_set(theme_tufte())
 ```
+
+### 1. Introduction
+
+Here I will analyze the data that is produced in the paper: "Principles of dengue virus evolvability derived from genotype-fitness maps in human and mosquito cells" by Dolan, et al. The paper can be found [here](https://elifesciences.org/articles/61921#content). 
+
+I have defined some helper functions in the file: helper_functions.R. A couple of those functions will load the optimality data and mutation data that we need for the analysis. The RSCU fold change data was calculated using the Dengue 2 strain 16681, which is the strain used in this paper. 
+
+### 2. Visualization 
+
+First, let's start by analyzing the Mean Relative Fitness of synonymous mutations per amino acid. We define the Mean Relative Fitness as the average relative fitness of all mutations from a specific codon to another specific codon.
+
+I will focus only on synonymous mutations here in order to avoid the possible influence on the relative fitness that changing the amino acid might cause. 
+
+Before I make the first plots, I am going to define some useful hashes/functions. 
+
+```{r helpers}
+# define function to determine the fitness class based on the criteria in the paper: 
+# - A mutation is "lethal" if the upper confidence interval (CI) is 0
+# - A mutation is "deleterious" if the upper CI is greater than 0 and less than 1 
+# - A mutation is "beneficial" if the lower CI is greater than 1
+# - A mutation is "neutral" otherwise 
+get_fitness_class = function(data) {
+  
+  ifelse(data$mean_wrel_upper == 0, 'lethal', 
+         ifelse(data$mean_wrel_upper > 0 & data$mean_wrel_upper < 1, 'deleterious', 
+                ifelse(data$mean_wrel_lower > 1, 'beneficial', 'neutral')))
+  
+}
+
+# define a hash to convert the single letter AA residue to the three letter AA code 
+# ex: L -> Leu
+aa_conversion_hash = hash(c('A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'Y'),
+                          c('Ala', 'Cys', 'Asp', 'Glu', 'Phe', 'Gly', 'His', 'Ile', 'Lys', 'Leu', 'Asn', 
+                            'Pro', 'Gln', 'Arg', 'Ser', 'Thr', 'Val', 'Tyr'))
+```
+
+Okay! Let's plot!
+
+```{r syn_mut_per_aa_against_csc} 
+# define the columns we want from the optimality df and the columns we want from the mutation df 
+optimality_cols = c('codon', 'human_csc', 'mosquito_csc')
+mutation_cols = c('host', 'set', 'mutcodon', 'mutRes', 'wrel', 'wrel.ciLower', 'wrel.ciUpper')
+
+# load the optimality data and melt 
+optimality_data = load_codon_optimalities() %>%
+  select(all_of(optimality_cols)) %>%
+  dplyr::rename(Human = human_csc, Mosquito = mosquito_csc) %>%
+  melt(id = 'codon') %>%
+  dplyr::rename(host = variable, csc = value)
+
+# load the mutation data and tidy 
+mutation_data = load_mutation_data() %>%
+  filter(muttype == 'Syn') %>% # filter for only synonymous mutations 
+  select(all_of(mutation_cols)) %>%
+  group_by(host, set, mutRes, mutcodon) %>%
+  dplyr::summarize(
+    mean_wrel = mean(wrel), 
+    mean_wrel_lower = mean(wrel.ciLower), 
+    mean_wrel_upper = mean(wrel.ciUpper)
+  ) %>%
+  ungroup() %>%
+  dplyr::rename(codon = mutcodon, aa = mutRes) %>%
+  inner_join(optimality_data, by = c('host', 'codon')) %>%
+  mutate(
+    fitness_class = get_fitness_class(.)
+  ) %>%
+  mutate_at(
+    .vars = 'fitness_class', 
+    function(x) factor(x, levels = c('lethal', 'deleterious', 'neutral', 'beneficial'))
+  )
+  
+# convert AA residues to three letter code 
+mutation_data$aa = vapply(mutation_data$aa, function(x) aa_conversion_hash[[x]], character(1), USE.NAMES = FALSE)
+
+# plot an individual plot for each amino acid and save in a single PDF file 
+pdf('./figures/syn_mut_per_aa_against_csc.pdf')
+garbage = sapply(hash::values(aa_conversion_hash), function(aa, ...) plot_mrf_per_aa(mutation_data, aa, 'csc', 'CSC'))
+dev.off()
+```
+
+```{r syn_mut_per_aa_against_rscu_fc}
+# define the columns we want from the rscu df 
+# we want the same columns for the mutation df so we don't need to define a new variable 
+rscu_fc_cols = c('codon', 'human_rscu_fc', 'mosquito_rscu_fc')
+
+# tidy the rscu fc df and melt 
+rscu_fc_data = load_rscu_fc() %>%
+  select(all_of(rscu_fc_cols)) %>%
+  dplyr::rename(
+    Human = human_rscu_fc, 
+    Mosquito = mosquito_rscu_fc
+  ) %>%
+  melt(id = 'codon') %>%
+  dplyr::rename(
+    host = variable, 
+    rscu_fc = value
+  ) 
+
+# load mutation data and tidy 
+mutation_data = load_mutation_data() %>%
+  filter(muttype == 'Syn') %>%
+  select(all_of(mutation_cols)) %>%
+  group_by(host, set, mutRes, mutcodon) %>%
+  dplyr::summarize(
+    mean_wrel = mean(wrel), 
+    mean_wrel_lower = mean(wrel.ciLower), 
+    mean_wrel_upper = mean(wrel.ciUpper)
+  ) %>%
+  ungroup() %>%
+  dplyr::rename(codon = mutcodon, aa = mutRes) %>%
+  inner_join(rscu_fc_data, by = c('host', 'codon')) %>%
+  mutate(
+    fitness_class = get_fitness_class(.)
+  ) %>%
+  mutate_at(
+    .vars = 'fitness_class', 
+    function(x) factor(x, levels = c('lethal', 'deleterious', 'neutral', 'beneficial'))
+  )
+
+# convert AA residues to three letter code 
+mutation_data$aa = vapply(mutation_data$aa, function(x) aa_conversion_hash[[x]], character(1), USE.NAMES = FALSE)
+
+# plot an individual plot for each amino acid and save in a single PDF file
+pdf('./figures/syn_mut_per_aa_against_rscu_fc.pdf')
+garbage = sapply(hash::values(aa_conversion_hash), function(aa, ...) plot_mrf_per_aa(mutation_data, aa, 'rscu_fc', 'log2 RSCU fold change'))
+dev.off()
+```
+
+```{r syn_mut_all_against_rscu_fc}
+# create a list of the plot variables that we need for the different plots 
+plot_vars = list(c('Human', 'A'), c('Human', 'B'), c('Mosquito', 'A'), c('Mosquito', 'B'))
+
+# initialize the pdf 
+pdf('./figures/syn_mut_all_against_rscu_fc.pdf')
+
+# for loop to go through each set of plot_vars and create plot
+for (i in plot_vars) {
+  
+  temp = mutation_data %>%
+    filter(host == i[1], set == i[2]) %>%
+    ggplot(aes(x = rscu_fc, y = mean_wrel)) +
+    geom_point() +
+    theme_classic() +
+    geom_text_repel(aes(label = codon)) +
+    stat_cor(method = 'spearman', label.x = -3, label.y = 1.8) +
+    geom_hline(yintercept = 1, linetype = 'dashed', color = 'grey') +
+    geom_vline(xintercept = 0, linetype = 'dashed', color = 'grey') +
+    coord_cartesian(xlim = c(-3, 3), ylim = c(0.3, 2)) +
+    labs(
+      x = 'log2 RSCU fold change', 
+      y = 'Mean Relative Fitness', 
+      title = paste0(i[1], ' ', i[2])
+    )
+  
+  print(temp)
+  
+}
+dev.off()
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
