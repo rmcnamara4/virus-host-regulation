@@ -9,6 +9,7 @@ library(Biostrings)
 
 source('../../Src/calc_rscu.R')
 source('../../Src/synonymous_codons.R')
+source('../../Src/codon_to_aa.R')
 
 ################################################################################
 # Load data 
