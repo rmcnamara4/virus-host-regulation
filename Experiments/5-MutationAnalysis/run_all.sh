@@ -9,3 +9,6 @@ Rscript extract_passage_9.R
 
 # run R script to create the RSCU fold change data.frame
 Rscript create_rscu_fc_df.R
+
+# run R script to create the condensed mutation data.frame
+Rscript create_condensed_mutation_df.R
