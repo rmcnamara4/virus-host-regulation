@@ -18,6 +18,8 @@ library(ggplot2)
 library(ggthemes)
 library(ggrepel)
 library(ggpubr)
+library(tidyr)
+library(gridExtra)
 
 # source needed functions 
 source('./helper_functions.R')
@@ -29,174 +31,260 @@ source('../../Src/codon_to_aa.R')
 theme_set(theme_tufte())
 ```
 
-### 1. Introduction
+### 1. Introduction 
 
 Here I will analyze the data that is produced in the paper: "Principles of dengue virus evolvability derived from genotype-fitness maps in human and mosquito cells" by Dolan, et al. The paper can be found [here](https://elifesciences.org/articles/61921#content). 
 
-I have defined some helper functions in the file: helper_functions.R. A couple of those functions will load the optimality data and mutation data that we need for the analysis. The RSCU fold change data was calculated using the Dengue 2 strain 16681, which is the strain used in this paper. 
+I have defined some helper functions in the file: helper_functions.R. A few of these functions will help us load the optimality and mutation data that is used in the analysis. The RSCU fold change data was calculated using the Dengue 2 strain 16681, which is the strain used in this paper. 
+
+Let's load the data. 
+
+```{r data} 
+# load data
+all_mutation_data = load_condensed_mutation_data()
+synonymous_mutation_data = load_condensed_synonymous_mutation_data()
+overall_syn_mrf = load_syn_mrf_per_species()
+```
 
 ### 2. Visualization 
 
-First, let's start by analyzing the Mean Relative Fitness of synonymous mutations per amino acid. We define the Mean Relative Fitness as the average relative fitness of all mutations from a specific codon to another specific codon.
+The Mean Relative Fitness (MRF) is calculated as the average of the relative fitnesses for a particular mutation or set of mutations. 
 
-I will focus only on synonymous mutations here in order to avoid the possible influence on the relative fitness that changing the amino acid might cause. 
+First, we will look for correlation between the MRF of synonymous mutations to each codon and codon optimality. We will only focus on synonymous mutations to avoid the influence of changing the peptide on the relative fitness. 
 
-Before I make the first plots, I am going to define some useful hashes/functions. 
-
-```{r helpers}
-# define function to determine the fitness class based on the criteria in the paper: 
-# - A mutation is "lethal" if the upper confidence interval (CI) is 0
-# - A mutation is "deleterious" if the upper CI is greater than 0 and less than 1 
-# - A mutation is "beneficial" if the lower CI is greater than 1
-# - A mutation is "neutral" otherwise 
-get_fitness_class = function(data) {
-  
-  ifelse(data$mean_wrel_upper == 0, 'lethal', 
-         ifelse(data$mean_wrel_upper > 0 & data$mean_wrel_upper < 1, 'deleterious', 
-                ifelse(data$mean_wrel_lower > 1, 'beneficial', 'neutral')))
-  
-}
-
-# define a hash to convert the single letter AA residue to the three letter AA code 
-# ex: L -> Leu
-aa_conversion_hash = hash(c('A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'Y'),
-                          c('Ala', 'Cys', 'Asp', 'Glu', 'Phe', 'Gly', 'His', 'Ile', 'Lys', 'Leu', 'Asn', 
-                            'Pro', 'Gln', 'Arg', 'Ser', 'Thr', 'Val', 'Tyr'))
-```
-
-Okay! Let's plot!
-
-```{r syn_mut_per_aa_against_csc} 
-# define the columns we want from the optimality df and the columns we want from the mutation df 
-optimality_cols = c('codon', 'human_csc', 'mosquito_csc')
-mutation_cols = c('host', 'set', 'mutcodon', 'mutRes', 'wrel', 'wrel.ciLower', 'wrel.ciUpper')
-
-# load the optimality data and melt 
-optimality_data = load_codon_optimalities() %>%
-  select(all_of(optimality_cols)) %>%
-  dplyr::rename(Human = human_csc, Mosquito = mosquito_csc) %>%
-  melt(id = 'codon') %>%
-  dplyr::rename(host = variable, csc = value)
-
-# load the mutation data and tidy 
-mutation_data = load_mutation_data() %>%
-  filter(muttype == 'Syn') %>% # filter for only synonymous mutations 
-  select(all_of(mutation_cols)) %>%
-  group_by(host, set, mutRes, mutcodon) %>%
-  dplyr::summarize(
-    mean_wrel = mean(wrel), 
-    mean_wrel_lower = mean(wrel.ciLower), 
-    mean_wrel_upper = mean(wrel.ciUpper)
-  ) %>%
-  ungroup() %>%
-  dplyr::rename(codon = mutcodon, aa = mutRes) %>%
-  inner_join(optimality_data, by = c('host', 'codon')) %>%
-  mutate(
-    fitness_class = get_fitness_class(.)
-  ) %>%
-  mutate_at(
-    .vars = 'fitness_class', 
-    function(x) factor(x, levels = c('lethal', 'deleterious', 'neutral', 'beneficial'))
-  )
-  
-# convert AA residues to three letter code 
-mutation_data$aa = vapply(mutation_data$aa, function(x) aa_conversion_hash[[x]], character(1), USE.NAMES = FALSE)
-
-# plot an individual plot for each amino acid and save in a single PDF file 
-pdf('./figures/syn_mut_per_aa_against_csc.pdf')
-garbage = sapply(hash::values(aa_conversion_hash), function(aa, ...) plot_mrf_per_aa(mutation_data, aa, 'csc', 'CSC'))
-dev.off()
-```
-
-```{r syn_mut_per_aa_against_rscu_fc}
-# define the columns we want from the rscu df 
-# we want the same columns for the mutation df so we don't need to define a new variable 
-rscu_fc_cols = c('codon', 'human_rscu_fc', 'mosquito_rscu_fc')
-
-# tidy the rscu fc df and melt 
-rscu_fc_data = load_rscu_fc() %>%
-  select(all_of(rscu_fc_cols)) %>%
-  dplyr::rename(
-    Human = human_rscu_fc, 
-    Mosquito = mosquito_rscu_fc
-  ) %>%
-  melt(id = 'codon') %>%
-  dplyr::rename(
-    host = variable, 
-    rscu_fc = value
-  ) 
-
-# load mutation data and tidy 
-mutation_data = load_mutation_data() %>%
-  filter(muttype == 'Syn') %>%
-  select(all_of(mutation_cols)) %>%
-  group_by(host, set, mutRes, mutcodon) %>%
-  dplyr::summarize(
-    mean_wrel = mean(wrel), 
-    mean_wrel_lower = mean(wrel.ciLower), 
-    mean_wrel_upper = mean(wrel.ciUpper)
-  ) %>%
-  ungroup() %>%
-  dplyr::rename(codon = mutcodon, aa = mutRes) %>%
-  inner_join(rscu_fc_data, by = c('host', 'codon')) %>%
-  mutate(
-    fitness_class = get_fitness_class(.)
-  ) %>%
-  mutate_at(
-    .vars = 'fitness_class', 
-    function(x) factor(x, levels = c('lethal', 'deleterious', 'neutral', 'beneficial'))
-  )
-
-# convert AA residues to three letter code 
-mutation_data$aa = vapply(mutation_data$aa, function(x) aa_conversion_hash[[x]], character(1), USE.NAMES = FALSE)
-
-# plot an individual plot for each amino acid and save in a single PDF file
-pdf('./figures/syn_mut_per_aa_against_rscu_fc.pdf')
-garbage = sapply(hash::values(aa_conversion_hash), function(aa, ...) plot_mrf_per_aa(mutation_data, aa, 'rscu_fc', 'log2 RSCU fold change'))
-dev.off()
-```
-
-```{r syn_mut_all_against_rscu_fc}
-# create a list of the plot variables that we need for the different plots 
+```{r syn_mut_all_against_csc} 
+# define plotting variables 
 plot_vars = list(c('Human', 'A'), c('Human', 'B'), c('Mosquito', 'A'), c('Mosquito', 'B'))
 
-# initialize the pdf 
-pdf('./figures/syn_mut_all_against_rscu_fc.pdf')
+# initialize the PDF 
+pdf('./figures/syn_mut_all_against_csc.pdf')
 
 # for loop to go through each set of plot_vars and create plot
+num = 1
 for (i in plot_vars) {
-  
-  temp = mutation_data %>%
-    filter(host == i[1], set == i[2]) %>%
-    ggplot(aes(x = rscu_fc, y = mean_wrel)) +
-    geom_point() +
-    theme_classic() +
-    geom_text_repel(aes(label = codon)) +
-    stat_cor(method = 'spearman', label.x = -3, label.y = 1.8) +
-    geom_hline(yintercept = 1, linetype = 'dashed', color = 'grey') +
-    geom_vline(xintercept = 0, linetype = 'dashed', color = 'grey') +
-    coord_cartesian(xlim = c(-3, 3), ylim = c(0.3, 2)) +
-    labs(
-      x = 'log2 RSCU fold change', 
-      y = 'Mean Relative Fitness', 
-      title = paste0(i[1], ' ', i[2])
-    )
-  
-  print(temp)
-  
+  assign(paste0('temp_', num), plot_mrf_all_dot(synonymous_mutation_data, i, 'mutcodon_csc', 'CSC'))
+  num = num + 1
 }
+dev.off()
+
+grid.arrange(temp_1, temp_2, temp_3, temp_4, nrow = 2, ncol = 2, widths = c(4, 4))
+```
+
+Great! There doesn't seem to be much correlation between the Mean Relative Fitness and the codon optimality for either of the species overall. 
+
+Let's check to see if there is a correlation between these two variables within each amino acid. 
+
+```{r syn_mut_per_aa_against_csc}
+# initialize the PDF 
+pdf('./figures/syn_mut_per_aa_against_csc.pdf')
+
+# plot 
+garbage = sapply(levels(factor(synonymous_mutation_data$mut_aa)), function(aa, ...) plot_mrf_per_aa_dot(synonymous_mutation_data, aa, 'mutcodon_csc', 'CSC'))
+
+dev.off()
+
+arg_vs_csc = plot_mrf_per_aa_dot(synonymous_mutation_data, 'Arg', 'mutcodon_csc', 'CSC')
+
+arg_vs_csc
+```
+
+Using Arginine as an example, we can see that mutations towards optimal codons tend have a lower Mean Relative Fitness than mutations towards non-optimal codons. This is true in both species. 
+
+Now we can check the correlations within each amino acid with a dot plot between the two replicates in each species. 
+
+```{r rep_corr_all_against_csc} 
+# get the correlations against the csc for each aa and each replicate 
+csc_correlations = synonymous_mutation_data %>%
+  group_by(host, set, mut_aa) %>%
+  summarize(
+    correlation = cor(mutcodon_csc, mean_wrel, method = 'spearman'), 
+    range = max(mutcodon_csc) - min(mutcodon_csc), 
+    n_codons = n()
+  )
+
+# split the set variable into two columns, A and B
+csc_correlations = spread(csc_correlations, set, correlation)
+
+# define plot variables 
+plot_vars = c('Human', 'Mosquito')
+
+# initialize the PDF 
+pdf('./figures/rep_corr_all_against_csc.pdf')
+
+# for loop for plotting
+num = 1
+for (h in plot_vars) {
+  assign(paste0('temp_', num), plot_corr_all(csc_correlations, h, 'AA CSC Range'))
+  num = num + 1
+}
+dev.off()
+
+temp_1
+temp_2
+```
+The majority of the amino acids are located in the lower left quadrant for human. The amino acids for mosquito are more spread our but there are a good number in the lower left quadrant. It appears that the correlation between the Mean Relative Fitness and codon optimality is not extremely strong. 
+
+Now, let's check the correlations of the Mean Relative Fitness vs the RSCU fold change of the codons. We will do this overall and for the individual amino acids.
+
+```{r syn_mut_all_against_rscu_fc} 
+# define plotting variables
+plot_vars = list(c('Human', 'A'), c('Human', 'B'), c('Mosquito', 'A'), c('Mosquito', 'B'))
+
+# initialize the PDF 
+pdf('./figures/syn_mut_all_against_rscu_fc.pdf') 
+
+# for loop to go through each set of plot_vars and create plot
+num = 1
+for (i in plot_vars) {
+  assign(paste0('temp_', num), plot_mrf_all_dot(synonymous_mutation_data, i, 'mutcodon_rscu_fc', 'log2 RSCU FC'))
+  num = num + 1
+}
+dev.off()
+
+grid.arrange(temp_1, temp_2, temp_3, temp_4, nrow = 2, ncol = 2, widths = c(4, 4))
+```
+There is a strong correlation between the Mean Relative Fitness and the log2 RSCU fold change of the codon that is mutated to for humans. This indicates that mutations by Dengue towards codons with a high RSCU fold change tend to be more beneficial for the virus than mutations towards codons with a low RSCU fold change. 
+
+Although the correlation is not as strong in mosquito, the upward trend can still be seen. Importantly, mutations towards AGA (the codon with the highest RSCU fold change in both species) tend to be beneficial as well. 
+
+```{r syn_mut_per_aa_against_rscu_fc}
+# initialize the PDF 
+pdf('./figures/syn_mut_per_aa_against_rscu_fc.pdf')
+
+# plot 
+garbage = sapply(levels(factor(synonymous_mutation_data$mut_aa)), function(aa, ...) plot_mrf_per_aa_dot(synonymous_mutation_data, aa, 'mutcodon_rscu_fc', 'log2 RSCU FC'))
+
+dev.off()
+
+arg_vs_rscu_fc = plot_mrf_per_aa_dot(synonymous_mutation_data, 'Arg', 'mutcodon_rscu_fc', 'log2 RSCU FC')
+
+grid.arrange(arg_vs_rscu_fc, heights = c(10), widths = 10)
+```
+Using Arginine as an example again, we see that both the human and mosquito have positive correlations. Mutations towards AGA tend to be beneficial in both of the species. 
+
+Now let's get an overview of the correlations for each amino acid. 
+
+```{r rep_corr_all_against_rscu_fc}
+# get the correlations against the rscu_fc for each aa and each replicate
+rscu_fc_correlations = synonymous_mutation_data %>%
+  group_by(host, set, mut_aa) %>%
+  summarize(
+    correlation = cor(mutcodon_rscu_fc, mean_wrel, method = 'spearman'), 
+    range = max(mutcodon_rscu_fc) - min(mutcodon_rscu_fc), 
+    n_codons = n()
+  )
+
+# split the set variable into two columns, A and B
+rscu_fc_correlations = spread(rscu_fc_correlations, set, correlation)
+
+# define plot variables 
+plot_vars = c('Human', 'Mosquito')
+
+# initialize the PDF 
+pdf('./figures/rep_corr_all_against_rscu_fc.pdf')
+
+# for loop for plotting 
+num = 1
+for (h in plot_vars) {
+  assign(paste0('temp_', num), plot_corr_all(rscu_fc_correlations, h, 'AA RSCU FC Range'))
+  num = num + 1
+}
+dev.off()
+
+temp_1
+temp_2
+```
+We can see that the majority of amino acids have a positive correlation between Mean Relative Fitness and the RSCU FC of the codon mutated to. This holds true for both replicates and both species. Some of the correlations we've seen have not been extremely strong, but we can see a trend in which synonymous mutations towards codons that have a high RSCU FC (i.e. codons preferred by Dengue relative to the host) tend to be more beneficial than mutations towards codons that have a low RSCU FC (i.e. codons not preferred by Dengue relative to the host). 
+
+Now let's plot the Mean Relative Fitness of synonymous mutations as a barplot with the delta CSC as fill. We call the delta CSC the change in optimality that occurs when one codon is mutated to another (i.e. red means the mutatation was from a lower optimality codon to a higher optimality codon; blue means the opposite). 
+
+```{r syn_mut_to_aa_codons_with_csc_as_fill}
+# select only the synonymous mutations 
+all_mutation_data_synonymous = all_mutation_data %>%
+  filter(muttype == 'Syn')
+
+# initialize the PDF 
+pdf('./figures/syn_mut_to_aa_codons_with_csc_as_fill.pdf', width = 14, height = 8)
+
+# plot 
+garbage = sapply(levels(factor(all_mutation_data_synonymous$mut_aa)), function(aa, ...) plot_mrf_per_aa_bar(all_mutation_data_synonymous, aa, 'delta_csc', 'Delta CSC'))
+
+dev.off()
+
+# plot arginine as an example 
+arg_w_csc_fill = plot_mrf_per_aa_bar(all_mutation_data_synonymous, 'Arg', 'delta_csc', 'Delta CSC')
+
+arg_w_csc_fill
+```
+
+As we've seen before, there appears to be a weak correlation between the Mean Relative Fitness and optimality. Mutations towards codons with a lower optimality tend to have relatively high fitness, while mutations towards codons with a higher optimality have lower fitness. However, this is not consistent. 
+
+As expected, mutations towards AGA tend to be beneficial for the virus. It appears that this trend is better explained by the codons' RSCU FC than its optimality. Let's see if that is true. 
+
+```{r syn_mut_to_aa_codons_with_rscu_fc_as_fill}
+# initialize the PDF 
+pdf('./figures/syn_mut_to_aa_codons_with_rscu_fc_as_fill.pdf', width = 14, height = 8)
+
+# plot 
+garbage = sapply(levels(factor(all_mutation_data_synonymous$mut_aa)), function(aa, ...) plot_mrf_per_aa_bar(all_mutation_data_synonymous, aa, 'delta_rscu_fc', 'Delta RSCU FC'))
+
+dev.off()
+
+# plot arginine as an example 
+arg_w_rscu_fc_fill = plot_mrf_per_aa_bar(all_mutation_data_synonymous, 'Arg', 'delta_rscu_fc', 'Delta RSCU FC')
+
+arg_w_rscu_fc_fill
+```
+Interesting! We can see that mutations towards codons that have a higher RSCU FC (green bars) tend to have higher fitness than mutations towards codons that have a lower RSCU FC (purple bars). Although this correlation is not perfect, the RSCU FC hypothesis seems to support the data more than the CSC hypothesis. We know from previous analysis that the codons with the highest RSCU FC tend to be non-optimal, which is likely why we see a weak correlation between Mean Relative Fitness and codon optimality. 
+
+Let's try one more way of visualizing the Mean Relative Fitness. 
+
+```{r syn_mut_to_aa_codons_with_fitness_class_as_fill}
+# load the data
+synonymous_mutation_data_fitness_class_perc = load_fitness_class_percentages_data()
+
+# initialize the PDF 
+pdf('./figures/syn_mut_to_aa_codons_with_fitness_class_as_fill.pdf', width = 14, height = 8)
+
+# plot
+garbage = sapply(levels(factor(synonymous_mutation_data_fitness_class_perc$mut_aa)), function(aa, ...) plot_status_per_aa_bar(synonymous_mutation_data_fitness_class_perc, aa))
+
+dev.off()
+
+# plot arginine as an example 
+arg_w_status_fill = plot_status_per_aa_bar(synonymous_mutation_data_fitness_class_perc, 'Arg')
+
+arg_w_status_fill
+```
+
+Again, we can see that mutations towards AGA are beneficial more often than mutations towards other codons. Mutations towards AGA in both humans and mosquitos are rarely deleterious and are commonly neutral. Mutations towards other codons are far more likely to be deleterious or even lethal. Interestingly, mutations towards CGC from CGT also can be beneficial in both species, although the frequency of this mutation is much lower. 
+
+Lastly, as an overview, let's see how the Mean Relative Fitness correlates between humans and mosquitos. 
+
+```{r mrf_corr_human_mosquito}
+# split host column into two columns
+overall_syn_mrf = spread(overall_syn_mrf, host, mean_wrel)
+
+# plot 
+mrf_corr_human_mosquito = overall_syn_mrf %>%
+  ggplot(aes(x = Human, y = Mosquito)) + 
+  geom_point() +
+  geom_text_repel(aes(label = mutcodon)) +
+  geom_hline(yintercept = 1, linetype = 'dashed', color = 'grey') +
+  geom_vline(xintercept = 1, linetype = 'dashed', color = 'grey') +
+  stat_cor(method = 'spearman') +
+  theme_classic() +
+  labs(
+    x = 'Human Mean Relative Fitness', 
+    y = 'Mosquito Mean Relative Fitness'
+  )
+
+# save 
+pdf('./data/mrf_corr_human_mosquito.pdf')
+print(mrf_corr_human_mosquito)
 dev.off()
 ```
 
+There is a strong correlation between the codons that are beneficial to synonymously mutate to in humans and mosquitos. This is to be expected since Dengue can infect both hosts. There are some differences, however, which can give insight into how Dengue adapts differently to each host. Our most important codon, AGA, is beneficial to mutate to in both of the hosts. 
 
-
-
-
-
-
-
-
-
-
-
-
+Overall, synonymous mutations towards codons that have a higher RSCU FC (which are often non-optimal) tend to be more beneficial for Dengue than mutations towards codons that have a lower RSCU FC. This is most evident in synonymous mutations towards AGA. It appears that Dengue prefers to maintain the differences in the host's codon usage and its codon usage during adaptation. We believe this might have something to do with manipulating the tRNA pool to make certain codons (often non-optimal) more optimal. 

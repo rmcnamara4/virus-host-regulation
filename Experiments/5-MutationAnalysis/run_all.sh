@@ -11,4 +11,7 @@ Rscript extract_passage_9.R
 Rscript create_rscu_fc_df.R
 
 # run R script to create the condensed mutation data.frame
-Rscript create_condensed_mutation_df.R
+Rscript create_mutation_dfs.R
+
+# create a folder for the figures
+mkdir -p figures
