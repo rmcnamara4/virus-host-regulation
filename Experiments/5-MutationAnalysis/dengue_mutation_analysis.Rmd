@@ -84,8 +84,6 @@ garbage = sapply(levels(factor(synonymous_mutation_data$mut_aa)), function(aa, .
 dev.off()
 
 arg_vs_csc = plot_mrf_per_aa_dot(synonymous_mutation_data, 'Arg', 'mutcodon_csc', 'CSC')
-
-arg_vs_csc
 ```
 
 Using Arginine as an example, we can see that mutations towards optimal codons tend have a lower Mean Relative Fitness than mutations towards non-optimal codons. This is true in both species. 
@@ -156,9 +154,8 @@ garbage = sapply(levels(factor(synonymous_mutation_data$mut_aa)), function(aa, .
 
 dev.off()
 
+# plot arginine as an example 
 arg_vs_rscu_fc = plot_mrf_per_aa_dot(synonymous_mutation_data, 'Arg', 'mutcodon_rscu_fc', 'log2 RSCU FC')
-
-grid.arrange(arg_vs_rscu_fc, heights = c(10), widths = 10)
 ```
 Using Arginine as an example again, we see that both the human and mosquito have positive correlations. Mutations towards AGA tend to be beneficial in both of the species. 
 
@@ -213,8 +210,6 @@ dev.off()
 
 # plot arginine as an example 
 arg_w_csc_fill = plot_mrf_per_aa_bar(all_mutation_data_synonymous, 'Arg', 'delta_csc', 'Delta CSC')
-
-arg_w_csc_fill
 ```
 
 As we've seen before, there appears to be a weak correlation between the Mean Relative Fitness and optimality. Mutations towards codons with a lower optimality tend to have relatively high fitness, while mutations towards codons with a higher optimality have lower fitness. However, this is not consistent. 
@@ -232,8 +227,6 @@ dev.off()
 
 # plot arginine as an example 
 arg_w_rscu_fc_fill = plot_mrf_per_aa_bar(all_mutation_data_synonymous, 'Arg', 'delta_rscu_fc', 'Delta RSCU FC')
-
-arg_w_rscu_fc_fill
 ```
 Interesting! We can see that mutations towards codons that have a higher RSCU FC (green bars) tend to have higher fitness than mutations towards codons that have a lower RSCU FC (purple bars). Although this correlation is not perfect, the RSCU FC hypothesis seems to support the data more than the CSC hypothesis. We know from previous analysis that the codons with the highest RSCU FC tend to be non-optimal, which is likely why we see a weak correlation between Mean Relative Fitness and codon optimality. 
 
@@ -252,9 +245,7 @@ garbage = sapply(levels(factor(synonymous_mutation_data_fitness_class_perc$mut_a
 dev.off()
 
 # plot arginine as an example 
-arg_w_status_fill = plot_status_per_aa_bar(synonymous_mutation_data_fitness_class_perc, 'Arg')
-
-arg_w_status_fill
+arg_with_status_fill = plot_status_per_aa_bar(synonymous_mutation_data_fitness_class_perc, 'Arg')
 ```
 
 Again, we can see that mutations towards AGA are beneficial more often than mutations towards other codons. Mutations towards AGA in both humans and mosquitos are rarely deleterious and are commonly neutral. Mutations towards other codons are far more likely to be deleterious or even lethal. Interestingly, mutations towards CGC from CGT also can be beneficial in both species, although the frequency of this mutation is much lower. 
@@ -283,6 +274,8 @@ mrf_corr_human_mosquito = overall_syn_mrf %>%
 pdf('./data/mrf_corr_human_mosquito.pdf')
 print(mrf_corr_human_mosquito)
 dev.off()
+
+mrf_corr_human_mosquito
 ```
 
 There is a strong correlation between the codons that are beneficial to synonymously mutate to in humans and mosquitos. This is to be expected since Dengue can infect both hosts. There are some differences, however, which can give insight into how Dengue adapts differently to each host. Our most important codon, AGA, is beneficial to mutate to in both of the hosts. 
