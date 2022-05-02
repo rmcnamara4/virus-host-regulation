@@ -271,7 +271,7 @@ mrf_corr_human_mosquito = overall_syn_mrf %>%
   )
 
 # save 
-pdf('./data/mrf_corr_human_mosquito.pdf')
+pdf('./figures/mrf_corr_human_mosquito.pdf')
 print(mrf_corr_human_mosquito)
 dev.off()
 
