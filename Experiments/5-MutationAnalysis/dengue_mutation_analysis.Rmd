@@ -20,6 +20,11 @@ library(ggrepel)
 library(ggpubr)
 library(tidyr)
 library(gridExtra)
+library(seqinr)
+library(Biostrings)
+library(openxlsx)
+library(reshape2)
+library(rstatix)
 
 # source needed functions 
 source('./helper_functions.R')
@@ -250,14 +255,150 @@ arg_with_status_fill = plot_status_per_aa_bar(synonymous_mutation_data_fitness_c
 
 Again, we can see that mutations towards AGA are beneficial more often than mutations towards other codons. Mutations towards AGA in both humans and mosquitos are rarely deleterious and are commonly neutral. Mutations towards other codons are far more likely to be deleterious or even lethal. Interestingly, mutations towards CGC from CGT also can be beneficial in both species, although the frequency of this mutation is much lower. 
 
+We can see a preference to mutate towards codons that have a higher RSCU FC. Let's check if we can see a preference towards the groups of codons that we defined previously (i.e. Denguenized/Non-denguenized). First, we will define the groups of codons. 
+
+```{r create_groups}
+# load the Dengue strain sequence 
+dengue_strain = read.fasta('../4-AnalyzeSingleCellSeq/data/fastas/dengue_2_16681.fa', as.string = TRUE)
+
+# make DNAString object 
+dengue_strain_seq = DNAString(as.character(dengue_strain))
+
+# calculate codon composition and order
+dengue_strain_codons = trinucleotideFrequency(dengue_strain_seq, step = 3, as.prob = TRUE)
+dengue_strain_codons = dengue_strain_codons[!(names(dengue_strain_codons) %in% c('TAA', 'TAG', 'TGA'))]
+dengue_strain_codons_ordered = dengue_strain_codons[order(-dengue_strain_codons)]
+
+# load rscu_fc data 
+rscu_fc_data = load_rscu_fc()
+rscu_fc_data$human_rscu_fc = round(rscu_fc_data$human_rscu_fc, 2)
+rscu_fc_data$mosquito_rscu_fc = round(rscu_fc_data$mosquito_rscu_fc, 2)
+
+# define groups 
+frequently_used = dengue_strain_codons_ordered[1:16]
+infrequently_used = dengue_strain_codons_ordered[46:61]
+
+preferentially_used_human = rscu_fc_data[rscu_fc_data$human_rscu_fc >= 0.5, ]$codon
+non_preferentially_used_human = rscu_fc_data[rscu_fc_data$human_rscu_fc <= -0.5, ]$codon
+preferentially_used_mosquito = rscu_fc_data[rscu_fc_data$mosquito_rscu_fc >= 0.5, ]$codon
+non_preferentially_used_mosquito = rscu_fc_data[rscu_fc_data$mosquito_rscu_fc <= -0.5, ]$codon
+
+denguenized_human = intersect(names(frequently_used), preferentially_used_human)
+non_denguenized_human = intersect(names(infrequently_used), non_preferentially_used_human)
+denguenized_mosquito = intersect(names(frequently_used), preferentially_used_mosquito)
+non_denguenized_mosquito = intersect(names(infrequently_used), non_preferentially_used_mosquito)
+
+# make data.frames for saving
+max_length_human = max(c(length(frequently_used), length(infrequently_used), length(preferentially_used_human), length(non_preferentially_used_human)))
+human_codon_groups = data.frame(
+  frequently_used = c(names(frequently_used), rep(NA, max_length_human - length(frequently_used))), 
+  infrequently_used = c(names(infrequently_used), rep(NA, max_length_human - length(infrequently_used))), 
+  preferentially_used = c(preferentially_used_human, rep(NA, max_length_human - length(preferentially_used_human))), 
+  non_preferentially_used = c(non_preferentially_used_human, rep(NA, max_length_human - length(non_preferentially_used_human))), 
+  denguenized = c(denguenized_human, rep(NA, max_length_human - length(denguenized_human))), 
+  non_denguenized = c(non_denguenized_human, rep(NA, max_length_human - length(non_denguenized_human)))
+)
+
+max_length_mosquito = max(c(length(frequently_used), length(infrequently_used), length(preferentially_used_mosquito), length(non_preferentially_used_mosquito)))
+mosquito_codon_groups = data.frame(
+  frequently_used = c(names(frequently_used), rep(NA, max_length_mosquito - length(frequently_used))), 
+  infrequently_used = c(names(infrequently_used), rep(NA, max_length_mosquito - length(infrequently_used))), 
+  preferentially_used = c(preferentially_used_mosquito, rep(NA, max_length_mosquito - length(preferentially_used_mosquito))), 
+  non_preferentially_used = c(non_preferentially_used_mosquito, rep(NA, max_length_mosquito - length(non_preferentially_used_mosquito))), 
+  denguenized = c(denguenized_mosquito, rep(NA, max_length_mosquito - length(denguenized_mosquito))), 
+  non_denguenized = c(non_denguenized_mosquito, rep(NA, max_length_mosquito - length(non_denguenized_mosquito)))
+)
+
+# save 
+sheets = list('Human' = human_codon_groups, 'Mosquito' = mosquito_codon_groups)
+write.xlsx(sheets, './data/codon_groups.xlsx')
+```
+
+Now, let's plot boxplots of the Mean Relative Fitness of the synonymous mutations to the codons in each of these groups. 
+
+```{r syn_mut_towards_codon_groups}
+# add host column to the codon groups data.frame 
+human_codon_groups$host = 'Human'
+mosquito_codon_groups$host = 'Mosquito'
+
+# combine the two data.frames into one 
+codon_groups = rbind(human_codon_groups, mosquito_codon_groups)
+
+# melt data.frame
+melted_codon_groups = reshape2::melt(codon_groups, id = 'host')
+
+# add a group column to link the pairs of codon groups 
+melted_codon_groups$group = ifelse(melted_codon_groups$variable %in% c('frequently_used', 'infrequently_used'), 1, 
+                                   ifelse(melted_codon_groups$variable %in% c('preferentially_used', 'non_preferentially_used'), 2, 3))
+
+# rename columns 
+names(melted_codon_groups) = c('host', 'codon_class', 'mutcodon', 'group')
+
+# merge the data.frame with the mean relative fitness values 
+melted_codon_groups = merge(melted_codon_groups, overall_syn_mrf, by = c('host', 'mutcodon'))
+
+# calculate the p-values between the codon group pairs 
+sig = melted_codon_groups %>%
+  group_by(host, group) %>%
+  wilcox_test(mean_wrel ~ codon_class, paired = FALSE) %>%
+  add_significance() %>%
+  add_xy_position(fun = 'median_iqr', x = 'group')
+sig$y.position = 1.45
+
+# define function to the get the sample size of the boxplots 
+give.n = function(x) {
+  return(c(y = 1.7, label = length(x)))
+}
+
+# plot 
+syn_mut_toward_codon_groups = melted_codon_groups %>%
+  ggplot(aes(x = group, y = mean_wrel, fill = codon_class, group = codon_class)) +
+  geom_boxplot(outlier.shape = NA) +
+  scale_fill_manual('Codon Group', values = c('frequently_used' = '#DD8505', 'infrequently_used' = '#B5025C', 
+                                              'preferentially_used' = '#008A46', 'non_preferentially_used' = '#8A668A', 
+                                              'denguenized' = '#CF3CD3', 'non_denguenized' = '#24C9C9'), 
+                    labels = c('Frequently Used', 'Infrequently Used', 'Preferentially Used', 'Unpreferentially Used', 
+                               'Denguenized', 'Non-denguenized')) +
+  geom_hline(yintercept = 1, linetype = 'dashed', color = 'grey') +
+  stat_pvalue_manual(sig, inherit.aes = FALSE, remove.bracket = TRUE) +
+  stat_summary(fun.data = give.n, geom = "text", position = position_dodge(.75)) +
+  facet_grid(host ~ .) +
+  theme_classic() +
+  theme(axis.text.x = element_blank(), 
+        axis.title.x = element_blank(),
+        axis.ticks.x = element_blank(), 
+        panel.border = element_rect(size = 2, color = 'black', fill = NA), 
+        strip.background = element_rect(size = 2, color = 'black', fill = NA)) +
+  coord_cartesian(ylim = c(0.4, 1.7)) +
+  labs(
+    y = 'Mean Relative Fitness', 
+    title = 'Synonymous Mutations'
+  )
+
+# save 
+ggsave('./figures/syn_mut_toward_codon_groups.pdf', syn_mut_toward_codon_groups, height = 14, width = 8)
+
+# save data.frame
+write.table(
+  melted_codon_groups, 
+  './data/syn_mrf_codon_groups.csv', 
+  sep = ',', col.names = TRUE, row.names = FALSE, quote = FALSE
+)
+
+# show 
+syn_mut_toward_codon_groups
+```
+
+Wow! We can see that synonymous mutations towards frequently used codons are more beneficial than synonymous mutations towards infrequently used codons, synonymous mutations towards preferentially used codons are more beneficial than synonymous mutations towards unpreferentially used codons, and synonymous mutations towards Denguenized codons are more beneficial than synonymous mutations towards Non-denguenized codons. This holds true for both species even though the codon groups vary between the hosts. 
+
 Lastly, as an overview, let's see how the Mean Relative Fitness correlates between humans and mosquitos. 
 
 ```{r mrf_corr_human_mosquito}
 # split host column into two columns
-overall_syn_mrf = spread(overall_syn_mrf, host, mean_wrel)
+overall_syn_mrf_spread = spread(overall_syn_mrf, host, mean_wrel)
 
 # plot 
-mrf_corr_human_mosquito = overall_syn_mrf %>%
+mrf_corr_human_mosquito = overall_syn_mrf_spread %>%
   ggplot(aes(x = Human, y = Mosquito)) + 
   geom_point() +
   geom_text_repel(aes(label = mutcodon)) +
