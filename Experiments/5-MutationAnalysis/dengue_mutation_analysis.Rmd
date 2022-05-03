@@ -381,7 +381,7 @@ ggsave('./figures/syn_mut_toward_codon_groups.pdf', syn_mut_toward_codon_groups,
 # save data.frame
 write.table(
   melted_codon_groups, 
-  './data/syn_mrf_codon_groups.csv', 
+  './data/syn_mrf_codon_groups_p9.csv', 
   sep = ',', col.names = TRUE, row.names = FALSE, quote = FALSE
 )
 
