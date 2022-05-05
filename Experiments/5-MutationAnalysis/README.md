@@ -48,8 +48,8 @@ In this folder I investigate the fitness of Dengue virus 2 strain 11681's mutati
 
 ## Figures
 
-Note: all figures produced by **./dengue_mutation_analysis.Rmd** file
-Note: a neutra mutation is defined as having a Mean Relative Fitness of 1 (as defined in Dolan, et al.)
+Note: all figures produced by **./dengue_mutation_analysis.Rmd** file  
+Note: a neutral mutation is defined as having a Mean Relative Fitness of 1 (as defined in Dolan, et al.)
 
 + **./figures/syn_mut_all_against_csc.pdf**: plots of Mean Relative Fitness of 9th passage synonymous mutations against CSC of the mutcodon; each point represents the codon that is mutated to and its Mean Relative Fitness/CSC; the four plots correspond to the A & B replicates of human and mosquito; correlations are Spearman
 
@@ -71,4 +71,4 @@ Note: a neutra mutation is defined as having a Mean Relative Fitness of 1 (as de
 
 + **./figures/syn_mut_toward_codon_groups.pdf**: boxplot of the Mean Relative Fitness of 9th passage synonymous mutations toward codons present in the codon groups defined in **./data/codon_groups.xlsx**; color of the box represents the codon group; stars indicate significance (unpaired Wilcox test); numbers above the boxes represent the number of codons in each of the codon groups; replicates aggregated together
 
-+ **./figures/mrf_corr_human_mosquito.pdf**: scatter plot of the Mean Relative Fitness of 9th passage synonymous mutations in mosquito vs human; each point represents the codon that is mutated to; correlation is Spearman 
++ **./figures/mrf_corr_human_mosquito.pdf**: scatter plot of the Mean Relative Fitness of 9th passage synonymous mutations in mosquito vs human; each point represents the codon that is mutated to; correlation is Spearman
