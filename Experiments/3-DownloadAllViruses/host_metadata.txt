@@ -12,13 +12,13 @@ Sulfolobales Beppu filamentous virus 2	archaea	Adnaviria
 Sulfolobales Beppu filamentous virus 3	archaea	Adnaviria
 Sulfolobus filamentous virus 1	archaea	Adnaviria
 Sulfolobus islandicus filamentous virus	archaea	Adnaviria
+Sulfolobus islandicus rod-shaped phage 6	archaea	Adnaviria
+Sulfolobus islandicus rod-shaped virus 5	archaea	Adnaviria
 Sulfolobus islandicus rod-shaped virus 1	archaea	Adnaviria
 Sulfolobus islandicus rod-shaped virus 10	archaea	Adnaviria
 Sulfolobus islandicus rod-shaped virus 11	archaea	Adnaviria
 Sulfolobus islandicus rod-shaped virus 2	archaea	Adnaviria
 Sulfolobus islandicus rod-shaped virus 4	archaea	Adnaviria
-Sulfolobus islandicus rod-shaped virus 5	archaea	Adnaviria
-Sulfolobus islandicus rod-shaped virus 6	archaea	Adnaviria
 Sulfolobus islandicus rod-shaped virus 7	archaea	Adnaviria
 Sulfolobus islandicus rod-shaped virus 8	archaea	Adnaviria
 Sulfolobus islandicus rod-shaped virus 9	archaea	Adnaviria
@@ -264,9 +264,9 @@ Acinetobacter phage WCHABP1	bacteria	Duplodnaviria
 Acinetobacter phage WCHABP12	bacteria	Duplodnaviria
 Acinetobacter phage WCHABP5	bacteria	Duplodnaviria
 Acinetobacter phage YMC-13-01-C62	bacteria	Duplodnaviria
+Acinetobacter phage YMC11/12/R2315	bacteria	Duplodnaviria
 Acinetobacter phage YMC/09/02/B1251	bacteria	Duplodnaviria
 Acinetobacter phage YMC11/11/R3177	bacteria	Duplodnaviria
-Acinetobacter phage YMC11/12/R2315	bacteria	Duplodnaviria
 Acinetobacter phage YMC13/03/R2096	bacteria	Duplodnaviria
 Acinetobacter phage ZZ1	bacteria	Duplodnaviria
 Acinetobacter phage phiAB1	bacteria	Duplodnaviria
@@ -299,7 +299,6 @@ Acinetobacter phage vB_AbaS_TRS1	bacteria	Duplodnaviria
 Acinetobacter phage vB_ApiM_fHyAci03	bacteria	Duplodnaviria
 Acinetobacter phage vB_ApiP_P1	bacteria	Duplodnaviria
 Acinetobacter phage vB_ApiP_P2	bacteria	Duplodnaviria
-Actinomyces virus Av1	bacteria	Duplodnaviria
 Actinoplanes phage phiAsp2	bacteria	Duplodnaviria
 Aeribacillus phage AP45	bacteria	Duplodnaviria
 Aeromonas phage 25	bacteria	Duplodnaviria
@@ -307,6 +306,7 @@ Aeromonas phage 25AhydR2PP	bacteria	Duplodnaviria
 Aeromonas phage 2L372D	bacteria	Duplodnaviria
 Aeromonas phage 2L372X	bacteria	Duplodnaviria
 Aeromonas phage 2_D05	bacteria	Duplodnaviria
+Aeromonas phage 31	bacteria	Duplodnaviria
 Aeromonas phage 44RR2.8t	bacteria	Duplodnaviria
 Aeromonas phage 4L372D	bacteria	Duplodnaviria
 Aeromonas phage 4L372XY	bacteria	Duplodnaviria
@@ -314,6 +314,7 @@ Aeromonas phage 4_4572	bacteria	Duplodnaviria
 Aeromonas phage 4_D05	bacteria	Duplodnaviria
 Aeromonas phage 50AhydR13PP	bacteria	Duplodnaviria
 Aeromonas phage 60AhydR15PP	bacteria	Duplodnaviria
+Aeromonas phage phiAS4	bacteria	Duplodnaviria
 Aeromonas phage 65	bacteria	Duplodnaviria
 Aeromonas phage AS-gz	bacteria	Duplodnaviria
 Aeromonas phage AS-sw	bacteria	Duplodnaviria
@@ -335,14 +336,13 @@ Aeromonas phage PX29	bacteria	Duplodnaviria
 Aeromonas phage ZPAH7	bacteria	Duplodnaviria
 Aeromonas phage pAh6-C	bacteria	Duplodnaviria
 Aeromonas phage pIS4-A	bacteria	Duplodnaviria
+Vibrio phage pYD38-A	bacteria	Duplodnaviria
 Aeromonas phage phiA8-29	bacteria	Duplodnaviria
-Aeromonas phage phiAS4	bacteria	Duplodnaviria
 Aeromonas phage phiAS5	bacteria	Duplodnaviria
 Aeromonas phage phiAS7	bacteria	Duplodnaviria
 Aeromonas phage phiO18P	bacteria	Duplodnaviria
 Aeromonas phage vB_AhyS-A18P4	bacteria	Duplodnaviria
 Aeromonas phage vB_AsaM-56	bacteria	Duplodnaviria
-Aeromonas virus 31	bacteria	Duplodnaviria
 Aggregatibacter phage S1249	bacteria	Duplodnaviria
 Agrobacterium phage 7-7-1	bacteria	Duplodnaviria
 Agrobacterium phage Atu_ph02	bacteria	Duplodnaviria
@@ -354,14 +354,16 @@ Alphaproteobacteria virus phiJl001	bacteria	Duplodnaviria
 Alteromonas phage vB_AcoS-R7M	bacteria	Duplodnaviria
 Alteromonas phage vB_AmaP_AD45-P1	bacteria	Duplodnaviria
 Alteromonas phage vB_AmeM_PT11-V22	bacteria	Duplodnaviria
-Alteromonas virus vB_AspP-H4/4	bacteria	Duplodnaviria
 Anabaena phage A-4L	bacteria	Duplodnaviria
 Anatid alphaherpesvirus 1	vertebrates	Duplodnaviria
 Anguillid herpesvirus 1	vertebrates	Duplodnaviria
 Anoxybacillus phage A403	bacteria	Duplodnaviria
 Aotine betaherpesvirus 1	vertebrates	Duplodnaviria
 Aquamicrobium phage P14	bacteria	Duplodnaviria
+Arawnvirus arawn	bacteria	Duplodnaviria
 Archaeal BJ1 virus	archaea	Duplodnaviria
+Aresaunavirus RSA1	bacteria	Duplodnaviria
+Aresaunavirus RsoM1USA	bacteria	Duplodnaviria
 Arthrobacter phage Abba	bacteria	Duplodnaviria
 Arthrobacter phage Abidatro	bacteria	Duplodnaviria
 Arthrobacter phage Adat	bacteria	Duplodnaviria
@@ -400,12 +402,16 @@ Arthrobacter phage KBurrousTX	bacteria	Duplodnaviria
 Arthrobacter phage KellEzio	bacteria	Duplodnaviria
 Arthrobacter phage Kepler	bacteria	Duplodnaviria
 Arthrobacter phage Kitkat	bacteria	Duplodnaviria
+Arthrobacter phage Kittykat	bacteria	Duplodnaviria
+Arthrobacter phage Preamble	bacteria	Duplodnaviria
 Arthrobacter phage Korra	bacteria	Duplodnaviria
+Arthrobacter phage Wawa	bacteria	Duplodnaviria
 Arthrobacter phage Kuleana	bacteria	Duplodnaviria
 Arthrobacter phage Laroye	bacteria	Duplodnaviria
 Arthrobacter phage LiSara	bacteria	Duplodnaviria
 Arthrobacter phage Liebe	bacteria	Duplodnaviria
 Arthrobacter phage Litotes	bacteria	Duplodnaviria
+Arthrobacter phage Wayne	bacteria	Duplodnaviria
 Arthrobacter phage Lymara	bacteria	Duplodnaviria
 Arthrobacter phage Maja	bacteria	Duplodnaviria
 Arthrobacter phage MamaPearl	bacteria	Duplodnaviria
@@ -418,19 +424,16 @@ Arthrobacter phage Nubia	bacteria	Duplodnaviria
 Arthrobacter phage Oxynfrius	bacteria	Duplodnaviria
 Arthrobacter phage Peas	bacteria	Duplodnaviria
 Arthrobacter phage Piccoletto	bacteria	Duplodnaviria
-Arthrobacter phage Preamble	bacteria	Duplodnaviria
 Arthrobacter phage Pumancara	bacteria	Duplodnaviria
 Arthrobacter phage Salgado	bacteria	Duplodnaviria
 Arthrobacter phage Sergei	bacteria	Duplodnaviria
 Arthrobacter phage Shade	bacteria	Duplodnaviria
-Arthrobacter phage Sonali	bacteria	Duplodnaviria
 Arthrobacter phage Sonny	bacteria	Duplodnaviria
+Arthrobacter phage Sonali	bacteria	Duplodnaviria
 Arthrobacter phage Tank	bacteria	Duplodnaviria
 Arthrobacter phage TripleJ	bacteria	Duplodnaviria
 Arthrobacter phage Urla	bacteria	Duplodnaviria
 Arthrobacter phage Vibaki	bacteria	Duplodnaviria
-Arthrobacter phage Wawa	bacteria	Duplodnaviria
-Arthrobacter phage Wayne	bacteria	Duplodnaviria
 Arthrobacter phage Wheelbite	bacteria	Duplodnaviria
 Arthrobacter phage Yang	bacteria	Duplodnaviria
 Arthrobacter phage Zartrosa	bacteria	Duplodnaviria
@@ -445,6 +448,7 @@ Azospirillum phage Cd	bacteria	Duplodnaviria
 Bacillus phage 0305phi8-36	bacteria	Duplodnaviria
 Bacillus phage 250	bacteria	Duplodnaviria
 Bacillus phage AR9	bacteria	Duplodnaviria
+Bacillus phage PBS1	bacteria	Duplodnaviria
 Bacillus phage Andromeda	bacteria	Duplodnaviria
 Bacillus phage Aurora	bacteria	Duplodnaviria
 Bacillus phage AvesoBmore	bacteria	Duplodnaviria
@@ -456,10 +460,12 @@ Bacillus phage BCP78	bacteria	Duplodnaviria
 Bacillus phage BCU4	bacteria	Duplodnaviria
 Bacillus phage BCP8-2	bacteria	Duplodnaviria
 Bacillus phage BPS13	bacteria	Duplodnaviria
+Bacillus phage SalinJah	bacteria	Duplodnaviria
 Bacillus phage BSP38	bacteria	Duplodnaviria
 Bacillus phage BalMu-1	bacteria	Duplodnaviria
 Bacillus phage Bastille	bacteria	Duplodnaviria
 Bacillus phage BceA1	bacteria	Duplodnaviria
+Staphylococcus phage SpaA1	bacteria	Duplodnaviria
 Bacillus phage Bcp1	bacteria	Duplodnaviria
 Bacillus phage BeachBum	bacteria	Duplodnaviria
 Bacillus phage Belinda	bacteria	Duplodnaviria
@@ -482,10 +488,11 @@ Bacillus phage DK3	bacteria	Duplodnaviria
 Bacillus phage Deep Blue	bacteria	Duplodnaviria
 Bacillus phage Deep-Purple	bacteria	Duplodnaviria
 Bacillus phage DirtyBetty	bacteria	Duplodnaviria
-Bacillus phage Eldridge	bacteria	Duplodnaviria
-Bacillus phage Eoghan	bacteria	Duplodnaviria
 Bacillus phage Eyuki	bacteria	Duplodnaviria
 Bacillus phage Megatron	bacteria	Duplodnaviria
+Bacillus phage SageFayge	bacteria	Duplodnaviria
+Bacillus phage Eldridge	bacteria	Duplodnaviria
+Bacillus phage Eoghan	bacteria	Duplodnaviria
 Bacillus phage Fah	bacteria	Duplodnaviria
 Bacillus phage Finn	bacteria	Duplodnaviria
 Bacillus phage G	bacteria	Duplodnaviria
@@ -505,11 +512,9 @@ Bacillus phage MG-B1	bacteria	Duplodnaviria
 Bacillus phage Mater	bacteria	Duplodnaviria
 Bacillus phage Moonbeam	bacteria	Duplodnaviria
 Bacillus phage Nemo	bacteria	Duplodnaviria
-Bacillus phage Nf	bacteria	Duplodnaviria
 Bacillus phage Nigalana	bacteria	Duplodnaviria
 Bacillus phage NotTheCreek	bacteria	Duplodnaviria
 Bacillus phage PBC1	bacteria	Duplodnaviria
-Bacillus phage PBS1	bacteria	Duplodnaviria
 Bacillus phage PM1	bacteria	Duplodnaviria
 Bacillus phage Page	bacteria	Duplodnaviria
 Bacillus phage Palmer	bacteria	Duplodnaviria
@@ -523,10 +528,9 @@ Bacillus phage Pookie	bacteria	Duplodnaviria
 Bacillus phage Riggi	bacteria	Duplodnaviria
 Bacillus phage SIOphi	bacteria	Duplodnaviria
 Bacillus phage SP-15	bacteria	Duplodnaviria
+Bacillus phage SPBc2	bacteria	Duplodnaviria
 Bacillus phage SPO1	bacteria	Duplodnaviria
 Bacillus phage SPP1	bacteria	Duplodnaviria
-Bacillus phage SageFayge	bacteria	Duplodnaviria
-Bacillus phage SalinJah	bacteria	Duplodnaviria
 Bacillus phage SerPounce	bacteria	Duplodnaviria
 Bacillus phage Shanette	bacteria	Duplodnaviria
 Bacillus phage Shbh1	bacteria	Duplodnaviria
@@ -567,24 +571,24 @@ Bacillus phage vB_BtS_BMBtp14	bacteria	Duplodnaviria
 Bacillus phage vB_BtS_BMBtp2	bacteria	Duplodnaviria
 Bacillus phage vB_BtS_BMBtp3	bacteria	Duplodnaviria
 Bacillus phage vB_BveP-Goe6	bacteria	Duplodnaviria
-Bacillus virus 1	bacteria	Duplodnaviria
-Bacillus virus B103	bacteria	Duplodnaviria
-Bacillus virus BM15	bacteria	Duplodnaviria
-Bacillus virus SPbeta	bacteria	Duplodnaviria
-Bacillus virus SRT01hs	bacteria	Duplodnaviria
 Bacteriophage APSE-2	bacteria	Duplodnaviria
 Bacteriophage K139	bacteria	Duplodnaviria
+Vibrio phage Kappa	bacteria	Duplodnaviria
 Bacteriophage Lily	bacteria	Duplodnaviria
 Bacteriophage P2	bacteria	Duplodnaviria
 Bacteroides phage B124-14	bacteria	Duplodnaviria
 Bacteroides phage B40-8	bacteria	Duplodnaviria
 Bacteroides phage DAC15	bacteria	Duplodnaviria
 Bacteroides phage crAss001	bacteria	Duplodnaviria
+Baylorvirus PHL101	bacteria	Duplodnaviria
 Bdellovibrio phage phi1402	bacteria	Duplodnaviria
 Bdellovibrio phage phi1422	bacteria	Duplodnaviria
+Beecentumtrevirus B103	bacteria	Duplodnaviria
+Beecentumtrevirus Nf	bacteria	Duplodnaviria
 Beluga whale alphaherpesvirus 1	vertebrates	Duplodnaviria
 Bifidobacterium phage BadAargau2	bacteria	Duplodnaviria
 Bifidobacterium phage BadAztec1	bacteria	Duplodnaviria
+Biseptimavirus bv77	bacteria	Duplodnaviria
 Bordetella phage BPP-1	bacteria	Duplodnaviria
 Bordetella phage vB_BbrM_PHB04	bacteria	Duplodnaviria
 Bovine alphaherpesvirus 1	vertebrates	Duplodnaviria
@@ -607,6 +611,9 @@ Brochothrix phage NF5	bacteria	Duplodnaviria
 Brucella phage BiPBO1	bacteria	Duplodnaviria
 Brucella phage Pr	bacteria	Duplodnaviria
 Brucella phage Tb	bacteria	Duplodnaviria
+Brussowvirus Sfi11	bacteria	Duplodnaviria
+Brussowvirus bvO1205	bacteria	Duplodnaviria
+Bruynoghevirus LUZ24	bacteria	Duplodnaviria
 Bubaline alphaherpesvirus 1	vertebrates	Duplodnaviria
 Bufonid herpesvirus 1	vertebrates	Duplodnaviria
 Burkholderia phage AP3	bacteria	Duplodnaviria
@@ -642,37 +649,37 @@ Burkholderia phage phiE255	bacteria	Duplodnaviria
 Burkholderia phage vB_BceS_AH2	bacteria	Duplodnaviria
 Burkholderia phage vB_BceS_KL1	bacteria	Duplodnaviria
 Burkholderia phage vB_BmuP_KL4	bacteria	Duplodnaviria
-Burkholderia virus phi52237	bacteria	Duplodnaviria
-Butyrivibrio virus Arawn	bacteria	Duplodnaviria
+Caeruleovirus BM15	bacteria	Duplodnaviria
 Callitrichine gammaherpesvirus 3	vertebrates	Duplodnaviria
 Campylobacter phage CP21	bacteria	Duplodnaviria
 Campylobacter phage CP30A	bacteria	Duplodnaviria
+Campylobacter phage CP81	bacteria	Duplodnaviria
 Campylobacter phage CPX	bacteria	Duplodnaviria
 Campylobacter phage NCTC12673	bacteria	Duplodnaviria
 Campylobacter phage PC14	bacteria	Duplodnaviria
 Campylobacter phage vB_CjeM_Los1	bacteria	Duplodnaviria
-Campylobacter virus CP220	bacteria	Duplodnaviria
-Campylobacter virus CP81	bacteria	Duplodnaviria
 Canid alphaherpesvirus 1	vertebrates	Duplodnaviria
 Caprine alphaherpesvirus 1	vertebrates	Duplodnaviria
 Caprine gammaherpesvirus 2	vertebrates	Duplodnaviria
+Carpasinavirus XcP1	bacteria	Duplodnaviria
 Caulobacter phage CcrBL10	bacteria	Duplodnaviria
 Caulobacter phage CcrBL9	bacteria	Duplodnaviria
 Caulobacter phage CcrColossus	bacteria	Duplodnaviria
 Caulobacter phage CcrPW	bacteria	Duplodnaviria
+Caulobacter phage CcrRogue	bacteria	Duplodnaviria
 Caulobacter phage CcrSC	bacteria	Duplodnaviria
+Caulobacter phage CcrSwift	bacteria	Duplodnaviria
 Caulobacter phage Cr30	bacteria	Duplodnaviria
 Caulobacter phage Lullwater	bacteria	Duplodnaviria
 Caulobacter phage Percy	bacteria	Duplodnaviria
 Caulobacter phage Sansa	bacteria	Duplodnaviria
 Caulobacter phage Seuss	bacteria	Duplodnaviria
+Caulobacter phage phiCbK	bacteria	Duplodnaviria
 Caulobacter virus Karma	bacteria	Duplodnaviria
 Caulobacter virus Magneto	bacteria	Duplodnaviria
-Caulobacter virus Rogue	bacteria	Duplodnaviria
-Caulobacter virus Swift	bacteria	Duplodnaviria
-Caulobacter virus phiCbK	bacteria	Duplodnaviria
 Caviid betaherpesvirus 2	vertebrates	Duplodnaviria
 Cebine betaherpesvirus 1	vertebrates	Duplodnaviria
+Ceduovirus c2	bacteria	Duplodnaviria
 Celeribacter phage P12053L	bacteria	Duplodnaviria
 Cellulophaga phage phi10:1	bacteria	Duplodnaviria
 Cellulophaga phage phi12:1	bacteria	Duplodnaviria
@@ -699,6 +706,11 @@ Cervid alphaherpesvirus 1	vertebrates	Duplodnaviria
 Cervid alphaherpesvirus 2	vertebrates	Duplodnaviria
 Cervid alphaherpesvirus 3	vertebrates	Duplodnaviria
 Chimpanzee herpesvirus strain 105640	vertebrates	Duplodnaviria
+Chivirus chi	bacteria	Duplodnaviria
+Salmonella phage Chi	bacteria	Duplodnaviria
+Chivirus iEPS5	bacteria	Duplodnaviria
+Salmonella phage TS13	bacteria	Duplodnaviria
+Citexvirus phiCTX	bacteria	Duplodnaviria
 Citrobacter phage CF1 DK-2017	bacteria	Duplodnaviria
 Citrobacter phage CF1 ERZ-2017	bacteria	Duplodnaviria
 Citrobacter phage CR44b	bacteria	Duplodnaviria
@@ -707,10 +719,11 @@ Citrobacter phage IME-CF2	bacteria	Duplodnaviria
 Citrobacter phage Margaery	bacteria	Duplodnaviria
 Citrobacter phage Merlin	bacteria	Duplodnaviria
 Citrobacter phage Michonne	bacteria	Duplodnaviria
+Citrobacter phage Mordin	bacteria	Duplodnaviria
 Citrobacter phage Miller	bacteria	Duplodnaviria
+Citrobacter phage vB_CfrM_CfP1	bacteria	Duplodnaviria
 Citrobacter phage Moogle	bacteria	Duplodnaviria
 Citrobacter phage Moon	bacteria	Duplodnaviria
-Citrobacter phage Mordin	bacteria	Duplodnaviria
 Citrobacter phage PhiZZ23	bacteria	Duplodnaviria
 Citrobacter phage PhiZZ6	bacteria	Duplodnaviria
 Citrobacter phage SH1	bacteria	Duplodnaviria
@@ -720,10 +733,8 @@ Citrobacter phage SH4	bacteria	Duplodnaviria
 Citrobacter phage Sazh	bacteria	Duplodnaviria
 Citrobacter phage Stevie	bacteria	Duplodnaviria
 Citrobacter phage phiCFP-1	bacteria	Duplodnaviria
-Citrobacter phage vB_CfrM_CfP1	bacteria	Duplodnaviria
 Citrobacter phage vB_CroM_CrRp10	bacteria	Duplodnaviria
 Citrobacter phage vB_CroP_CrRp3	bacteria	Duplodnaviria
-Citrobacter virus HCF1	bacteria	Duplodnaviria
 Clavibacter phage CMP1	bacteria	Duplodnaviria
 Clavibacter phage CN1A	bacteria	Duplodnaviria
 Clostridium phage CDKM15	bacteria	Duplodnaviria
@@ -788,9 +799,9 @@ Corynebacterium phage Dina	bacteria	Duplodnaviria
 Corynebacterium phage Juicebox	bacteria	Duplodnaviria
 Corynebacterium phage Kimchi1738	bacteria	Duplodnaviria
 Corynebacterium phage Lederberg	bacteria	Duplodnaviria
+Corynebacterium phage SamW	bacteria	Duplodnaviria
 Corynebacterium phage P1201	bacteria	Duplodnaviria
 Corynebacterium phage Poushou	bacteria	Duplodnaviria
-Corynebacterium phage SamW	bacteria	Duplodnaviria
 Corynebacterium phage StAB	bacteria	Duplodnaviria
 Corynebacterium phage Stickynote	bacteria	Duplodnaviria
 Corynebacterium phage Stiles	bacteria	Duplodnaviria
@@ -828,6 +839,7 @@ Cronobacter phage vB_CskP_GAP227	bacteria	Duplodnaviria
 Curvibacter phage P26059B	bacteria	Duplodnaviria
 Cyanophage 9515-10a	bacteria	Duplodnaviria
 Cyanophage KBS-P-1A	bacteria	Duplodnaviria
+Synechococcus phage S-RIP2	bacteria	Duplodnaviria
 Cyanophage KBS-S-2A	bacteria	Duplodnaviria
 Cyanophage NATL1A-7	bacteria	Duplodnaviria
 Cyanophage NATL2A-133	bacteria	Duplodnaviria
@@ -836,10 +848,12 @@ Cyanophage P-TIM40	bacteria	Duplodnaviria
 Cyanophage PP	bacteria	Duplodnaviria
 Cyanophage PSS2	bacteria	Duplodnaviria
 Cyanophage S-RIM12	bacteria	Duplodnaviria
+Prochlorococcus phage Syn33	bacteria	Duplodnaviria
 Cyanophage S-RIM32	bacteria	Duplodnaviria
 Cyanophage S-RIM44	bacteria	Duplodnaviria
 Cyanophage S-RIM50	bacteria	Duplodnaviria
 Cyanophage S-TIM4	bacteria	Duplodnaviria
+Prochlorococcus phage P-RSM4	bacteria	Duplodnaviria
 Cyanophage S-TIM5	bacteria	Duplodnaviria
 Cyanophage SS120-1	bacteria	Duplodnaviria
 Cynomolgus cytomegalovirus	vertebrates	Duplodnaviria
@@ -850,6 +864,10 @@ Cyprinid herpesvirus 3	vertebrates	Duplodnaviria
 Delftia phage IME-DE1	bacteria	Duplodnaviria
 Delftia phage PhiW-14	bacteria	Duplodnaviria
 Delftia phage RG-2014	bacteria	Duplodnaviria
+Delislevirus P1	bacteria	Duplodnaviria
+Detrevirus PMG1	bacteria	Duplodnaviria
+Dhillonvirus JL1	bacteria	Duplodnaviria
+Dhillonvirus SSL2009a	bacteria	Duplodnaviria
 Dickeya phage BF25/12	bacteria	Duplodnaviria
 Dickeya phage Dagda	bacteria	Duplodnaviria
 Dickeya phage Katbat	bacteria	Duplodnaviria
@@ -861,10 +879,13 @@ Dickeya phage vB_DsoM_AD1	bacteria	Duplodnaviria
 Dickeya phage vB_DsoM_JA11	bacteria	Duplodnaviria
 Dickeya phage vB_DsoM_JA29	bacteria	Duplodnaviria
 Dickeya phage vB_DsoP_JA10	bacteria	Duplodnaviria
-Dickeya virus Limestone	bacteria	Duplodnaviria
 Dinoroseobacter phage DFL12phi1	bacteria	Duplodnaviria
 Dinoroseobacter phage DS-1410Ws-06	bacteria	Duplodnaviria
 Dinoroseobacter phage vB_DshS-R5C	bacteria	Duplodnaviria
+Dubowvirus ETA2	bacteria	Duplodnaviria
+Dubowvirus MR25	bacteria	Duplodnaviria
+Dubowvirus dv11	bacteria	Duplodnaviria
+Dybvigvirus Av1	bacteria	Duplodnaviria
 Edwardsiella phage Edno5	bacteria	Duplodnaviria
 Edwardsiella phage PEi20	bacteria	Duplodnaviria
 Edwardsiella phage PEi21	bacteria	Duplodnaviria
@@ -897,6 +918,7 @@ Enterobacter phage vB_EclM_CIP9	bacteria	Duplodnaviria
 Enterobacteria phage 2851	bacteria	Duplodnaviria
 Enterobacteria phage 9g	bacteria	Duplodnaviria
 Enterobacteria phage ATK47	bacteria	Duplodnaviria
+Shigella phage SHSML-52-1	bacteria	Duplodnaviria
 Enterobacteria phage Aplg8	bacteria	Duplodnaviria
 Enterobacteria phage BP-4795	bacteria	Duplodnaviria
 Enterobacteria phage ES18	bacteria	Duplodnaviria
@@ -915,7 +937,6 @@ Enterobacteria phage O276	bacteria	Duplodnaviria
 Enterobacteria phage P4	bacteria	Duplodnaviria
 Enterobacteria phage P7	bacteria	Duplodnaviria
 Escherichia phage P1	bacteria	Duplodnaviria
-Enterobacteria phage P88	bacteria	Duplodnaviria
 Enterobacteria phage RB18	bacteria	Duplodnaviria
 Enterobacteria phage RB27	bacteria	Duplodnaviria
 Enterobacteria phage RB51	bacteria	Duplodnaviria
@@ -925,13 +946,15 @@ Enterobacteria phage Sf101	bacteria	Duplodnaviria
 Enterobacteria phage SfI	bacteria	Duplodnaviria
 Enterobacteria phage SfV	bacteria	Duplodnaviria
 Enterobacteria phage T3	bacteria	Duplodnaviria
-Enterobacteria phage T3     (38209 nt)     NC_047864     proteins: 46Duplodnaviria	NA	NA
 Enterobacteria phage T3     (38208 nt)     NC_003298     proteins: 55Duplodnaviria	NA	NA
+Enterobacteria phage T3     (38209 nt)     NC_047864     proteins: 46Duplodnaviria	NA	NA
 Enterobacteria phage T6	bacteria	Duplodnaviria
 Enterobacteria phage T7M	bacteria	Duplodnaviria
 Enterobacteria phage UAB_Phi20	bacteria	Duplodnaviria
 Enterobacteria phage VT2-Sakai	bacteria	Duplodnaviria
+Escherichia phage Stx2 II	bacteria	Duplodnaviria
 Enterobacteria phage VT2phi_272	bacteria	Duplodnaviria
+Escherichia phage PA2	bacteria	Duplodnaviria
 Enterobacteria phage YYZ-2008	bacteria	Duplodnaviria
 Enterobacteria phage cdtI	bacteria	Duplodnaviria
 Enterobacteria phage fiAA91-ss	bacteria	Duplodnaviria
@@ -946,8 +969,10 @@ Enterobacteria phage phiJLA23	bacteria	Duplodnaviria
 Enterobacteria phage phiP27	bacteria	Duplodnaviria
 Enterobacteria phage vB_EcoM_IME281	bacteria	Duplodnaviria
 Enterobacteria phage vB_EcoM_IME339	bacteria	Duplodnaviria
+Escherichia phage ime09	bacteria	Duplodnaviria
 Enterobacteria phage vB_EcoM_IME340	bacteria	Duplodnaviria
 Enterobacteria phage vB_EcoM_IME341	bacteria	Duplodnaviria
+Escherichia phage IME08	bacteria	Duplodnaviria
 Enterobacteria phage vB_EcoP_IME390	bacteria	Duplodnaviria
 Enterobacteria phage vB_EcoS_IME18	bacteria	Duplodnaviria
 Enterobacteria phage vB_EcoS_Rogue1	bacteria	Duplodnaviria
@@ -1006,6 +1031,7 @@ Enterococcus phage vB_EfaS_IME197	bacteria	Duplodnaviria
 Enterococcus phage vB_EfaS_IME198	bacteria	Duplodnaviria
 Enterococcus phage vB_Efae230P-4	bacteria	Duplodnaviria
 Enterococus phage vipetofem	bacteria	Duplodnaviria
+Epseptimavirus stitch	bacteria	Duplodnaviria
 Eptesicus fuscus gammaherpesvirus	vertebrates	Duplodnaviria
 Equid alphaherpesvirus 1	vertebrates	Duplodnaviria
 Equid alphaherpesvirus 3	vertebrates	Duplodnaviria
@@ -1017,21 +1043,24 @@ Equid gammaherpesvirus 5	vertebrates	Duplodnaviria
 Equid gammaherpesvirus 7	vertebrates	Duplodnaviria
 Erwinia phage Cronus	bacteria	Duplodnaviria
 Erwinia phage Derbicus	bacteria	Duplodnaviria
+Erwinia phage vB_EamM_EarlPhillipIV	bacteria	Duplodnaviria
 Erwinia phage ENT90	bacteria	Duplodnaviria
 Erwinia phage Ea35-70	bacteria	Duplodnaviria
 Erwinia phage Ea9-2	bacteria	Duplodnaviria
 Erwinia phage Era103	bacteria	Duplodnaviria
+Erwinia phage phiEa100	bacteria	Duplodnaviria
 Erwinia phage EtG	bacteria	Duplodnaviria
 Erwinia phage FE44	bacteria	Duplodnaviria
 Erwinia phage Faunus	bacteria	Duplodnaviria
 Erwinia phage Hena1	bacteria	Duplodnaviria
 Erwinia phage Machina	bacteria	Duplodnaviria
+Erwinia phage vB_EamM_Huxley	bacteria	Duplodnaviria
 Erwinia phage PEp14	bacteria	Duplodnaviria
 Erwinia phage PhiEaH1	bacteria	Duplodnaviria
 Erwinia phage Wellington	bacteria	Duplodnaviria
+Erwinia phage vB_EamM_Kwan	bacteria	Duplodnaviria
 Erwinia phage pEp_SNUABM_01	bacteria	Duplodnaviria
 Erwinia phage pEp_SNUABM_08	bacteria	Duplodnaviria
-Erwinia phage phiEa100	bacteria	Duplodnaviria
 Erwinia phage phiEa104	bacteria	Duplodnaviria
 Erwinia phage phiEa21-4	bacteria	Duplodnaviria
 Erwinia phage phiEa2809	bacteria	Duplodnaviria
@@ -1047,9 +1076,6 @@ Erwinia phage vB_EamM_Caitlin	bacteria	Duplodnaviria
 Erwinia phage vB_EamM_ChrisDB	bacteria	Duplodnaviria
 Erwinia phage vB_EamM_Deimos-Minion	bacteria	Duplodnaviria
 Erwinia phage vB_EamM_Desertfox	bacteria	Duplodnaviria
-Erwinia phage vB_EamM_EarlPhillipIV	bacteria	Duplodnaviria
-Erwinia phage vB_EamM_Huxley	bacteria	Duplodnaviria
-Erwinia phage vB_EamM_Kwan	bacteria	Duplodnaviria
 Erwinia phage vB_EamM_Phobos	bacteria	Duplodnaviria
 Erwinia phage vB_EamM_RAY	bacteria	Duplodnaviria
 Erwinia phage vB_EamM_RisingSun	bacteria	Duplodnaviria
@@ -1087,6 +1113,7 @@ Escherichia phage AnYang	bacteria	Duplodnaviria
 Escherichia phage ArgO145	bacteria	Duplodnaviria
 Escherichia phage Av-05	bacteria	Duplodnaviria
 Escherichia phage BA14	bacteria	Duplodnaviria
+Escherichia phage Bf23	bacteria	Duplodnaviria
 Escherichia phage Bp4	bacteria	Duplodnaviria
 Escherichia phage Bp7	bacteria	Duplodnaviria
 Escherichia phage C1	bacteria	Duplodnaviria
@@ -1156,7 +1183,6 @@ Escherichia phage HZ2R8	bacteria	Duplodnaviria
 Escherichia phage HZP2	bacteria	Duplodnaviria
 Escherichia phage Henu7	bacteria	Duplodnaviria
 Escherichia phage Henu8	bacteria	Duplodnaviria
-Escherichia phage IME08	bacteria	Duplodnaviria
 Escherichia phage IME11	bacteria	Duplodnaviria
 Escherichia phage IMM-002	bacteria	Duplodnaviria
 Escherichia phage J8-65	bacteria	Duplodnaviria
@@ -1168,6 +1194,7 @@ Escherichia phage JMPW2	bacteria	Duplodnaviria
 Escherichia phage JS10	bacteria	Duplodnaviria
 Escherichia phage JS98	bacteria	Duplodnaviria
 Escherichia phage JSE	bacteria	Duplodnaviria
+Escherichia phage K1E	bacteria	Duplodnaviria
 Escherichia phage K1F	bacteria	Duplodnaviria
 Escherichia phage K1G	bacteria	Duplodnaviria
 Escherichia phage K1H	bacteria	Duplodnaviria
@@ -1184,6 +1211,7 @@ Escherichia phage Lidtsur	bacteria	Duplodnaviria
 Escherichia phage Lw1	bacteria	Duplodnaviria
 Escherichia phage Lyz12581Vzw	bacteria	Duplodnaviria
 Escherichia phage MLF4	bacteria	Duplodnaviria
+Escherichia phage vB_EcoM_G4507	bacteria	Duplodnaviria
 Escherichia phage MX01	bacteria	Duplodnaviria
 Escherichia phage Mangalitsa	bacteria	Duplodnaviria
 Escherichia phage Min27	bacteria	Duplodnaviria
@@ -1197,9 +1225,10 @@ Escherichia phage NC-A	bacteria	Duplodnaviria
 Escherichia phage NJ01	bacteria	Duplodnaviria
 Escherichia phage OSYSP	bacteria	Duplodnaviria
 Escherichia phage P13374	bacteria	Duplodnaviria
+Escherichia phage phi191	bacteria	Duplodnaviria
 Escherichia phage P483	bacteria	Duplodnaviria
 Escherichia phage P694	bacteria	Duplodnaviria
-Escherichia phage PA2	bacteria	Duplodnaviria
+Escherichia phage P88	bacteria	Duplodnaviria
 Escherichia phage PA28	bacteria	Duplodnaviria
 Escherichia phage PBECO4	bacteria	Duplodnaviria
 Escherichia phage PE3-1	bacteria	Duplodnaviria
@@ -1219,6 +1248,7 @@ Escherichia phage RCS47	bacteria	Duplodnaviria
 Escherichia phage Ro45lw	bacteria	Duplodnaviria
 Escherichia phage SECphi27	bacteria	Duplodnaviria
 Escherichia phage SF	bacteria	Duplodnaviria
+Escherichia phage vB_EcoM_PhAPEC2	bacteria	Duplodnaviria
 Escherichia phage SH2026Stx1	bacteria	Duplodnaviria
 Escherichia phage SP15	bacteria	Duplodnaviria
 Escherichia phage SRT7	bacteria	Duplodnaviria
@@ -1230,7 +1260,6 @@ Escherichia phage SUSP2	bacteria	Duplodnaviria
 Escherichia phage Seurat	bacteria	Duplodnaviria
 Escherichia phage Skarpretter	bacteria	Duplodnaviria
 Escherichia phage Sortsne	bacteria	Duplodnaviria
-Escherichia phage Stx2 II	bacteria	Duplodnaviria
 Escherichia phage T1	bacteria	Duplodnaviria
 Escherichia phage T2	bacteria	Duplodnaviria
 Escherichia phage T5	bacteria	Duplodnaviria
@@ -1263,7 +1292,6 @@ Escherichia phage fp01	bacteria	Duplodnaviria
 Escherichia phage grams	bacteria	Duplodnaviria
 Escherichia phage haarsle	bacteria	Duplodnaviria
 Escherichia phage herni	bacteria	Duplodnaviria
-Escherichia phage ime09	bacteria	Duplodnaviria
 Escherichia phage mEp234	bacteria	Duplodnaviria
 Escherichia phage mEpX1	bacteria	Duplodnaviria
 Escherichia phage mEpX2	bacteria	Duplodnaviria
@@ -1273,7 +1301,6 @@ Escherichia phage nieznany	bacteria	Duplodnaviria
 Escherichia phage p000v	bacteria	Duplodnaviria
 Escherichia phage phAPEC8	bacteria	Duplodnaviria
 Escherichia phage phT4A	bacteria	Duplodnaviria
-Escherichia phage phi191	bacteria	Duplodnaviria
 Escherichia phage phiAPCEc03	bacteria	Duplodnaviria
 Escherichia phage phiC120	bacteria	Duplodnaviria
 Escherichia phage phiE142	bacteria	Duplodnaviria
@@ -1290,14 +1317,14 @@ Escherichia phage pro483	bacteria	Duplodnaviria
 Escherichia phage saus132	bacteria	Duplodnaviria
 Escherichia phage slur01	bacteria	Duplodnaviria
 Escherichia phage slur02	bacteria	Duplodnaviria
-Escherichia phage slur03	bacteria	Duplodnaviria
 Escherichia phage slur04	bacteria	Duplodnaviria
+Escherichia phage slur03	bacteria	Duplodnaviria
+Escherichia phage slur14	bacteria	Duplodnaviria
 Escherichia phage slur05	bacteria	Duplodnaviria
 Escherichia phage slur07	bacteria	Duplodnaviria
-Escherichia phage slur09	bacteria	Duplodnaviria
-Escherichia phage slur14	bacteria	Duplodnaviria
-Escherichia phage slur16	bacteria	Duplodnaviria
 Escherichia phage teqdroes	bacteria	Duplodnaviria
+Escherichia phage slur09	bacteria	Duplodnaviria
+Escherichia phage slur16	bacteria	Duplodnaviria
 Escherichia phage teqhad	bacteria	Duplodnaviria
 Escherichia phage teqskov	bacteria	Duplodnaviria
 Escherichia phage tiwna	bacteria	Duplodnaviria
@@ -1312,6 +1339,7 @@ Escherichia phage vB_EcoM-G28	bacteria	Duplodnaviria
 Escherichia phage vB_EcoM-Ro121c4YLVW	bacteria	Duplodnaviria
 Escherichia phage vB_EcoM-Ro157c2YLVW	bacteria	Duplodnaviria
 Escherichia phage vB_EcoM-UFV13	bacteria	Duplodnaviria
+Shigella phage Shfl2	bacteria	Duplodnaviria
 Escherichia phage vB_EcoM-VpaE1	bacteria	Duplodnaviria
 Escherichia phage vB_EcoM-ep3	bacteria	Duplodnaviria
 Escherichia phage vB_EcoM-fFiEco06	bacteria	Duplodnaviria
@@ -1326,7 +1354,6 @@ Escherichia phage vB_EcoM_ECO1230-10	bacteria	Duplodnaviria
 Escherichia phage vB_EcoM_ECOO78	bacteria	Duplodnaviria
 Escherichia phage vB_EcoM_F1	bacteria	Duplodnaviria
 Escherichia phage vB_EcoM_G4498	bacteria	Duplodnaviria
-Escherichia phage vB_EcoM_G4507	bacteria	Duplodnaviria
 Escherichia phage vB_EcoM_G50	bacteria	Duplodnaviria
 Escherichia phage vB_EcoM_G8	bacteria	Duplodnaviria
 Escherichia phage vB_EcoM_G9062	bacteria	Duplodnaviria
@@ -1340,7 +1367,6 @@ Escherichia phage vB_EcoM_NBG2	bacteria	Duplodnaviria
 Escherichia phage vB_EcoM_OE5505	bacteria	Duplodnaviria
 Escherichia phage vB_EcoM_Ozark	bacteria	Duplodnaviria
 Escherichia phage vB_EcoM_PHB05	bacteria	Duplodnaviria
-Escherichia phage vB_EcoM_PhAPEC2	bacteria	Duplodnaviria
 Escherichia phage vB_EcoM_Schickermooser	bacteria	Duplodnaviria
 Escherichia phage vB_EcoM_VR20	bacteria	Duplodnaviria
 Escherichia phage vB_EcoM_VR25	bacteria	Duplodnaviria
@@ -1388,25 +1414,12 @@ Escherichia phage vojen	bacteria	Duplodnaviria
 Escherichia phage wV7	bacteria	Duplodnaviria
 Escherichia phage wV8	bacteria	Duplodnaviria
 Escherichia typing phage 1	bacteria	Duplodnaviria
-Escherichia virus AAPEc6	bacteria	Duplodnaviria
-Escherichia virus BF23	bacteria	Duplodnaviria
-Escherichia virus DT57C	bacteria	Duplodnaviria
-Escherichia virus JL1	bacteria	Duplodnaviria
-Escherichia virus K1-5	bacteria	Duplodnaviria
-Escherichia virus K1E	bacteria	Duplodnaviria
 Escherichia virus KFS-EC	bacteria	Duplodnaviria
-Escherichia virus Lambda	bacteria	Duplodnaviria
 Escherichia virus RB14	bacteria	Duplodnaviria
 Escherichia virus RB16	bacteria	Duplodnaviria
 Escherichia virus RB32	bacteria	Duplodnaviria
 Escherichia virus RB43	bacteria	Duplodnaviria
-Escherichia virus Rtp	bacteria	Duplodnaviria
-Escherichia virus SSL2009a	bacteria	Duplodnaviria
 Escherichia virus T4	bacteria	Duplodnaviria
-Escherichia virus VEc3	bacteria	Duplodnaviria
-Escherichia virus VEc33	bacteria	Duplodnaviria
-Escherichia virus Vec13	bacteria	Duplodnaviria
-Escherichia virus mutPK1A2	bacteria	Duplodnaviria
 Faecalibacterium phage FP_Brigit	bacteria	Duplodnaviria
 Faecalibacterium phage FP_Epona	bacteria	Duplodnaviria
 Faecalibacterium phage FP_Lagaffe	bacteria	Duplodnaviria
@@ -1417,6 +1430,8 @@ Faecalibacterium phage FP_Toutatis	bacteria	Duplodnaviria
 Faecalibacterium phage FP_oengus	bacteria	Duplodnaviria
 Felid alphaherpesvirus 1	vertebrates	Duplodnaviria
 Felis catus gammaherpesvirus 1	vertebrates	Duplodnaviria
+Firehammervirus CP220	bacteria	Duplodnaviria
+Fischettivirus C1	bacteria	Duplodnaviria
 Flavobacterium phage 11b	bacteria	Duplodnaviria
 Flavobacterium phage 1H	bacteria	Duplodnaviria
 Flavobacterium phage 23T	bacteria	Duplodnaviria
@@ -1425,12 +1440,12 @@ Flavobacterium phage 6H	bacteria	Duplodnaviria
 Flavobacterium phage FCL-2	bacteria	Duplodnaviria
 Flavobacterium phage FCV-1	bacteria	Duplodnaviria
 Flavobacterium phage FpV4	bacteria	Duplodnaviria
+Flavobacterium phage Fpv3	bacteria	Duplodnaviria
 Flavobacterium phage Fpv1	bacteria	Duplodnaviria
+Flavobacterium phage Fpv2	bacteria	Duplodnaviria
 Flavobacterium phage Fpv10	bacteria	Duplodnaviria
 Flavobacterium phage Fpv11	bacteria	Duplodnaviria
-Flavobacterium phage Fpv2	bacteria	Duplodnaviria
 Flavobacterium phage Fpv20	bacteria	Duplodnaviria
-Flavobacterium phage Fpv3	bacteria	Duplodnaviria
 Flavobacterium phage Fpv5	bacteria	Duplodnaviria
 Flavobacterium phage Fpv6	bacteria	Duplodnaviria
 Flavobacterium phage Fpv7	bacteria	Duplodnaviria
@@ -1438,6 +1453,8 @@ Flavobacterium phage Fpv8	bacteria	Duplodnaviria
 Flavobacterium phage vB_FspM_lotta8-1	bacteria	Duplodnaviria
 Flavobacterium phage vB_FspM_pippi8-1	bacteria	Duplodnaviria
 Flavobacterium phage vB_FspP_elemoA_7-9A	bacteria	Duplodnaviria
+Flavobacterium phage vB_FspP_elemoB_14-3B	bacteria	Duplodnaviria
+Flavobacterium phage vB_FspP_elemoC_14-1A	bacteria	Duplodnaviria
 Flavobacterium phage vB_FspP_elemoD_13-5B	bacteria	Duplodnaviria
 Flavobacterium phage vB_FspP_elemoE_6-9C	bacteria	Duplodnaviria
 Flavobacterium phage vB_FspP_elemoF_6-3D	bacteria	Duplodnaviria
@@ -1455,15 +1472,22 @@ Flavobacterium phage vB_FspS_snusmum6-1	bacteria	Duplodnaviria
 Flavobacterium phage vB_FspS_stinky9-1	bacteria	Duplodnaviria
 Flavobacterium phage vB_FspS_tant8-1	bacteria	Duplodnaviria
 Flavobacterium phage vB_FspS_tooticki6-1	bacteria	Duplodnaviria
+Fromanvirus L5	bacteria	Duplodnaviria
+Fromanvirus mrgordo	bacteria	Duplodnaviria
+Fromanvirus nepal	bacteria	Duplodnaviria
+Mycobacterium phage Aeneas	bacteria	Duplodnaviria
 Fruit bat alphaherpesvirus 1	vertebrates	Duplodnaviria
 Fusobacterium phage Fnu1	bacteria	Duplodnaviria
 Gallid alphaherpesvirus 1	vertebrates	Duplodnaviria
 Gallid alphaherpesvirus 2	vertebrates	Duplodnaviria
 Gallid alphaherpesvirus 3	vertebrates	Duplodnaviria
+Gaunavirus SRT01hs	bacteria	Duplodnaviria
 Geobacillus phage GBK2	bacteria	Duplodnaviria
 Geobacillus phage GBSV1	bacteria	Duplodnaviria
 Geobacillus phage TP-84	bacteria	Duplodnaviria
 Geobacillus virus E2	bacteria	Duplodnaviria
+Ghunavirus KNP	bacteria	Duplodnaviria
+Ghunavirus WRT	bacteria	Duplodnaviria
 Gordonia Phage Barsten	bacteria	Duplodnaviria
 Gordonia Phage Lollipop1437	bacteria	Duplodnaviria
 Gordonia Phage Zitch	bacteria	Duplodnaviria
@@ -1476,6 +1500,7 @@ Gordonia phage Arri	bacteria	Duplodnaviria
 Gordonia phage Asapag	bacteria	Duplodnaviria
 Gordonia phage Ashertheman	bacteria	Duplodnaviria
 Gordonia phage Attis	bacteria	Duplodnaviria
+Gordonia phage SoilAssassin	bacteria	Duplodnaviria
 Gordonia phage Avazak	bacteria	Duplodnaviria
 Gordonia phage BENtherdunthat	bacteria	Duplodnaviria
 Gordonia phage Bachita	bacteria	Duplodnaviria
@@ -1543,15 +1568,16 @@ Gordonia phage Getalong	bacteria	Duplodnaviria
 Gordonia phage Ghobes	bacteria	Duplodnaviria
 Gordonia phage Gibbin	bacteria	Duplodnaviria
 Gordonia phage Gmala1	bacteria	Duplodnaviria
-Gordonia phage GodonK	bacteria	Duplodnaviria
 Gordonia phage GordDuk1	bacteria	Duplodnaviria
 Gordonia phage GordTnk2	bacteria	Duplodnaviria
+Gordonia phage GodonK	bacteria	Duplodnaviria
 Gordonia phage Gsput1	bacteria	Duplodnaviria
 Gordonia phage Guacamole	bacteria	Duplodnaviria
 Gordonia phage Gustav	bacteria	Duplodnaviria
 Gordonia phage Hedwig	bacteria	Duplodnaviria
 Gordonia phage Horus	bacteria	Duplodnaviria
 Gordonia phage Hotorobo	bacteria	Duplodnaviria
+Gordonia phage Monty	bacteria	Duplodnaviria
 Gordonia phage IDyn	bacteria	Duplodnaviria
 Gordonia phage JSwag	bacteria	Duplodnaviria
 Gordonia phage Jabberwocky	bacteria	Duplodnaviria
@@ -1563,7 +1589,9 @@ Gordonia phage JuJu	bacteria	Duplodnaviria
 Gordonia phage Jumbo	bacteria	Duplodnaviria
 Gordonia phage Kabluna	bacteria	Duplodnaviria
 Gordonia phage KatherineG	bacteria	Duplodnaviria
+Gordonia phage Soups	bacteria	Duplodnaviria
 Gordonia phage Katyusha	bacteria	Duplodnaviria
+Gordonia phage Kvothe	bacteria	Duplodnaviria
 Gordonia phage Keitabear	bacteria	Duplodnaviria
 Gordonia phage Kenna	bacteria	Duplodnaviria
 Gordonia phage Kenosha	bacteria	Duplodnaviria
@@ -1571,7 +1599,6 @@ Gordonia phage KidneyBean	bacteria	Duplodnaviria
 Gordonia phage KimmyK	bacteria	Duplodnaviria
 Gordonia phage Kita	bacteria	Duplodnaviria
 Gordonia phage Kroos	bacteria	Duplodnaviria
-Gordonia phage Kvothe	bacteria	Duplodnaviria
 Gordonia phage Lambo	bacteria	Duplodnaviria
 Gordonia phage Lennon	bacteria	Duplodnaviria
 Gordonia phage Leonard	bacteria	Duplodnaviria
@@ -1580,7 +1607,6 @@ Gordonia phage Mahdia	bacteria	Duplodnaviria
 Gordonia phage Marietta	bacteria	Duplodnaviria
 Gordonia phage McGonagall	bacteria	Duplodnaviria
 Gordonia phage MelBins	bacteria	Duplodnaviria
-Gordonia phage Monty	bacteria	Duplodnaviria
 Gordonia phage Mutzi	bacteria	Duplodnaviria
 Gordonia phage NadineRae	bacteria	Duplodnaviria
 Gordonia phage NatB6	bacteria	Duplodnaviria
@@ -1603,6 +1629,7 @@ Gordonia phage Pleakley	bacteria	Duplodnaviria
 Gordonia phage Pupper	bacteria	Duplodnaviria
 Gordonia phage Ranch	bacteria	Duplodnaviria
 Gordonia phage Remus	bacteria	Duplodnaviria
+Gordonia phage Strosahl	bacteria	Duplodnaviria
 Gordonia phage Ribeye	bacteria	Duplodnaviria
 Gordonia phage Rickmore	bacteria	Duplodnaviria
 Gordonia phage Rofo	bacteria	Duplodnaviria
@@ -1618,15 +1645,12 @@ Gordonia phage Skog	bacteria	Duplodnaviria
 Gordonia phage Skysand	bacteria	Duplodnaviria
 Gordonia phage SmokingBunny	bacteria	Duplodnaviria
 Gordonia phage Smoothie	bacteria	Duplodnaviria
-Gordonia phage SoilAssassin	bacteria	Duplodnaviria
 Gordonia phage Sombrero	bacteria	Duplodnaviria
-Gordonia phage Soups	bacteria	Duplodnaviria
 Gordonia phage Sour	bacteria	Duplodnaviria
 Gordonia phage Splinter	bacteria	Duplodnaviria
 Gordonia phage Vendetta	bacteria	Duplodnaviria
 Gordonia phage SteveFrench	bacteria	Duplodnaviria
 Gordonia phage Stormageddon	bacteria	Duplodnaviria
-Gordonia phage Strosahl	bacteria	Duplodnaviria
 Gordonia phage Stultus	bacteria	Duplodnaviria
 Gordonia phage Sukkupi	bacteria	Duplodnaviria
 Gordonia phage Suzy	bacteria	Duplodnaviria
@@ -1647,13 +1671,13 @@ Gordonia phage Twister6	bacteria	Duplodnaviria
 Gordonia phage UmaThurman	bacteria	Duplodnaviria
 Gordonia phage Untouchable	bacteria	Duplodnaviria
 Gordonia phage Valary	bacteria	Duplodnaviria
+Gordonia phage Wizard	bacteria	Duplodnaviria
 Gordonia phage VanDeWege	bacteria	Duplodnaviria
 Gordonia phage Verity	bacteria	Duplodnaviria
 Gordonia phage Vivi2	bacteria	Duplodnaviria
 Gordonia phage Waits	bacteria	Duplodnaviria
 Gordonia phage Walrus	bacteria	Duplodnaviria
 Gordonia phage William	bacteria	Duplodnaviria
-Gordonia phage Wizard	bacteria	Duplodnaviria
 Gordonia phage Woes	bacteria	Duplodnaviria
 Gordonia phage Yeezy	bacteria	Duplodnaviria
 Gordonia phage Yikes	bacteria	Duplodnaviria
@@ -1662,20 +1686,24 @@ Gordonia phage Zipp	bacteria	Duplodnaviria
 Gordonia phage Zirinka	bacteria	Duplodnaviria
 Gordonia terrae phage McKinley	bacteria	Duplodnaviria
 Haemophilus phage Aaphi23	bacteria	Duplodnaviria
+Haemophilus phage HP2	bacteria	Duplodnaviria
 Haemophilus phage SuMu	bacteria	Duplodnaviria
-Haemophilus virus HP1	bacteria	Duplodnaviria
-Haemophilus virus HP2	bacteria	Duplodnaviria
 Halomonas phage phiHAP-1	bacteria	Duplodnaviria
 Halorubrum phage CGphi46	archaea	Duplodnaviria
 Halovirus HGTV-1	archaea	Duplodnaviria
 Hamiltonella phage APSE-1	bacteria	Duplodnaviria
+Hanrivervirus hv2019SD1	bacteria	Duplodnaviria
 Harp seal herpesvirus	vertebrates	Duplodnaviria
 Hawaiian green turtle herpesvirus	vertebrates	Duplodnaviria
 Helicobacter phage 1961P	bacteria	Duplodnaviria
 Helicobacter phage KHP30	bacteria	Duplodnaviria
 Helicobacter phage KHP40	bacteria	Duplodnaviria
 Helicobacter phage phiHP33	bacteria	Duplodnaviria
+Hicfunavirus HCF1	bacteria	Duplodnaviria
 Hippotragine gammaherpesvirus 1	vertebrates	Duplodnaviria
+Holosalinivirus M1EM1	bacteria	Duplodnaviria
+Holosalinivirus M8CR302	bacteria	Duplodnaviria
+Hpunavirus HP1	bacteria	Duplodnaviria
 Human alphaherpesvirus 1	human:vertebrates	Duplodnaviria
 Human alphaherpesvirus 2	human:vertebrates	Duplodnaviria
 Human alphaherpesvirus 3	human	Duplodnaviria
@@ -1691,6 +1719,9 @@ Ictalurid herpesvirus 2	vertebrates	Duplodnaviria
 Idiomarinaceae phage 1N2-2	bacteria	Duplodnaviria
 Idiomarinaceae phage Phi1M2-2	bacteria	Duplodnaviria
 Iodobacter phage PhiPLPE	bacteria	Duplodnaviria
+Kairosalinivirus M31CR412	bacteria	Duplodnaviria
+Kairosalinivirus SRUTV1	bacteria	Duplodnaviria
+Kayfunavirus Vec13	bacteria	Duplodnaviria
 Klebsiella phage 13	bacteria	Duplodnaviria
 Klebsiella phage 1513	bacteria	Duplodnaviria
 Klebsiella phage 2044-307w	bacteria	Duplodnaviria
@@ -1703,6 +1734,7 @@ Klebsiella phage GML-KpCol1	bacteria	Duplodnaviria
 Klebsiella phage Henu1	bacteria	Duplodnaviria
 Klebsiella phage JD001	bacteria	Duplodnaviria
 Klebsiella phage JD18	bacteria	Duplodnaviria
+Klebsiella phage Mineola	bacteria	Duplodnaviria
 Klebsiella phage JY917	bacteria	Duplodnaviria
 Klebsiella phage K11	bacteria	Duplodnaviria
 Klebsiella phage K5	bacteria	Duplodnaviria
@@ -1722,14 +1754,14 @@ Klebsiella phage KP179	bacteria	Duplodnaviria
 Klebsiella phage KP1801	bacteria	Duplodnaviria
 Klebsiella phage KP27	bacteria	Duplodnaviria
 Klebsiella phage KP32	bacteria	Duplodnaviria
-Klebsiella virus KP32	bacteria	Duplodnaviria
+Przondovirus KP32	bacteria	Duplodnaviria
 Klebsiella phage KP34	bacteria	Duplodnaviria
 Klebsiella phage KP36	bacteria	Duplodnaviria
 Klebsiella phage KP8	bacteria	Duplodnaviria
 Klebsiella phage KPN N137	bacteria	Duplodnaviria
-Klebsiella phage KPN N141	bacteria	Duplodnaviria
 Klebsiella phage KPN N98	bacteria	Duplodnaviria
 Klebsiella phage KPN U2874	bacteria	Duplodnaviria
+Klebsiella phage KPN N141	bacteria	Duplodnaviria
 Klebsiella phage KPV15	bacteria	Duplodnaviria
 Klebsiella phage KPV811	bacteria	Duplodnaviria
 Klebsiella phage Kp2	bacteria	Duplodnaviria
@@ -1745,9 +1777,9 @@ Klebsiella phage Matisse	bacteria	Duplodnaviria
 Klebsiella phage May	bacteria	Duplodnaviria
 Klebsiella phage Menlow	bacteria	Duplodnaviria
 Klebsiella phage MezzoGao	bacteria	Duplodnaviria
-Klebsiella phage Mineola	bacteria	Duplodnaviria
 Klebsiella phage Miro	bacteria	Duplodnaviria
 Klebsiella phage NJR15	bacteria	Duplodnaviria
+Klebsiella phage TAH8	bacteria	Duplodnaviria
 Klebsiella phage NJS1	bacteria	Duplodnaviria
 Klebsiella phage NJS2	bacteria	Duplodnaviria
 Klebsiella phage NTUH-K2044-K1-1	bacteria	Duplodnaviria
@@ -1775,7 +1807,6 @@ Klebsiella phage SopranoGao	bacteria	Duplodnaviria
 Klebsiella phage Sugarland	bacteria	Duplodnaviria
 Klebsiella phage Sushi	bacteria	Duplodnaviria
 Klebsiella phage Sweeny	bacteria	Duplodnaviria
-Klebsiella phage TAH8	bacteria	Duplodnaviria
 Klebsiella phage TSK1	bacteria	Duplodnaviria
 Klebsiella phage YMC16/01/N133_KPN_BP	bacteria	Duplodnaviria
 Klebsiella phage YX3973	bacteria	Duplodnaviria
@@ -1817,10 +1848,15 @@ Klebsiella phage vB_KpnS_KpV522	bacteria	Duplodnaviria
 Klebsiella phage vB_KpnS_SegesCirculi	bacteria	Duplodnaviria
 Klebsiella phage vB_Kpn_F48	bacteria	Duplodnaviria
 Klebsiella phage vB_Kpn_IME260	bacteria	Duplodnaviria
-Klebsiella virus KpS8	bacteria	Duplodnaviria
 Klebsiella virus KpV2811	bacteria	Duplodnaviria
 Klebsiella virus UPM 2146	bacteria	Duplodnaviria
+Klementvirus CP1	bacteria	Duplodnaviria
 Kluyvera phage Kvp1	bacteria	Duplodnaviria
+Kostyavirus eureka	bacteria	Duplodnaviria
+Mycobacterium phage Goku	bacteria	Duplodnaviria
+Kryptosalinivirus M8CC19	bacteria	Duplodnaviria
+Kryptosalinivirus M8CRM1	bacteria	Duplodnaviria
+Kuttervirus ViI	bacteria	Duplodnaviria
 Lactobacillus phage 3-521	bacteria	Duplodnaviria
 Lactobacillus phage 521B	bacteria	Duplodnaviria
 Lactobacillus phage A2	bacteria	Duplodnaviria
@@ -1960,6 +1996,7 @@ Lactococcus phage BM13	bacteria	Duplodnaviria
 Lactococcus phage CB13	bacteria	Duplodnaviria
 Lactococcus phage CB14	bacteria	Duplodnaviria
 Lactococcus phage CB19	bacteria	Duplodnaviria
+Lactococcus phage CB20	bacteria	Duplodnaviria
 Lactococcus phage CHPC1020	bacteria	Duplodnaviria
 Lactococcus phage CHPC116	bacteria	Duplodnaviria
 Lactococcus phage CHPC1170	bacteria	Duplodnaviria
@@ -2010,7 +2047,7 @@ Lactococcus phage P1048	bacteria	Duplodnaviria
 Lactococcus phage P118	bacteria	Duplodnaviria
 Lactococcus phage P1532	bacteria	Duplodnaviria
 Lactococcus phage P162	bacteria	Duplodnaviria
-Lactococcus phage P335 sensu lato	bacteria	Duplodnaviria
+Lactococcus phage P335	bacteria	Duplodnaviria
 Lactococcus phage P4565	bacteria	Duplodnaviria
 Lactococcus phage P596	bacteria	Duplodnaviria
 Lactococcus phage P656	bacteria	Duplodnaviria
@@ -2059,13 +2096,12 @@ Lactococcus phage vB_Llc_bIBBAm4	bacteria	Duplodnaviria
 Lactococcus phage vB_Llc_bIBBE1	bacteria	Duplodnaviria
 Lactococcus phage vB_Llc_bIBBF12	bacteria	Duplodnaviria
 Lactococcus phage vB_Llc_bIBBp6/4	bacteria	Duplodnaviria
-Lactococcus virus CB20	bacteria	Duplodnaviria
 Lactococcus virus P2	bacteria	Duplodnaviria
-Lactococcus virus c2	bacteria	Duplodnaviria
 Lactococcus virus jj50	bacteria	Duplodnaviria
+Lambdavirus lambda	bacteria	Duplodnaviria
 Leclercia phage 10164-302	bacteria	Duplodnaviria
+Lederbergvirus BTP1	bacteria	Duplodnaviria
 Lelliottia phage phD2B	bacteria	Duplodnaviria
-Lentibacter virus ICBM1	bacteria	Duplodnaviria
 Lentibacter virus vB_LenP_ICBM2	bacteria	Duplodnaviria
 Leporid alphaherpesvirus 4	vertebrates	Duplodnaviria
 Leptospira phage LE1	bacteria	Duplodnaviria
@@ -2078,18 +2114,19 @@ Leuconostoc phage LN04	bacteria	Duplodnaviria
 Leuconostoc phage LN25	bacteria	Duplodnaviria
 Leuconostoc phage LN34	bacteria	Duplodnaviria
 Leuconostoc phage Lmd1	bacteria	Duplodnaviria
+Leuconostoc phage phiLN6B	bacteria	Duplodnaviria
 Leuconostoc phage Ln-7	bacteria	Duplodnaviria
 Leuconostoc phage Ln-8	bacteria	Duplodnaviria
 Leuconostoc phage Ln-9	bacteria	Duplodnaviria
 Leuconostoc phage P793	bacteria	Duplodnaviria
 Leuconostoc phage P965	bacteria	Duplodnaviria
 Leuconostoc phage phiLN12	bacteria	Duplodnaviria
-Leuconostoc phage phiLN6B	bacteria	Duplodnaviria
 Leuconostoc phage phiLNTR2	bacteria	Duplodnaviria
 Leuconostoc phage phiLNTR3	bacteria	Duplodnaviria
 Leuconostoc phage phiMH1	bacteria	Duplodnaviria
 Liberibacter phage SC1	bacteria	Duplodnaviria
 Liberibacter phage SC2	bacteria	Duplodnaviria
+Limestonevirus limestone	bacteria	Duplodnaviria
 Listeria phage A006	bacteria	Duplodnaviria
 Listeria phage A118	bacteria	Duplodnaviria
 Listeria phage A500	bacteria	Duplodnaviria
@@ -2126,6 +2163,8 @@ Listeria phage vB_LmoS_188	bacteria	Duplodnaviria
 Listeria phage vB_LmoS_293	bacteria	Duplodnaviria
 Listonella phage phiHSIC	bacteria	Duplodnaviria
 Loktanella phage pCB2051-A	bacteria	Duplodnaviria
+Lomovskayavirus BT1	bacteria	Duplodnaviria
+Lomovskayavirus C31	bacteria	Duplodnaviria
 Lymphocryptovirus Macaca/pfe-lcl-E3	vertebrates	Duplodnaviria
 Macaca fuscata rhadinovirus	vertebrates	Duplodnaviria
 Macaca nemestrina herpesvirus 7	vertebrates	Duplodnaviria
@@ -2136,12 +2175,11 @@ Macacine gammaherpesvirus 4	vertebrates	Duplodnaviria
 Macacine gammaherpesvirus 5	vertebrates	Duplodnaviria
 Macropodid alphaherpesvirus 1	vertebrates	Duplodnaviria
 Mannheimia phage vB_MhM_1127AP1	bacteria	Duplodnaviria
-Mannheimia phage vB_MhM_3927AP2	bacteria	Duplodnaviria
 Mannheimia phage vB_MhM_587AP1	bacteria	Duplodnaviria
+Mannheimia phage vB_MhM_3927AP2	bacteria	Duplodnaviria
 Mannheimia phage vB_MhS_1152AP2	bacteria	Duplodnaviria
 Mannheimia phage vB_MhS_535AP2	bacteria	Duplodnaviria
 Mannheimia phage vB_MhS_587AP2	bacteria	Duplodnaviria
-Mannheimia virus PHL101	bacteria	Duplodnaviria
 Marinomonas phage CB5A	bacteria	Duplodnaviria
 Marinomonas phage CPP1m	bacteria	Duplodnaviria
 Marinomonas phage P12026	bacteria	Duplodnaviria
@@ -2170,7 +2208,6 @@ Microbacterium phage Hamlet	bacteria	Duplodnaviria
 Microbacterium phage Hendrix	bacteria	Duplodnaviria
 Microbacterium phage Hyperion	bacteria	Duplodnaviria
 Microbacterium phage Ilzat	bacteria	Duplodnaviria
-Microbacterium phage KaiHaiDragon	bacteria	Duplodnaviria
 Microbacterium phage Kaijohn	bacteria	Duplodnaviria
 Microbacterium phage Koji	bacteria	Duplodnaviria
 Microbacterium phage Krampus	bacteria	Duplodnaviria
@@ -2184,12 +2221,10 @@ Microbacterium phage Nobel	bacteria	Duplodnaviria
 Microbacterium phage Noelani	bacteria	Duplodnaviria
 Microbacterium phage OneinaGillian	bacteria	Duplodnaviria
 Microbacterium phage PaoPu	bacteria	Duplodnaviria
-Microbacterium phage Paschalis	bacteria	Duplodnaviria
 Microbacterium phage Phedro	bacteria	Duplodnaviria
 Microbacterium phage Pikmin	bacteria	Duplodnaviria
 Microbacterium phage PoRanda	bacteria	Duplodnaviria
 Microbacterium phage Quaker	bacteria	Duplodnaviria
-Microbacterium phage Quhwah	bacteria	Duplodnaviria
 Microbacterium phage RobsFeet	bacteria	Duplodnaviria
 Microbacterium phage Scamander	bacteria	Duplodnaviria
 Microbacterium phage Schubert	bacteria	Duplodnaviria
@@ -2224,7 +2259,6 @@ Mycobacterium phage Adawi	bacteria	Duplodnaviria
 Mycobacterium phage Adephagia	bacteria	Duplodnaviria
 Mycobacterium phage Adonis	bacteria	Duplodnaviria
 Mycobacterium phage Adzzy	bacteria	Duplodnaviria
-Mycobacterium phage Aeneas	bacteria	Duplodnaviria
 Mycobacterium phage Aggie	bacteria	Duplodnaviria
 Mycobacterium phage Ajay	bacteria	Duplodnaviria
 Mycobacterium phage Akoma	bacteria	Duplodnaviria
@@ -2248,6 +2282,8 @@ Mycobacterium phage Anselm	bacteria	Duplodnaviria
 Mycobacterium phage Anthony	bacteria	Duplodnaviria
 Mycobacterium phage Antsirabe	bacteria	Duplodnaviria
 Mycobacterium phage Anubis	bacteria	Duplodnaviria
+Mycobacterium phage JHC117	bacteria	Duplodnaviria
+Mycobacterium phage MarQuardt	bacteria	Duplodnaviria
 Mycobacterium phage Apizium	bacteria	Duplodnaviria
 Mycobacterium phage Apocalypse	bacteria	Duplodnaviria
 Mycobacterium phage ArcherNM	bacteria	Duplodnaviria
@@ -2260,6 +2296,7 @@ Mycobacterium phage Catera	bacteria	Duplodnaviria
 Mycobacterium phage ET08	bacteria	Duplodnaviria
 Mycobacterium phage Gizmo	bacteria	Duplodnaviria
 Mycobacterium phage LinStu	bacteria	Duplodnaviria
+Mycobacterium phage Mangeria	bacteria	Duplodnaviria
 Mycobacterium phage MoMoMixon	bacteria	Duplodnaviria
 Mycobacterium phage Pleione	bacteria	Duplodnaviria
 Mycobacterium phage Rizal	bacteria	Duplodnaviria
@@ -2275,17 +2312,21 @@ Mycobacterium phage Arlo	bacteria	Duplodnaviria
 Mycobacterium phage Artemis2UCLA	bacteria	Duplodnaviria
 Mycobacterium phage Arturo	bacteria	Duplodnaviria
 Mycobacterium phage Astro	bacteria	Duplodnaviria
+Mycobacterium phage Smeadley	bacteria	Duplodnaviria
 Mycobacterium phage Atcoo	bacteria	Duplodnaviria
 Mycobacterium phage Athena	bacteria	Duplodnaviria
+Mycobacterium phage Obutu	bacteria	Duplodnaviria
 Mycobacterium phage Atkinbua	bacteria	Duplodnaviria
 Mycobacterium phage Avani	bacteria	Duplodnaviria
 Mycobacterium phage Avocado	bacteria	Duplodnaviria
 Mycobacterium phage BK1	bacteria	Duplodnaviria
 Mycobacterium phage BPBiebs31	bacteria	Duplodnaviria
 Mycobacterium phage BTCU-1	bacteria	Duplodnaviria
+Mycobacterium phage Rockstar	bacteria	Duplodnaviria
 Mycobacterium phage Babsiella	bacteria	Duplodnaviria
 Mycobacterium phage BabyRay	bacteria	Duplodnaviria
 Mycobacterium phage Backyardigan	bacteria	Duplodnaviria
+Mycobacterium phage Wile	bacteria	Duplodnaviria
 Mycobacterium phage BaconJack	bacteria	Duplodnaviria
 Mycobacterium phage Bactobuster	bacteria	Duplodnaviria
 Mycobacterium phage Badfish	bacteria	Duplodnaviria
@@ -2298,6 +2339,8 @@ Mycobacterium phage Baka	bacteria	Duplodnaviria
 Mycobacterium phage Bane1	bacteria	Duplodnaviria
 Mycobacterium phage Barnyard	bacteria	Duplodnaviria
 Mycobacterium phage BarrelRoll	bacteria	Duplodnaviria
+Mycobacterium phage Zavala	bacteria	Duplodnaviria
+Mycobacterium phage jaws	bacteria	Duplodnaviria
 Mycobacterium phage Barriga	bacteria	Duplodnaviria
 Mycobacterium phage Bartholomew	bacteria	Duplodnaviria
 Mycobacterium phage Bask21	bacteria	Duplodnaviria
@@ -2322,6 +2365,7 @@ Mycobacterium phage Blexus	bacteria	Duplodnaviria
 Mycobacterium phage Blinn1	bacteria	Duplodnaviria
 Mycobacterium phage Blue	bacteria	Duplodnaviria
 Mycobacterium phage Blue7	bacteria	Duplodnaviria
+Mycobacterium phage Hammer	bacteria	Duplodnaviria
 Mycobacterium phage Bluefalcon	bacteria	Duplodnaviria
 Mycobacterium phage Bob3	bacteria	Duplodnaviria
 Mycobacterium phage BobaPhett	bacteria	Duplodnaviria
@@ -2329,6 +2373,7 @@ Mycobacterium phage Bobi	bacteria	Duplodnaviria
 Mycobacterium phage BodEinwohner17	bacteria	Duplodnaviria
 Mycobacterium phage Bones	bacteria	Duplodnaviria
 Mycobacterium phage Bongo	bacteria	Duplodnaviria
+Mycobacterium phage PegLeg	bacteria	Duplodnaviria
 Mycobacterium phage Brocalys	bacteria	Duplodnaviria
 Mycobacterium phage Bromden	bacteria	Duplodnaviria
 Mycobacterium phage BrownCNA	bacteria	Duplodnaviria
@@ -2355,11 +2400,15 @@ Mycobacterium phage Camperdownii	bacteria	Duplodnaviria
 Mycobacterium phage Cane17	bacteria	Duplodnaviria
 Mycobacterium phage CaptainTrips	bacteria	Duplodnaviria
 Mycobacterium phage Carcharodon	bacteria	Duplodnaviria
+Mycobacterium phage Pipsqueaks	bacteria	Duplodnaviria
 Mycobacterium phage Catalina	bacteria	Duplodnaviria
+Mycobacterium phage PackMan	bacteria	Duplodnaviria
 Mycobacterium phage Catdawg	bacteria	Duplodnaviria
 Mycobacterium phage Centaur	bacteria	Duplodnaviria
 Mycobacterium phage Cerasum	bacteria	Duplodnaviria
 Mycobacterium phage Cerulean	bacteria	Duplodnaviria
+Mycobacterium phage LHTSCC	bacteria	Duplodnaviria
+Mycobacterium phage Obama12	bacteria	Duplodnaviria
 Mycobacterium phage Chadwick	bacteria	Duplodnaviria
 Mycobacterium phage Charlie	bacteria	Duplodnaviria
 Mycobacterium phage CharlieB	bacteria	Duplodnaviria
@@ -2393,13 +2442,18 @@ Mycobacterium phage Corndog	bacteria	Duplodnaviria
 Mycobacterium phage Cornie	bacteria	Duplodnaviria
 Mycobacterium phage Cornucopia	bacteria	Duplodnaviria
 Mycobacterium phage Corvo	bacteria	Duplodnaviria
+Mycobacterium phage Courthouse	bacteria	Duplodnaviria
 Mycobacterium phage CrimD	bacteria	Duplodnaviria
 Mycobacterium phage Crispicous1	bacteria	Duplodnaviria
 Mycobacterium phage Crossroads	bacteria	Duplodnaviria
+Mycobacterium phage Faith1	bacteria	Duplodnaviria
+Mycobacterium phage Gardann	bacteria	Duplodnaviria
+Mycobacterium phage Cuco	bacteria	Duplodnaviria
 Mycobacterium phage Cuke	bacteria	Duplodnaviria
 Mycobacterium phage Curiosium	bacteria	Duplodnaviria
 Mycobacterium phage D29	bacteria	Duplodnaviria
 Mycobacterium phage DD5	bacteria	Duplodnaviria
+Mycobacterium phage DLane	bacteria	Duplodnaviria
 Mycobacterium phage DRBy19	bacteria	Duplodnaviria
 Mycobacterium phage DS6A	bacteria	Duplodnaviria
 Mycobacterium phage DaWorst	bacteria	Duplodnaviria
@@ -2409,21 +2463,30 @@ Mycobacterium phage Dandelion	bacteria	Duplodnaviria
 Mycobacterium phage Dante	bacteria	Duplodnaviria
 Mycobacterium phage DarthP	bacteria	Duplodnaviria
 Mycobacterium phage DarthPhader	bacteria	Duplodnaviria
+Mycobacterium phage DeadP	bacteria	Duplodnaviria
 Mycobacterium phage Demsculpinboyz	bacteria	Duplodnaviria
 Mycobacterium phage DillTech15	bacteria	Duplodnaviria
 Mycobacterium phage DirkDirk	bacteria	Duplodnaviria
 Mycobacterium phage Donkeykong	bacteria	Duplodnaviria
 Mycobacterium phage Donovan	bacteria	Duplodnaviria
+Mycobacterium phage Doom	bacteria	Duplodnaviria
 Mycobacterium phage Dori	bacteria	Duplodnaviria
+Mycobacterium phage Dorothy	bacteria	Duplodnaviria
+Mycobacterium phage DotProduct	bacteria	Duplodnaviria
 Mycobacterium phage Doug	bacteria	Duplodnaviria
 Mycobacterium phage DrDrey	bacteria	Duplodnaviria
 Mycobacterium phage DrLupo	bacteria	Duplodnaviria
+Mycobacterium phage Drago	bacteria	Duplodnaviria
 Mycobacterium phage Dreamboat	bacteria	Duplodnaviria
 Mycobacterium phage DroogsArmy	bacteria	Duplodnaviria
+Mycobacterium phage Timshel	bacteria	Duplodnaviria
 Mycobacterium phage Dulcie	bacteria	Duplodnaviria
 Mycobacterium phage Dumbo	bacteria	Duplodnaviria
 Mycobacterium phage Dusk	bacteria	Duplodnaviria
+Mycobacterium phage Mindy	bacteria	Duplodnaviria
+Mycobacterium phage Toto	bacteria	Duplodnaviria
 Mycobacterium phage Dylan	bacteria	Duplodnaviria
+Mycobacterium phage Firecracker	bacteria	Duplodnaviria
 Mycobacterium phage DyoEdafos	bacteria	Duplodnaviria
 Mycobacterium phage EagleEye	bacteria	Duplodnaviria
 Mycobacterium phage Echild	bacteria	Duplodnaviria
@@ -2437,16 +2500,19 @@ Mycobacterium phage Enby	bacteria	Duplodnaviria
 Mycobacterium phage Enkosi	bacteria	Duplodnaviria
 Mycobacterium phage Eponine	bacteria	Duplodnaviria
 Mycobacterium phage Equemioh13	bacteria	Duplodnaviria
+Mycobacterium phage EricB	bacteria	Duplodnaviria
+Mycobacterium phage VohminGhazi	bacteria	Duplodnaviria
 Mycobacterium phage Estave1	bacteria	Duplodnaviria
+Mycobacterium phage Euphoria	bacteria	Duplodnaviria
 Mycobacterium phage EvilGenius	bacteria	Duplodnaviria
 Mycobacterium phage FF47	bacteria	Duplodnaviria
-Mycobacterium phage Faith1	bacteria	Duplodnaviria
 Mycobacterium phage Fajezeel	bacteria	Duplodnaviria
 Mycobacterium phage Fameo	bacteria	Duplodnaviria
 Mycobacterium phage Fancypants	bacteria	Duplodnaviria
 Mycobacterium phage Filuzino	bacteria	Duplodnaviria
 Mycobacterium phage Findley	bacteria	Duplodnaviria
 Mycobacterium phage Finemlucis	bacteria	Duplodnaviria
+Mycobacterium phage Fionnbharth	bacteria	Duplodnaviria
 Mycobacterium phage First	bacteria	Duplodnaviria
 Mycobacterium phage FirstPlacePfu	bacteria	Duplodnaviria
 Mycobacterium phage Fishburne	bacteria	Duplodnaviria
@@ -2459,14 +2525,15 @@ Mycobacterium phage Frankie	bacteria	Duplodnaviria
 Mycobacterium phage Fredward	bacteria	Duplodnaviria
 Mycobacterium phage Fruitloop	bacteria	Duplodnaviria
 Mycobacterium phage Fulbright	bacteria	Duplodnaviria
+Mycobacterium phage GUmbie	bacteria	Duplodnaviria
 Mycobacterium phage Gadjet	bacteria	Duplodnaviria
 Mycobacterium phage GageAP	bacteria	Duplodnaviria
 Mycobacterium phage Gaia	bacteria	Duplodnaviria
 Mycobacterium phage Gail	bacteria	Duplodnaviria
 Mycobacterium phage Galactic	bacteria	Duplodnaviria
-Mycobacterium phage Gardann	bacteria	Duplodnaviria
 Mycobacterium phage Gengar	bacteria	Duplodnaviria
 Mycobacterium phage George	bacteria	Duplodnaviria
+Mycobacterium phage LittleCherry	bacteria	Duplodnaviria
 Mycobacterium phage Georgie2	bacteria	Duplodnaviria
 Mycobacterium phage Geralt	bacteria	Duplodnaviria
 Mycobacterium phage Giles	bacteria	Duplodnaviria
@@ -2475,8 +2542,8 @@ Mycobacterium phage Gladiator	bacteria	Duplodnaviria
 Mycobacterium phage Godines	bacteria	Duplodnaviria
 Mycobacterium phage Laurie	bacteria	Duplodnaviria
 Mycobacterium phage Qyrzula	bacteria	Duplodnaviria
-Mycobacterium phage Goku	bacteria	Duplodnaviria
 Mycobacterium phage Gompeii16	bacteria	Duplodnaviria
+Mycobacterium phage Goose	bacteria	Duplodnaviria
 Mycobacterium phage Gorge	bacteria	Duplodnaviria
 Mycobacterium phage Graduation	bacteria	Duplodnaviria
 Mycobacterium phage GreaseLightnin	bacteria	Duplodnaviria
@@ -2494,6 +2561,7 @@ Mycobacterium phage Harley	bacteria	Duplodnaviria
 Mycobacterium phage Hawkeye	bacteria	Duplodnaviria
 Mycobacterium phage Heffalump	bacteria	Duplodnaviria
 Mycobacterium phage Hegedechwinu	bacteria	Duplodnaviria
+Mycobacterium phage HelDan	bacteria	Duplodnaviria
 Mycobacterium phage Henu3	bacteria	Duplodnaviria
 Mycobacterium phage Henu3 PeY-2017	bacteria	Duplodnaviria
 Mycobacterium phage Hosp	bacteria	Duplodnaviria
@@ -2501,7 +2569,11 @@ Mycobacterium phage HufflyPuff	bacteria	Duplodnaviria
 Mycobacterium phage Hurricane	bacteria	Duplodnaviria
 Mycobacterium phage HyRo	bacteria	Duplodnaviria
 Mycobacterium phage ICleared	bacteria	Duplodnaviria
+Mycobacterium phage Nyxis	bacteria	Duplodnaviria
+Mycobacterium phage Peaches	bacteria	Duplodnaviria
+Mycobacterium phage Wizard007	bacteria	Duplodnaviria
 Mycobacterium phage ILeeKay	bacteria	Duplodnaviria
+Mycobacterium phage Ibhubesi	bacteria	Duplodnaviria
 Mycobacterium phage Ichabod	bacteria	Duplodnaviria
 Mycobacterium phage Imvubu	bacteria	Duplodnaviria
 Mycobacterium phage Indlulamithi	bacteria	Duplodnaviria
@@ -2509,12 +2581,13 @@ Mycobacterium phage Inventum	bacteria	Duplodnaviria
 Mycobacterium phage Iracema64	bacteria	Duplodnaviria
 Mycobacterium phage IronMan	bacteria	Duplodnaviria
 Mycobacterium phage JAMaL	bacteria	Duplodnaviria
-Mycobacterium phage JHC117	bacteria	Duplodnaviria
+Mycobacterium phage JC27	bacteria	Duplodnaviria
 Mycobacterium phage Jabbawokkie	bacteria	Duplodnaviria
 Mycobacterium phage JackSparrow	bacteria	Duplodnaviria
 Mycobacterium phage Jamie19	bacteria	Duplodnaviria
 Mycobacterium phage Jebeks	bacteria	Duplodnaviria
 Mycobacterium phage Jeeves	bacteria	Duplodnaviria
+Mycobacterium phage Jeffabunny	bacteria	Duplodnaviria
 Mycobacterium phage JewelBug	bacteria	Duplodnaviria
 Mycobacterium phage Job42	bacteria	Duplodnaviria
 Mycobacterium phage Jobu08	bacteria	Duplodnaviria
@@ -2526,6 +2599,7 @@ Mycobacterium phage JoshKayV	bacteria	Duplodnaviria
 Mycobacterium phage Jovo	bacteria	Duplodnaviria
 Mycobacterium phage Juice456	bacteria	Duplodnaviria
 Mycobacterium phage Jung	bacteria	Duplodnaviria
+Mycobacterium phage KSSJEB	bacteria	Duplodnaviria
 Mycobacterium phage Kampy	bacteria	Duplodnaviria
 Mycobacterium phage Kanely	bacteria	Duplodnaviria
 Mycobacterium phage KayaCho	bacteria	Duplodnaviria
@@ -2549,11 +2623,13 @@ Mycobacterium phage KristaRAM	bacteria	Duplodnaviria
 Mycobacterium phage Krueger	bacteria	Duplodnaviria
 Mycobacterium phage Krypton555	bacteria	Duplodnaviria
 Mycobacterium phage Ksquared	bacteria	Duplodnaviria
+Mycobacterium phage Kugel	bacteria	Duplodnaviria
 Mycobacterium phage Kumao	bacteria	Duplodnaviria
 Mycobacterium phage KyMonks1A	bacteria	Duplodnaviria
 Mycobacterium phage LadyBird	bacteria	Duplodnaviria
 Mycobacterium phage Lamina13	bacteria	Duplodnaviria
 Mycobacterium phage Larenn	bacteria	Duplodnaviria
+Mycobacterium phage Larva	bacteria	Duplodnaviria
 Mycobacterium phage LastHope	bacteria	Duplodnaviria
 Mycobacterium phage LastJedi	bacteria	Duplodnaviria
 Mycobacterium phage LaterM	bacteria	Duplodnaviria
@@ -2561,11 +2637,13 @@ Mycobacterium phage LeBron	bacteria	Duplodnaviria
 Mycobacterium phage Lemuria	bacteria	Duplodnaviria
 Mycobacterium phage Leo	bacteria	Duplodnaviria
 Mycobacterium phage LeoAvram	bacteria	Duplodnaviria
+Mycobacterium phage Lesedi	bacteria	Duplodnaviria
 Mycobacterium phage Leston	bacteria	Duplodnaviria
+Mycobacterium phage Liefie	bacteria	Duplodnaviria
 Mycobacterium phage LilMcDreamy	bacteria	Duplodnaviria
 Mycobacterium phage LilMoolah	bacteria	Duplodnaviria
 Mycobacterium phage Lilac	bacteria	Duplodnaviria
-Mycobacterium phage LittleCherry	bacteria	Duplodnaviria
+Mycobacterium phage LittleE	bacteria	Duplodnaviria
 Mycobacterium phage Lizziana	bacteria	Duplodnaviria
 Mycobacterium phage Llama	bacteria	Duplodnaviria
 Mycobacterium phage Llij	bacteria	Duplodnaviria
@@ -2587,9 +2665,8 @@ Mycobacterium phage Malec	bacteria	Duplodnaviria
 Mycobacterium phage Malithi	bacteria	Duplodnaviria
 Mycobacterium phage Manad	bacteria	Duplodnaviria
 Mycobacterium phage Manatee	bacteria	Duplodnaviria
-Mycobacterium phage Mangeria	bacteria	Duplodnaviria
 Mycobacterium phage Mantra	bacteria	Duplodnaviria
-Mycobacterium phage MarQuardt	bacteria	Duplodnaviria
+Mycobacterium phage Marcell	bacteria	Duplodnaviria
 Mycobacterium phage MarkPhew	bacteria	Duplodnaviria
 Mycobacterium phage Maroc7	bacteria	Duplodnaviria
 Mycobacterium phage Marshawn	bacteria	Duplodnaviria
@@ -2605,7 +2682,6 @@ Mycobacterium phage Michley	bacteria	Duplodnaviria
 Mycobacterium phage Microwolf	bacteria	Duplodnaviria
 Mycobacterium phage MilleniumForce	bacteria	Duplodnaviria
 Mycobacterium phage Milly	bacteria	Duplodnaviria
-Mycobacterium phage Mindy	bacteria	Duplodnaviria
 Mycobacterium phage Minerva	bacteria	Duplodnaviria
 Mycobacterium phage MinionDave	bacteria	Duplodnaviria
 Mycobacterium phage Minnie	bacteria	Duplodnaviria
@@ -2613,6 +2689,7 @@ Mycobacterium phage Miramae	bacteria	Duplodnaviria
 Mycobacterium phage Misha28	bacteria	Duplodnaviria
 Mycobacterium phage MooMoo	bacteria	Duplodnaviria
 Mycobacterium phage MosMoris	bacteria	Duplodnaviria
+Mycobacterium phage Mozy	bacteria	Duplodnaviria
 Mycobacterium phage MrMagoo	bacteria	Duplodnaviria
 Mycobacterium phage Mryolo	bacteria	Duplodnaviria
 Mycobacterium phage Muddy	bacteria	Duplodnaviria
@@ -2621,6 +2698,8 @@ Mycobacterium phage Mulciber	bacteria	Duplodnaviria
 Mycobacterium phage Mundrea	bacteria	Duplodnaviria
 Mycobacterium phage Murphy	bacteria	Duplodnaviria
 Mycobacterium phage Murucutumbu	bacteria	Duplodnaviria
+Mycobacterium phage Museum	bacteria	Duplodnaviria
+Mycobacterium phage Mutaforma13	bacteria	Duplodnaviria
 Mycobacterium phage MyraDee	bacteria	Duplodnaviria
 Mycobacterium phage Myrna	bacteria	Duplodnaviria
 Mycobacterium phage NEHalo	bacteria	Duplodnaviria
@@ -2638,12 +2717,8 @@ Mycobacterium phage Nivrat	bacteria	Duplodnaviria
 Mycobacterium phage Niza	bacteria	Duplodnaviria
 Mycobacterium phage Noelle	bacteria	Duplodnaviria
 Mycobacterium phage NoodleTree	bacteria	Duplodnaviria
-Mycobacterium phage Nyxis	bacteria	Duplodnaviria
 Mycobacterium phage OSmaximus	bacteria	Duplodnaviria
 Mycobacterium phage Oaker	bacteria	Duplodnaviria
-Mycobacterium phage Obama12	bacteria	Duplodnaviria
-Mycobacterium virus LHTSCC	bacteria	Duplodnaviria
-Mycobacterium phage Obutu	bacteria	Duplodnaviria
 Mycobacterium phage Ochi17	bacteria	Duplodnaviria
 Mycobacterium phage Ogopogo	bacteria	Duplodnaviria
 Mycobacterium phage OkiRoe	bacteria	Duplodnaviria
@@ -2653,6 +2728,7 @@ Mycobacterium phage OlympiaSaint	bacteria	Duplodnaviria
 Mycobacterium phage Omega	bacteria	Duplodnaviria
 Mycobacterium phage Omnicron	bacteria	Duplodnaviria
 Mycobacterium phage Oogway	bacteria	Duplodnaviria
+Mycobacterium phage Optimus	bacteria	Duplodnaviria
 Mycobacterium phage Ovechkin	bacteria	Duplodnaviria
 Mycobacterium phage OwlsT2W	bacteria	Duplodnaviria
 Mycobacterium phage PBI1	bacteria	Duplodnaviria
@@ -2660,7 +2736,6 @@ Mycobacterium phage PMC	bacteria	Duplodnaviria
 Mycobacterium phage PP	bacteria	Duplodnaviria
 Mycobacterium phage Pacc40	bacteria	Duplodnaviria
 Mycobacterium phage PacerPaul	bacteria	Duplodnaviria
-Mycobacterium phage PackMan	bacteria	Duplodnaviria
 Mycobacterium phage Paito	bacteria	Duplodnaviria
 Mycobacterium phage Panchino	bacteria	Duplodnaviria
 Mycobacterium phage Paola	bacteria	Duplodnaviria
@@ -2670,9 +2745,8 @@ Mycobacterium phage Pari	bacteria	Duplodnaviria
 Mycobacterium phage Patience	bacteria	Duplodnaviria
 Mycobacterium phage Patt	bacteria	Duplodnaviria
 Mycobacterium phage PattyP	bacteria	Duplodnaviria
-Mycobacterium phage Peaches	bacteria	Duplodnaviria
-Mycobacterium phage PegLeg	bacteria	Duplodnaviria
 Mycobacterium phage Pepe	bacteria	Duplodnaviria
+Mycobacterium phage Perseus	bacteria	Duplodnaviria
 Mycobacterium phage Petruchio	bacteria	Duplodnaviria
 Mycobacterium phage Phabba	bacteria	Duplodnaviria
 Mycobacterium phage Phaded	bacteria	Duplodnaviria
@@ -2685,6 +2759,7 @@ Mycobacterium phage Phatniss	bacteria	Duplodnaviria
 Mycobacterium phage Phaux	bacteria	Duplodnaviria
 Mycobacterium phage Phayonce	bacteria	Duplodnaviria
 Mycobacterium phage Phelemich	bacteria	Duplodnaviria
+Mycobacterium phage Reprobate	bacteria	Duplodnaviria
 Mycobacterium phage Philonius	bacteria	Duplodnaviria
 Mycobacterium phage Phineas	bacteria	Duplodnaviria
 Mycobacterium phage Phipps	bacteria	Duplodnaviria
@@ -2705,10 +2780,11 @@ Mycobacterium phage Pipefish	bacteria	Duplodnaviria
 Mycobacterium phage Piper2020	bacteria	Duplodnaviria
 Mycobacterium phage Pippin	bacteria	Duplodnaviria
 Mycobacterium phage Pippy	bacteria	Duplodnaviria
-Mycobacterium phage Pipsqueaks	bacteria	Duplodnaviria
 Mycobacterium phage Piro94	bacteria	Duplodnaviria
 Mycobacterium phage Pistachio	bacteria	Duplodnaviria
 Mycobacterium phage Pita2	bacteria	Duplodnaviria
+Mycobacterium phage Pixie	bacteria	Duplodnaviria
+Mycobacterium phage ShedlockHolmes	bacteria	Duplodnaviria
 Mycobacterium phage Poenanya	bacteria	Duplodnaviria
 Mycobacterium phage Polka14	bacteria	Duplodnaviria
 Mycobacterium phage Pollywog	bacteria	Duplodnaviria
@@ -2731,32 +2807,34 @@ Mycobacterium phage Ramsey	bacteria	Duplodnaviria
 Mycobacterium phage Rando14	bacteria	Duplodnaviria
 Mycobacterium phage Raymond7	bacteria	Duplodnaviria
 Mycobacterium phage Rebel	bacteria	Duplodnaviria
+Mycobacterium phage Rebeuca	bacteria	Duplodnaviria
 Mycobacterium phage RedRock	bacteria	Duplodnaviria
 Mycobacterium phage Redi	bacteria	Duplodnaviria
 Mycobacterium phage Redno2	bacteria	Duplodnaviria
 Mycobacterium phage Refuge	bacteria	Duplodnaviria
 Mycobacterium phage Rem711	bacteria	Duplodnaviria
 Mycobacterium phage Renaud18	bacteria	Duplodnaviria
-Mycobacterium phage Reprobate	bacteria	Duplodnaviria
 Mycobacterium phage Rey	bacteria	Duplodnaviria
 Mycobacterium phage RhynO	bacteria	Duplodnaviria
 Mycobacterium phage Rhynn	bacteria	Duplodnaviria
 Mycobacterium phage RidgeCB	bacteria	Duplodnaviria
 Mycobacterium phage Ringer	bacteria	Duplodnaviria
 Mycobacterium phage RitaG	bacteria	Duplodnaviria
-Mycobacterium phage Rockstar	bacteria	Duplodnaviria
 Mycobacterium phage RockyHorror	bacteria	Duplodnaviria
 Mycobacterium phage Rohr	bacteria	Duplodnaviria
 Mycobacterium phage Rosebush	bacteria	Duplodnaviria
 Mycobacterium phage Rufus	bacteria	Duplodnaviria
+Mycobacterium phage Rumpelstiltskin	bacteria	Duplodnaviria
 Mycobacterium phage Ruotula	bacteria	Duplodnaviria
 Mycobacterium phage Rutherferd	bacteria	Duplodnaviria
 Mycobacterium phage Ryadel	bacteria	Duplodnaviria
+Mycobacterium phage SG4	bacteria	Duplodnaviria
 Mycobacterium phage SWU1	bacteria	Duplodnaviria
 Mycobacterium phage SWU2	bacteria	Duplodnaviria
 Mycobacterium phage Saal	bacteria	Duplodnaviria
 Mycobacterium phage Sagefire	bacteria	Duplodnaviria
 Mycobacterium phage Saguaro	bacteria	Duplodnaviria
+Mycobacterium phage Saintus	bacteria	Duplodnaviria
 Mycobacterium phage Sandalphon	bacteria	Duplodnaviria
 Mycobacterium phage SarFire	bacteria	Duplodnaviria
 Mycobacterium phage SassyB	bacteria	Duplodnaviria
@@ -2773,7 +2851,6 @@ Mycobacterium phage Serenity	bacteria	Duplodnaviria
 Mycobacterium phage Severus	bacteria	Duplodnaviria
 Mycobacterium phage Shandong1	bacteria	Duplodnaviria
 Mycobacterium phage Shauna1	bacteria	Duplodnaviria
-Mycobacterium phage ShedlockHolmes	bacteria	Duplodnaviria
 Mycobacterium phage Sheen	bacteria	Duplodnaviria
 Mycobacterium phage ShiLan	bacteria	Duplodnaviria
 Mycobacterium phage Shipwreck	bacteria	Duplodnaviria
@@ -2786,7 +2863,6 @@ Mycobacterium phage SirPhilip	bacteria	Duplodnaviria
 Mycobacterium phage SkiPole	bacteria	Duplodnaviria
 Mycobacterium phage SkinnyPete	bacteria	Duplodnaviria
 Mycobacterium phage Smairt	bacteria	Duplodnaviria
-Mycobacterium phage Smeadley	bacteria	Duplodnaviria
 Mycobacterium phage Snazzy	bacteria	Duplodnaviria
 Mycobacterium phage Sneeze	bacteria	Duplodnaviria
 Mycobacterium phage Snenia	bacteria	Duplodnaviria
@@ -2827,10 +2903,8 @@ Mycobacterium phage ThulaThula	bacteria	Duplodnaviria
 Mycobacterium phage Thyatira	bacteria	Duplodnaviria
 Mycobacterium phage Tiffany	bacteria	Duplodnaviria
 Mycobacterium phage Tiger	bacteria	Duplodnaviria
-Mycobacterium phage Timshel	bacteria	Duplodnaviria
 Mycobacterium phage Tonenili	bacteria	Duplodnaviria
 Mycobacterium phage Tortellini	bacteria	Duplodnaviria
-Mycobacterium phage Toto	bacteria	Duplodnaviria
 Mycobacterium phage Tourach	bacteria	Duplodnaviria
 Mycobacterium phage Traft412	bacteria	Duplodnaviria
 Mycobacterium phage Trike	bacteria	Duplodnaviria
@@ -2851,7 +2925,6 @@ Mycobacterium phage Veracruz	bacteria	Duplodnaviria
 Mycobacterium phage Veteran	bacteria	Duplodnaviria
 Mycobacterium phage Vincenzo	bacteria	Duplodnaviria
 Mycobacterium phage Violet	bacteria	Duplodnaviria
-Mycobacterium phage VohminGhazi	bacteria	Duplodnaviria
 Mycobacterium phage Vortex	bacteria	Duplodnaviria
 Mycobacterium phage WIVsmall	bacteria	Duplodnaviria
 Mycobacterium phage Wachhund	bacteria	Duplodnaviria
@@ -2862,10 +2935,8 @@ Mycobacterium phage Wheeler	bacteria	Duplodnaviria
 Mycobacterium phage Whirlwind	bacteria	Duplodnaviria
 Mycobacterium phage Whouxphf	bacteria	Duplodnaviria
 Mycobacterium phage Wildcat	bacteria	Duplodnaviria
-Mycobacterium phage Wile	bacteria	Duplodnaviria
 Mycobacterium phage WillSterrel	bacteria	Duplodnaviria
 Mycobacterium phage Willsammy	bacteria	Duplodnaviria
-Mycobacterium phage Wizard007	bacteria	Duplodnaviria
 Mycobacterium phage XFactor	bacteria	Duplodnaviria
 Mycobacterium phage Xavia	bacteria	Duplodnaviria
 Mycobacterium phage Xeno	bacteria	Duplodnaviria
@@ -2877,56 +2948,14 @@ Mycobacterium phage Yuna	bacteria	Duplodnaviria
 Mycobacterium phage Yunkel11	bacteria	Duplodnaviria
 Mycobacterium phage Zaka	bacteria	Duplodnaviria
 Mycobacterium phage Zapner	bacteria	Duplodnaviria
-Mycobacterium phage Zavala	bacteria	Duplodnaviria
 Mycobacterium phage Zemanar	bacteria	Duplodnaviria
 Mycobacterium phage Zerg	bacteria	Duplodnaviria
 Mycobacterium phage Zetzy	bacteria	Duplodnaviria
 Mycobacterium phage ZoeJ	bacteria	Duplodnaviria
 Mycobacterium phage Zolita	bacteria	Duplodnaviria
-Mycobacterium virus Courthouse	bacteria	Duplodnaviria
-Mycobacterium virus Cuco	bacteria	Duplodnaviria
-Mycobacterium virus DeadP	bacteria	Duplodnaviria
-Mycobacterium virus Dlane	bacteria	Duplodnaviria
-Mycobacterium virus Doom	bacteria	Duplodnaviria
-Mycobacterium virus Dorothy	bacteria	Duplodnaviria
-Mycobacterium virus DotProduct	bacteria	Duplodnaviria
-Mycobacterium virus Drago	bacteria	Duplodnaviria
-Mycobacterium virus Ericb	bacteria	Duplodnaviria
-Mycobacterium virus Euphoria	bacteria	Duplodnaviria
-Mycobacterium virus Eureka	bacteria	Duplodnaviria
-Mycobacterium virus Fionnbarth	bacteria	Duplodnaviria
-Mycobacterium virus Firecracker	bacteria	Duplodnaviria
-Mycobacterium virus GUmbie	bacteria	Duplodnaviria
-Mycobacterium virus Goose	bacteria	Duplodnaviria
-Mycobacterium virus Hammer	bacteria	Duplodnaviria
-Mycobacterium virus Heldan	bacteria	Duplodnaviria
-Mycobacterium virus Ibhubesi	bacteria	Duplodnaviria
-Mycobacterium virus JAWS	bacteria	Duplodnaviria
-Mycobacterium virus JC27	bacteria	Duplodnaviria
-Mycobacterium virus Jeffabunny	bacteria	Duplodnaviria
-Mycobacterium virus Kssjeb	bacteria	Duplodnaviria
-Mycobacterium virus Kugel	bacteria	Duplodnaviria
-Mycobacterium virus L5	bacteria	Duplodnaviria
-Mycobacterium virus Larva	bacteria	Duplodnaviria
-Mycobacterium virus Lesedi	bacteria	Duplodnaviria
-Mycobacterium virus Liefie	bacteria	Duplodnaviria
-Mycobacterium virus Littlee	bacteria	Duplodnaviria
-Mycobacterium virus MacnCheese	bacteria	Duplodnaviria
-Mycobacterium virus Marcell	bacteria	Duplodnaviria
-Mycobacterium virus Mozy	bacteria	Duplodnaviria
-Mycobacterium virus Mrgordo	bacteria	Duplodnaviria
-Mycobacterium virus Museum	bacteria	Duplodnaviria
-Mycobacterium virus Mutaforma13	bacteria	Duplodnaviria
-Mycobacterium virus Nepal	bacteria	Duplodnaviria
-Mycobacterium virus Optimus	bacteria	Duplodnaviria
-Mycobacterium virus Perseus	bacteria	Duplodnaviria
-Mycobacterium virus Pixie	bacteria	Duplodnaviria
-Mycobacterium virus Rebeuca	bacteria	Duplodnaviria
-Mycobacterium virus Rumpelstiltskin	bacteria	Duplodnaviria
-Mycobacterium virus SG4	bacteria	Duplodnaviria
-Mycobacterium virus Saintus	bacteria	Duplodnaviria
+Mycobacterium phage macncheese	bacteria	Duplodnaviria
 Mycobacterium virus TA17a	bacteria	Duplodnaviria
-Mycoplasma virus P1	bacteria	Duplodnaviria
+Mydovirus KpS8	bacteria	Duplodnaviria
 Myotis gammaherpesvirus 8	vertebrates	Duplodnaviria
 Myoviridae sp.	bacteria	Duplodnaviria
 Myxococcus phage Mx8	bacteria	Duplodnaviria
@@ -2960,13 +2989,13 @@ Paenibacillus phage Pagassa	bacteria	Duplodnaviria
 Paenibacillus phage Rani	bacteria	Duplodnaviria
 Paenibacillus phage Scottie	bacteria	Duplodnaviria
 Paenibacillus phage Shelly	bacteria	Duplodnaviria
+Paenibacillus phage Xenia	bacteria	Duplodnaviria
 Paenibacillus phage Sitara	bacteria	Duplodnaviria
 Paenibacillus phage Tadhana	bacteria	Duplodnaviria
 Paenibacillus phage Tripp	bacteria	Duplodnaviria
 Paenibacillus phage Unity	bacteria	Duplodnaviria
 Paenibacillus phage Vegas	bacteria	Duplodnaviria
 Paenibacillus phage Wanderer	bacteria	Duplodnaviria
-Paenibacillus phage Xenia	bacteria	Duplodnaviria
 Paenibacillus phage Yyerffej	bacteria	Duplodnaviria
 Paenibacillus phage phiIBB_P123	bacteria	Duplodnaviria
 Panine betaherpesvirus 2	vertebrates	Duplodnaviria
@@ -2984,6 +3013,7 @@ Paracoccus phage vB_PmaS-R3	bacteria	Duplodnaviria
 Pasteurella phage F108	bacteria	Duplodnaviria
 Pasteurella phage PHB01	bacteria	Duplodnaviria
 Pasteurella phage vB_PmuP_PHB02	bacteria	Duplodnaviria
+Pbunavirus PA8P1	bacteria	Duplodnaviria
 Pectinobacterium phage vB_PcaM_CBB	bacteria	Duplodnaviria
 Pectobacterium phage Arno160	bacteria	Duplodnaviria
 Pectobacterium phage Clickz	bacteria	Duplodnaviria
@@ -3022,16 +3052,28 @@ Pectobacterium phage vB_PatP_CB1	bacteria	Duplodnaviria
 Pectobacterium phage vB_PatP_CB4	bacteria	Duplodnaviria
 Pectobacterium phage vB_PatP_CB5	bacteria	Duplodnaviria
 Pediococcus phage cIP1	bacteria	Duplodnaviria
+Peduovirus L413C	bacteria	Duplodnaviria
+Peeveelvirus pv13	bacteria	Duplodnaviria
 Pelagibacter phage HTVC008M	bacteria	Duplodnaviria
 Pelagibacter phage HTVC010P	bacteria	Duplodnaviria
 Pelagibacter phage HTVC011P	bacteria	Duplodnaviria
 Pelagibacter phage HTVC019P	bacteria	Duplodnaviria
 Phage MedPE-SWcel-C56	bacteria	Duplodnaviria
 Phascolarctid gammaherpesvirus 1	vertebrates	Duplodnaviria
+Phietavirus B122	bacteria	Duplodnaviria
+Phietavirus ETA	bacteria	Duplodnaviria
+Phietavirus ETA3	bacteria	Duplodnaviria
+Phietavirus EW	bacteria	Duplodnaviria
+Phietavirus MR11	bacteria	Duplodnaviria
+Phietavirus pv29	bacteria	Duplodnaviria
+Phietavirus pv37	bacteria	Duplodnaviria
+Phietavirus pv55	bacteria	Duplodnaviria
+Phietavirus pv71	bacteria	Duplodnaviria
+Phietavirus pv96	bacteria	Duplodnaviria
 Phocid alphaherpesvirus 1	vertebrates	Duplodnaviria
 Phocid gammaherpesvirus 2	vertebrates	Duplodnaviria
+Phormidium phage Pf-WMP3	bacteria	Duplodnaviria
 Phormidium phage Pf-WMP4	bacteria	Duplodnaviria
-Phormidium virus WMP3	bacteria	Duplodnaviria
 Photobacterium phage PDCC-1	bacteria	Duplodnaviria
 Planktothrix phage PaV-LD	bacteria	Duplodnaviria
 Polaribacter phage P12002L	bacteria	Duplodnaviria
@@ -3044,7 +3086,6 @@ Prochlorococcus phage MED4-213	bacteria	Duplodnaviria
 Prochlorococcus phage P-GSP1	bacteria	Duplodnaviria
 Prochlorococcus phage P-HM1	bacteria	Duplodnaviria
 Prochlorococcus phage P-HM2	bacteria	Duplodnaviria
-Prochlorococcus phage P-RSM4	bacteria	Duplodnaviria
 Prochlorococcus phage P-SSM2	bacteria	Duplodnaviria
 Prochlorococcus phage P-SSM3	bacteria	Duplodnaviria
 Prochlorococcus phage P-SSM4	bacteria	Duplodnaviria
@@ -3053,7 +3094,6 @@ Prochlorococcus phage P-SSP10	bacteria	Duplodnaviria
 Prochlorococcus phage P-SSP3	bacteria	Duplodnaviria
 Prochlorococcus phage P-TIM68	bacteria	Duplodnaviria
 Prochlorococcus phage Syn1	bacteria	Duplodnaviria
-Prochlorococcus phage Syn33	bacteria	Duplodnaviria
 Propionibacterium phage ATCC29399B_C	bacteria	Duplodnaviria
 Propionibacterium phage ATCC29399B_T	bacteria	Duplodnaviria
 Propionibacterium phage Anatole	bacteria	Duplodnaviria
@@ -3089,11 +3129,15 @@ Propionibacterium phage PFR1	bacteria	Duplodnaviria
 Propionibacterium phage PFR2	bacteria	Duplodnaviria
 Propionibacterium phage PHL009M11	bacteria	Duplodnaviria
 Propionibacterium phage PHL010M04	bacteria	Duplodnaviria
+Propionibacterium phage PHL151N00	bacteria	Duplodnaviria
 Propionibacterium phage PHL025M00	bacteria	Duplodnaviria
 Propionibacterium phage PHL030N00	bacteria	Duplodnaviria
+Propionibacterium phage PHL117M01	bacteria	Duplodnaviria
 Propionibacterium phage PHL037M02	bacteria	Duplodnaviria
+Propionibacterium phage PHL085N00	bacteria	Duplodnaviria
 Propionibacterium phage PHL041M10	bacteria	Duplodnaviria
 Propionibacterium phage PHL055N00	bacteria	Duplodnaviria
+Propionibacterium phage PHL117M00	bacteria	Duplodnaviria
 Propionibacterium phage PHL060L00	bacteria	Duplodnaviria
 Propionibacterium phage PHL067M01	bacteria	Duplodnaviria
 Propionibacterium phage PHL067M10	bacteria	Duplodnaviria
@@ -3101,7 +3145,6 @@ Propionibacterium phage PHL070N00	bacteria	Duplodnaviria
 Propionibacterium phage PHL071N05	bacteria	Duplodnaviria
 Propionibacterium phage PHL082M00	bacteria	Duplodnaviria
 Propionibacterium phage PHL082M03	bacteria	Duplodnaviria
-Propionibacterium phage PHL085N00	bacteria	Duplodnaviria
 Propionibacterium phage PHL092M00	bacteria	Duplodnaviria
 Propionibacterium phage PHL095N00	bacteria	Duplodnaviria
 Propionibacterium phage PHL111M01	bacteria	Duplodnaviria
@@ -3109,13 +3152,11 @@ Propionibacterium phage PHL112N00	bacteria	Duplodnaviria
 Propionibacterium phage PHL113M01	bacteria	Duplodnaviria
 Propionibacterium phage PHL114L00	bacteria	Duplodnaviria
 Propionibacterium phage PHL116M00	bacteria	Duplodnaviria
-Propionibacterium phage PHL117M00	bacteria	Duplodnaviria
-Propionibacterium phage PHL117M01	bacteria	Duplodnaviria
 Propionibacterium phage PHL132N00	bacteria	Duplodnaviria
 Propionibacterium phage PHL141N00	bacteria	Duplodnaviria
 Propionibacterium phage PHL150M00	bacteria	Duplodnaviria
+Propionibacterium phage PHL308M00	bacteria	Duplodnaviria
 Propionibacterium phage PHL151M00	bacteria	Duplodnaviria
-Propionibacterium phage PHL151N00	bacteria	Duplodnaviria
 Propionibacterium phage PHL152M00	bacteria	Duplodnaviria
 Propionibacterium phage PHL163M00	bacteria	Duplodnaviria
 Propionibacterium phage PHL171M01	bacteria	Duplodnaviria
@@ -3123,7 +3164,6 @@ Propionibacterium phage PHL179M00	bacteria	Duplodnaviria
 Propionibacterium phage PHL194M00	bacteria	Duplodnaviria
 Propionibacterium phage PHL199M00	bacteria	Duplodnaviria
 Propionibacterium phage PHL301M00	bacteria	Duplodnaviria
-Propionibacterium phage PHL308M00	bacteria	Duplodnaviria
 Propionibacterium phage Pacnes 2012-15	bacteria	Duplodnaviria
 Propionibacterium phage Pirate	bacteria	Duplodnaviria
 Propionibacterium phage Procrass1	bacteria	Duplodnaviria
@@ -3134,7 +3174,6 @@ Propionibacterium phage Stormborn	bacteria	Duplodnaviria
 Propionibacterium phage Wizzo	bacteria	Duplodnaviria
 Proteus phage Mydo	bacteria	Duplodnaviria
 Proteus phage Myduc	bacteria	Duplodnaviria
-Proteus phage P16-2532	bacteria	Duplodnaviria
 Proteus phage PM 116	bacteria	Duplodnaviria
 Proteus phage PM 75	bacteria	Duplodnaviria
 Proteus phage PM 85	bacteria	Duplodnaviria
@@ -3180,27 +3219,33 @@ Pseudomonas phage B3	bacteria	Duplodnaviria
 Pseudomonas phage Bf7	bacteria	Duplodnaviria
 Pseudomonas phage Bjorn	bacteria	Duplodnaviria
 Pseudomonas phage BrSP1	bacteria	Duplodnaviria
+Pseudomonas phage Epa13	bacteria	Duplodnaviria
 Pseudomonas phage C11	bacteria	Duplodnaviria
 Pseudomonas phage CHA_P1	bacteria	Duplodnaviria
 Pseudomonas phage PAK_P3	bacteria	Duplodnaviria
 Pseudomonas phage PAK_P5	bacteria	Duplodnaviria
+Pseudomonas phage D3	bacteria	Duplodnaviria
 Pseudomonas phage D3112	bacteria	Duplodnaviria
+Pseudomonas phage JBD26	bacteria	Duplodnaviria
 Pseudomonas phage DL54	bacteria	Duplodnaviria
 Pseudomonas phage DL60	bacteria	Duplodnaviria
 Pseudomonas phage DL62	bacteria	Duplodnaviria
 Pseudomonas phage DL64	bacteria	Duplodnaviria
+Pseudomonas phage LIT1	bacteria	Duplodnaviria
 Pseudomonas phage DL68	bacteria	Duplodnaviria
 Pseudomonas phage DMS3	bacteria	Duplodnaviria
 Pseudomonas phage Dobby	bacteria	Duplodnaviria
 Pseudomonas phage EL	bacteria	Duplodnaviria
 Pseudomonas phage EPa61	bacteria	Duplodnaviria
-Pseudomonas phage Epa13	bacteria	Duplodnaviria
 Pseudomonas phage Epa14	bacteria	Duplodnaviria
+Pseudomonas phage R26	bacteria	Duplodnaviria
 Pseudomonas phage Epa5	bacteria	Duplodnaviria
 Pseudomonas phage Epa7	bacteria	Duplodnaviria
+Pseudomonas phage KPP12	bacteria	Duplodnaviria
 Pseudomonas phage F10	bacteria	Duplodnaviria
 Pseudomonas phage F116	bacteria	Duplodnaviria
 Pseudomonas phage F8	bacteria	Duplodnaviria
+Pseudomonas phage H66	bacteria	Duplodnaviria
 Pseudomonas phage H70	bacteria	Duplodnaviria
 Pseudomonas phage Henninger	bacteria	Duplodnaviria
 Pseudomonas phage JBD24	bacteria	Duplodnaviria
@@ -3211,6 +3256,7 @@ Pseudomonas phage JBD5	bacteria	Duplodnaviria
 Pseudomonas phage JBD67	bacteria	Duplodnaviria
 Pseudomonas phage JBD69	bacteria	Duplodnaviria
 Pseudomonas phage JBD88a	bacteria	Duplodnaviria
+Pseudomonas phage MP22	bacteria	Duplodnaviria
 Pseudomonas phage JBD93	bacteria	Duplodnaviria
 Pseudomonas phage JD024	bacteria	Duplodnaviria
 Pseudomonas phage JD18	bacteria	Duplodnaviria
@@ -3219,11 +3265,9 @@ Pseudomonas phage JG024	bacteria	Duplodnaviria
 Pseudomonas phage K5	bacteria	Duplodnaviria
 Pseudomonas phage K8	bacteria	Duplodnaviria
 Pseudomonas phage KPP10	bacteria	Duplodnaviria
-Pseudomonas phage KPP12	bacteria	Duplodnaviria
 Pseudomonas phage KPP21	bacteria	Duplodnaviria
 Pseudomonas phage KPP25	bacteria	Duplodnaviria
 Pseudomonas phage LBL3	bacteria	Duplodnaviria
-Pseudomonas phage LIT1	bacteria	Duplodnaviria
 Pseudomonas phage LKA1	bacteria	Duplodnaviria
 Pseudomonas phage LKD16	bacteria	Duplodnaviria
 Pseudomonas phage LKO4	bacteria	Duplodnaviria
@@ -3236,7 +3280,6 @@ Pseudomonas phage Lu11	bacteria	Duplodnaviria
 Pseudomonas phage M6	bacteria	Duplodnaviria
 Pseudomonas phage MD8	bacteria	Duplodnaviria
 Pseudomonas phage MP1412	bacteria	Duplodnaviria
-Pseudomonas phage MP22	bacteria	Duplodnaviria
 Pseudomonas phage MP29	bacteria	Duplodnaviria
 Pseudomonas phage MP38	bacteria	Duplodnaviria
 Pseudomonas phage MP42	bacteria	Duplodnaviria
@@ -3256,6 +3299,7 @@ Pseudomonas phage PA1/KOR/2010	bacteria	Duplodnaviria
 Pseudomonas phage PA10	bacteria	Duplodnaviria
 Pseudomonas phage PA11	bacteria	Duplodnaviria
 Pseudomonas phage PA26	bacteria	Duplodnaviria
+Pseudomonas phage YH30	bacteria	Duplodnaviria
 Pseudomonas phage PA5	bacteria	Duplodnaviria
 Pseudomonas phage PA7	bacteria	Duplodnaviria
 Pseudomonas phage PAE1	bacteria	Duplodnaviria
@@ -3266,6 +3310,7 @@ Pseudomonas phage PAK_P4	bacteria	Duplodnaviria
 Pseudomonas phage PAXYB1	bacteria	Duplodnaviria
 Pseudomonas phage PB1	bacteria	Duplodnaviria
 Pseudomonas phage PEV2	bacteria	Duplodnaviria
+Pseudomonas phage Pa2	bacteria	Duplodnaviria
 Pseudomonas phage vB_PaeP_C2-10_Ab09	bacteria	Duplodnaviria
 Pseudomonas phage PFP1	bacteria	Duplodnaviria
 Pseudomonas phage PMBT14	bacteria	Duplodnaviria
@@ -3276,9 +3321,11 @@ Pseudomonas phage PPpW-4	bacteria	Duplodnaviria
 Pseudomonas phage PS-1	bacteria	Duplodnaviria
 Pseudomonas phage PT2	bacteria	Duplodnaviria
 Pseudomonas phage PT5	bacteria	Duplodnaviria
-Pseudomonas phage Pa2	bacteria	Duplodnaviria
+Pseudomonas phage vB_Pae-TbilisiM32	bacteria	Duplodnaviria
 Pseudomonas phage PaBG	bacteria	Duplodnaviria
 Pseudomonas phage PaGU11	bacteria	Duplodnaviria
+Pseudomonas phage vB_PaeM_LS1	bacteria	Duplodnaviria
+Pseudomonas phage vB_PaeM_PAO1_Ab27	bacteria	Duplodnaviria
 Pseudomonas phage PaMx11	bacteria	Duplodnaviria
 Pseudomonas phage PaMx25	bacteria	Duplodnaviria
 Pseudomonas phage PaMx28	bacteria	Duplodnaviria
@@ -3287,35 +3334,40 @@ Pseudomonas phage PaMx42	bacteria	Duplodnaviria
 Pseudomonas phage PaMx74	bacteria	Duplodnaviria
 Pseudomonas phage PaP1	bacteria	Duplodnaviria
 Pseudomonas phage PaP2	bacteria	Duplodnaviria
+Pseudomonas phage vB_PaeP_p2-10_Or1	bacteria	Duplodnaviria
 Pseudomonas phage PaP4	bacteria	Duplodnaviria
 Pseudomonas phage PaoP5	bacteria	Duplodnaviria
 Pseudomonas phage Persinger	bacteria	Duplodnaviria
 Pseudomonas phage Pf-10	bacteria	Duplodnaviria
+Pseudomonas phage Phabio	bacteria	Duplodnaviria
 Pseudomonas phage Phi-S1	bacteria	Duplodnaviria
 Pseudomonas phage PhiCHU	bacteria	Duplodnaviria
 Pseudomonas phage PhiPA3	bacteria	Duplodnaviria
 Pseudomonas phage PollyC	bacteria	Duplodnaviria
+Pseudomonas phage Psa21	bacteria	Duplodnaviria
 Pseudomonas phage PspYZU01	bacteria	Duplodnaviria
 Pseudomonas phage PspYZU05	bacteria	Duplodnaviria
 Pseudomonas phage PspYZU08	bacteria	Duplodnaviria
 Pseudomonas phage R12	bacteria	Duplodnaviria
-Pseudomonas phage R26	bacteria	Duplodnaviria
 Pseudomonas phage RLP	bacteria	Duplodnaviria
 Pseudomonas phage SL1	bacteria	Duplodnaviria
 Pseudomonas phage SL2	bacteria	Duplodnaviria
 Pseudomonas phage SM1	bacteria	Duplodnaviria
 Pseudomonas phage SN	bacteria	Duplodnaviria
+Pseudomonas phage Spike	bacteria	Duplodnaviria
 Pseudomonas phage TL	bacteria	Duplodnaviria
 Pseudomonas phage UFV-P2	bacteria	Duplodnaviria
 Pseudomonas phage UNO-SLW1	bacteria	Duplodnaviria
 Pseudomonas phage VCM	bacteria	Duplodnaviria
 Pseudomonas phage VSW-3	bacteria	Duplodnaviria
-Pseudomonas phage YH30	bacteria	Duplodnaviria
 Pseudomonas phage YH6	bacteria	Duplodnaviria
 Pseudomonas phage YMC11/02/R656	bacteria	Duplodnaviria
 Pseudomonas phage YMC11/06/C171_PPU_BP	bacteria	Duplodnaviria
 Pseudomonas phage YMC11/07/P54_PAE_BP	bacteria	Duplodnaviria
+Pseudomonas phage YMC12/01/R24	bacteria	Duplodnaviria
+Pseudomonas phage YMC12/01/R960	bacteria	Duplodnaviria
 Pseudomonas phage ZC01	bacteria	Duplodnaviria
+Pseudomonas phage vB_PaeS_PAO1_Ab18	bacteria	Duplodnaviria
 Pseudomonas phage ZC03	bacteria	Duplodnaviria
 Pseudomonas phage ZC08	bacteria	Duplodnaviria
 Pseudomonas phage Zigelbrucke	bacteria	Duplodnaviria
@@ -3353,18 +3405,16 @@ Pseudomonas phage tabernarius	bacteria	Duplodnaviria
 Pseudomonas phage tf	bacteria	Duplodnaviria
 Pseudomonas phage uligo	bacteria	Duplodnaviria
 Pseudomonas phage vB_Pae-Kakheti25	bacteria	Duplodnaviria
+Stenotrophomonas phage vB_SmaS-DLP_2	bacteria	Duplodnaviria
 Pseudomonas phage vB_Pae-SS2019XI	bacteria	Duplodnaviria
-Pseudomonas phage vB_Pae-TbilisiM32	bacteria	Duplodnaviria
 Pseudomonas phage vB_PaeM_C1-14_Ab28	bacteria	Duplodnaviria
 Pseudomonas phage vB_PaeM_C2-10_Ab02	bacteria	Duplodnaviria
 Pseudomonas phage vB_PaeM_C2-10_Ab1	bacteria	Duplodnaviria
 Pseudomonas phage vB_PaeM_E215	bacteria	Duplodnaviria
 Pseudomonas phage vB_PaeM_E217	bacteria	Duplodnaviria
 Pseudomonas phage vB_PaeM_G1	bacteria	Duplodnaviria
-Pseudomonas phage vB_PaeM_LS1	bacteria	Duplodnaviria
 Pseudomonas phage vB_PaeM_MAG1	bacteria	Duplodnaviria
 Pseudomonas phage vB_PaeM_PAO1_Ab03	bacteria	Duplodnaviria
-Pseudomonas phage vB_PaeM_PAO1_Ab27	bacteria	Duplodnaviria
 Pseudomonas phage vB_PaeM_PS24	bacteria	Duplodnaviria
 Pseudomonas phage vB_PaeM_SCUT-S1	bacteria	Duplodnaviria
 Pseudomonas phage vB_PaeM_USP_1	bacteria	Duplodnaviria
@@ -3375,33 +3425,28 @@ Pseudomonas phage vB_PaeP_PAO1_1-15pyo	bacteria	Duplodnaviria
 Pseudomonas phage vB_PaeP_PAO1_Ab05	bacteria	Duplodnaviria
 Pseudomonas phage vB_PaeP_PPA-ABTNL	bacteria	Duplodnaviria
 Pseudomonas phage vB_PaeP_Tr60_Ab31	bacteria	Duplodnaviria
-Pseudomonas phage vB_PaeP_p2-10_Or1	bacteria	Duplodnaviria
-Pseudomonas phage vB_PaeS_PAO1_Ab18	bacteria	Duplodnaviria
 Pseudomonas phage vB_PaeS_PAO1_Ab19	bacteria	Duplodnaviria
 Pseudomonas phage vB_PaeS_PAO1_Ab30	bacteria	Duplodnaviria
 Pseudomonas phage vB_PaeS_PM105	bacteria	Duplodnaviria
+Pseudomonas phage vB_PaeS_PcyII-40_PfII40a	bacteria	Duplodnaviria
 Pseudomonas phage vB_PaeS_SCH_Ab26	bacteria	Duplodnaviria
 Pseudomonas phage vB_Pae_BR319a	bacteria	Duplodnaviria
 Pseudomonas phage vB_Pae_PS44	bacteria	Duplodnaviria
 Pseudomonas phage vB_PsyM_KIL1	bacteria	Duplodnaviria
 Pseudomonas phage vB_PsyM_KIL4	bacteria	Duplodnaviria
 Pseudomonas phage vB_PsyP_3MF5	bacteria	Duplodnaviria
-Pseudomonas virus D3	bacteria	Duplodnaviria
-Pseudomonas virus H66	bacteria	Duplodnaviria
-Pseudomonas virus KNP	bacteria	Duplodnaviria
-Pseudomonas virus LUZ24	bacteria	Duplodnaviria
-Pseudomonas virus PA8P1	bacteria	Duplodnaviria
-Pseudomonas virus PMG1	bacteria	Duplodnaviria
 Pseudomonas virus Pa193	bacteria	Duplodnaviria
 Pseudomonas virus Pf1 ERZ-2017	bacteria	Duplodnaviria
-Pseudomonas virus WRT	bacteria	Duplodnaviria
 Pseudomonas virus Yua	bacteria	Duplodnaviria
-Pseudomonas virus phiCTX	bacteria	Duplodnaviria
 Psittacid alphaherpesvirus 1	vertebrates	Duplodnaviria
 Psychrobacter phage Psymv2	bacteria	Duplodnaviria
 Psychrobacter phage pOW20-A	bacteria	Duplodnaviria
 Puniceispirillum phage HMO-2011	bacteria	Duplodnaviria
+Quhwahvirus kaihaidragon	bacteria	Duplodnaviria
+Quhwahvirus ouhwah	bacteria	Duplodnaviria
+Quhwahvirus paschalis	bacteria	Duplodnaviria
 Ralstonia phage Adzire	bacteria	Duplodnaviria
+Ralstonia phage Simangalove	bacteria	Duplodnaviria
 Ralstonia phage Anchaing	bacteria	Duplodnaviria
 Ralstonia phage Bakoly	bacteria	Duplodnaviria
 Ralstonia phage Cimandef	bacteria	Duplodnaviria
@@ -3431,14 +3476,11 @@ Ralstonia phage RSL2	bacteria	Duplodnaviria
 Ralstonia phage RSP15	bacteria	Duplodnaviria
 Ralstonia phage RSY1	bacteria	Duplodnaviria
 Ralstonia phage Raharianne	bacteria	Duplodnaviria
-Ralstonia phage RsoM1USA	bacteria	Duplodnaviria
 Ralstonia phage RsoP1EGY	bacteria	Duplodnaviria
 Ralstonia phage RsoP1IDN	bacteria	Duplodnaviria
-Ralstonia phage Simangalove	bacteria	Duplodnaviria
 Ralstonia phage phiITL-1	bacteria	Duplodnaviria
 Ralstonia phage phiRSL1	bacteria	Duplodnaviria
 Ralstonia phage phiRSP	bacteria	Duplodnaviria
-Ralstonia virus RSA1	bacteria	Duplodnaviria
 Ranid herpesvirus 1	vertebrates	Duplodnaviria
 Ranid herpesvirus 2	vertebrates	Duplodnaviria
 Ranid herpesvirus 3	vertebrates	Duplodnaviria
@@ -3473,13 +3515,14 @@ Rhodobacter phage RcTitan	bacteria	Duplodnaviria
 Rhodobacter phage RcapMu	bacteria	Duplodnaviria
 Rhodobacter phage RcapNL	bacteria	Duplodnaviria
 Rhodococcus phage CosmicSans	bacteria	Duplodnaviria
+Rhodococcus phage RER2	bacteria	Duplodnaviria
 Rhodococcus phage E3	bacteria	Duplodnaviria
 Rhodococcus phage Finch	bacteria	Duplodnaviria
 Rhodococcus phage Hiro	bacteria	Duplodnaviria
 Rhodococcus phage REQ1	bacteria	Duplodnaviria
 Rhodococcus phage REQ2	bacteria	Duplodnaviria
 Rhodococcus phage REQ3	bacteria	Duplodnaviria
-Rhodococcus phage RER2	bacteria	Duplodnaviria
+Rhodococcus phage RGL3	bacteria	Duplodnaviria
 Rhodococcus phage RRH1	bacteria	Duplodnaviria
 Rhodococcus phage ReqiDocB7	bacteria	Duplodnaviria
 Rhodococcus phage ReqiPepy6	bacteria	Duplodnaviria
@@ -3490,19 +3533,21 @@ Rhodococcus phage Takoda	bacteria	Duplodnaviria
 Rhodococcus phage Trina	bacteria	Duplodnaviria
 Rhodococcus phage Weasels2	bacteria	Duplodnaviria
 Rhodococcus phage Whack	bacteria	Duplodnaviria
-Rhodococcus virus RGL3	bacteria	Duplodnaviria
 Rhodoferax phage P26218	bacteria	Duplodnaviria
 Rhodothermus phage RM378	bacteria	Duplodnaviria
 Rhodovulum phage RS1	bacteria	Duplodnaviria
 Rhodovulum phage vB_RhkS_P1	bacteria	Duplodnaviria
 Riemerella phage RAP44	bacteria	Duplodnaviria
+Rosenblumvirus rv44AHJD	bacteria	Duplodnaviria
 Roseobacter phage RD-1410W1-01	bacteria	Duplodnaviria
 Roseobacter phage RDJL Phi 1	bacteria	Duplodnaviria
 Roseobacter phage RDJL Phi 2	bacteria	Duplodnaviria
 Roseobacter phage SIO1	bacteria	Duplodnaviria
 Roseovarius Plymouth podovirus 1	bacteria	Duplodnaviria
+Rtpvirus Rtp	bacteria	Duplodnaviria
 Ruegeria phage DSS3-P1	bacteria	Duplodnaviria
 Ruegeria phage vB_RpoP-V12	bacteria	Duplodnaviria
+Silicibacter phage DSS3phi2	bacteria	Duplodnaviria
 Ruegeria phage vB_RpoP-V13	bacteria	Duplodnaviria
 Ruegeria phage vB_RpoS-V11	bacteria	Duplodnaviria
 Ruegeria phage vB_RpoS-V16	bacteria	Duplodnaviria
@@ -3511,12 +3556,6 @@ Ruegeria phage vB_RpoS-V7	bacteria	Duplodnaviria
 Saimiriine betaherpesvirus 4	vertebrates	Duplodnaviria
 Saimiriine gammaherpesvirus 2	vertebrates	Duplodnaviria
 Salicola phage CGphi29	bacteria	Duplodnaviria
-Salinibacter virus M1EM1	bacteria	Duplodnaviria
-Salinibacter virus M31CR41-2	bacteria	Duplodnaviria
-Salinibacter virus M8CC19	bacteria	Duplodnaviria
-Salinibacter virus M8CR30-2	bacteria	Duplodnaviria
-Salinibacter virus M8CRM1	bacteria	Duplodnaviria
-Salinibacter virus SRUTV1	bacteria	Duplodnaviria
 Salinivibrio phage CW02	bacteria	Duplodnaviria
 Salinivibrio phage SMHB1	bacteria	Duplodnaviria
 Salmonella phage 1-19	bacteria	Duplodnaviria
@@ -3550,10 +3589,12 @@ Salmonella phage BSP101	bacteria	Duplodnaviria
 Salmonella phage BSP161	bacteria	Duplodnaviria
 Salmonella phage BSPM4	bacteria	Duplodnaviria
 Salmonella phage Det7	bacteria	Duplodnaviria
-Salmonella phage Ent1	bacteria	Duplodnaviria
+Salmonella phage FSL SP-030	bacteria	Duplodnaviria
+Salmonella phage Season12	bacteria	Duplodnaviria
 Salmonella phage FSL SP-031	bacteria	Duplodnaviria
 Salmonella phage FSL SP-058	bacteria	Duplodnaviria
 Salmonella phage FSL SP-076	bacteria	Duplodnaviria
+Salmonella phage FSL SP-088	bacteria	Duplodnaviria
 Salmonella phage FSL SP-101	bacteria	Duplodnaviria
 Salmonella phage FSLSP004	bacteria	Duplodnaviria
 Salmonella phage FelixO1	bacteria	Duplodnaviria
@@ -3618,6 +3659,7 @@ Salmonella phage SP01	bacteria	Duplodnaviria
 Salmonella phage SP1	bacteria	Duplodnaviria
 Salmonella phage SP3	bacteria	Duplodnaviria
 Salmonella phage SP6	bacteria	Duplodnaviria
+Salmonella phage SPN19	bacteria	Duplodnaviria
 Salmonella phage SPN1S	bacteria	Duplodnaviria
 Salmonella phage SPN3UB	bacteria	Duplodnaviria
 Salmonella phage SPN3US	bacteria	Duplodnaviria
@@ -3627,8 +3669,8 @@ Salmonella phage SS9	bacteria	Duplodnaviria
 Salmonella phage SSE121	bacteria	Duplodnaviria
 Salmonella phage SSU5	bacteria	Duplodnaviria
 Salmonella phage ST-101	bacteria	Duplodnaviria
-Salmonella phage ST-118	bacteria	Duplodnaviria
 Salmonella phage ST-374	bacteria	Duplodnaviria
+Salmonella phage ST-118	bacteria	Duplodnaviria
 Salmonella phage ST-W77	bacteria	Duplodnaviria
 Salmonella phage ST160	bacteria	Duplodnaviria
 Salmonella phage ST64B	bacteria	Duplodnaviria
@@ -3646,7 +3688,6 @@ Salmonella phage SeSz-2	bacteria	Duplodnaviria
 Salmonella phage SeWh-1	bacteria	Duplodnaviria
 Salmonella phage SeZq-1	bacteria	Duplodnaviria
 Salmonella phage Seafire	bacteria	Duplodnaviria
-Salmonella phage Season12	bacteria	Duplodnaviria
 Salmonella phage Segz_1	bacteria	Duplodnaviria
 Salmonella phage SenALZ1	bacteria	Duplodnaviria
 Salmonella phage SenASZ3	bacteria	Duplodnaviria
@@ -3658,7 +3699,6 @@ Salmonella phage Si3	bacteria	Duplodnaviria
 Salmonella phage Siskin	bacteria	Duplodnaviria
 Salmonella phage Skate	bacteria	Duplodnaviria
 Salmonella phage Sw2	bacteria	Duplodnaviria
-Salmonella phage TS13	bacteria	Duplodnaviria
 Salmonella phage Th1	bacteria	Duplodnaviria
 Salmonella phage UPF_BP1	bacteria	Duplodnaviria
 Salmonella phage UPF_BP2	bacteria	Duplodnaviria
@@ -3702,8 +3742,9 @@ Salmonella phage vB-SalM-SJ3	bacteria	Duplodnaviria
 Salmonella phage vB_SPuM_SP116	bacteria	Duplodnaviria
 Salmonella phage vB_SemP_Emek	bacteria	Duplodnaviria
 Salmonella phage vB_SenM-S16	bacteria	Duplodnaviria
-Salmonella phage vB_SenS-Ent2	bacteria	Duplodnaviria
+Salmonella phage vB_SenS-Ent1	bacteria	Duplodnaviria
 Salmonella phage vB_SenS-Ent3	bacteria	Duplodnaviria
+Salmonella phage vB_SenS-Ent2	bacteria	Duplodnaviria
 Salmonella phage vB_SenS_AG11	bacteria	Duplodnaviria
 Salmonella phage vB_SenS_PHB07	bacteria	Duplodnaviria
 Salmonella phage vB_SenS_SB13	bacteria	Duplodnaviria
@@ -3714,22 +3755,12 @@ Salmonella phage vB_SosS_Oslo	bacteria	Duplodnaviria
 Salmonella phage vB_SpuP_Spp16	bacteria	Duplodnaviria
 Salmonella phage wksl3	bacteria	Duplodnaviria
 Salmonella phage yarpen	bacteria	Duplodnaviria
-Salmonella virus BTP1	bacteria	Duplodnaviria
-Salmonella virus Chi	bacteria	Duplodnaviria
-Salmonella virus FSLSP030	bacteria	Duplodnaviria
-Salmonella virus FSLSP088	bacteria	Duplodnaviria
 Salmonella virus KFS-SE2	bacteria	Duplodnaviria
-Salmonella virus SP126	bacteria	Duplodnaviria
-Salmonella virus SPC35	bacteria	Duplodnaviria
-Salmonella virus SPN19	bacteria	Duplodnaviria
-Salmonella virus Stitch	bacteria	Duplodnaviria
-Salmonella virus VSe12	bacteria	Duplodnaviria
 Salmonella virus VSt472	bacteria	Duplodnaviria
-Salmonella virus ViI	bacteria	Duplodnaviria
-Salmonella virus iEPS5	bacteria	Duplodnaviria
 Serratia phage 2050H2	bacteria	Duplodnaviria
 Serratia phage BF	bacteria	Duplodnaviria
 Serratia phage CHI14	bacteria	Duplodnaviria
+Serratia phage X20	bacteria	Duplodnaviria
 Serratia phage Eta	bacteria	Duplodnaviria
 Serratia phage JS26	bacteria	Duplodnaviria
 Serratia phage MTx	bacteria	Duplodnaviria
@@ -3740,7 +3771,6 @@ Serratia phage PS2	bacteria	Duplodnaviria
 Serratia phage Parlo	bacteria	Duplodnaviria
 Serratia phage PhiZZ30	bacteria	Duplodnaviria
 Serratia phage SM9-3Y	bacteria	Duplodnaviria
-Serratia phage X20	bacteria	Duplodnaviria
 Serratia phage phiMAM1	bacteria	Duplodnaviria
 Serratia phage vB-Sru-IME250	bacteria	Duplodnaviria
 Serratia phage vB_SmaA_3M	bacteria	Duplodnaviria
@@ -3770,7 +3800,6 @@ Shigella phage SHBML-50-1	bacteria	Duplodnaviria
 Shigella phage SHFML-11	bacteria	Duplodnaviria
 Shigella phage SHFML-26	bacteria	Duplodnaviria
 Shigella phage SHSML-45	bacteria	Duplodnaviria
-Shigella phage SHSML-52-1	bacteria	Duplodnaviria
 Shigella phage SP18	bacteria	Duplodnaviria
 Shigella phage SSP1	bacteria	Duplodnaviria
 Shigella phage Sd1	bacteria	Duplodnaviria
@@ -3790,7 +3819,6 @@ Shigella phage SfMu	bacteria	Duplodnaviria
 Shigella phage Sfin-1	bacteria	Duplodnaviria
 Shigella phage Shf125875	bacteria	Duplodnaviria
 Shigella phage Shfl1	bacteria	Duplodnaviria
-Shigella phage Shfl2	bacteria	Duplodnaviria
 Shigella phage Ss-VASD	bacteria	Duplodnaviria
 Shigella phage VB_Ship_A7	bacteria	Duplodnaviria
 Shigella phage pSb-1	bacteria	Duplodnaviria
@@ -3801,9 +3829,7 @@ Shigella phage phi25-307	bacteria	Duplodnaviria
 Shigella phage vB_SflS-ISF001	bacteria	Duplodnaviria
 Shigella phage vB_SsoS-ISF002	bacteria	Duplodnaviria
 Shigella phage vB_SsoS_008	bacteria	Duplodnaviria
-Shigella virus 2019SD1	bacteria	Duplodnaviria
 Shigella virus Sfin-3	bacteria	Duplodnaviria
-Silicibacter phage DSS3phi2	bacteria	Duplodnaviria
 Sinorhizobium phage PBC5	bacteria	Duplodnaviria
 Sinorhizobium phage ort11	bacteria	Duplodnaviria
 Sinorhizobium phage phiLM21	bacteria	Duplodnaviria
@@ -3811,6 +3837,7 @@ Sinorhizobium phage phiM12	bacteria	Duplodnaviria
 Sinorhizobium phage phiM7	bacteria	Duplodnaviria
 Sinorhizobium phage phiM9	bacteria	Duplodnaviria
 Sinorhizobium phage phiN3	bacteria	Duplodnaviria
+Siovirus germanense	bacteria	Duplodnaviria
 Sodalis phage SO1	bacteria	Duplodnaviria
 Sodalis phage phiSG1	bacteria	Duplodnaviria
 Sphingobium phage Lacusarx	bacteria	Duplodnaviria
@@ -3861,12 +3888,16 @@ Staphylococcus phage Henu2	bacteria	Duplodnaviria
 Staphylococcus phage IME-SA4	bacteria	Duplodnaviria
 Staphylococcus phage IME1348_01	bacteria	Duplodnaviria
 Staphylococcus phage IME1361_01	bacteria	Duplodnaviria
+Staphylococcus phage Ipla5	bacteria	Duplodnaviria
+Staphylococcus phage Ipla7	bacteria	Duplodnaviria
 Staphylococcus phage JD007	bacteria	Duplodnaviria
 Staphylococcus phage JS01	bacteria	Duplodnaviria
+Staphylococcus phage K	bacteria	Duplodnaviria
 Staphylococcus phage LH1	bacteria	Duplodnaviria
 Staphylococcus phage MCE-2014	bacteria	Duplodnaviria
 Staphylococcus phage P108	bacteria	Duplodnaviria
 Staphylococcus phage P1105	bacteria	Duplodnaviria
+Staphylococcus phage phiSa119	bacteria	Duplodnaviria
 Staphylococcus phage P240	bacteria	Duplodnaviria
 Staphylococcus phage P282	bacteria	Duplodnaviria
 Staphylococcus phage P630	bacteria	Duplodnaviria
@@ -3874,6 +3905,7 @@ Staphylococcus phage P68	bacteria	Duplodnaviria
 Staphylococcus phage P954	bacteria	Duplodnaviria
 Staphylococcus phage PH15	bacteria	Duplodnaviria
 Staphylococcus phage PSa3	bacteria	Duplodnaviria
+Staphylococcus phage vB_SauP_EBHT	bacteria	Duplodnaviria
 Staphylococcus phage PT1028	bacteria	Duplodnaviria
 Staphylococcus phage PVL	bacteria	Duplodnaviria
 Staphylococcus phage Pabna	bacteria	Duplodnaviria
@@ -3882,8 +3914,8 @@ Staphylococcus phage ROSA	bacteria	Duplodnaviria
 Staphylococcus phage S24-1	bacteria	Duplodnaviria
 Staphylococcus phage S25-3	bacteria	Duplodnaviria
 Staphylococcus phage S25-4	bacteria	Duplodnaviria
-Staphylococcus phage SA1	bacteria	Duplodnaviria
 Staphylococcus phage SA1014ruMSSAST7	bacteria	Duplodnaviria
+Staphylococcus phage SA11	bacteria	Duplodnaviria
 Staphylococcus phage SA12	bacteria	Duplodnaviria
 Staphylococcus phage SA13	bacteria	Duplodnaviria
 Staphylococcus phage SA137ruMSSAST121PVL	bacteria	Duplodnaviria
@@ -3896,11 +3928,11 @@ Staphylococcus phage SA97	bacteria	Duplodnaviria
 Staphylococcus phage SAP-2	bacteria	Duplodnaviria
 Staphylococcus phage SAP-26	bacteria	Duplodnaviria
 Staphylococcus phage SAP11	bacteria	Duplodnaviria
+Staphylococcus phage SMSAP5	bacteria	Duplodnaviria
 Staphylococcus phage SAP33	bacteria	Duplodnaviria
 Staphylococcus phage SCH1	bacteria	Duplodnaviria
 Staphylococcus phage SH-St 15644	bacteria	Duplodnaviria
 Staphylococcus phage SLPW	bacteria	Duplodnaviria
-Staphylococcus phage SMSAP5	bacteria	Duplodnaviria
 Staphylococcus phage SN8	bacteria	Duplodnaviria
 Staphylococcus phage SP120	bacteria	Duplodnaviria
 Staphylococcus phage SP197	bacteria	Duplodnaviria
@@ -3910,7 +3942,6 @@ Staphylococcus phage SPbeta-like	bacteria	Duplodnaviria
 Staphylococcus phage Sb1	bacteria	Duplodnaviria
 Staphylococcus phage Sebago	bacteria	Duplodnaviria
 Staphylococcus phage SpT152	bacteria	Duplodnaviria
-Staphylococcus phage SpaA1	bacteria	Duplodnaviria
 Staphylococcus phage St 134	bacteria	Duplodnaviria
 Staphylococcus phage StB12	bacteria	Duplodnaviria
 Staphylococcus phage StB20	bacteria	Duplodnaviria
@@ -3933,6 +3964,7 @@ Staphylococcus phage phi2958PVL	bacteria	Duplodnaviria
 Staphylococcus phage phi5967PVL	bacteria	Duplodnaviria
 Staphylococcus phage phi7247PVL	bacteria	Duplodnaviria
 Staphylococcus phage phi7401PVL	bacteria	Duplodnaviria
+Staphylococcus phage vB_SauS_JS02	bacteria	Duplodnaviria
 Staphylococcus phage phiBU01	bacteria	Duplodnaviria
 Staphylococcus phage phiIBB-SEP1	bacteria	Duplodnaviria
 Staphylococcus phage phiIPLA-C1C	bacteria	Duplodnaviria
@@ -3945,7 +3977,6 @@ Staphylococcus phage phiSA12	bacteria	Duplodnaviria
 Staphylococcus phage phiSA_BS1	bacteria	Duplodnaviria
 Staphylococcus phage phiSA_BS2	bacteria	Duplodnaviria
 Staphylococcus phage phiSP44-1	bacteria	Duplodnaviria
-Staphylococcus phage phiSa119	bacteria	Duplodnaviria
 Staphylococcus phage phiSa2wa_st1	bacteria	Duplodnaviria
 Staphylococcus phage phiSa2wa_st121mssa	bacteria	Duplodnaviria
 Staphylococcus phage phiSa2wa_st22	bacteria	Duplodnaviria
@@ -3962,7 +3993,6 @@ Staphylococcus phage vB_SauM_Romulus	bacteria	Duplodnaviria
 Staphylococcus phage vB_SauP_phiAGO1.3	bacteria	Duplodnaviria
 Staphylococcus phage vB_SauS-SAP27	bacteria	Duplodnaviria
 Staphylococcus phage vB_SauS-phiIPLA88	bacteria	Duplodnaviria
-Staphylococcus phage vB_SauS_JS02	bacteria	Duplodnaviria
 Staphylococcus phage vB_SauS_fPfSau02	bacteria	Duplodnaviria
 Staphylococcus phage vB_SauS_phi2	bacteria	Duplodnaviria
 Staphylococcus phage vB_SepS_SEP9	bacteria	Duplodnaviria
@@ -3971,31 +4001,9 @@ Staphylococcus phage vB_SpsS_QT1	bacteria	Duplodnaviria
 Staphylococcus phage vB_SscM-1	bacteria	Duplodnaviria
 Staphylococcus prophage phiPV83	bacteria	Duplodnaviria
 Staphylococcus virus 108PVL	bacteria	Duplodnaviria
-Staphylococcus virus 11	bacteria	Duplodnaviria
-Staphylococcus virus 13	bacteria	Duplodnaviria
-Staphylococcus virus 29	bacteria	Duplodnaviria
-Staphylococcus virus 37	bacteria	Duplodnaviria
-Staphylococcus virus 3a	bacteria	Duplodnaviria
-Staphylococcus virus 44AHJD	bacteria	Duplodnaviria
-Staphylococcus virus 47	bacteria	Duplodnaviria
-Staphylococcus virus 55	bacteria	Duplodnaviria
-Staphylococcus virus 71	bacteria	Duplodnaviria
-Staphylococcus virus 77	bacteria	Duplodnaviria
-Staphylococcus virus 96	bacteria	Duplodnaviria
-Staphylococcus virus B122	bacteria	Duplodnaviria
 Staphylococcus virus Baq_Sau1	bacteria	Duplodnaviria
-Staphylococcus virus EW	bacteria	Duplodnaviria
-Staphylococcus virus IPLA5	bacteria	Duplodnaviria
-Staphylococcus virus IPLA7	bacteria	Duplodnaviria
-Staphylococcus virus K	bacteria	Duplodnaviria
-Staphylococcus virus SA11	bacteria	Duplodnaviria
-Staphylococcus virus phiETA	bacteria	Duplodnaviria
-Staphylococcus virus phiETA2	bacteria	Duplodnaviria
-Staphylococcus virus phiETA3	bacteria	Duplodnaviria
-Staphylococcus virus phiMR11	bacteria	Duplodnaviria
-Staphylococcus virus phiMR25	bacteria	Duplodnaviria
-Staphylococcus virus phiSLT	bacteria	Duplodnaviria
 Stenotrophomonas phage IME-SM1	bacteria	Duplodnaviria
+Stenotrophomonas phage YB07	bacteria	Duplodnaviria
 Stenotrophomonas phage IME13	bacteria	Duplodnaviria
 Stenotrophomonas phage IME15	bacteria	Duplodnaviria
 Stenotrophomonas phage Mendera	bacteria	Duplodnaviria
@@ -4003,13 +4011,12 @@ Stenotrophomonas phage Moby	bacteria	Duplodnaviria
 Stenotrophomonas phage Pokken	bacteria	Duplodnaviria
 Stenotrophomonas phage S1	bacteria	Duplodnaviria
 Stenotrophomonas phage Smp131	bacteria	Duplodnaviria
-Stenotrophomonas phage YB07	bacteria	Duplodnaviria
-Stenotrophomonas phage vB_SmaS-DLP_2	bacteria	Duplodnaviria
 Stenotrophomonas phage vB_SmaS_DLP_5	bacteria	Duplodnaviria
 Streptococcus phage 20617	bacteria	Duplodnaviria
 Streptococcus phage 2972	bacteria	Duplodnaviria
 Streptococcus phage 5093	bacteria	Duplodnaviria
 Streptococcus phage 7201	bacteria	Duplodnaviria
+Streptococcus phage 858	bacteria	Duplodnaviria
 Streptococcus phage A25	bacteria	Duplodnaviria
 Streptococcus phage ALQ13.2	bacteria	Duplodnaviria
 Streptococcus phage APCM01	bacteria	Duplodnaviria
@@ -4017,6 +4024,7 @@ Streptococcus phage Abc2	bacteria	Duplodnaviria
 Streptococcus phage CP-7	bacteria	Duplodnaviria
 Streptococcus phage Cp1	bacteria	Duplodnaviria
 Streptococcus phage DCC1738	bacteria	Duplodnaviria
+Streptococcus phage DT1	bacteria	Duplodnaviria
 Streptococcus phage Dp-1	bacteria	Duplodnaviria
 Streptococcus phage EJ-1	bacteria	Duplodnaviria
 Streptococcus phage IC1	bacteria	Duplodnaviria
@@ -4029,7 +4037,7 @@ Streptococcus phage PH10	bacteria	Duplodnaviria
 Streptococcus phage PH15	bacteria	Duplodnaviria
 Streptococcus phage SM1	bacteria	Duplodnaviria
 Streptococcus phage SMP	bacteria	Duplodnaviria
-Streptococcus phage SPQS1	bacteria	Duplodnaviria
+Streptococcus phage SP-QS1	bacteria	Duplodnaviria
 Streptococcus phage Sfi19	bacteria	Duplodnaviria
 Streptococcus phage Sfi21	bacteria	Duplodnaviria
 Streptococcus phage SpSL1	bacteria	Duplodnaviria
@@ -4052,15 +4060,10 @@ Streptococcus phage phiARI0746	bacteria	Duplodnaviria
 Streptococcus phage phiARI0923	bacteria	Duplodnaviria
 Streptococcus phage phiBHN167	bacteria	Duplodnaviria
 Streptococcus phage phiNJ2	bacteria	Duplodnaviria
-Streptococcus virus 858	bacteria	Duplodnaviria
 Streptococcus virus 9871	bacteria	Duplodnaviria
 Streptococcus virus 9872	bacteria	Duplodnaviria
 Streptococcus virus 9873	bacteria	Duplodnaviria
 Streptococcus virus 9874	bacteria	Duplodnaviria
-Streptococcus virus C1	bacteria	Duplodnaviria
-Streptococcus virus DT1	bacteria	Duplodnaviria
-Streptococcus virus O1205	bacteria	Duplodnaviria
-Streptococcus virus Sfi11	bacteria	Duplodnaviria
 Streptomyces phage Aaronocolus	bacteria	Duplodnaviria
 Streptomyces phage AbbeyMikolon	bacteria	Duplodnaviria
 Streptomyces phage Alsaber	bacteria	Duplodnaviria
@@ -4076,6 +4079,7 @@ Streptomyces phage Bing	bacteria	Duplodnaviria
 Streptomyces phage Blueeyedbeauty	bacteria	Duplodnaviria
 Streptomyces phage Bmoc	bacteria	Duplodnaviria
 Streptomyces phage Braelyn	bacteria	Duplodnaviria
+Streptomyces phage NootNoot	bacteria	Duplodnaviria
 Streptomyces phage Caelum	bacteria	Duplodnaviria
 Streptomyces phage Caliburn	bacteria	Duplodnaviria
 Streptomyces phage Celia	bacteria	Duplodnaviria
@@ -4111,7 +4115,6 @@ Streptomyces phage LukeCage	bacteria	Duplodnaviria
 Streptomyces phage Manuel	bacteria	Duplodnaviria
 Streptomyces phage Mildred21	bacteria	Duplodnaviria
 Streptomyces phage Nanodon	bacteria	Duplodnaviria
-Streptomyces phage NootNoot	bacteria	Duplodnaviria
 Streptomyces phage Omar	bacteria	Duplodnaviria
 Streptomyces phage Paedore	bacteria	Duplodnaviria
 Streptomyces phage PapayaSalad	bacteria	Duplodnaviria
@@ -4130,6 +4133,7 @@ Streptomyces phage Samisti12	bacteria	Duplodnaviria
 Streptomyces phage Scap1	bacteria	Duplodnaviria
 Streptomyces phage StarPlatinum	bacteria	Duplodnaviria
 Streptomyces phage Sujidade	bacteria	Duplodnaviria
+Streptomyces phage TG1	bacteria	Duplodnaviria
 Streptomyces phage TP1604	bacteria	Duplodnaviria
 Streptomyces phage Tefunt	bacteria	Duplodnaviria
 Streptomyces phage Thestral	bacteria	Duplodnaviria
@@ -4148,9 +4152,6 @@ Streptomyces phage phiELB20	bacteria	Duplodnaviria
 Streptomyces phage phiHau3	bacteria	Duplodnaviria
 Streptomyces phage phiSAJS1	bacteria	Duplodnaviria
 Streptomyces phage phiSASD1	bacteria	Duplodnaviria
-Streptomyces virus TG1	bacteria	Duplodnaviria
-Streptomyces virus phiBT1	bacteria	Duplodnaviria
-Streptomyces virus phiC31	bacteria	Duplodnaviria
 Stx2-converting phage 1717	bacteria	Duplodnaviria
 Stx2-converting phage 86	bacteria	Duplodnaviria
 Stx2-converting phage Stx2a_F451	bacteria	Duplodnaviria
@@ -4165,6 +4166,7 @@ Sulfitobacter phage NYA-2014a	bacteria	Duplodnaviria
 Sulfitobacter phage pCB2047-A	bacteria	Duplodnaviria
 Sulfitobacter phage pCB2047-C	bacteria	Duplodnaviria
 Sulfitobacter phage phiCB2047-B	bacteria	Duplodnaviria
+Svunavirus sv1	bacteria	Duplodnaviria
 Synechococcus T7-like phage S-TIP37	bacteria	Duplodnaviria
 Synechococcus phage ACG-2014b	bacteria	Duplodnaviria
 Synechococcus phage ACG-2014c	bacteria	Duplodnaviria
@@ -4206,7 +4208,6 @@ Synechococcus phage S-RIM2 R1_1999	bacteria	Duplodnaviria
 Synechococcus phage S-RIM8	bacteria	Duplodnaviria
 Synechococcus phage S-RIM8 A.HR1	bacteria	Duplodnaviria
 Synechococcus phage S-RIP1	bacteria	Duplodnaviria
-Synechococcus phage S-RIP2	bacteria	Duplodnaviria
 Synechococcus phage S-RSM4	bacteria	Duplodnaviria
 Synechococcus phage S-SKS1	bacteria	Duplodnaviria
 Synechococcus phage S-SM1	bacteria	Duplodnaviria
@@ -4227,6 +4228,10 @@ Synechococcus virus S-ESS1	bacteria	Duplodnaviria
 Synechococcus virus S-PRM1	bacteria	Duplodnaviria
 Tenacibaculum phage PTm1	bacteria	Duplodnaviria
 Tenacibaculum phage pT24	bacteria	Duplodnaviria
+Tequintavirus DT57C	bacteria	Duplodnaviria
+Tequintavirus SPC35	bacteria	Duplodnaviria
+Tequintavirus VEc33	bacteria	Duplodnaviria
+Tequintavirus VSe12	bacteria	Duplodnaviria
 Testudinid alphaherpesvirus 3	vertebrates	Duplodnaviria
 Tetraselmis viridis virus S20	algae	Duplodnaviria
 Tetraselmis viridis virus SI1	algae	Duplodnaviria
@@ -4238,12 +4243,21 @@ Thermus phage P74-26	bacteria	Duplodnaviria
 Thermus phage TMA	bacteria	Duplodnaviria
 Thermus phage phi OH2	bacteria	Duplodnaviria
 Thermus phage phiYS40	bacteria	Duplodnaviria
+Tigrvirus phi52237	bacteria	Duplodnaviria
+Tlsvirus SP126	bacteria	Duplodnaviria
+Triavirus SLT	bacteria	Duplodnaviria
+Triavirus tv3a	bacteria	Duplodnaviria
+Triavirus tv47	bacteria	Duplodnaviria
 Tsukamurella phage TIN2	bacteria	Duplodnaviria
 Tsukamurella phage TIN3	bacteria	Duplodnaviria
 Tsukamurella phage TIN4	bacteria	Duplodnaviria
 Tsukamurella phage TPA2	bacteria	Duplodnaviria
 Tsukamurella phage TPA4	bacteria	Duplodnaviria
 Tupaiid betaherpesvirus 1	vertebrates	Duplodnaviria
+Vectrevirus AAPEc6	bacteria	Duplodnaviria
+Vectrevirus K15	bacteria	Duplodnaviria
+Vectrevirus VEc3	bacteria	Duplodnaviria
+Vectrevirus mutPK1A2	bacteria	Duplodnaviria
 Verrucomicrobia phage P8625	bacteria	Duplodnaviria
 Vibrio phage 1.026.O._10N.222.49.C7	bacteria	Duplodnaviria
 Vibrio phage 1.097.O._10N.286.49.B3	bacteria	Duplodnaviria
@@ -4274,7 +4288,9 @@ Vibrio phage ICP2	bacteria	Duplodnaviria
 Vibrio phage ICP2_2013_A_Haiti	bacteria	Duplodnaviria
 Vibrio phage ICP3	bacteria	Duplodnaviria
 Vibrio phage J2	bacteria	Duplodnaviria
+Vibrio phage VP2	bacteria	Duplodnaviria
 Vibrio phage JA-1	bacteria	Duplodnaviria
+Vibrio phage VCO139	bacteria	Duplodnaviria
 Vibrio phage JSF10	bacteria	Duplodnaviria
 Vibrio phage JSF12	bacteria	Duplodnaviria
 Vibrio phage JSF3	bacteria	Duplodnaviria
@@ -4297,11 +4313,10 @@ Vibrio phage VAP7	bacteria	Duplodnaviria
 Vibrio phage VBM1	bacteria	Duplodnaviria
 Vibrio phage VBP32	bacteria	Duplodnaviria
 Vibrio phage VBP47	bacteria	Duplodnaviria
-Vibrio phage VCO139	bacteria	Duplodnaviria
 Vibrio phage VEN	bacteria	Duplodnaviria
 Vibrio phage VH7D	bacteria	Duplodnaviria
+Vibrio phage ValKK3	bacteria	Duplodnaviria
 Vibrio phage VHML	bacteria	Duplodnaviria
-Vibrio phage VP2	bacteria	Duplodnaviria
 Vibrio phage VP4	bacteria	Duplodnaviria
 Vibrio phage VP4B	bacteria	Duplodnaviria
 Vibrio phage VP5	bacteria	Duplodnaviria
@@ -4311,7 +4326,6 @@ Vibrio phage VP93	bacteria	Duplodnaviria
 Vibrio phage VPMS1	bacteria	Duplodnaviria
 Vibrio phage VPUSM 8	bacteria	Duplodnaviria
 Vibrio phage ValB1MD-2	bacteria	Duplodnaviria
-Vibrio phage ValKK3	bacteria	Duplodnaviria
 Vibrio phage Valm-yong1	bacteria	Duplodnaviria
 Vibrio phage Vc1	bacteria	Duplodnaviria
 Vibrio phage Vp670	bacteria	Duplodnaviria
@@ -4331,7 +4345,6 @@ Vibrio phage pTD1	bacteria	Duplodnaviria
 Vibrio phage pVco-5	bacteria	Duplodnaviria
 Vibrio phage pVp-1	bacteria	Duplodnaviria
 Vibrio phage pYD21-A	bacteria	Duplodnaviria
-Vibrio phage pYD38-A	bacteria	Duplodnaviria
 Vibrio phage pYD38-B	bacteria	Duplodnaviria
 Vibrio phage phi 1	bacteria	Duplodnaviria
 Vibrio phage phi 3	bacteria	Duplodnaviria
@@ -4371,10 +4384,8 @@ Xanthomonas phage f30-Xaj	bacteria	Duplodnaviria
 Xanthomonas phage phi Xc10	bacteria	Duplodnaviria
 Xanthomonas phage phiL7	bacteria	Duplodnaviria
 Xanthomonas phage vB_XveM_DIBBI	bacteria	Duplodnaviria
-Xanthomonas virus CP1	bacteria	Duplodnaviria
-Xanthomonas virus OP1	bacteria	Duplodnaviria
-Xanthomonas virus XcP1	bacteria	Duplodnaviria
 Xanthomonas virus phiXaf18	bacteria	Duplodnaviria
+Xipdecavirus OP1	bacteria	Duplodnaviria
 Xylella phage Paz	bacteria	Duplodnaviria
 Xylella phage Prado	bacteria	Duplodnaviria
 Xylella phage Salvo	bacteria	Duplodnaviria
@@ -4387,10 +4398,10 @@ Yersinia phage PYPS50	bacteria	Duplodnaviria
 Yersinia phage Yep-phi	bacteria	Duplodnaviria
 Yersinia phage Yepe2	bacteria	Duplodnaviria
 Yersinia phage YpP-Y	bacteria	Duplodnaviria
+Yersinia phage phiA1122	bacteria	Duplodnaviria
 Yersinia phage YpsP-G	bacteria	Duplodnaviria
 Yersinia phage fHe-Yen3-01	bacteria	Duplodnaviria
 Yersinia phage fHe-Yen9-01	bacteria	Duplodnaviria
-Yersinia phage phiA1122	bacteria	Duplodnaviria
 Yersinia phage phiD1	bacteria	Duplodnaviria
 Yersinia phage phiR1-37	bacteria	Duplodnaviria
 Yersinia phage phiR1-RT	bacteria	Duplodnaviria
@@ -4405,7 +4416,6 @@ Yersinia phage vB_YepM_ZN18	bacteria	Duplodnaviria
 Yersinia phage vB_YpM_22	bacteria	Duplodnaviria
 Yersinia phage vB_YpM_46	bacteria	Duplodnaviria
 Yersinia phage vB_YpM_50	bacteria	Duplodnaviria
-Yersinia virus L413C	bacteria	Duplodnaviria
 lung-eye-trachea disease-associated herpesvirus	vertebrates	Duplodnaviria
 rat cytomegalovirus strain Maastricht	vertebrates	Duplodnaviria
 uncultured crAssphage	bacteria	Duplodnaviria
@@ -4742,8 +4752,8 @@ Chlamydia phage 2	bacteria	Monodnaviria
 Chlamydia phage 3	bacteria	Monodnaviria
 Chlamydia phage 4	bacteria	Monodnaviria
 Chlamydia phage CPG1	bacteria	Monodnaviria
-Chlamydia virus CPAR39	bacteria	Monodnaviria
-Chlamydia virus Chp1	bacteria	Monodnaviria
+Chlamydia phage phiCPAR39	bacteria	Monodnaviria
+Chlamydiamicrovirus Chp1	bacteria	Monodnaviria
 Chloris striate mosaic virus	land plants	Monodnaviria
 Chlorocebus pygerythrus polyomavirus 1	vertebrates	Monodnaviria
 Chlorocebus pygerythrus polyomavirus 2	vertebrates	Monodnaviria
@@ -4878,9 +4888,9 @@ Emilia yellow vein Fujian virus	land plants	Monodnaviria
 Emilia yellow vein virus-[Fz1]	land plants	Monodnaviria
 Enhydra lutris papillomavirus 1	vertebrates	Monodnaviria
 Procyon lotor papillomavirus 1	vertebrates	Monodnaviria
-Enterobacteria phage ID18 sensu lato	bacteria	Monodnaviria
+Enterobacteria phage ID18	bacteria	Monodnaviria
 Escherichia phage G4	bacteria	Monodnaviria
-Enterobacteria phage WA13 sensu lato	bacteria	Monodnaviria
+Enterobacteria phage WA13	bacteria	Monodnaviria
 Epsilonpapillomavirus 1	vertebrates	Monodnaviria
 Eptesicus serotinus papillomavirus 1	vertebrates	Monodnaviria
 Eptesicus serotinus papillomavirus 2	vertebrates	Monodnaviria
@@ -4917,10 +4927,9 @@ Escherichia phage St-1	bacteria	Monodnaviria
 Escherichia phage WA45	bacteria	Monodnaviria
 Escherichia phage alpha3	bacteria	Monodnaviria
 Escherichia phage fd	bacteria	Monodnaviria
-Escherichia virus M13	bacteria	Monodnaviria
+Inovirus M13	bacteria	Monodnaviria
 Escherichia phage phiK	bacteria	Monodnaviria
 Escherichia phage phiX174	bacteria	Monodnaviria
-Escherichia virus I22	bacteria	Monodnaviria
 Etapapillomavirus 1	vertebrates	Monodnaviria
 Eulipotyphla protoparvovirus 1	vertebrates	Monodnaviria
 Eupatorium yellow vein mosaic virus	land plants	Monodnaviria
@@ -4970,6 +4979,9 @@ Felis domesticus papillomavirus 2	vertebrates	Monodnaviria
 Fenneropenaeus chinensis hepandensovirus	invertebrates	Monodnaviria
 Penaeus monodon hepandensovirus 1	invertebrates	Monodnaviria
 Penaeus monodon hepandensovirus 4	invertebrates	Monodnaviria
+Fibrovirus fs1	bacteria	Monodnaviria
+Vibrio phage VEJ	bacteria	Monodnaviria
+Vibrio phage VSK	bacteria	Monodnaviria
 Fiddler Crab associated circular virus	invertebrates	Monodnaviria
 Finch circovirus	vertebrates	Monodnaviria
 Finch polyomavirus	vertebrates	Monodnaviria
@@ -5175,6 +5187,7 @@ Lepus americanus faeces associated genomovirus SHP111	vertebrates	Monodnaviria
 Lepus americanus faeces associated genomovirus SHP7	vertebrates	Monodnaviria
 Limeum africanum associated virus	land plants	Monodnaviria
 Lindernia anagallis yellow vein virus	land plants	Monodnaviria
+Lineavirus I22	bacteria	Monodnaviria
 Lisianthus enation leaf curl virus	land plants	Monodnaviria
 Littorina sp. associated circular virus	invertebrates	Monodnaviria
 Lonchura maja polyomavirus 1	vertebrates	Monodnaviria
@@ -5439,11 +5452,11 @@ Pouzolzia golden mosaic virus	land plants	Monodnaviria
 Pouzolzia mosaic Guangdong virus	land plants	Monodnaviria
 Premna leaf curl virus	land plants	Monodnaviria
 Primate bocaparvovirus 3	vertebrates	Monodnaviria
+Primolicivirus Pf1	bacteria	Monodnaviria
 Propionibacterium phage B5	bacteria	Monodnaviria
 Protoparvovirus Zsana/2013/HUN	vertebrates	Monodnaviria
 Prunus geminivirus A	land plants	Monodnaviria
 Pseudomonas phage Pf3	bacteria	Monodnaviria
-Pseudomonas virus Pf1	bacteria	Monodnaviria
 Psittacus erithacus papillomavirus 1	vertebrates	Monodnaviria
 Pteronotus davyi polyomavirus 1	vertebrates	Monodnaviria
 Pteropus associated gemycircularvirus 10	vertebrates	Monodnaviria
@@ -5595,11 +5608,10 @@ Spilanthes yellow vein virus	land plants	Monodnaviria
 Spinach curly top Arizona virus	land plants	Monodnaviria
 Spinach severe curly top virus	land plants	Monodnaviria
 Spinach yellow vein Sikar virus	land plants	Monodnaviria
+Spiromicrovirus SpV4	bacteria	Monodnaviria
 Spiroplasma phage C74	bacteria	Monodnaviria
 Spiroplasma phage R8A2B	bacteria	Monodnaviria
 Spiroplasma phage SVTS2	bacteria	Monodnaviria
-Spiroplasma virus SkV1CR23x	bacteria	Monodnaviria
-Spiroplasma virus SpV4	bacteria	Monodnaviria
 Sporobolus striate mosaic virus 1	land plants	Monodnaviria
 Sporobolus striate mosaic virus 2	land plants	Monodnaviria
 Squash leaf curl China virus	land plants	Monodnaviria
@@ -5826,17 +5838,15 @@ Verbena mottle virus	land plants	Monodnaviria
 Vernonia crinkle virus	land plants	Monodnaviria
 Vernonia yellow vein Fujian virus	land plants	Monodnaviria
 Vernonia yellow vein virus	land plants	Monodnaviria
+Vespertiliovirus SkV1CR23x	bacteria	Monodnaviria
 Vibrio phage CTXphi	bacteria	Monodnaviria
 Vibrio phage KSF1	bacteria	Monodnaviria
 Vibrio phage ND1-fs1	bacteria	Monodnaviria
 Vibrio phage VCY-phi	bacteria	Monodnaviria
-Vibrio phage VEJ	bacteria	Monodnaviria
-Vibrio phage VSK	bacteria	Monodnaviria
-Vibrio virus fs1	bacteria	Monodnaviria
 Vibrio phage VFJ	bacteria	Monodnaviria
 Vibrio phage VGJ	bacteria	Monodnaviria
 Vibrio phage Vf12	bacteria	Monodnaviria
-Vibrio virus Vf33	bacteria	Monodnaviria
+Villovirus Vf33	bacteria	Monodnaviria
 Vibrio phage VfO3K6	bacteria	Monodnaviria
 Vibrio phage VfO4K68	bacteria	Monodnaviria
 Vibrio phage fs2	bacteria	Monodnaviria
@@ -5860,9 +5870,10 @@ Wild vitis virus 1	land plants	Monodnaviria
 Wissadula golden mosaic virus	land plants	Monodnaviria
 Wissadula yellow mosaic virus	land plants	Monodnaviria
 Wuharv parvovirus 1	vertebrates	Monodnaviria
+Xanthomonas phage Cf1c	bacteria	Monodnaviria
+Xanthomonas phage XaF13	bacteria	Monodnaviria
 Xanthomonas phage Xf109	bacteria	Monodnaviria
 Xanthomonas phage Xf409	bacteria	Monodnaviria
-Xanthomonas virus Cf1c	bacteria	Monodnaviria
 Xipapillomavirus 1	vertebrates	Monodnaviria
 Yellow baboon polyomavirus 1	vertebrates	Monodnaviria
 Yellow baboon polyomavirus 2	vertebrates	Monodnaviria
@@ -5973,7 +5984,7 @@ Urbanus proteus nucleopolyhedrovirus	invertebrates	Naldaviricetes
 White spot syndrome virus	invertebrates	Naldaviricetes
 Xestia c-nigrum granulovirus	invertebrates	Naldaviricetes
 Sulfolobus ellipsoid virus 1	archaea	Ovaliviridae
-Acholeplasma virus L2	bacteria	Plasmaviridae
+Plasmavirus L2	bacteria	Plasmaviridae
 Campoletis sonorensis ichnovirus	invertebrates	Polydnaviridae
 Cardiochiles nigriceps bracovirus	invertebrates	Polydnaviridae
 Cotesia congregata bracovirus	invertebrates	Polydnaviridae
@@ -6608,7 +6619,6 @@ Beihai zhaovirus-like virus 2	invertebrates	Riboviria
 Beihai zhaovirus-like virus 3	invertebrates	Riboviria
 Beihai zhaovirus-like virus 4	invertebrates	Riboviria
 Beihai zhaovirus-like virus 5	invertebrates	Riboviria
-Beilong virus	vertebrates	Riboviria
 Bell pepper alphaendornavirus	land plants	Riboviria
 Bell pepper mottle virus	land plants	Riboviria
 Belladonna mottle virus	land plants	Riboviria
@@ -8697,7 +8707,6 @@ Pneumonia virus of mice J3666	vertebrates	Riboviria
 Pneumovirus dog/Bari/100-12/ITA/2012	vertebrates	Riboviria
 Poa semilatent virus	land plants	Riboviria
 Poecivirus BCCH-449	vertebrates	Riboviria
-Pohorje myodes paramyxovirus 1	vertebrates	Riboviria
 Poinsettia latent virus	land plants	Riboviria
 Poinsettia mosaic virus	land plants	Riboviria
 Pokeweed mosaic virus	land plants	Riboviria
@@ -8770,10 +8779,10 @@ Pseudomonas phage PRR1	bacteria	Riboviria
 Pseudomonas phage phi12	bacteria	Riboviria
 Pseudomonas phage phi13	bacteria	Riboviria
 Pseudomonas phage phi2954	bacteria	Riboviria
+Pseudomonas phage phi6	bacteria	Riboviria
 Pseudomonas phage phi8	bacteria	Riboviria
 Pseudomonas phage phiNN	bacteria	Riboviria
 Pseudomonas phage phiYY	bacteria	Riboviria
-Pseudomonas virus phi6	bacteria	Riboviria
 Pteromalus puparum negative-strand RNA virus 1	invertebrates	Riboviria
 Puerto Almendras virus	invertebrates	Riboviria
 Pulau reovirus	human:vertebrates	Riboviria
@@ -9930,7 +9939,6 @@ Cotton leaf curl Burewala betasatellite	land plants	Tolecusatellitidae
 Cotton leaf curl Gezira betasatellite	land plants	Tolecusatellitidae
 Cotton leaf curl Multan betasatellite	land plants	Tolecusatellitidae
 Cotton leaf curl betasatellite	land plants	Tolecusatellitidae
-Cotton leaf curl betasatellite	land plants	Tolecusatellitidae
 Cowpea severe leaf curl-associated DNA beta	land plants	Tolecusatellitidae
 Croton yellow vein mosaic betasatellite	land plants	Tolecusatellitidae
 Cucurbita yellow vein virus-associated DNA beta	land plants	Tolecusatellitidae
@@ -10066,7 +10074,6 @@ Bacillus phage Bam35c	bacteria	Varidnaviria
 Bacillus phage GIL16c	bacteria	Varidnaviria
 Bacillus phage Wip1	bacteria	Varidnaviria
 Bat adenovirus 2	vertebrates	Varidnaviria
-Bat adenovirus TJM	vertebrates	Varidnaviria
 Bat mastadenovirus G	vertebrates	Varidnaviria
 Bat mastadenovirus WIV18	vertebrates	Varidnaviria
 Bat mastadenovirus WIV10	vertebrates	Varidnaviria
@@ -10283,6 +10290,7 @@ Western grey kangaroopox virus	vertebrates	Varidnaviria
 Wiseana iridescent virus	invertebrates	Varidnaviria
 Yaba monkey tumor virus	vertebrates	Varidnaviria
 Zamilon virus	protozoa	Varidnaviria
+bat adenovirus 3	vertebrates	Varidnaviria
 falcon adenovirus 1	vertebrates	Varidnaviria
 red squirrel adenovirus 1	vertebrates	Varidnaviria
 unidentified entomopoxvirus	invertebrates	Varidnaviria
@@ -10377,6 +10385,7 @@ Golden silk orbweaver associated circular virus 1	invertebrates	unclassified vir
 Gopherus associated circular DNA virus 1	vertebrates	unclassified viruses
 Halhan virus 2	invertebrates	unclassified viruses
 Halhan virus 3	invertebrates	unclassified viruses
+Haloferax tailed virus 1	archaea	unclassified viruses
 Halovirus HCTV-1	archaea	unclassified viruses
 Halovirus HCTV-2	archaea	unclassified viruses
 Halovirus HCTV-5	archaea	unclassified viruses

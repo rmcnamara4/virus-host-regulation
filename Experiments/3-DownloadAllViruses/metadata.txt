@@ -958,22 +958,22 @@ Duplodnaviria
     Corynebacterium phage phi673	NC_042354	complete	-	-	44530 nt	56	-	bacteria	05/24/2019	12/21/2020	
     Corynebacterium phage phi674	NC_042355	complete	-	-	43193 nt	54	-	bacteria	05/24/2019	12/21/2020	
     CrAss-like virus sp.	-	complete	-	17	1635658 nt	1563	-		04/27/2022	04/27/2022	
-          CrAss-like virus sp.     (95815 nt)     NC_062779     proteins: 88
-          CrAss-like virus sp.     (93564 nt)     NC_062773     proteins: 93
           CrAss-like virus sp.     (94533 nt)     NC_062777     proteins: 89
-          CrAss-like virus sp.     (91714 nt)     NC_062778     proteins: 86
-          CrAss-like virus sp.     (93391 nt)     NC_062770     proteins: 90
-          CrAss-like virus sp.     (96466 nt)     NC_062769     proteins: 82
-          CrAss-like virus sp.     (99984 nt)     NC_062765     proteins: 99
-          CrAss-like virus sp.     (92361 nt)     NC_062776     proteins: 89
-          CrAss-like virus sp.     (92367 nt)     NC_062764     proteins: 91
-          CrAss-like virus sp.     (92132 nt)     NC_062780     proteins: 84
-          CrAss-like virus sp.     (99704 nt)     NC_062772     proteins: 99
           CrAss-like virus sp.     (97536 nt)     NC_062774     proteins: 82
-          CrAss-like virus sp.     (100314 nt)     NC_062768     proteins: 111
-          CrAss-like virus sp.     (98001 nt)     NC_062771     proteins: 94
+          CrAss-like virus sp.     (96466 nt)     NC_062769     proteins: 82
+          CrAss-like virus sp.     (99704 nt)     NC_062772     proteins: 99
+          CrAss-like virus sp.     (92361 nt)     NC_062776     proteins: 89
           CrAss-like virus sp.     (104564 nt)     NC_062775     proteins: 100
+          CrAss-like virus sp.     (92132 nt)     NC_062780     proteins: 84
+          CrAss-like virus sp.     (100314 nt)     NC_062768     proteins: 111
+          CrAss-like virus sp.     (93564 nt)     NC_062773     proteins: 93
           CrAss-like virus sp.     (92241 nt)     NC_062766     proteins: 86
+          CrAss-like virus sp.     (91714 nt)     NC_062778     proteins: 86
+          CrAss-like virus sp.     (98001 nt)     NC_062771     proteins: 94
+          CrAss-like virus sp.     (93391 nt)     NC_062770     proteins: 90
+          CrAss-like virus sp.     (92367 nt)     NC_062764     proteins: 91
+          CrAss-like virus sp.     (95815 nt)     NC_062779     proteins: 88
+          CrAss-like virus sp.     (99984 nt)     NC_062765     proteins: 99
           CrAss-like virus sp.     (100971 nt)     NC_062767     proteins: 100
     CrAssphage sp.	-	complete	isolate:ctbg_1	2	184901 nt	161	-		06/02/2021	06/07/2021	
           CrAssphage sp.     (94878 nt)     NC_055760     proteins: 81
@@ -6730,9 +6730,9 @@ Monodnaviria
     Sida angular mosaic virus	-	complete	isolate:BLS30_2H	2	5349 nt	8	-	land plants	10/17/2016	08/13/2018	
           Sida angular mosaic virus     (2657 nt)     NC_031457     proteins: 2
           Sida angular mosaic virus     (2692 nt)     NC_031456     proteins: 6     neighbors: 4
-    Sida bright yellow mosaic virus	-	complete	isolate:BR:Tac720:10	2	5348 nt	7	-		08/24/2018	12/27/2018	
-          Sida bright yellow mosaic virus     (2692 nt)     NC_038991     proteins: 5
+    Sida bright yellow mosaic virus	-	complete	isolate:BR:Tac720:10	2	5348 nt	7	-		12/27/2018	06/21/2021	
           Sida bright yellow mosaic virus     (2656 nt)     NC_040191     proteins: 2
+          Sida bright yellow mosaic virus     (2692 nt)     NC_038991     proteins: 5
     Sida chlorotic leaf virus	-	complete	isolate:SiChLV/Colima	2	5215 nt	9	-		06/01/2021	06/08/2021	
           Sida chlorotic leaf virus     (2635 nt)     NC_055581     proteins: 6
           Sida chlorotic leaf virus     (2580 nt)     NC_060102     proteins: 3
@@ -7691,17 +7691,17 @@ Riboviria
     Adelphocoris suturalis virus	NC_032728	complete	isolate:HBWH	-	10845 nt	5	-		01/17/2017	08/13/2018	
     Adonis mosaic virus	NC_040794	complete	isolate:HSP-2	-	3991 nt	6	-	land plants	06/01/2021	06/08/2021	
     Adult diarrheal rotavirus strain J19	-	complete	strain:J19	11	17961 nt	11	-	human, vertebrates	11/02/2005	08/13/2018	
-          Adult diarrheal rotavirus strain J19     (649 nt)     NC_007558     proteins: 1     neighbors: 8
+          Adult diarrheal rotavirus strain J19     (1307 nt)     NC_007552     proteins: 1
           Adult diarrheal rotavirus strain J19     (2512 nt)     NC_007550     proteins: 1
           Adult diarrheal rotavirus strain J19     (3538 nt)     NC_007548     proteins: 1     neighbors: 8
+          Adult diarrheal rotavirus strain J19     (649 nt)     NC_007558     proteins: 1     neighbors: 8
           Adult diarrheal rotavirus strain J19     (739 nt)     NC_007557     proteins: 1
           Adult diarrheal rotavirus strain J19     (1287 nt)     NC_007553     proteins: 1     neighbors: 41
+          Adult diarrheal rotavirus strain J19     (2969 nt)     NC_007549     proteins: 1     neighbors: 5
           Adult diarrheal rotavirus strain J19     (2204 nt)     NC_007551     proteins: 1     neighbors: 6
-          Adult diarrheal rotavirus strain J19     (1307 nt)     NC_007552     proteins: 1
-          Adult diarrheal rotavirus strain J19     (820 nt)     NC_007556     proteins: 1
           Adult diarrheal rotavirus strain J19     (932 nt)     NC_007555     proteins: 1     neighbors: 1
           Adult diarrheal rotavirus strain J19     (1004 nt)     NC_007554     proteins: 1     neighbors: 10
-          Adult diarrheal rotavirus strain J19     (2969 nt)     NC_007549     proteins: 1     neighbors: 5
+          Adult diarrheal rotavirus strain J19     (820 nt)     NC_007556     proteins: 1
     Aedes flavivirus	NC_012932	complete	strain:Narita-21	-	11064 nt	2	4	invertebrates	07/24/2009	05/24/2019	
     Aedes pseudoscutellaris reovirus	-	complete	-	9	23147 nt	9	-	invertebrates	12/17/2005	08/13/2018	
           Aedes pseudoscutellaris reovirus     (3227 nt)     NC_007670     proteins: 1     neighbors: 1
@@ -10718,10 +10718,10 @@ Riboviria
     Helleborus mosaic virus	NC_043082	incomplete	-	-	3030 nt	6	-	land plants	06/28/2019	06/28/2019	
     Helleborus net necrosis virus	NC_012038	complete	strain:G5	-	8542 nt	6	2	land plants	02/04/2009	08/13/2018	
     Helminthosporium victoriae 145S virus	-	complete	-	4	12481 nt	4	-		07/10/2004	08/13/2018	
+          Helminthosporium victoriae 145S virus     (3612 nt)     NC_005978     proteins: 1
           Helminthosporium victoriae 145S virus     (2972 nt)     NC_005980     proteins: 1
           Helminthosporium victoriae 145S virus     (2763 nt)     NC_005981     proteins: 1
           Helminthosporium victoriae 145S virus     (3134 nt)     NC_005979     proteins: 1
-          Helminthosporium victoriae 145S virus     (3612 nt)     NC_005978     proteins: 1
     Helminthosporium victoriae virus 190S	NC_003607	complete	-	-	5179 nt	2	-		01/04/1998	08/13/2018	
     Henbane mosaic virus	NC_043422	incomplete	isolate:PHYS/H	-	1646 nt	1	5	land plants	02/02/2006	06/28/2019	
     Hendra henipavirus	NC_001906	complete	-	-	18234 nt	8	18	human, vertebrates	07/01/1998	08/13/2018	
@@ -12607,9 +12607,9 @@ Riboviria
           Otarine picobirnavirus     (2347 nt)     NC_034160     proteins: 2     neighbors: 2
           Otarine picobirnavirus     (1688 nt)     NC_034161     proteins: 1     neighbors: 12
     Ourmia melon virus	-	complete	isolate:VE9	3	4852 nt	3	-	land plants	07/21/2008	08/13/2018	
+          Ourmia melon virus     (2814 nt)     NC_011068     proteins: 1
           Ourmia melon virus     (974 nt)     NC_011070     proteins: 1
           Ourmia melon virus     (1064 nt)     NC_011069     proteins: 1
-          Ourmia melon virus     (2814 nt)     NC_011068     proteins: 1
     Ovine enzootic nasal tumor virus	NC_007015	complete	isolate:sheep TNO28	-	7434 nt	4	11	vertebrates	04/24/1999	08/13/2018	
     Ovine lentivirus	NC_001511	complete	-	-	9256 nt	6	2	vertebrates	08/02/1993	08/13/2018	
     Oxbow virus	-	incomplete	strain:Ng1453	3	9731 nt	3	-	vertebrates	06/28/2019	06/28/2019	
@@ -13604,9 +13604,9 @@ Riboviria
           Severe fever with thrombocytopenia syndrome virus     (1681 nt)     NC_043452     proteins: 2
           Severe fever with thrombocytopenia syndrome virus     (3336 nt)     NC_043451     proteins: 1
           Severe fever with thrombocytopenia syndrome virus     (6255 nt)     NC_043450     proteins: 1
-    Sabia virus	-	complete	strain:SPH114202	2	10499 nt	4	-	human	09/24/2004	08/13/2018	
-          Sabia virus     (3366 nt)     NC_006317     proteins: 2     neighbors: 2
+    Sabia virus	-	complete	strain:SPH114202	2	10499 nt	4	-	human	09/24/2004	01/31/2022	
           Sabia virus     (7133 nt)     NC_006313     proteins: 2     neighbors: 3
+          Sabia virus     (3366 nt)     NC_006317     proteins: 2     neighbors: 2
     Sabo virus	-	complete	isolate:IB AN 9398	3	12058 nt	4	-		08/20/2012	08/22/2019	
           Sabo virus     (894 nt)     NC_043554     proteins: 2
           Sabo virus     (4307 nt)     NC_043552     proteins: 1
