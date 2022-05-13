@@ -958,23 +958,23 @@ Duplodnaviria
     Corynebacterium phage phi673	NC_042354	complete	-	-	44530 nt	56	-	bacteria	05/24/2019	12/21/2020	
     Corynebacterium phage phi674	NC_042355	complete	-	-	43193 nt	54	-	bacteria	05/24/2019	12/21/2020	
     CrAss-like virus sp.	-	complete	-	17	1635658 nt	1563	-		04/27/2022	04/27/2022	
-          CrAss-like virus sp.     (96466 nt)     NC_062769     proteins: 82
+          CrAss-like virus sp.     (95815 nt)     NC_062779     proteins: 88
           CrAss-like virus sp.     (93564 nt)     NC_062773     proteins: 93
           CrAss-like virus sp.     (94533 nt)     NC_062777     proteins: 89
-          CrAss-like virus sp.     (99984 nt)     NC_062765     proteins: 99
-          CrAss-like virus sp.     (93391 nt)     NC_062770     proteins: 90
-          CrAss-like virus sp.     (95815 nt)     NC_062779     proteins: 88
-          CrAss-like virus sp.     (92241 nt)     NC_062766     proteins: 86
-          CrAss-like virus sp.     (100971 nt)     NC_062767     proteins: 100
-          CrAss-like virus sp.     (97536 nt)     NC_062774     proteins: 82
           CrAss-like virus sp.     (91714 nt)     NC_062778     proteins: 86
-          CrAss-like virus sp.     (99704 nt)     NC_062772     proteins: 99
-          CrAss-like virus sp.     (92367 nt)     NC_062764     proteins: 91
+          CrAss-like virus sp.     (93391 nt)     NC_062770     proteins: 90
+          CrAss-like virus sp.     (96466 nt)     NC_062769     proteins: 82
+          CrAss-like virus sp.     (99984 nt)     NC_062765     proteins: 99
           CrAss-like virus sp.     (92361 nt)     NC_062776     proteins: 89
+          CrAss-like virus sp.     (92367 nt)     NC_062764     proteins: 91
+          CrAss-like virus sp.     (92132 nt)     NC_062780     proteins: 84
+          CrAss-like virus sp.     (99704 nt)     NC_062772     proteins: 99
+          CrAss-like virus sp.     (97536 nt)     NC_062774     proteins: 82
+          CrAss-like virus sp.     (100314 nt)     NC_062768     proteins: 111
           CrAss-like virus sp.     (98001 nt)     NC_062771     proteins: 94
           CrAss-like virus sp.     (104564 nt)     NC_062775     proteins: 100
-          CrAss-like virus sp.     (92132 nt)     NC_062780     proteins: 84
-          CrAss-like virus sp.     (100314 nt)     NC_062768     proteins: 111
+          CrAss-like virus sp.     (92241 nt)     NC_062766     proteins: 86
+          CrAss-like virus sp.     (100971 nt)     NC_062767     proteins: 100
     CrAssphage sp.	-	complete	isolate:ctbg_1	2	184901 nt	161	-		06/02/2021	06/07/2021	
           CrAssphage sp.     (94878 nt)     NC_055760     proteins: 81
           CrAssphage sp.     (90023 nt)     NC_055756     proteins: 80
@@ -9223,9 +9223,9 @@ Riboviria
     Cassava common mosaic virus	NC_001658	complete	-	-	6376 nt	5	7	land plants	04/15/1995	08/13/2018	
     Cassava vein mosaic virus	NC_001648	complete	-	-	8159 nt	5	1	land plants	07/02/1996	08/13/2018	
     Cassava virus C	-	complete	isolate:IC	3	4835 nt	3	-	land plants	08/17/2009	08/13/2018	
+          Cassava virus C     (2740 nt)     NC_013111     proteins: 1
           Cassava virus C     (958 nt)     NC_013113     proteins: 1
           Cassava virus C     (1137 nt)     NC_013112     proteins: 1
-          Cassava virus C     (2740 nt)     NC_013111     proteins: 1
     Cassava virus X	NC_034375	complete	isolate:Ven164	-	5879 nt	4	-	land plants	04/21/2017	08/13/2018	
     Cassia yellow blotch virus	-	complete	strain:KU1	3	7988 nt	4	-		05/17/2005	06/04/2020	
           Cassia yellow blotch virus     (3176 nt)     NC_006999     proteins: 1
@@ -10718,10 +10718,10 @@ Riboviria
     Helleborus mosaic virus	NC_043082	incomplete	-	-	3030 nt	6	-	land plants	06/28/2019	06/28/2019	
     Helleborus net necrosis virus	NC_012038	complete	strain:G5	-	8542 nt	6	2	land plants	02/04/2009	08/13/2018	
     Helminthosporium victoriae 145S virus	-	complete	-	4	12481 nt	4	-		07/10/2004	08/13/2018	
-          Helminthosporium victoriae 145S virus     (3612 nt)     NC_005978     proteins: 1
           Helminthosporium victoriae 145S virus     (2972 nt)     NC_005980     proteins: 1
           Helminthosporium victoriae 145S virus     (2763 nt)     NC_005981     proteins: 1
           Helminthosporium victoriae 145S virus     (3134 nt)     NC_005979     proteins: 1
+          Helminthosporium victoriae 145S virus     (3612 nt)     NC_005978     proteins: 1
     Helminthosporium victoriae virus 190S	NC_003607	complete	-	-	5179 nt	2	-		01/04/1998	08/13/2018	
     Henbane mosaic virus	NC_043422	incomplete	isolate:PHYS/H	-	1646 nt	1	5	land plants	02/02/2006	06/28/2019	
     Hendra henipavirus	NC_001906	complete	-	-	18234 nt	8	18	human, vertebrates	07/01/1998	08/13/2018	
@@ -10843,8 +10843,8 @@ Riboviria
     Huangpi Tick Virus 3	NC_031083	complete	strain:H124-2	-	13169 nt	5	-	invertebrates	09/23/2016	08/13/2018	
     Hubei Poty-like virus 1	NC_032912	complete	strain:SCM51506	-	9356 nt	1	-		01/17/2017	08/13/2018	
     Hubei Wuhan insect virus 9	-	complete	strain:QTM27230	2	12562 nt	6	-	invertebrates	01/17/2017	08/13/2018	
-          Hubei Wuhan insect virus 9     (3250 nt)     NC_033325     proteins: 3
           Hubei Wuhan insect virus 9     (9312 nt)     NC_033326     proteins: 3
+          Hubei Wuhan insect virus 9     (3250 nt)     NC_033325     proteins: 3
     Hubei arthropod virus 1	NC_032800	complete	strain:arthropodmix4509	-	9539 nt	1	2	invertebrates	01/17/2017	08/13/2018	
     Hubei arthropod virus 3	NC_032905	complete	strain:GCM7473	-	9828 nt	1	2	invertebrates	01/17/2017	08/13/2018	
     Hubei astro-like virus	NC_032203	complete	strain:WGML136555	-	6784 nt	4	-	invertebrates	12/27/2016	08/13/2018	
@@ -11296,9 +11296,9 @@ Riboviria
           Human rotavirus B     (1179 nt)     NC_021547     proteins: 1     neighbors: 10
           Human rotavirus B     (1007 nt)     NC_021548     proteins: 1     neighbors: 69
     Humulus japonicus latent virus	-	complete	-	3	8130 nt	4	-		07/21/2004	08/13/2018	
+          Humulus japonicus latent virus     (3382 nt)     NC_006064     proteins: 1
           Humulus japonicus latent virus     (1938 nt)     NC_006066     proteins: 2
           Humulus japonicus latent virus     (2810 nt)     NC_006065     proteins: 1
-          Humulus japonicus latent virus     (3382 nt)     NC_006064     proteins: 1
     Hunter Island virus	-	complete	isolate:CSIRO1568	3	11367 nt	4	-	invertebrates	08/18/2015	06/21/2019	
           Hunter Island virus     (1681 nt)     NC_027716     proteins: 2     neighbors: 1
           Hunter Island virus     (6358 nt)     NC_027717     proteins: 1     neighbors: 1
@@ -11952,15 +11952,15 @@ Riboviria
           Madrid virus     (1090 nt)     NC_034498     proteins: 2     neighbors: 1
           Madrid virus     (4642 nt)     NC_034505     proteins: 1     neighbors: 2
     Magnaporthe oryzae chrysovirus 1	-	complete	isolate:B	10	31363 nt	10	-	fungi	01/06/2014	08/13/2018	
+          Magnaporthe oryzae chrysovirus 1     (2874 nt)     NC_023043     proteins: 1     neighbors: 2
           Magnaporthe oryzae chrysovirus 1     (2997 nt)     NC_023039     proteins: 1     neighbors: 2
-          Magnaporthe oryzae chrysovirus 1     (3254 nt)     NC_023042     proteins: 1     neighbors: 2
           Magnaporthe oryzae chrysovirus 1     (2880 nt)     NC_023040     proteins: 1     neighbors: 2
           Magnaporthe oryzae chrysovirus 1     (3074 nt)     NC_014463     proteins: 1     neighbors: 2
           Magnaporthe oryzae chrysovirus 1     (3043 nt)     NC_014464     proteins: 1     neighbors: 2
           Magnaporthe oryzae chrysovirus 1     (3558 nt)     NC_023041     proteins: 1     neighbors: 1
           Magnaporthe oryzae chrysovirus 1     (2879 nt)     NC_038011     proteins: 1     neighbors: 2
           Magnaporthe oryzae chrysovirus 1     (3250 nt)     NC_014465     proteins: 1     neighbors: 2
-          Magnaporthe oryzae chrysovirus 1     (2874 nt)     NC_023043     proteins: 1     neighbors: 2
+          Magnaporthe oryzae chrysovirus 1     (3254 nt)     NC_023042     proteins: 1     neighbors: 2
           Magnaporthe oryzae chrysovirus 1     (3554 nt)     NC_014462     proteins: 1     neighbors: 1
     Magnaporthe oryzae ourmia-like virus	NC_043683	complete	-	-	2364 nt	1	-	fungi	12/21/2016	06/28/2019	
     Magnaporthe oryzae polymycovirus 1	-	complete	isolate:TM02	4	7921 nt	4	-	fungi	06/01/2021	06/09/2021	
@@ -12607,9 +12607,9 @@ Riboviria
           Otarine picobirnavirus     (2347 nt)     NC_034160     proteins: 2     neighbors: 2
           Otarine picobirnavirus     (1688 nt)     NC_034161     proteins: 1     neighbors: 12
     Ourmia melon virus	-	complete	isolate:VE9	3	4852 nt	3	-	land plants	07/21/2008	08/13/2018	
-          Ourmia melon virus     (2814 nt)     NC_011068     proteins: 1
           Ourmia melon virus     (974 nt)     NC_011070     proteins: 1
           Ourmia melon virus     (1064 nt)     NC_011069     proteins: 1
+          Ourmia melon virus     (2814 nt)     NC_011068     proteins: 1
     Ovine enzootic nasal tumor virus	NC_007015	complete	isolate:sheep TNO28	-	7434 nt	4	11	vertebrates	04/24/1999	08/13/2018	
     Ovine lentivirus	NC_001511	complete	-	-	9256 nt	6	2	vertebrates	08/02/1993	08/13/2018	
     Oxbow virus	-	incomplete	strain:Ng1453	3	9731 nt	3	-	vertebrates	06/28/2019	06/28/2019	
@@ -13604,9 +13604,9 @@ Riboviria
           Severe fever with thrombocytopenia syndrome virus     (1681 nt)     NC_043452     proteins: 2
           Severe fever with thrombocytopenia syndrome virus     (3336 nt)     NC_043451     proteins: 1
           Severe fever with thrombocytopenia syndrome virus     (6255 nt)     NC_043450     proteins: 1
-    Sabia virus	-	complete	strain:SPH114202	2	10499 nt	4	-	human	09/24/2004	01/31/2022	
-          Sabia virus     (7133 nt)     NC_006313     proteins: 2     neighbors: 3
+    Sabia virus	-	complete	strain:SPH114202	2	10499 nt	4	-	human	09/24/2004	08/13/2018	
           Sabia virus     (3366 nt)     NC_006317     proteins: 2     neighbors: 2
+          Sabia virus     (7133 nt)     NC_006313     proteins: 2     neighbors: 3
     Sabo virus	-	complete	isolate:IB AN 9398	3	12058 nt	4	-		08/20/2012	08/22/2019	
           Sabo virus     (894 nt)     NC_043554     proteins: 2
           Sabo virus     (4307 nt)     NC_043552     proteins: 1
