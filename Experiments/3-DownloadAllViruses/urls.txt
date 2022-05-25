@@ -82,7 +82,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/847/985/GCF_000847985.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/849/585/GCF_000849585.1_ViralProj14575/GCF_000849585.1_ViralProj14575_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/849/605/GCF_000849605.1_ViralProj14579/GCF_000849605.1_ViralProj14579_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/837/025/GCF_000837025.1_ViralProj14062/GCF_000837025.1_ViralProj14062_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/836/945/GCF_000836945.1_ViralProj14044/GCF_000836945.1_ViralProj14044_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/013/150/875/GCF_013150875.1_ASM1315087v1/GCF_013150875.1_ASM1315087v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/846/325/GCF_000846325.1_ViralProj14414/GCF_000846325.1_ViralProj14414_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/755/035/GCF_002755035.1_ASM275503v1/GCF_002755035.1_ASM275503v1_cds_from_genomic.fna.gz
@@ -92,7 +91,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/369/385/GCF_003369385.1_ASM3369
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/881/275/GCF_000881275.1_ViralProj37819/GCF_000881275.1_ViralProj37819_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/844/125/GCF_000844125.1_ViralProj14485/GCF_000844125.1_ViralProj14485_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/881/375/GCF_000881375.1_ViralProj30845/GCF_000881375.1_ViralProj30845_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/006/298/325/GCF_006298325.1_ASM629832v1/GCF_006298325.1_ASM629832v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/840/245/GCF_000840245.1_ViralProj14204/GCF_000840245.1_ViralProj14204_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/015/325/GCF_001015325.1_ViralProj284780/GCF_001015325.1_ViralProj284780_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/841/105/GCF_000841105.1_ViralProj14217/GCF_000841105.1_ViralProj14217_cds_from_genomic.fna.gz
@@ -135,13 +133,11 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/884/975/GCF_000884975.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/846/145/GCF_000846145.1_ViralProj14570/GCF_000846145.1_ViralProj14570_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/847/925/GCF_000847925.1_ViralProj14580/GCF_000847925.1_ViralProj14580_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/839/985/GCF_000839985.1_ViralProj14161/GCF_000839985.1_ViralProj14161_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/842/465/GCF_000842465.1_ViralProj14329/GCF_000842465.1_ViralProj14329_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/929/915/GCF_000929915.1_ViralProj269627/GCF_000929915.1_ViralProj269627_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/848/985/GCF_000848985.1_ViralProj14627/GCF_000848985.1_ViralProj14627_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/836/925/GCF_000836925.1_ViralProj14039/GCF_000836925.1_ViralProj14039_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/847/885/GCF_000847885.1_ViralProj14572/GCF_000847885.1_ViralProj14572_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/837/805/GCF_000837805.1_ViralProj14061/GCF_000837805.1_ViralProj14061_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/852/125/GCF_000852125.1_ViralMultiSegProj14788/GCF_000852125.1_ViralMultiSegProj14788_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/907/835/GCF_000907835.1_ViralMultiSegProj209367/GCF_000907835.1_ViralMultiSegProj209367_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/870/625/GCF_000870625.1_ViralMultiSegProj19149/GCF_000870625.1_ViralMultiSegProj19149_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/994/715/GCF_002994715.1_ASM299471v1/GCF_002994715.1_ASM299471v1_cds_from_genomic.fna.gz
@@ -481,7 +477,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/851/265/GCF_000851265.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/840/125/GCF_000840125.1_ViralProj14189/GCF_000840125.1_ViralProj14189_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/868/545/GCF_000868545.2_ViralProj17995/GCF_000868545.2_ViralProj17995_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/149/625/GCF_002149625.1_ViralProj266638.1/GCF_002149625.1_ViralProj266638.1_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/845/025/GCF_000845025.2_ViralProj14500/GCF_000845025.2_ViralProj14500_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/837/665/GCF_000837665.1_ViralProj14029/GCF_000837665.1_ViralProj14029_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/844/305/GCF_000844305.1_ViralProj14534/GCF_000844305.1_ViralProj14534_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/827/365/GCF_002827365.1_ASM282736v1/GCF_002827365.1_ASM282736v1_cds_from_genomic.fna.gz
@@ -630,7 +625,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/844/405/GCF_000844405.1_ViralMu
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/881/975/GCF_000881975.1_ViralMultiSegProj33493/GCF_000881975.1_ViralMultiSegProj33493_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/850/265/GCF_000850265.1_ViralProj14718/GCF_000850265.1_ViralProj14718_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/818/035/GCF_002818035.1_ASM281803v1/GCF_002818035.1_ASM281803v1_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/866/345/GCF_000866345.1_ViralProj15479/GCF_000866345.1_ViralProj15479_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/502/735/GCF_001502735.1_ViralProj307769/GCF_001502735.1_ViralProj307769_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/592/905/GCF_002592905.1_ASM259290v1/GCF_002592905.1_ASM259290v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/814/735/GCF_002814735.1_ASM281473v1/GCF_002814735.1_ASM281473v1_cds_from_genomic.fna.gz
@@ -899,7 +893,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/847/645/GCF_000847645.1_ViralMu
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/909/715/GCF_000909715.1_ViralProj213070/GCF_000909715.1_ViralProj213070_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/828/365/GCF_002828365.1_ASM282836v1/GCF_002828365.1_ASM282836v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/310/115/GCF_001310115.1_ViralProj298081/GCF_001310115.1_ViralProj298081_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/837/685/GCF_000837685.1_ViralProj14034/GCF_000837685.1_ViralProj14034_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/849/085/GCF_000849085.1_ViralProj14648/GCF_000849085.1_ViralProj14648_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/907/825/GCF_001907825.1_ViralProj357638/GCF_001907825.1_ViralProj357638_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/840/045/GCF_000840045.1_ViralMultiSegProj14173/GCF_000840045.1_ViralMultiSegProj14173_cds_from_genomic.fna.gz
@@ -1025,7 +1018,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/837/465/GCF_000837465.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/847/625/GCF_000847625.1_ViralProj14688/GCF_000847625.1_ViralProj14688_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/867/545/GCF_000867545.1_ViralMultiSegProj17545/GCF_000867545.1_ViralMultiSegProj17545_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/844/545/GCF_000844545.1_ViralProj14403/GCF_000844545.1_ViralProj14403_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/857/925/GCF_000857925.1_ViralProj15124/GCF_000857925.1_ViralProj15124_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/850/325/GCF_000850325.1_ViralProj14730/GCF_000850325.1_ViralProj14730_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/836/805/GCF_000836805.1_ViralProj14012/GCF_000836805.1_ViralProj14012_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/903/975/GCF_000903975.1_ViralProj185274/GCF_000903975.1_ViralProj185274_cds_from_genomic.fna.gz
@@ -1265,7 +1257,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/838/905/GCF_000838905.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/849/445/GCF_000849445.1_ViralProj14725/GCF_000849445.1_ViralProj14725_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/857/745/GCF_000857745.1_ViralProj15079/GCF_000857745.1_ViralProj15079_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/858/245/GCF_000858245.1_ViralProj15190/GCF_000858245.1_ViralProj15190_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/842/865/GCF_000842865.1_ViralProj14231/GCF_000842865.1_ViralProj14231_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/899/795/GCF_000899795.1_ViralProj170172/GCF_000899795.1_ViralProj170172_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/819/405/GCF_002819405.1_ASM281940v1/GCF_002819405.1_ASM281940v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/848/585/GCF_000848585.1_ViralProj14719/GCF_000848585.1_ViralProj14719_cds_from_genomic.fna.gz
@@ -1419,7 +1410,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/854/785/GCF_000854785.1_ViralMu
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/859/025/GCF_000859025.1_ViralProj15192/GCF_000859025.1_ViralProj15192_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/843/725/GCF_000843725.1_ViralProj14404/GCF_000843725.1_ViralProj14404_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/919/835/GCF_000919835.1_ViralProj244947/GCF_000919835.1_ViralProj244947_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/897/035/GCF_000897035.1_ViralProj162497/GCF_000897035.1_ViralProj162497_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/872/165/GCF_000872165.1_ViralProj27899/GCF_000872165.1_ViralProj27899_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/838/285/GCF_000838285.1_ViralProj14163/GCF_000838285.1_ViralProj14163_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/845/105/GCF_000845105.1_ViralProj14522/GCF_000845105.1_ViralProj14522_cds_from_genomic.fna.gz
@@ -1596,7 +1586,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/848/105/GCF_000848105.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/846/485/GCF_000846485.1_ViralProj14447/GCF_000846485.1_ViralProj14447_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/863/645/GCF_000863645.1_ViralProj15447/GCF_000863645.1_ViralProj15447_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/047/575/GCF_003047575.1_ASM304757v1/GCF_003047575.1_ASM304757v1_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/846/645/GCF_000846645.1_ViralProj14479/GCF_000846645.1_ViralProj14479_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/845/825/GCF_000845825.1_ViralProj14490/GCF_000845825.1_ViralProj14490_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/838/085/GCF_000838085.1_ViralProj14120/GCF_000838085.1_ViralProj14120_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/840/465/GCF_000840465.1_ViralProj14249/GCF_000840465.1_ViralProj14249_cds_from_genomic.fna.gz
@@ -1965,14 +1954,7 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/863/745/GCF_000863745.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/860/185/GCF_000860185.1_ViralProj15262/GCF_000860185.1_ViralProj15262_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/858/585/GCF_000858585.1_ViralProj15263/GCF_000858585.1_ViralProj15263_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/858/605/GCF_000858605.1_ViralProj15267/GCF_000858605.1_ViralProj15267_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/860/225/GCF_000860225.1_ViralProj15270/GCF_000860225.1_ViralProj15270_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/860/325/GCF_000860325.1_ViralProj15271/GCF_000860325.1_ViralProj15271_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/857/665/GCF_000857665.1_ViralProj15272/GCF_000857665.1_ViralProj15272_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/859/405/GCF_000859405.1_ViralProj15273/GCF_000859405.1_ViralProj15273_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/860/245/GCF_000860245.1_ViralProj15274/GCF_000860245.1_ViralProj15274_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/860/345/GCF_000860345.1_ViralProj15275/GCF_000860345.1_ViralProj15275_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/857/685/GCF_000857685.1_ViralProj15276/GCF_000857685.1_ViralProj15276_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/859/425/GCF_000859425.1_ViralProj15277/GCF_000859425.1_ViralProj15277_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/915/195/GCF_000915195.1_ViralProj230992/GCF_000915195.1_ViralProj230992_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/862/645/GCF_000862645.1_ViralProj15416/GCF_000862645.1_ViralProj15416_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/986/275/GCF_002986275.1_ASM298627v1/GCF_002986275.1_ASM298627v1_cds_from_genomic.fna.gz
@@ -2021,7 +2003,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/871/145/GCF_000871145.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/895/615/GCF_000895615.1_ViralProj76739/GCF_000895615.1_ViralProj76739_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/865/365/GCF_000865365.1_ViralProj16300/GCF_000865365.1_ViralProj16300_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/867/125/GCF_000867125.1_ViralProj16653/GCF_000867125.1_ViralProj16653_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/861/045/GCF_000861045.1_ViralProj15422/GCF_000861045.1_ViralProj15422_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/864/125/GCF_000864125.1_ViralProj15635/GCF_000864125.1_ViralProj15635_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/829/925/GCF_002829925.1_ASM282992v1/GCF_002829925.1_ASM282992v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/880/155/GCF_000880155.1_ViralProj30175/GCF_000880155.1_ViralProj30175_cds_from_genomic.fna.gz
@@ -2095,7 +2076,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/866/085/GCF_000866085.1_ViralMu
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/848/085/GCF_000848085.2_ViralProj14616/GCF_000848085.2_ViralProj14616_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/866/205/GCF_000866205.1_ViralProj16381/GCF_000866205.1_ViralProj16381_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/866/705/GCF_000866705.1_ViralProj15880/GCF_000866705.1_ViralProj15880_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/866/045/GCF_000866045.1_ViralProj16228/GCF_000866045.1_ViralProj16228_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/869/165/GCF_000869165.1_ViralProj17123/GCF_000869165.1_ViralProj17123_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/867/385/GCF_000867385.1_ViralProj17125/GCF_000867385.1_ViralProj17125_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/833/545/GCF_002833545.1_ASM283354v1/GCF_002833545.1_ASM283354v1_cds_from_genomic.fna.gz
@@ -2201,7 +2181,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/868/305/GCF_000868305.2_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/925/565/GCF_002925565.1_ASM292556v1/GCF_002925565.1_ASM292556v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/870/185/GCF_000870185.1_ViralProj18009/GCF_000870185.1_ViralProj18009_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/827/705/GCF_002827705.1_ASM282770v1/GCF_002827705.1_ASM282770v1_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/897/775/GCF_000897775.1_ViralProj177524/GCF_000897775.1_ViralProj177524_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/886/495/GCF_000886495.1_ViralProj38689/GCF_000886495.1_ViralProj38689_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/867/575/GCF_002867575.1_ASM286757v1/GCF_002867575.1_ASM286757v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/871/645/GCF_000871645.1_ViralProj19767/GCF_000871645.1_ViralProj19767_cds_from_genomic.fna.gz
@@ -2238,6 +2217,7 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/870/085/GCF_000870085.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/988/065/GCF_002988065.1_ASM298806v1/GCF_002988065.1_ASM298806v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/870/245/GCF_000870245.1_ViralProj18239/GCF_000870245.1_ViralProj18239_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/868/665/GCF_000868665.1_ViralProj18291/GCF_000868665.1_ViralProj18291_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/867/085/GCF_000867085.1_ViralProj16628/GCF_000867085.1_ViralProj16628_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/874/205/GCF_000874205.1_ViralProj20781/GCF_000874205.1_ViralProj20781_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/871/265/GCF_000871265.1_ViralProj21043/GCF_000871265.1_ViralProj21043_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/872/125/GCF_000872125.1_ViralProj21045/GCF_000872125.1_ViralProj21045_cds_from_genomic.fna.gz
@@ -2392,7 +2372,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/986/995/GCF_002986995.1_ASM2986
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/987/065/GCF_002987065.1_ASM298706v1/GCF_002987065.1_ASM298706v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/870/805/GCF_000870805.1_ViralProj19773/GCF_000870805.1_ViralProj19773_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/871/965/GCF_000871965.1_ViralProj20787/GCF_000871965.1_ViralProj20787_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/873/965/GCF_000873965.1_ViralProj19801/GCF_000873965.1_ViralProj19801_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/870/785/GCF_000870785.1_ViralProj19765/GCF_000870785.1_ViralProj19765_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/874/825/GCF_000874825.1_ViralProj28297/GCF_000874825.1_ViralProj28297_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/611/625/GCF_001611625.1_ViralMultiSegProj317364/GCF_001611625.1_ViralMultiSegProj317364_cds_from_genomic.fna.gz
@@ -2460,7 +2439,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/871/045/GCF_000871045.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/872/305/GCF_000872305.1_ViralProj27893/GCF_000872305.1_ViralProj27893_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/880/455/GCF_000880455.1_ViralProj31219/GCF_000880455.1_ViralProj31219_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/888/075/GCF_000888075.1_ViralProj43007/GCF_000888075.1_ViralProj43007_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/874/965/GCF_000874965.1_ViralProj28829/GCF_000874965.1_ViralProj28829_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/878/955/GCF_000878955.1_ViralProj28115/GCF_000878955.1_ViralProj28115_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/925/255/GCF_000925255.1_ViralProj263507/GCF_000925255.1_ViralProj263507_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/873/525/GCF_000873525.1_ViralProj20763/GCF_000873525.1_ViralProj20763_cds_from_genomic.fna.gz
@@ -2524,7 +2502,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/879/715/GCF_000879715.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/927/295/GCF_000927295.1_ViralProj265906/GCF_000927295.1_ViralProj265906_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/872/765/GCF_000872765.1_ViralProj29143/GCF_000872765.1_ViralProj29143_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/866/265/GCF_000866265.1_ViralProj16595/GCF_000866265.1_ViralProj16595_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/867/085/GCF_000867085.1_ViralProj16628/GCF_000867085.1_ViralProj16628_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/872/285/GCF_000872285.1_ViralProj28275/GCF_000872285.1_ViralProj28275_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/638/665/GCF_003638665.1_ASM363866v1/GCF_003638665.1_ASM363866v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/924/675/GCF_000924675.1_ViralProj264939/GCF_000924675.1_ViralProj264939_cds_from_genomic.fna.gz
@@ -3026,7 +3003,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/868/045/GCF_000868045.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/870/505/GCF_000870505.1_ViralProj18863/GCF_000870505.1_ViralProj18863_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/873/025/GCF_000873025.1_ViralProj18865/GCF_000873025.1_ViralProj18865_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/872/845/GCF_000872845.1_ViralProj29509/GCF_000872845.1_ViralProj29509_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/308/695/GCF_001308695.1_ViralProj298068/GCF_001308695.1_ViralProj298068_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/889/935/GCF_002889935.1_ASM288993v1/GCF_002889935.1_ASM288993v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/887/095/GCF_000887095.1_ViralProj43573/GCF_000887095.1_ViralProj43573_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/893/815/GCF_000893815.1_ViralProj72369/GCF_000893815.1_ViralProj72369_cds_from_genomic.fna.gz
@@ -3074,7 +3050,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/308/555/GCF_001308555.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/925/955/GCF_000925955.1_ViralMultiSegProj267135/GCF_000925955.1_ViralMultiSegProj267135_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/888/575/GCF_000888575.1_ViralProj51791/GCF_000888575.1_ViralProj51791_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/888/555/GCF_000888555.1_ViralProj51735/GCF_000888555.1_ViralProj51735_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/894/355/GCF_000894355.2_ViralProj84399/GCF_000894355.2_ViralProj84399_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/921/275/GCF_000921275.1_ViralProj253739/GCF_000921275.1_ViralProj253739_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/827/205/GCF_002827205.1_ASM282720v1/GCF_002827205.1_ASM282720v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/887/975/GCF_000887975.1_ViralProj61909/GCF_000887975.1_ViralProj61909_cds_from_genomic.fna.gz
@@ -3438,7 +3413,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/595/385/GCF_018595385.1_ASM1859
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/117/615/GCF_002117615.1_ViralMultiSegProj384971/GCF_002117615.1_ViralMultiSegProj384971_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/896/995/GCF_000896995.1_ViralProj159111/GCF_000896995.1_ViralProj159111_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/916/955/GCF_000916955.1_ViralProj239026/GCF_000916955.1_ViralProj239026_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/986/005/GCF_002986005.1_ASM298600v1/GCF_002986005.1_ASM298600v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/891/655/GCF_000891655.1_ViralProj63583/GCF_000891655.1_ViralProj63583_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/897/355/GCF_000897355.1_ViralMultiSegProj170539/GCF_000897355.1_ViralMultiSegProj170539_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/816/885/GCF_002816885.1_ASM281688v1/GCF_002816885.1_ASM281688v1_cds_from_genomic.fna.gz
@@ -3626,8 +3600,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/954/235/GCF_000954235.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/033/155/GCF_003033155.1_ASM303315v1/GCF_003033155.1_ASM303315v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/894/795/GCF_000894795.1_ViralProj72381/GCF_000894795.1_ViralProj72381_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/893/835/GCF_000893835.1_ViralProj72383/GCF_000893835.1_ViralProj72383_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/918/595/GCF_000918595.1_ViralProj240726/GCF_000918595.1_ViralProj240726_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/918/575/GCF_000918575.1_ViralProj240722/GCF_000918575.1_ViralProj240722_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/917/595/GCF_000917595.1_ViralProj240728/GCF_000917595.1_ViralProj240728_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/601/485/GCF_002601485.1_ASM260148v1/GCF_002601485.1_ASM260148v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/920/095/GCF_000920095.1_ViralProj240727/GCF_000920095.1_ViralProj240727_cds_from_genomic.fna.gz
@@ -3639,7 +3611,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/893/855/GCF_000893855.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/891/335/GCF_000891335.1_ViralProj72393/GCF_000891335.1_ViralProj72393_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/892/935/GCF_000892935.1_ViralProj72379/GCF_000892935.1_ViralProj72379_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/755/095/GCF_002755095.1_ASM275509v1/GCF_002755095.1_ASM275509v1_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/919/235/GCF_000919235.1_ViralProj240725/GCF_000919235.1_ViralProj240725_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/892/975/GCF_000892975.1_ViralProj72715/GCF_000892975.1_ViralProj72715_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/928/135/GCF_000928135.1_ViralProj271122/GCF_000928135.1_ViralProj271122_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/911/935/GCF_000911935.1_ViralProj215671/GCF_000911935.1_ViralProj215671_cds_from_genomic.fna.gz
@@ -3678,17 +3649,16 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/919/395/GCF_000919395.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/920/255/GCF_000920255.1_ViralProj240759/GCF_000920255.1_ViralProj240759_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/917/755/GCF_000917755.1_ViralProj240760/GCF_000917755.1_ViralProj240760_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/505/895/GCF_001505895.1_ViralProj307953/GCF_001505895.1_ViralProj307953_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/918/735/GCF_000918735.1_ViralProj240754/GCF_000918735.1_ViralProj240754_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/919/375/GCF_000919375.1_ViralProj240753/GCF_000919375.1_ViralProj240753_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/918/675/GCF_000918675.1_ViralProj240742/GCF_000918675.1_ViralProj240742_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/895/635/GCF_000895635.1_ViralProj77133/GCF_000895635.1_ViralProj77133_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/823/985/GCF_002823985.1_ASM282398v1/GCF_002823985.1_ASM282398v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/903/395/GCF_000903395.1_ViralProj181235/GCF_000903395.1_ViralProj181235_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/042/275/GCF_001042275.1_ViralProj288000/GCF_001042275.1_ViralProj288000_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/903/075/GCF_000903075.1_ViralProj185317/GCF_000903075.1_ViralProj185317_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/040/795/GCF_001040795.1_ViralProj287866/GCF_001040795.1_ViralProj287866_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/817/535/GCF_002817535.1_ASM281753v1/GCF_002817535.1_ASM281753v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/827/185/GCF_002827185.1_ASM282718v1/GCF_002827185.1_ASM282718v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/601/925/GCF_002601925.1_ASM260192v1/GCF_002601925.1_ASM260192v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/893/055/GCF_000893055.1_ViralProj74427/GCF_000893055.1_ViralProj74427_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/916/535/GCF_000916535.1_ViralProj240228/GCF_000916535.1_ViralProj240228_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/896/395/GCF_000896395.1_ViralMultiSegProj74527/GCF_000896395.1_ViralMultiSegProj74527_cds_from_genomic.fna.gz
@@ -3955,9 +3925,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/910/455/GCF_000910455.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/907/955/GCF_000907955.1_ViralProj212944/GCF_000907955.1_ViralProj212944_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/910/415/GCF_000910415.1_ViralProj212717/GCF_000910415.1_ViralProj212717_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/831/105/GCF_002831105.1_ASM283110v1/GCF_002831105.1_ASM283110v1_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/907/935/GCF_000907935.1_ViralProj212718/GCF_000907935.1_ViralProj212718_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/909/515/GCF_000909515.1_ViralProj212711/GCF_000909515.1_ViralProj212711_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/831/045/GCF_002831045.1_ASM283104v1/GCF_002831045.1_ASM283104v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/908/895/GCF_000908895.1_ViralProj212712/GCF_000908895.1_ViralProj212712_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/909/555/GCF_000909555.1_ViralProj212719/GCF_000909555.1_ViralProj212719_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/921/135/GCF_000921135.1_ViralProj253330/GCF_000921135.1_ViralProj253330_cds_from_genomic.fna.gz
@@ -4008,7 +3975,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/898/915/GCF_000898915.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/602/365/GCF_002602365.1_ASM260236v1/GCF_002602365.1_ASM260236v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/906/275/GCF_000906275.1_ViralProj196432/GCF_000906275.1_ViralProj196432_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/910/015/GCF_000910015.1_ViralProj206473/GCF_000910015.1_ViralProj206473_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/602/405/GCF_002602405.1_ASM260240v1/GCF_002602405.1_ASM260240v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/908/535/GCF_000908535.1_ViralProj206472/GCF_000908535.1_ViralProj206472_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/906/215/GCF_000906215.1_ViralProj195534/GCF_000906215.1_ViralProj195534_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/597/545/GCF_002597545.1_ASM259754v1/GCF_002597545.1_ASM259754v1_cds_from_genomic.fna.gz
@@ -4062,13 +4028,11 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/041/775/GCF_001041775.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/905/015/GCF_000905015.1_ViralProj185318/GCF_000905015.1_ViralProj185318_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/901/555/GCF_000901555.1_ViralProj179416/GCF_000901555.1_ViralProj179416_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/900/495/GCF_000900495.1_ViralProj179417/GCF_000900495.1_ViralProj179417_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/900/535/GCF_000900535.1_ViralProj179418/GCF_000900535.1_ViralProj179418_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/906/315/GCF_000906315.1_ViralProj197298/GCF_000906315.1_ViralProj197298_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/899/355/GCF_000899355.1_ViralProj177525/GCF_000899355.1_ViralProj177525_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/927/555/GCF_000927555.1_ViralProj266785/GCF_000927555.1_ViralProj266785_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/624/885/GCF_002624885.1_ASM262488v1/GCF_002624885.1_ASM262488v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/617/265/GCF_002617265.1_ASM261726v1/GCF_002617265.1_ASM261726v1_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/901/915/GCF_000901915.1_ViralProj181242/GCF_000901915.1_ViralProj181242_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/905/715/GCF_000905715.1_ViralProj188466/GCF_000905715.1_ViralProj188466_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/903/835/GCF_000903835.1_ViralProj184161/GCF_000903835.1_ViralProj184161_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/901/295/GCF_000901295.1_ViralProj184162/GCF_000901295.1_ViralProj184162_cds_from_genomic.fna.gz
@@ -4084,8 +4048,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/910/555/GCF_000910555.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/601/425/GCF_002601425.1_ASM260142v1/GCF_002601425.1_ASM260142v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/624/865/GCF_002624865.1_ASM262486v1/GCF_002624865.1_ASM262486v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/503/215/GCF_001503215.1_ViralProj307871/GCF_001503215.1_ViralProj307871_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/602/485/GCF_002602485.1_ASM260248v1/GCF_002602485.1_ASM260248v1_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/602/505/GCF_002602505.1_ASM260250v1/GCF_002602505.1_ASM260250v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/602/525/GCF_002602525.1_ASM260252v1/GCF_002602525.1_ASM260252v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/602/565/GCF_002602565.1_ASM260256v1/GCF_002602565.1_ASM260256v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/898/715/GCF_000898715.1_ViralProj176615/GCF_000898715.1_ViralProj176615_cds_from_genomic.fna.gz
@@ -4095,8 +4057,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/919/775/GCF_000919775.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/899/635/GCF_000899635.1_ViralProj179419/GCF_000899635.1_ViralProj179419_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/901/575/GCF_000901575.1_ViralProj179420/GCF_000901575.1_ViralProj179420_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/903/095/GCF_000903095.1_ViralProj179421/GCF_000903095.1_ViralProj179421_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/900/555/GCF_000900555.1_ViralProj179422/GCF_000900555.1_ViralProj179422_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/899/655/GCF_000899655.1_ViralProj179423/GCF_000899655.1_ViralProj179423_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/897/935/GCF_000897935.1_ViralProj178075/GCF_000897935.1_ViralProj178075_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/885/485/GCF_001885485.1_ViralProj354165/GCF_001885485.1_ViralProj354165_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/900/435/GCF_000900435.1_ViralProj178634/GCF_000900435.1_ViralProj178634_cds_from_genomic.fna.gz
@@ -4145,8 +4105,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/149/485/GCF_002149485.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/329/965/GCF_003329965.1_ASM332996v1/GCF_003329965.1_ASM332996v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/602/605/GCF_002602605.1_ASM260260v1/GCF_002602605.1_ASM260260v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/898/775/GCF_000898775.1_ViralProj177526/GCF_000898775.1_ViralProj177526_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/602/665/GCF_002602665.1_ASM260266v1/GCF_002602665.1_ASM260266v1_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/602/685/GCF_002602685.1_ASM260268v1/GCF_002602685.1_ASM260268v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/602/725/GCF_002602725.1_ASM260272v1/GCF_002602725.1_ASM260272v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/602/785/GCF_002602785.1_ASM260278v1/GCF_002602785.1_ASM260278v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/602/825/GCF_002602825.1_ASM260282v1/GCF_002602825.1_ASM260282v1_cds_from_genomic.fna.gz
@@ -4346,7 +4304,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/926/455/GCF_000926455.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/431/995/GCF_001431995.1_ViralProj301024/GCF_001431995.1_ViralProj301024_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/020/035/GCF_001020035.1_ViralProj285590/GCF_001020035.1_ViralProj285590_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/603/025/GCF_002603025.1_ASM260302v1/GCF_002603025.1_ASM260302v1_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/603/045/GCF_002603045.1_ASM260304v1/GCF_002603045.1_ASM260304v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/831/005/GCF_002831005.1_ASM283100v1/GCF_002831005.1_ASM283100v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/929/515/GCF_000929515.1_ViralProj266784/GCF_000929515.1_ViralProj266784_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/907/895/GCF_000907895.1_ViralProj212710/GCF_000907895.1_ViralProj212710_cds_from_genomic.fna.gz
@@ -4359,9 +4316,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/908/655/GCF_000908655.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/909/255/GCF_000909255.1_ViralProj206495/GCF_000909255.1_ViralProj206495_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/907/635/GCF_000907635.1_ViralProj206494/GCF_000907635.1_ViralProj206494_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/910/115/GCF_000910115.1_ViralProj206493/GCF_000910115.1_ViralProj206493_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/908/635/GCF_000908635.1_ViralProj206492/GCF_000908635.1_ViralProj206492_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/909/235/GCF_000909235.1_ViralProj206491/GCF_000909235.1_ViralProj206491_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/907/615/GCF_000907615.1_ViralProj206490/GCF_000907615.1_ViralProj206490_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/904/955/GCF_000904955.1_ViralProj185191/GCF_000904955.1_ViralProj185191_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/904/055/GCF_000904055.1_ViralProj186434/GCF_000904055.1_ViralProj186434_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/910/095/GCF_000910095.1_ViralProj206489/GCF_000910095.1_ViralProj206489_cds_from_genomic.fna.gz
@@ -4855,6 +4809,7 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/914/015/GCF_000914015.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/916/435/GCF_000916435.1_ViralProj240038/GCF_000916435.1_ViralProj240038_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/915/055/GCF_000915055.1_ViralProj230584/GCF_000915055.1_ViralProj230584_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/911/515/GCF_000911515.1_ViralProj230582/GCF_000911515.1_ViralProj230582_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/571/885/GCF_003571885.1_ASM357188v1/GCF_003571885.1_ASM357188v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/919/915/GCF_000919915.2_ViralProj248321/GCF_000919915.2_ViralProj248321_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/923/935/GCF_000923935.1_ViralProj255801/GCF_000923935.1_ViralProj255801_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/897/695/GCF_000897695.1_ViralProj176432/GCF_000897695.1_ViralProj176432_cds_from_genomic.fna.gz
@@ -5406,6 +5361,7 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/925/835/GCF_000925835.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/924/975/GCF_000924975.1_ViralProj266770/GCF_000924975.1_ViralProj266770_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/501/055/GCF_001501055.1_ViralProj307711/GCF_001501055.1_ViralProj307711_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/500/395/GCF_001500395.1_ViralProj307710/GCF_001500395.1_ViralProj307710_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/069/425/GCF_003069425.1_ASM306942v1/GCF_003069425.1_ASM306942v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/503/075/GCF_001503075.1_ViralProj307841/GCF_001503075.1_ViralProj307841_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/927/475/GCF_000927475.1_ViralProj266769/GCF_000927475.1_ViralProj266769_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/922/615/GCF_000922615.1_ViralProj261537/GCF_000922615.1_ViralProj261537_cds_from_genomic.fna.gz
@@ -6537,7 +6493,7 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/607/875/GCF_002607875.1_ASM2607
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/033/185/GCF_003033185.1_ASM303318v1/GCF_003033185.1_ASM303318v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/033/135/GCF_003033135.1_ASM303313v1/GCF_003033135.1_ASM303313v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/029/265/GCF_003029265.2_ASM302926v2/GCF_003029265.2_ASM302926v2_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/567/015/GCF_001567015.1_ViralProj312792/GCF_001567015.1_ViralProj312792_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/567/015/GCF_001567015.2_ViralProj312792/GCF_001567015.2_ViralProj312792_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/448/395/GCF_001448395.1_ViralProj303938/GCF_001448395.1_ViralProj303938_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/623/365/GCF_002623365.1_ASM262336v1/GCF_002623365.1_ASM262336v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/736/495/GCF_001736495.1_ViralProj343490/GCF_001736495.1_ViralProj343490_cds_from_genomic.fna.gz
@@ -7089,8 +7045,8 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/757/895/GCF_002757895.1_ASM2757
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/611/865/GCF_002611865.1_ASM261186v1/GCF_002611865.1_ASM261186v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/745/675/GCF_001745675.1_ViralProj344111/GCF_001745675.1_ViralProj344111_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/744/355/GCF_001744355.1_ViralProj344110/GCF_001744355.1_ViralProj344110_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/743/675/GCF_001743675.1_ViralProj344109/GCF_001743675.1_ViralProj344109_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/744/995/GCF_001744995.1_ViralProj344108/GCF_001744995.1_ViralProj344108_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/743/675/GCF_001743675.2_ViralProj344109/GCF_001743675.2_ViralProj344109_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/744/995/GCF_001744995.2_ViralProj344108/GCF_001744995.2_ViralProj344108_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/745/655/GCF_001745655.1_ViralProj344107/GCF_001745655.1_ViralProj344107_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/757/915/GCF_002757915.1_ASM275791v1/GCF_002757915.1_ASM275791v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/678/215/GCF_001678215.2_ViralProj327358/GCF_001678215.2_ViralProj327358_cds_from_genomic.fna.gz
@@ -8386,6 +8342,7 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/904/865/GCF_001904865.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/008/455/GCF_002008455.1_ViralMultiSegProj376923/GCF_002008455.1_ViralMultiSegProj376923_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/008/735/GCF_002008735.1_ViralMultiSegProj376922/GCF_002008735.1_ViralMultiSegProj376922_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/008/595/GCF_002008595.1_ViralMultiSegProj376921/GCF_002008595.1_ViralMultiSegProj376921_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/900/095/755/GCF_900095755.1_PfII40a/GCF_900095755.1_PfII40a_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/617/385/GCF_002617385.1_ASM261738v1/GCF_002617385.1_ASM261738v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/815/135/GCF_002815135.1_ASM281513v1/GCF_002815135.1_ASM281513v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/923/275/GCF_001923275.1_ViralProj358941/GCF_001923275.1_ViralProj358941_cds_from_genomic.fna.gz
@@ -8405,6 +8362,7 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/617/605/GCF_002617605.1_ASM2617
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/923/735/GCF_001923735.1_ViralMultiSegProj358940/GCF_001923735.1_ViralMultiSegProj358940_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/900/149/655/GCF_900149655.1_LeviOr01/GCF_900149655.1_LeviOr01_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/032/665/GCF_003032665.1_ASM303266v1/GCF_003032665.1_ASM303266v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/900/327/825/GCF_900327825.1_vB_PaeS_PAO1_HW12/GCF_900327825.1_vB_PaeS_PAO1_HW12_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/149/865/GCF_002149865.1_ViralProj387019/GCF_002149865.1_ViralProj387019_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/005/035/GCF_002005035.1_ViralProj375060/GCF_002005035.1_ViralProj375060_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/013/086/085/GCF_013086085.1_ASM1308608v1/GCF_013086085.1_ASM1308608v1_cds_from_genomic.fna.gz
@@ -8557,7 +8515,7 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/116/255/GCF_002116255.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/080/215/GCF_002080215.1_ViralProj381649/GCF_002080215.1_ViralProj381649_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/828/375/GCF_009828375.1_ASM982837v1/GCF_009828375.1_ASM982837v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/922/445/GCF_002922445.1_ASM292244v1/GCF_002922445.1_ASM292244v1_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/619/845/GCF_002619845.1_ASM261984v1/GCF_002619845.1_ASM261984v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/619/845/GCF_002619845.2_ASM261984v2/GCF_002619845.2_ASM261984v2_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/619/865/GCF_002619865.1_ASM261986v1/GCF_002619865.1_ASM261986v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/619/925/GCF_002619925.1_ASM261992v1/GCF_002619925.1_ASM261992v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/619/885/GCF_002619885.1_ASM261988v1/GCF_002619885.1_ASM261988v1_cds_from_genomic.fna.gz
@@ -8761,7 +8719,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/432/155/GCF_001432155.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/854/665/GCF_000854665.1_ViralProj14984/GCF_000854665.1_ViralProj14984_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/181/215/GCF_003181215.1_ASM318121v1/GCF_003181215.1_ASM318121v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/158/655/GCF_002158655.1_ViralProj387743/GCF_002158655.1_ViralProj387743_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/275/455/GCF_001275455.1_ViralProj57809/GCF_001275455.1_ViralProj57809_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/924/075/GCF_000924075.1_ViralProj259246/GCF_000924075.1_ViralProj259246_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/819/225/GCF_002819225.1_ASM281922v1/GCF_002819225.1_ASM281922v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/911/215/GCF_000911215.1_ViralProj226250/GCF_000911215.1_ViralProj226250_cds_from_genomic.fna.gz
@@ -8824,6 +8781,7 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/130/715/GCF_004130715.1_ASM4130
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/194/525/GCF_002194525.1_ViralProj390419/GCF_002194525.1_ViralProj390419_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/194/385/GCF_002194385.1_ViralProj390418/GCF_002194385.1_ViralProj390418_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/219/445/GCF_002219445.1_ViralProj394310/GCF_002219445.1_ViralProj394310_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/624/965/GCF_002624965.1_ASM262496v1/GCF_002624965.1_ASM262496v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/625/005/GCF_002625005.1_ASM262500v1/GCF_002625005.1_ASM262500v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/032/675/GCF_003032675.1_ASM303267v1/GCF_003032675.1_ASM303267v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/625/025/GCF_002625025.1_ASM262502v1/GCF_002625025.1_ASM262502v1_cds_from_genomic.fna.gz
@@ -8916,7 +8874,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/626/805/GCF_002626805.1_ASM2626
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/626/865/GCF_002626865.1_ASM262686v1/GCF_002626865.1_ASM262686v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/626/925/GCF_002626925.1_ASM262692v1/GCF_002626925.1_ASM262692v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/626/945/GCF_002626945.1_ASM262694v1/GCF_002626945.1_ASM262694v1_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/627/065/GCF_002627065.1_ASM262706v1/GCF_002627065.1_ASM262706v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/219/425/GCF_002219425.1_ViralProj394306/GCF_002219425.1_ViralProj394306_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/219/965/GCF_002219965.1_ViralProj394305/GCF_002219965.1_ViralProj394305_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/627/085/GCF_002627085.1_ASM262708v1/GCF_002627085.1_ASM262708v1_cds_from_genomic.fna.gz
@@ -10006,6 +9963,8 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/367/035/GCF_003367035.1_ASM3367
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/367/055/GCF_003367055.1_ASM336705v1/GCF_003367055.1_ASM336705v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/006/304/615/GCF_006304615.1_ASM630461v1/GCF_006304615.1_ASM630461v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/006/304/545/GCF_006304545.1_ASM630454v1/GCF_006304545.1_ASM630454v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/423/105/GCF_003423105.1_ASM342310v1/GCF_003423105.1_ASM342310v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/423/145/GCF_003423145.1_ASM342314v1/GCF_003423145.1_ASM342314v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/568/515/GCF_003568515.1_ASM356851v1/GCF_003568515.1_ASM356851v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/568/475/GCF_003568475.1_ASM356847v1/GCF_003568475.1_ASM356847v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/568/435/GCF_003568435.1_ASM356843v1/GCF_003568435.1_ASM356843v1_cds_from_genomic.fna.gz
@@ -10339,6 +10298,7 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/147/045/GCF_004147045.1_ASM4147
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/723/455/GCF_003723455.1_ASM372345v1/GCF_003723455.1_ASM372345v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/013/086/215/GCF_013086215.1_ASM1308621v1/GCF_013086215.1_ASM1308621v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/014/884/275/GCF_014884275.1_ASM1488427v1/GCF_014884275.1_ASM1488427v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/865/735/GCF_003865735.1_ASM386573v1/GCF_003865735.1_ASM386573v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/013/088/235/GCF_013088235.1_ASM1308823v1/GCF_013088235.1_ASM1308823v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/355/665/GCF_004355665.1_ASM435566v1/GCF_004355665.1_ASM435566v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/667/565/GCF_009667565.1_ASM966756v1/GCF_009667565.1_ASM966756v1_cds_from_genomic.fna.gz
@@ -10444,6 +10404,7 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/148/545/GCF_004148545.1_ASM4148
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/148/565/GCF_004148565.1_ASM414856v1/GCF_004148565.1_ASM414856v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/504/835/GCF_001504835.1_ViralProj307872/GCF_001504835.1_ViralProj307872_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/745/795/GCF_002745795.1_ASM274579v1/GCF_002745795.1_ASM274579v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/208/775/GCF_004208775.1_ASM420877v1/GCF_004208775.1_ASM420877v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/208/755/GCF_004208755.1_ASM420875v1/GCF_004208755.1_ASM420875v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/208/795/GCF_004208795.1_ASM420879v1/GCF_004208795.1_ASM420879v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/208/735/GCF_004208735.1_ASM420873v1/GCF_004208735.1_ASM420873v1_cds_from_genomic.fna.gz
@@ -10516,6 +10477,7 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/583/775/GCF_018583775.1_ASM1858
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/325/275/GCF_004325275.1_ASM432527v1/GCF_004325275.1_ASM432527v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/013/088/355/GCF_013088355.1_ASM1308835v1/GCF_013088355.1_ASM1308835v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/338/395/GCF_004338395.1_ASM433839v1/GCF_004338395.1_ASM433839v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/340/405/GCF_004340405.1_ASM434040v1/GCF_004340405.1_ASM434040v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/340/475/GCF_004340475.1_ASM434047v1/GCF_004340475.1_ASM434047v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/521/655/GCF_004521655.1_ASM452165v1/GCF_004521655.1_ASM452165v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/005/145/105/GCF_005145105.1_ASM514510v1/GCF_005145105.1_ASM514510v1_cds_from_genomic.fna.gz
@@ -10776,7 +10738,7 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/007/051/645/GCF_007051645.1_ASM7051
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/007/051/625/GCF_007051625.1_ASM705162v1/GCF_007051625.1_ASM705162v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/007/051/785/GCF_007051785.1_ASM705178v1/GCF_007051785.1_ASM705178v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/007/647/105/GCF_007647105.1_ASM764710v1/GCF_007647105.1_ASM764710v1_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/587/415/GCF_018587415.1_ASM1858741v1/GCF_018587415.1_ASM1858741v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/587/415/GCF_018587415.2_ASM1858741v2/GCF_018587415.2_ASM1858741v2_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/587/405/GCF_018587405.2_ASM1858740v2/GCF_018587405.2_ASM1858740v2_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/866/445/GCF_000866445.1_ViralProj15499/GCF_000866445.1_ViralProj15499_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/008/215/405/GCF_008215405.1_ASM821540v1/GCF_008215405.1_ASM821540v1_cds_from_genomic.fna.gz
@@ -10830,6 +10792,7 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/586/895/GCF_018586895.1_ASM1858
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/662/975/GCF_009662975.1_ASM966297v1/GCF_009662975.1_ASM966297v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/296/085/GCF_009296085.1_ASM929608v1/GCF_009296085.1_ASM929608v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/008/946/305/GCF_008946305.1_ASM894630v1/GCF_008946305.1_ASM894630v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/901/755/GCF_009901755.1_ASM990175v1/GCF_009901755.1_ASM990175v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/008/605/745/GCF_008605745.1_ASM860574v1/GCF_008605745.1_ASM860574v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/217/465/GCF_009217465.1_ASM921746v1/GCF_009217465.1_ASM921746v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/587/615/GCF_018587615.1_ASM1858761v1/GCF_018587615.1_ASM1858761v1_cds_from_genomic.fna.gz
@@ -10952,13 +10915,17 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/745/815/GCF_009745815.1_ASM9745
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/587/745/GCF_018587745.1_ASM1858774v1/GCF_018587745.1_ASM1858774v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/584/805/GCF_018584805.1_ASM1858480v1/GCF_018584805.1_ASM1858480v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/859/595/GCF_009859595.1_ASM985959v1/GCF_009859595.1_ASM985959v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/903/075/GCF_000903075.1_ViralProj185317/GCF_000903075.1_ViralProj185317_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/800/465/GCF_009800465.1_ASM980046v1/GCF_009800465.1_ASM980046v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/627/125/GCF_002627125.1_ASM262712v1/GCF_002627125.1_ASM262712v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/866/045/GCF_000866045.1_ViralProj16228/GCF_000866045.1_ViralProj16228_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/858/305/GCF_000858305.1_ViralProj15202/GCF_000858305.1_ViralProj15202_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/859/545/GCF_000859545.1_ViralProj15127/GCF_000859545.1_ViralProj15127_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/879/095/GCF_000879095.1_ViralProj28729/GCF_000879095.1_ViralProj28729_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/010/594/845/GCF_010594845.1_ASM1059484v1/GCF_010594845.1_ASM1059484v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/861/045/GCF_000861045.1_ViralProj15422/GCF_000861045.1_ViralProj15422_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/504/035/GCF_001504035.1_ViralProj307874/GCF_001504035.1_ViralProj307874_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/836/945/GCF_000836945.1_ViralProj14044/GCF_000836945.1_ViralProj14044_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/837/225/GCF_000837225.1_ViralProj14105/GCF_000837225.1_ViralProj14105_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/894/655/GCF_000894655.1_ViralProj167572/GCF_000894655.1_ViralProj167572_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/880/915/GCF_000880915.1_ViralProj33001/GCF_000880915.1_ViralProj33001_cds_from_genomic.fna.gz
@@ -11009,7 +10976,6 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/909/565/GCF_009909565.1_ASM9909
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/861/365/GCF_009861365.1_ASM986136v1/GCF_009861365.1_ASM986136v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/931/845/GCF_009931845.1_ASM993184v1/GCF_009931845.1_ASM993184v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/013/201/365/GCF_013201365.1_ASM1320136v1/GCF_013201365.1_ASM1320136v1_cds_from_genomic.fna.gz
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/931/875/GCF_009931875.1_ASM993187v1/GCF_009931875.1_ASM993187v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/858/785/GCF_000858785.1_ViralProj15143/GCF_000858785.1_ViralProj15143_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/011/067/345/GCF_011067345.1_ASM1106734v1/GCF_011067345.1_ASM1106734v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/010/238/265/GCF_010238265.1_ASM1023826v1/GCF_010238265.1_ASM1023826v1_cds_from_genomic.fna.gz
@@ -11046,7 +11012,10 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/010/121/145/GCF_010121145.1_ASM1012
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/010/121/165/GCF_010121165.1_ASM1012116v1/GCF_010121165.1_ASM1012116v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/010/701/345/GCF_010701345.1_ASM1070134v1/GCF_010701345.1_ASM1070134v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/010/701/535/GCF_010701535.1_ASM1070153v1/GCF_010701535.1_ASM1070153v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/010/702/075/GCF_010702075.1_ASM1070207v1/GCF_010702075.1_ASM1070207v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/010/702/315/GCF_010702315.1_ASM1070231v1/GCF_010702315.1_ASM1070231v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/010/702/325/GCF_010702325.1_ASM1070232v1/GCF_010702325.1_ASM1070232v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/010/702/375/GCF_010702375.1_ASM1070237v1/GCF_010702375.1_ASM1070237v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/928/405/GCF_009928405.1_ASM992840v1/GCF_009928405.1_ASM992840v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/010/706/275/GCF_010706275.1_ASM1070627v1/GCF_010706275.1_ASM1070627v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/587/735/GCF_018587735.2_ASM1858773v2/GCF_018587735.2_ASM1858773v2_cds_from_genomic.fna.gz
@@ -11128,6 +11097,7 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/589/415/GCF_018589415.2_ASM1858
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/586/865/GCF_018586865.1_ASM1858686v1/GCF_018586865.1_ASM1858686v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/587/075/GCF_018587075.1_ASM1858707v1/GCF_018587075.1_ASM1858707v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/586/875/GCF_018586875.1_ASM1858687v1/GCF_018586875.1_ASM1858687v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/012/294/165/GCF_012294165.1_ASM1229416v1/GCF_012294165.1_ASM1229416v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/012/163/105/GCF_012163105.1_ASM1216310v1/GCF_012163105.1_ASM1216310v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/012/360/595/GCF_012360595.1_ASM1236059v1/GCF_012360595.1_ASM1236059v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/017/903/485/GCF_017903485.1_ASM1790348v1/GCF_017903485.1_ASM1790348v1_cds_from_genomic.fna.gz
@@ -11186,6 +11156,8 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/013/387/935/GCF_013387935.1_ASM1338
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/013/306/735/GCF_013306735.1_ASM1330673v1/GCF_013306735.1_ASM1330673v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/013/426/305/GCF_013426305.1_ASM1342630v1/GCF_013426305.1_ASM1342630v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/014/070/685/GCF_014070685.1_ASM1407068v1/GCF_014070685.1_ASM1407068v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/642/095/GCF_018642095.1_ASM1864209v1/GCF_018642095.1_ASM1864209v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/642/055/GCF_018642055.1_ASM1864205v1/GCF_018642055.1_ASM1864205v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/014/070/915/GCF_014070915.1_ASM1407091v1/GCF_014070915.1_ASM1407091v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/014/070/945/GCF_014070945.1_ASM1407094v1/GCF_014070945.1_ASM1407094v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/013/387/965/GCF_013387965.1_ASM1338796v1/GCF_013387965.1_ASM1338796v1_cds_from_genomic.fna.gz
@@ -11206,6 +11178,17 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/013/426/485/GCF_013426485.1_ASM1342
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/013/354/345/GCF_013354345.1_ASM1335434v1/GCF_013354345.1_ASM1335434v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/013/354/555/GCF_013354555.1_ASM1335455v1/GCF_013354555.1_ASM1335455v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/013/375/135/GCF_013375135.1_ASM1337513v1/GCF_013375135.1_ASM1337513v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/019/089/635/GCF_019089635.1_ASM1908963v1/GCF_019089635.1_ASM1908963v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/019/089/665/GCF_019089665.1_ASM1908966v1/GCF_019089665.1_ASM1908966v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/019/089/715/GCF_019089715.1_ASM1908971v1/GCF_019089715.1_ASM1908971v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/019/089/785/GCF_019089785.1_ASM1908978v1/GCF_019089785.1_ASM1908978v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/019/089/795/GCF_019089795.1_ASM1908979v1/GCF_019089795.1_ASM1908979v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/019/089/805/GCF_019089805.1_ASM1908980v1/GCF_019089805.1_ASM1908980v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/019/089/885/GCF_019089885.1_ASM1908988v1/GCF_019089885.1_ASM1908988v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/019/089/895/GCF_019089895.1_ASM1908989v1/GCF_019089895.1_ASM1908989v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/019/089/945/GCF_019089945.1_ASM1908994v1/GCF_019089945.1_ASM1908994v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/019/089/955/GCF_019089955.1_ASM1908995v1/GCF_019089955.1_ASM1908995v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/019/090/025/GCF_019090025.1_ASM1909002v1/GCF_019090025.1_ASM1909002v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/013/086/485/GCF_013086485.1_ASM1308648v1/GCF_013086485.1_ASM1308648v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/865/745/GCF_016865745.1_ASM1686574v1/GCF_016865745.1_ASM1686574v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/013/490/925/GCF_013490925.1_ASM1349092v1/GCF_013490925.1_ASM1349092v1_cds_from_genomic.fna.gz
@@ -11218,6 +11201,7 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/912/595/GCF_000912595.1_ViralMu
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/014/824/185/GCF_014824185.1_ASM1482418v1/GCF_014824185.1_ASM1482418v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/899/315/GCF_000899315.1_ViralProj176618/GCF_000899315.1_ViralProj176618_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/788/655/GCF_004788655.1_ASM478865v1/GCF_004788655.1_ASM478865v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/894/355/GCF_000894355.2_ViralProj84399/GCF_000894355.2_ViralProj84399_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/430/015/GCF_001430015.1_ViralProj300252/GCF_001430015.1_ViralProj300252_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/430/635/GCF_001430635.1_ViralProj300254/GCF_001430635.1_ViralProj300254_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/430/215/GCF_001430215.1_ViralProj300251/GCF_001430215.1_ViralProj300251_cds_from_genomic.fna.gz
@@ -11341,8 +11325,10 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/015/502/185/GCF_015502185.1_ASM1550
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/015/502/255/GCF_015502255.1_ASM1550225v1/GCF_015502255.1_ASM1550225v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/617/905/GCF_002617905.1_ASM261790v1/GCF_002617905.1_ASM261790v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/893/195/GCF_000893195.1_ViralProj63437/GCF_000893195.1_ViralProj63437_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/866/345/GCF_000866345.1_ViralProj15479/GCF_000866345.1_ViralProj15479_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/015/709/985/GCF_015709985.1_ASM1570998v1/GCF_015709985.1_ASM1570998v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/455/895/GCF_016455895.1_ASM1645589v1/GCF_016455895.1_ASM1645589v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/642/085/GCF_018642085.1_ASM1864208v1/GCF_018642085.1_ASM1864208v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/015/918/135/GCF_015918135.1_ASM1591813v1/GCF_015918135.1_ASM1591813v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/015/918/465/GCF_015918465.1_ASM1591846v1/GCF_015918465.1_ASM1591846v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/103/565/GCF_016103565.1_ASM1610356v1/GCF_016103565.1_ASM1610356v1_cds_from_genomic.fna.gz
@@ -11350,10 +11336,12 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/103/585/GCF_016103585.1_ASM1610
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/103/595/GCF_016103595.1_ASM1610359v1/GCF_016103595.1_ASM1610359v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/653/765/GCF_016653765.1_ASM1665376v1/GCF_016653765.1_ASM1665376v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/456/145/GCF_016456145.1_ASM1645614v1/GCF_016456145.1_ASM1645614v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/759/125/GCF_016759125.1_ASM1675912v1/GCF_016759125.1_ASM1675912v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/653/835/GCF_016653835.1_ASM1665383v1/GCF_016653835.1_ASM1665383v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/673/595/GCF_016673595.1_ASM1667359v1/GCF_016673595.1_ASM1667359v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/759/225/GCF_016759225.1_ASM1675922v1/GCF_016759225.1_ASM1675922v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/673/615/GCF_016673615.1_ASM1667361v1/GCF_016673615.1_ASM1667361v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/673/705/GCF_016673705.1_ASM1667370v1/GCF_016673705.1_ASM1667370v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/811/425/GCF_016811425.1_ASM1681142v1/GCF_016811425.1_ASM1681142v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/759/295/GCF_016759295.1_ASM1675929v1/GCF_016759295.1_ASM1675929v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/759/305/GCF_016759305.1_ASM1675930v1/GCF_016759305.1_ASM1675930v1_cds_from_genomic.fna.gz
@@ -11362,6 +11350,7 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/759/465/GCF_016759465.1_ASM1675
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/759/525/GCF_016759525.1_ASM1675952v1/GCF_016759525.1_ASM1675952v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/759/545/GCF_016759545.1_ASM1675954v1/GCF_016759545.1_ASM1675954v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/759/575/GCF_016759575.1_ASM1675957v1/GCF_016759575.1_ASM1675957v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/811/445/GCF_016811445.1_ASM1681144v1/GCF_016811445.1_ASM1681144v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/811/595/GCF_016811595.1_ASM1681159v1/GCF_016811595.1_ASM1681159v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/811/625/GCF_016811625.1_ASM1681162v1/GCF_016811625.1_ASM1681162v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/906/685/GCF_016906685.1_ASM1690668v1/GCF_016906685.1_ASM1690668v1_cds_from_genomic.fna.gz
@@ -11369,6 +11358,7 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/678/815/GCF_001678815.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/017/347/815/GCF_017347815.1_ASM1734781v1/GCF_017347815.1_ASM1734781v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/017/347/905/GCF_017347905.1_ASM1734790v1/GCF_017347905.1_ASM1734790v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/017/903/925/GCF_017903925.1_ASM1790392v1/GCF_017903925.1_ASM1790392v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/021/090/175/GCF_021090175.1_ASM2109017v1/GCF_021090175.1_ASM2109017v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/020/405/405/GCF_020405405.1_ASM2040540v1/GCF_020405405.1_ASM2040540v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/033/295/GCF_003033295.1_ASM303329v1/GCF_003033295.1_ASM303329v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/969/055/GCF_000969055.1_ViralProj280298/GCF_000969055.1_ViralProj280298_cds_from_genomic.fna.gz
@@ -11381,6 +11371,9 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/862/405/GCF_000862405.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/661/855/GCF_001661855.1_ViralProj325257/GCF_001661855.1_ViralProj325257_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/925/295/GCF_000925295.1_ViralProj263908/GCF_000925295.1_ViralProj263908_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/867/145/GCF_000867145.1_ViralProj16657/GCF_000867145.1_ViralProj16657_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/908/635/GCF_000908635.1_ViralProj206492/GCF_000908635.1_ViralProj206492_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/909/235/GCF_000909235.1_ViralProj206491/GCF_000909235.1_ViralProj206491_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/907/615/GCF_000907615.1_ViralProj206490/GCF_000907615.1_ViralProj206490_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/117/595/GCF_002117595.1_ViralMultiSegProj384968/GCF_002117595.1_ViralMultiSegProj384968_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/921/575/GCF_000921575.1_ViralProj259981/GCF_000921575.1_ViralProj259981_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/843/185/GCF_000843185.1_ViralProj14299/GCF_000843185.1_ViralProj14299_cds_from_genomic.fna.gz
@@ -11393,11 +11386,31 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/005/568/555/GCF_005568555.1_ASM5568
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/005/567/515/GCF_005567515.1_ASM556751v1/GCF_005567515.1_ASM556751v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/005/567/735/GCF_005567735.1_ASM556773v1/GCF_005567735.1_ASM556773v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/849/945/GCF_000849945.1_ViralProj14653/GCF_000849945.1_ViralProj14653_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/020/488/175/GCF_020488175.1_ASM2048817v1/GCF_020488175.1_ASM2048817v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/020/488/355/GCF_020488355.1_ASM2048835v1/GCF_020488355.1_ASM2048835v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/020/488/365/GCF_020488365.1_ASM2048836v1/GCF_020488365.1_ASM2048836v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/020/488/375/GCF_020488375.1_ASM2048837v1/GCF_020488375.1_ASM2048837v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/020/488/395/GCF_020488395.1_ASM2048839v1/GCF_020488395.1_ASM2048839v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/020/488/415/GCF_020488415.1_ASM2048841v1/GCF_020488415.1_ASM2048841v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/020/488/445/GCF_020488445.1_ASM2048844v1/GCF_020488445.1_ASM2048844v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/020/488/455/GCF_020488455.1_ASM2048845v1/GCF_020488455.1_ASM2048845v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/020/488/465/GCF_020488465.1_ASM2048846v1/GCF_020488465.1_ASM2048846v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/020/488/475/GCF_020488475.1_ASM2048847v1/GCF_020488475.1_ASM2048847v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/020/488/485/GCF_020488485.1_ASM2048848v1/GCF_020488485.1_ASM2048848v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/029/575/GCF_002029575.1_ViralProj379136/GCF_002029575.1_ViralProj379136_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/898/575/GCF_000898575.1_ViralProj173862/GCF_000898575.1_ViralProj173862_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/854/225/GCF_000854225.1_ViralProj15039/GCF_000854225.1_ViralProj15039_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/863/245/GCF_000863245.1_ViralProj15360/GCF_000863245.1_ViralProj15360_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/814/515/GCF_002814515.1_ASM281451v1/GCF_002814515.1_ASM281451v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/020/497/995/GCF_020497995.1_ASM2049799v1/GCF_020497995.1_ASM2049799v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/020/498/025/GCF_020498025.1_ASM2049802v1/GCF_020498025.1_ASM2049802v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/020/498/035/GCF_020498035.1_ASM2049803v1/GCF_020498035.1_ASM2049803v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/020/498/045/GCF_020498045.1_ASM2049804v1/GCF_020498045.1_ASM2049804v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/020/498/605/GCF_020498605.1_ASM2049860v1/GCF_020498605.1_ASM2049860v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/020/498/625/GCF_020498625.1_ASM2049862v1/GCF_020498625.1_ASM2049862v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/020/498/635/GCF_020498635.1_ASM2049863v1/GCF_020498635.1_ASM2049863v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/020/498/645/GCF_020498645.1_ASM2049864v1/GCF_020498645.1_ASM2049864v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/020/498/675/GCF_020498675.1_ASM2049867v1/GCF_020498675.1_ASM2049867v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/843/245/GCF_000843245.1_ViralProj14312/GCF_000843245.1_ViralProj14312_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/904/275/GCF_000904275.1_ViralProj192872/GCF_000904275.1_ViralProj192872_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/881/695/GCF_000881695.1_ViralProj32599/GCF_000881695.1_ViralProj32599_cds_from_genomic.fna.gz
@@ -11568,6 +11581,8 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/867/625/GCF_000867625.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/689/815/GCF_001689815.1_ViralProj329642/GCF_001689815.1_ViralProj329642_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/868/005/GCF_000868005.1_ViralProj18851/GCF_000868005.1_ViralProj18851_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/873/225/GCF_000873225.1_ViralProj19763/GCF_000873225.1_ViralProj19763_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/874/965/GCF_000874965.1_ViralProj28829/GCF_000874965.1_ViralProj28829_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/873/965/GCF_000873965.1_ViralProj19801/GCF_000873965.1_ViralProj19801_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/871/085/GCF_000871085.1_ViralProj20765/GCF_000871085.1_ViralProj20765_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/871/945/GCF_000871945.1_ViralProj20767/GCF_000871945.1_ViralProj20767_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/883/415/GCF_000883415.1_ViralProj32999/GCF_000883415.1_ViralProj32999_cds_from_genomic.fna.gz
@@ -11630,7 +11645,11 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/897/455/GCF_000897455.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/918/635/GCF_000918635.1_ViralProj240734/GCF_000918635.1_ViralProj240734_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/920/135/GCF_000920135.1_ViralProj240735/GCF_000920135.1_ViralProj240735_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/601/405/GCF_002601405.1_ASM260140v1/GCF_002601405.1_ASM260140v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/918/575/GCF_000918575.1_ViralProj240722/GCF_000918575.1_ViralProj240722_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/918/595/GCF_000918595.1_ViralProj240726/GCF_000918595.1_ViralProj240726_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/919/235/GCF_000919235.1_ViralProj240725/GCF_000919235.1_ViralProj240725_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/917/495/GCF_000917495.1_ViralProj240715/GCF_000917495.1_ViralProj240715_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/918/735/GCF_000918735.1_ViralProj240754/GCF_000918735.1_ViralProj240754_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/918/775/GCF_000918775.1_ViralProj240765/GCF_000918775.1_ViralProj240765_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/918/795/GCF_000918795.1_ViralProj240769/GCF_000918795.1_ViralProj240769_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/917/715/GCF_000917715.1_ViralProj240752/GCF_000917715.1_ViralProj240752_cds_from_genomic.fna.gz
@@ -11642,3 +11661,35 @@ https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/041/915/GCF_001041915.1_ViralPr
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/601/965/GCF_002601965.1_ASM260196v1/GCF_002601965.1_ASM260196v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/601/945/GCF_002601945.1_ASM260194v1/GCF_002601945.1_ASM260194v1_cds_from_genomic.fna.gz
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/901/515/GCF_000901515.1_ViralProj179408/GCF_000901515.1_ViralProj179408_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/986/005/GCF_002986005.1_ASM298600v1/GCF_002986005.1_ASM298600v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/602/405/GCF_002602405.1_ASM260240v1/GCF_002602405.1_ASM260240v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/604/965/GCF_002604965.1_ASM260496v1/GCF_002604965.1_ASM260496v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/899/655/GCF_000899655.1_ViralProj179423/GCF_000899655.1_ViralProj179423_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/900/535/GCF_000900535.1_ViralProj179418/GCF_000900535.1_ViralProj179418_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/900/555/GCF_000900555.1_ViralProj179422/GCF_000900555.1_ViralProj179422_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/897/775/GCF_000897775.1_ViralProj177524/GCF_000897775.1_ViralProj177524_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/901/915/GCF_000901915.1_ViralProj181242/GCF_000901915.1_ViralProj181242_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/602/485/GCF_002602485.1_ASM260248v1/GCF_002602485.1_ASM260248v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/602/505/GCF_002602505.1_ASM260250v1/GCF_002602505.1_ASM260250v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/602/685/GCF_002602685.1_ASM260268v1/GCF_002602685.1_ASM260268v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/602/665/GCF_002602665.1_ASM260266v1/GCF_002602665.1_ASM260266v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/909/515/GCF_000909515.1_ViralProj212711/GCF_000909515.1_ViralProj212711_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/907/935/GCF_000907935.1_ViralProj212718/GCF_000907935.1_ViralProj212718_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/603/045/GCF_002603045.1_ASM260304v1/GCF_002603045.1_ASM260304v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/846/645/GCF_000846645.1_ViralProj14479/GCF_000846645.1_ViralProj14479_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/852/125/GCF_000852125.1_ViralMultiSegProj14788/GCF_000852125.1_ViralMultiSegProj14788_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/842/465/GCF_000842465.1_ViralProj14329/GCF_000842465.1_ViralProj14329_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/627/065/GCF_002627065.1_ASM262706v1/GCF_002627065.1_ASM262706v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/275/455/GCF_001275455.1_ViralProj57809/GCF_001275455.1_ViralProj57809_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/837/685/GCF_000837685.1_ViralProj14034/GCF_000837685.1_ViralProj14034_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/857/925/GCF_000857925.1_ViralProj15124/GCF_000857925.1_ViralProj15124_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/845/025/GCF_000845025.2_ViralProj14500/GCF_000845025.2_ViralProj14500_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/006/298/325/GCF_006298325.1_ASM629832v1/GCF_006298325.1_ASM629832v1_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/842/865/GCF_000842865.1_ViralProj14231/GCF_000842865.1_ViralProj14231_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/860/225/GCF_000860225.1_ViralProj15270/GCF_000860225.1_ViralProj15270_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/860/325/GCF_000860325.1_ViralProj15271/GCF_000860325.1_ViralProj15271_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/857/665/GCF_000857665.1_ViralProj15272/GCF_000857665.1_ViralProj15272_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/859/405/GCF_000859405.1_ViralProj15273/GCF_000859405.1_ViralProj15273_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/860/345/GCF_000860345.1_ViralProj15275/GCF_000860345.1_ViralProj15275_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/857/685/GCF_000857685.1_ViralProj15276/GCF_000857685.1_ViralProj15276_cds_from_genomic.fna.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/859/425/GCF_000859425.1_ViralProj15277/GCF_000859425.1_ViralProj15277_cds_from_genomic.fna.gz
