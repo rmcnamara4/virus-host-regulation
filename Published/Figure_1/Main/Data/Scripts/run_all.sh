@@ -4,3 +4,4 @@
 
 Rscript create_viral_rscu_fc_human.R
 bash collect_human_opt.sh
+Rscript create_dengue_isolates_h-relative_rscu_fc.R
