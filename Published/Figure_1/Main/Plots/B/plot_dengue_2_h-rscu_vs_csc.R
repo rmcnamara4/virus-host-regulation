@@ -12,7 +12,7 @@ rscu_fc_human = read.table(
   '../../Data/viral_rscu_fc_human.csv', 
   sep = ',', header = TRUE, quote = "\""
 ) %>%
-  select(-c(realm, host, locus_tag, corr, p.value, TAG, TGA, TAA, ATG, TGG)) %>%
+  select(-c(realm, locus_tag, host, type, shape, corr, p.value, TAG, TGA, TAA, ATG, TGG)) %>%
   filter(virus == 'Dengue virus 2')
 
 human_opt = read.table(
