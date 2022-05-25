@@ -13,7 +13,7 @@ rscu_fc_human = read.table(
   '../../Data/viral_rscu_fc_human.csv', 
   sep = ',', header = TRUE, quote = "\""
 ) %>%
-  select(-c(realm, host, locus_tag, corr, p.value, TAG, TGA, TAA, ATG, TGG)) 
+  select(-c(realm, locus_tag, host, type, shape, corr, p.value, TAG, TGA, TAA, ATG, TGG)) 
 
 human_opt = read.table(
   '../../Data/human_endo_csc.csv', 
@@ -91,6 +91,7 @@ ggsave(
   height = 3, 
   width = 12
 )
+dev.off()
   
   
   
