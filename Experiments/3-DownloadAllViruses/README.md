@@ -12,6 +12,8 @@ Here I download the CDS fastas of all of the available complete viral genomes th
 
 + **./urls.txt**: list of all of the urls needed to download the viral CDS fastas from RefSeq
 
++ **./virus_composition.txt**: contains virus name, whether the virus is DNA/RNA, and the shape of the virus (linear, circular, etc.)
+
 ## Snakemake
 
 + **./Snakefile**: file defining all of the rules of the analysis using Snakemake
@@ -20,9 +22,11 @@ Here I download the CDS fastas of all of the available complete viral genomes th
 
 + **./scripts/download_metadata.sh**: Bash script to download the metadata.txt and complete_assembly.txt files
 
-+ **./scripts/clean_assembly.R**: R script to clean the complete_assembly.txt file to use for analysis
++ **./scripts/create_virus_composition.R**: R script to create the virus_composition.txt file
 
 + **./scripts/create_host_metadata.R**: R script to create the host_metadata.txt file from the metadata.txt file
+
++ **./scripts/clean_assembly.R**: R script to clean the complete_assembly.txt file to use for analysis
 
 + **./scripts/get_cds_fastas.sh**: Bash script to extract urls from the complete_assembly.txt file, save them to the urls.txt file, and use them to download the CDS fastas
 
@@ -39,6 +43,8 @@ Here I download the CDS fastas of all of the available complete viral genomes th
 + **./scripts/calculate_rscu_ratios.R**: R script to calculate the log2 of the ratio between the RSCUs of the viral transcripts/genome and the RSCUs of the human/mosquito genomes
 
 + **./scripts/calculate_correlations.R**: R script to calculate the Spearman correlation between viral genome RSCU and human/mosquito genome RSCU
+
++ **./run_all.sh**: Bash script to run all of the analysis and create the required folders
 
 ## Data
 
@@ -71,3 +77,9 @@ Here I download the CDS fastas of all of the available complete viral genomes th
 + **./data/rscu_correlations/all_correlations_total_human.csv**: table of all viral genomes' Spearman correlation between RSCU ratio and human codon optimality
 
 + **./data/rscu_correlations/all_correlations_total_mosquito.csv**: table of all viral genomes' Spearman correlation between RSCU ratio and mosquito codon optimality
+---
+To reproduce the analysis:
+
+```bash
+bash run_all.sh
+```
