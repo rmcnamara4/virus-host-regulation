@@ -1,10 +1,5 @@
 viruses, = glob_wildcards('data/fastas/{virus}.fna.gz')
 
-rule all:
-    input:
-        'data/rscu_correlations/all_correlations_total_human.csv',
-        'data/rscu_correlations/all_correlations_total_mosquito.csv'
-
 rule create_codon_count_tables:
     input:
         file = 'data/fastas/{virus}.fna.gz'
@@ -30,8 +25,8 @@ rule create_rscu_tables:
         codon_counts = 'data/codon_tables/codon_counts/{virus}.csv',
         codon_counts_total = 'data/codon_tables/codon_counts_total/{virus}.csv'
     output:
-        rscu = 'data/rscu_tables/rscu/{virus}.csv',
-        rscu_total = 'data/rscu_tables/rscu_total/{virus}.csv'
+        rscu = protected('data/rscu_tables/rscu/{virus}.csv'),
+        rscu_total = protected('data/rscu_tables/rscu_total/{virus}.csv')
     threads: 40
     script:
         'scripts/create_rscu_tables.R'
