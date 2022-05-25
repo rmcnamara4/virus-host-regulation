@@ -8,7 +8,7 @@ do
     clean_name=${filename%_cds_from_genomic.fna.gz}
     clean_name=${clean_name##*/}
 
-    virus_name=$(grep $clean_name ../complete_assembly.txt | cut -f8 | tr -s ' ' | tr ' ' '_' \
+    virus_name=$(grep $clean_name ./complete_assembly.txt | cut -f8 | tr -s ' ' | tr ' ' '_' \
     | tr '/' ';')
 
     mv "$filename" "./data/fastas/$virus_name.fna.gz"
