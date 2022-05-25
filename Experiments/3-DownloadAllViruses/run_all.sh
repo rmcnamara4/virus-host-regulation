@@ -12,3 +12,6 @@ bash ./scripts/change_file_names.sh
 
 # run snakemake analysis
 snakemake --cores 25 concatenate_codon_counts
+snakemake --cores 25 concatenate_rscu_tables
+snakemake --cores 25 calculate_rscu_ratios
+snakemake --cores 25 calculate_correlations
