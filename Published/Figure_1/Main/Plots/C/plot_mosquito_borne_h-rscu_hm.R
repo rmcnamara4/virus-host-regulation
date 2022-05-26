@@ -42,7 +42,7 @@ ordered_aa = c('Cys', 'Tyr', 'His', 'Phe', 'Asn', 'Ile', 'Gln', 'Asp', 'Thr', 'A
 # plot function 
 plot_heatmap = function(table) {
   
-  g = melted_data %>%
+  g = table %>%
     ggplot(aes(x = factor(codon, levels = ordered_codons), y = virus)) + 
     geom_tile(aes(fill = rscu_fc), color = 'black', size = 0.05) + 
     facet_grid(. ~ factor(aa, levels = ordered_aa), scale = 'free_x', space = 'free_x') +
