@@ -39,7 +39,7 @@ plt = rscu_fc_human %>%
   geom_density(size = 1.5, aes(y = ..scaled..)) +
   geom_vline(data = labeled_vir, aes(xintercept = corr, color = virus), linetype = 'dashed', size = 1.1) + 
   geom_text(data = labeled_vir, aes(x = corr, label = virus, color = virus), y = .8, angle = 90, size = 5) +
-  geom_text(x = 0.4, y = 1, label = paste0('n = ', n), size = 5) +
+  geom_text(x = 0.4, y = 1, label = paste0('n = ', n), size = 5, stat = "identity", check_overlap = TRUE) +
   scale_x_continuous(expand = c(0, 0)) + 
   scale_y_continuous(limits = c(0, 1), expand = c(0, 0.1), breaks = c(0, 0.25, 0.5, 0.75, 1)) +
   scale_color_manual(values = c('Dengue 2' = '#C29800', 'Zika' = '#F961D5', 'Chikungunya' = '#F8766D', 
