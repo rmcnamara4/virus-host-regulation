@@ -66,7 +66,7 @@ sig = aov(rscu_fc ~ codon, data = melted_data)
 
 # save 
 ggsave(
-  './dengue_isolates_h-relative_rscu_arg_bp.pdf', 
+  './dengue_isolates_h-rscu_arg_bp.pdf', 
   plt,
   height = 7, 
   width = 12
