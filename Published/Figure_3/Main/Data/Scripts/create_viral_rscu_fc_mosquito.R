@@ -7,13 +7,13 @@ library(tidyverse)
 
 # load RSCU fold change data for mosquito 
 rscu_fc_mosquito = read.table(
-  '../../../../Experiments/3-DownloadAllViruses/data/rscu_ratios/all_rscu_ratio_total_mosquito.csv', 
+  '../../../../../Experiments/3-DownloadAllViruses/data/rscu_ratios/all_rscu_ratio_total_mosquito.csv', 
   sep = ',', header = TRUE, quote = "\""
 )
 
 # load correlation data 
 corr_data = read.table(
-  '../../../../Experiments/3-DownloadAllViruses/data/rscu_correlations/all_correlations_total_mosquito.csv', 
+  '../../../../../Experiments/3-DownloadAllViruses/data/rscu_correlations/all_correlations_total_mosquito.csv', 
   sep = ',', header = TRUE, quote = "\""
 )
 
