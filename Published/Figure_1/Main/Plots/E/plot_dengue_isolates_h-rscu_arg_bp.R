@@ -63,6 +63,7 @@ plt = melted_data %>%
 
 # get p-value 
 sig = aov(rscu_fc ~ codon, data = melted_data)
+summary(sig)
 
 # save 
 ggsave(
