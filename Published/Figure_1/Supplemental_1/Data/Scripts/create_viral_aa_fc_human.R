@@ -44,7 +44,7 @@ human_codons_melted$aa = codon_to_aa(human_codons_melted$codon)
 # get sum of each amino acid 
 human_aa_melted = human_codons_melted %>%
   group_by(aa) %>%
-  summarise(
+  summarize(
     count = sum(count)
   )
 
