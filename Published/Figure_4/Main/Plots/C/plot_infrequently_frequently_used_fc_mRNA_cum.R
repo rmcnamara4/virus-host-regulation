@@ -6,7 +6,6 @@
 library(tidyverse)
 library(readxl)
 library(rstatix)
-library(ggpubr)
 
 # load data 
 codon_groups = read_excel(
@@ -69,7 +68,7 @@ all_other_fc = diff_expression[!(diff_expression$gene_ID %in% gene_ids_remove), 
 # get 250 groups of 250 random genes from all other genes and add to the group data 
 for (i in 1:250) {
   
-  iv = sample(1:nrow(all_other_fc), 250, replace = TRUE)
+  iv = sample(1:nrow(all_other_fc), 250, replace = FALSE)
   hold = all_other_fc[iv, ] %>%
     mutate(
       group = paste0('group_', i)
