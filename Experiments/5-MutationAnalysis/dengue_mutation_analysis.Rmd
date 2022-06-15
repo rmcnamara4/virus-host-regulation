@@ -270,7 +270,8 @@ dengue_strain_codons = dengue_strain_codons[!(names(dengue_strain_codons) %in% c
 dengue_strain_codons_ordered = dengue_strain_codons[order(-dengue_strain_codons)]
 
 # load rscu_fc data 
-rscu_fc_data = load_rscu_fc()
+rscu_fc_data = load_rscu_fc() %>%
+  filter(!(codon %in% c('TAG', 'TGA', 'TAA')))
 rscu_fc_data$human_rscu_fc = round(rscu_fc_data$human_rscu_fc, 2)
 rscu_fc_data$mosquito_rscu_fc = round(rscu_fc_data$mosquito_rscu_fc, 2)
 
