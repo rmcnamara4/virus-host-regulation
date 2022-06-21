@@ -30,6 +30,9 @@ parse_gbff = function(gbff) {
   data = cbind(virus, type_and_shape)
   names(data) = c('virus', 'type', 'shape')
   
+  data$type = ifelse(grepl('DNA', data$type), 'DNA', 
+                     ifelse(grepl('RNA', data$type), 'RNA', 'none'))
+  
   return(data)
   
 }

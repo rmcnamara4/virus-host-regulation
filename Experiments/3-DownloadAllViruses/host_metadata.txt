@@ -1,5 +1,4 @@
 virus	host	realm
-Acidianus filamentous virus 1	archaea	Adnaviria
 Acidianus filamentous virus 2	archaea	Adnaviria
 Acidianus filamentous virus 6	archaea	Adnaviria
 Acidianus filamentous virus 7	archaea	Adnaviria
@@ -7,6 +6,7 @@ Acidianus filamentous virus 8	archaea	Adnaviria
 Acidianus filamentous virus 9	archaea	Adnaviria
 Acidianus rod-shaped virus 1	archaea	Adnaviria
 Acidianus rod-shaped virus 2	archaea	Adnaviria
+Captovirus AFV1	archaea	Adnaviria
 Pyrobaculum filamentous virus 1	archaea	Adnaviria
 Sulfolobales Beppu filamentous virus 2	archaea	Adnaviria
 Sulfolobales Beppu filamentous virus 3	archaea	Adnaviria
@@ -350,7 +350,6 @@ Agrobacterium phage Atu_ph03	bacteria	Duplodnaviria
 Agrobacterium phage Atu_ph07	bacteria	Duplodnaviria
 Alcelaphine gammaherpesvirus 1	vertebrates	Duplodnaviria
 Alcelaphine gammaherpesvirus 2	vertebrates	Duplodnaviria
-Alphaproteobacteria virus phiJl001	bacteria	Duplodnaviria
 Alteromonas phage vB_AcoS-R7M	bacteria	Duplodnaviria
 Alteromonas phage vB_AmaP_AD45-P1	bacteria	Duplodnaviria
 Alteromonas phage vB_AmeM_PT11-V22	bacteria	Duplodnaviria
@@ -592,6 +591,7 @@ Biseptimavirus bv77	bacteria	Duplodnaviria
 Bordetella phage BPP-1	bacteria	Duplodnaviria
 Bordetella phage vB_BbrM_PHB04	bacteria	Duplodnaviria
 Bovine alphaherpesvirus 1	vertebrates	Duplodnaviria
+Bovine herpesvirus type 1.1	vertebrates	Duplodnaviria
 Bovine alphaherpesvirus 2	vertebrates	Duplodnaviria
 Bovine alphaherpesvirus 5	vertebrates	Duplodnaviria
 Bovine gammaherpesvirus 4	vertebrates	Duplodnaviria
@@ -1415,11 +1415,6 @@ Escherichia phage wV7	bacteria	Duplodnaviria
 Escherichia phage wV8	bacteria	Duplodnaviria
 Escherichia typing phage 1	bacteria	Duplodnaviria
 Escherichia virus KFS-EC	bacteria	Duplodnaviria
-Escherichia virus RB14	bacteria	Duplodnaviria
-Escherichia virus RB16	bacteria	Duplodnaviria
-Escherichia virus RB32	bacteria	Duplodnaviria
-Escherichia virus RB43	bacteria	Duplodnaviria
-Escherichia virus T4	bacteria	Duplodnaviria
 Faecalibacterium phage FP_Brigit	bacteria	Duplodnaviria
 Faecalibacterium phage FP_Epona	bacteria	Duplodnaviria
 Faecalibacterium phage FP_Lagaffe	bacteria	Duplodnaviria
@@ -1722,6 +1717,7 @@ Iodobacter phage PhiPLPE	bacteria	Duplodnaviria
 Kairosalinivirus M31CR412	bacteria	Duplodnaviria
 Kairosalinivirus SRUTV1	bacteria	Duplodnaviria
 Kayfunavirus Vec13	bacteria	Duplodnaviria
+Keylargovirus JL001	bacteria	Duplodnaviria
 Klebsiella phage 13	bacteria	Duplodnaviria
 Klebsiella phage 1513	bacteria	Duplodnaviria
 Klebsiella phage 2044-307w	bacteria	Duplodnaviria
@@ -2954,7 +2950,6 @@ Mycobacterium phage Zetzy	bacteria	Duplodnaviria
 Mycobacterium phage ZoeJ	bacteria	Duplodnaviria
 Mycobacterium phage Zolita	bacteria	Duplodnaviria
 Mycobacterium phage macncheese	bacteria	Duplodnaviria
-Mycobacterium virus TA17a	bacteria	Duplodnaviria
 Mydovirus KpS8	bacteria	Duplodnaviria
 Myotis gammaherpesvirus 8	vertebrates	Duplodnaviria
 Myoviridae sp.	bacteria	Duplodnaviria
@@ -3438,6 +3433,8 @@ Pseudomonas phage vB_PsyP_3MF5	bacteria	Duplodnaviria
 Pseudomonas virus Pa193	bacteria	Duplodnaviria
 Pseudomonas virus Pf1 ERZ-2017	bacteria	Duplodnaviria
 Pseudomonas virus Yua	bacteria	Duplodnaviria
+Pseudotevenvirus RB16	bacteria	Duplodnaviria
+Pseudotevenvirus RB43	bacteria	Duplodnaviria
 Psittacid alphaherpesvirus 1	vertebrates	Duplodnaviria
 Psychrobacter phage Psymv2	bacteria	Duplodnaviria
 Psychrobacter phage pOW20-A	bacteria	Duplodnaviria
@@ -3538,6 +3535,7 @@ Rhodothermus phage RM378	bacteria	Duplodnaviria
 Rhodovulum phage RS1	bacteria	Duplodnaviria
 Rhodovulum phage vB_RhkS_P1	bacteria	Duplodnaviria
 Riemerella phage RAP44	bacteria	Duplodnaviria
+Rosebushvirus TA17a	bacteria	Duplodnaviria
 Rosenblumvirus rv44AHJD	bacteria	Duplodnaviria
 Roseobacter phage RD-1410W1-01	bacteria	Duplodnaviria
 Roseobacter phage RDJL Phi 1	bacteria	Duplodnaviria
@@ -4228,6 +4226,9 @@ Synechococcus virus S-ESS1	bacteria	Duplodnaviria
 Synechococcus virus S-PRM1	bacteria	Duplodnaviria
 Tenacibaculum phage PTm1	bacteria	Duplodnaviria
 Tenacibaculum phage pT24	bacteria	Duplodnaviria
+Tequatrovirus RB14	bacteria	Duplodnaviria
+Tequatrovirus RB32	bacteria	Duplodnaviria
+Tequatrovirus T4	bacteria	Duplodnaviria
 Tequintavirus DT57C	bacteria	Duplodnaviria
 Tequintavirus SPC35	bacteria	Duplodnaviria
 Tequintavirus VEc33	bacteria	Duplodnaviria
@@ -4483,13 +4484,26 @@ Papio hamadryas papillomavirus 1	vertebrates	Monodnaviria
 Alphapapillomavirus 3	human	Monodnaviria
 Alphapapillomavirus 4	human	Monodnaviria
 Alphapapillomavirus 7	human:vertebrates	Monodnaviria
+Alphapolyomavirus aflavicollis	vertebrates	Monodnaviria
+Alphapolyomavirus apaniscus	vertebrates	Monodnaviria
+Alphapolyomavirus callosciuri	vertebrates	Monodnaviria
+Alphapolyomavirus cardiodermae	vertebrates	Monodnaviria
+Alphapolyomavirus chlopygerythrus	vertebrates	Monodnaviria
+Alphapolyomavirus mauratus	vertebrates	Monodnaviria
+Alphapolyomavirus quartipanos	vertebrates	Monodnaviria
+Alphapolyomavirus quintipanos	vertebrates	Monodnaviria
+Alphapolyomavirus secarplanirostris	vertebrates	Monodnaviria
+Alphapolyomavirus septipanos	vertebrates	Monodnaviria
+Alphapolyomavirus sextipanos	vertebrates	Monodnaviria
+Alphapolyomavirus sturnirae	vertebrates	Monodnaviria
+Alphapolyomavirus tertarplanisrostris	vertebrates	Monodnaviria
+Alphapolyomavirus tertichlopygerythrus	vertebrates	Monodnaviria
 Alternanthera yellow vein virus	land plants	Monodnaviria
 Amdoparvovirus sp.	vertebrates	Monodnaviria
 Amphibola crenata associated bacilladnavirus 1	invertebrates	Monodnaviria
 Amphibola crenata associated bacilladnavirus 2	invertebrates	Monodnaviria
 Andrographis yellow vein leaf curl virus	land plants	Monodnaviria
 Anguilla anguilla circovirus	vertebrates	Monodnaviria
-Apodemus flavicollis polyomavirus 1	vertebrates	Monodnaviria
 Apodemus sylvaticus papillomavirus 1	vertebrates	Monodnaviria
 Mastomys coucha papillomavirus 2	vertebrates	Monodnaviria
 Micromys minutus papillomavirus 1	vertebrates	Monodnaviria
@@ -4498,11 +4512,7 @@ Apteryx rowi circovirus-like virus	vertebrates	Monodnaviria
 Arboreal ant associated circular virus 1	invertebrates	Monodnaviria
 Artemia melana sponge associated circular genome	invertebrates	Monodnaviria
 Artibeus jamaicensis parvovirus 1	vertebrates	Monodnaviria
-Artibeus planirostris polyomavirus 1	vertebrates	Monodnaviria
-Artibeus planirostris polyomavirus 2	vertebrates	Monodnaviria
-Artibeus planirostris polyomavirus 3	vertebrates	Monodnaviria
 Asystasia mosaic Madagascar virus	land plants	Monodnaviria
-Ateles paniscus polyomavirus 1	vertebrates	Monodnaviria
 Avian adeno-associated virus ATCC VR-865	vertebrates	Monodnaviria
 Avian adeno-associated virus strain DA-1	vertebrates	Monodnaviria
 Avian-like circovirus	invertebrates	Monodnaviria
@@ -4596,6 +4606,17 @@ Beet curly top virus	land plants	Monodnaviria
 Bemisia-associated genomovirus AdDF	invertebrates	Monodnaviria
 Bemisia-associated genomovirus AdO	invertebrates	Monodnaviria
 Bemisia-associated genomovirus NfO	invertebrates	Monodnaviria
+Betapolyomavirus arplanirostris	vertebrates	Monodnaviria
+Betapolyomavirus calbifrons	vertebrates	Monodnaviria
+Betapolyomavirus callosciuri	vertebrates	Monodnaviria
+Betapolyomavirus canis	vertebrates	Monodnaviria
+Betapolyomavirus cercopitheci	vertebrates	Monodnaviria
+Betapolyomavirus equi	vertebrates	Monodnaviria
+Betapolyomavirus secuchlopygerythrus	vertebrates	Monodnaviria
+Betapolyomavirus secumuris	vertebrates	Monodnaviria
+Betapolyomavirus securanorvegicus	vertebrates	Monodnaviria
+Betapolyomavirus tertihominis	human	Monodnaviria
+Betapolyomavirus vicugnae	vertebrates	Monodnaviria
 Bettongia penicillata papillomavirus 1	vertebrates	Monodnaviria
 Bhendi yellow vein Bhubhaneswar virus	land plants	Monodnaviria
 Bhendi yellow vein Delhi virus [2004:New Delhi]	land plants	Monodnaviria
@@ -4635,7 +4656,6 @@ Bos taurus papillomavirus 19	vertebrates	Monodnaviria
 Bos taurus papillomavirus 21	vertebrates	Monodnaviria
 Bos taurus papillomavirus 20	vertebrates	Monodnaviria
 Bos taurus papillomavirus 7	vertebrates	Monodnaviria
-Bos taurus polyomavirus 1	vertebrates	Monodnaviria
 Bosavirus MS-2016a	vertebrates	Monodnaviria
 Bovine adeno-associated virus	vertebrates	Monodnaviria
 adeno-associated virus 5	vertebrates	Monodnaviria
@@ -4661,8 +4681,6 @@ California sea lion bocavirus 3	vertebrates	Monodnaviria
 California sea lion polyomavirus 1	vertebrates	Monodnaviria
 Callinectes ornatus blue crab associated circular virus	invertebrates	Monodnaviria
 Callinectes sapidus associated circular virus	invertebrates	Monodnaviria
-Callosciurus erythraeus polyomavirus 1	vertebrates	Monodnaviria
-Callosciurus prevostii polyomavirus 1	vertebrates	Monodnaviria
 Camel associated drosmacovirus 1	vertebrates	Monodnaviria
 Camel associated drosmacovirus 2	vertebrates	Monodnaviria
 Camel associated porprismacovirus 1	vertebrates	Monodnaviria
@@ -4690,23 +4708,18 @@ Canis familiaris papillomavirus 2	vertebrates	Monodnaviria
 Canis familiaris papillomavirus 3	vertebrates	Monodnaviria
 Canis familiaris papillomavirus 9	vertebrates	Monodnaviria
 Canis familiaris papillomavirus 6	vertebrates	Monodnaviria
-Canis familiaris polyomavirus 1	vertebrates	Monodnaviria
-Canis lupus polyomavirus 1	vertebrates	Monodnaviria
 Capra aegagrus polyomavirus 1	vertebrates	Monodnaviria
 Capraria yellow spot Yucatan virus	land plants	Monodnaviria
 Capreolus capreolus papillomavirus 1	vertebrates	Monodnaviria
 Cardamom bushy dwarf virus	land plants	Monodnaviria
-Cardioderma cor polyomavirus 1	vertebrates	Monodnaviria
 Caretta caretta papillomavirus 1	vertebrates	Monodnaviria
 Cassava associated gemycircularvirus 1	land plants	Monodnaviria
 Cassava mosaic Madagascar virus	land plants	Monodnaviria
 Castor canadensis papillomavirus 1	vertebrates	Monodnaviria
 Catharanthus yellow mosaic virus	land plants	Monodnaviria
-Cebus albifrons polyomavirus 1	vertebrates	Monodnaviria
 Cellulophaga phage phi12:2	bacteria	Monodnaviria
 Cellulophaga phage phi12a:1	bacteria	Monodnaviria
 Centrosema yellow spot virus	land plants	Monodnaviria
-Cercopithecus erythrotis polyomavirus 1	vertebrates	Monodnaviria
 Cervus elaphus papillomavirus 2	vertebrates	Monodnaviria
 Cervus papillomavirus 2	vertebrates	Monodnaviria
 Chaerephon polyomavirus 1	vertebrates	Monodnaviria
@@ -4755,9 +4768,6 @@ Chlamydia phage CPG1	bacteria	Monodnaviria
 Chlamydia phage phiCPAR39	bacteria	Monodnaviria
 Chlamydiamicrovirus Chp1	bacteria	Monodnaviria
 Chloris striate mosaic virus	land plants	Monodnaviria
-Chlorocebus pygerythrus polyomavirus 1	vertebrates	Monodnaviria
-Chlorocebus pygerythrus polyomavirus 2	vertebrates	Monodnaviria
-Chlorocebus pygerythrus polyomavirus 3	vertebrates	Monodnaviria
 Circovirus sp.	vertebrates	Monodnaviria
 Citrus chlorotic dwarf associated virus	land plants	Monodnaviria
 Cleome golden mosaic virus	land plants	Monodnaviria
@@ -4831,9 +4841,9 @@ Datura leaf curl virus	land plants	Monodnaviria
 Datura leaf distortion virus	land plants	Monodnaviria
 Decapod penstyldensovirus 1	invertebrates	Monodnaviria
 Deinbollia mosaic virus	land plants	Monodnaviria
-Delphinus delphis polyomavirus 1	vertebrates	Monodnaviria
 Deltapapillomavirus 2	vertebrates	Monodnaviria
 Deltapapillomavirus 3	vertebrates	Monodnaviria
+Deltapolyomavirus canis	vertebrates	Monodnaviria
 Desmodium leaf distortion virus	land plants	Monodnaviria
 Desmodium mottle virus	land plants	Monodnaviria
 Desmodus rotundus parvovirus	vertebrates	Monodnaviria
@@ -4892,6 +4902,7 @@ Enterobacteria phage ID18	bacteria	Monodnaviria
 Escherichia phage G4	bacteria	Monodnaviria
 Enterobacteria phage WA13	bacteria	Monodnaviria
 Epsilonpapillomavirus 1	vertebrates	Monodnaviria
+Epsilonpolyomavirus bovis	vertebrates	Monodnaviria
 Eptesicus serotinus papillomavirus 1	vertebrates	Monodnaviria
 Eptesicus serotinus papillomavirus 2	vertebrates	Monodnaviria
 Equine parvovirus H	vertebrates	Monodnaviria
@@ -4904,7 +4915,6 @@ Equus caballus papillomavirus 5	vertebrates	Monodnaviria
 Equus caballus papillomavirus 6	vertebrates	Monodnaviria
 Equus caballus papillomavirus 7	vertebrates	Monodnaviria
 Equus caballus papillomavirus 8	vertebrates	Monodnaviria
-Equus caballus polyomavirus 1	vertebrates	Monodnaviria
 Eragrostis curvula streak virus	land plants	Monodnaviria
 Eragrostis minor streak virus	land plants	Monodnaviria
 Eragrostis streak virus	land plants	Monodnaviria
@@ -4992,6 +5002,7 @@ Fur seal associated gemycircularvirus 1	vertebrates	Monodnaviria
 Fur seal faeces associated circular DNA virus	vertebrates	Monodnaviria
 Galleria mellonella densovirus	invertebrates	Monodnaviria
 Gammapapillomavirus sp.	human	Monodnaviria
+Gammapolyomavirus lonmaja	vertebrates	Monodnaviria
 Gammarus sp. amphipod associated circular virus	invertebrates	Monodnaviria
 Garrulus glandarius associated circular virus 1	vertebrates	Monodnaviria
 Gemycircularvirus C1c	human:vertebrates	Monodnaviria
@@ -5137,7 +5148,6 @@ Human papillomavirus type 96	human	Monodnaviria
 Human parvovirus 4 G1	human:vertebrates	Monodnaviria
 Human parvovirus B19	human:vertebrates	Monodnaviria
 Human polyomavirus 1	human:vertebrates	Monodnaviria
-Human polyomavirus 3	human	Monodnaviria
 Human polyomavirus 6	human	Monodnaviria
 Human polyomavirus 7	human	Monodnaviria
 Human polyomavirus 9	human	Monodnaviria
@@ -5190,7 +5200,6 @@ Lindernia anagallis yellow vein virus	land plants	Monodnaviria
 Lineavirus I22	bacteria	Monodnaviria
 Lisianthus enation leaf curl virus	land plants	Monodnaviria
 Littorina sp. associated circular virus	invertebrates	Monodnaviria
-Lonchura maja polyomavirus 1	vertebrates	Monodnaviria
 Ludwigia yellow vein Vietnam virus	land plants	Monodnaviria
 Ludwigia yellow vein virus	land plants	Monodnaviria
 Luffa yellow mosaic virus	land plants	Monodnaviria
@@ -5258,7 +5267,6 @@ Merkel cell polyomavirus	human	Monodnaviria
 Merremia mosaic Puerto Rico virus	land plants	Monodnaviria
 Merremia mosaic virus	land plants	Monodnaviria
 Mesocricetus auratus papillomavirus 1	vertebrates	Monodnaviria
-Mesocricetus auratus polyomavirus 1	vertebrates	Monodnaviria
 Mesta yellow vein mosaic Bahraich virus	land plants	Monodnaviria
 Milk vetch dwarf virus	land plants	Monodnaviria
 Mimosa yellow leaf curl virus	land plants	Monodnaviria
@@ -5294,7 +5302,6 @@ Murine adeno-associated virus 1	vertebrates	Monodnaviria
 Murine adeno-associated virus 2	vertebrates	Monodnaviria
 Murine bocavirus	vertebrates	Monodnaviria
 Murine polyomavirus strain BG	vertebrates	Monodnaviria
-Mus musculus polyomavirus 2	vertebrates	Monodnaviria
 Mus musculus polyomavirus 3	vertebrates	Monodnaviria
 Mustela putorius papillomavirus 1	vertebrates	Monodnaviria
 Myocastor coypus polyomavirus 1	vertebrates	Monodnaviria
@@ -5342,10 +5349,6 @@ Palaemonetes intermedius brackish grass shrimp associated circular virus	inverte
 Palaemonetes kadiakensis Mississippi grass shrimp associated circular virus	invertebrates	Monodnaviria
 Palaemonetes sp. common grass shrimp associated circular virus	invertebrates	Monodnaviria
 Pan troglodytes polyomavirus 3	vertebrates	Monodnaviria
-Pan troglodytes polyomavirus 4	vertebrates	Monodnaviria
-Pan troglodytes polyomavirus 5	vertebrates	Monodnaviria
-Pan troglodytes polyomavirus 6	vertebrates	Monodnaviria
-Pan troglodytes polyomavirus 7	vertebrates	Monodnaviria
 Pan troglodytes troglodytes polyomavirus 1	vertebrates	Monodnaviria
 Pan troglodytes verus polyomavirus 1a	vertebrates	Monodnaviria
 Pan troglodytes verus polyomavirus 8	vertebrates	Monodnaviria
@@ -5496,7 +5499,6 @@ Rat bocavirus	vertebrates	Monodnaviria
 Rat bufavirus SY-2015	vertebrates	Monodnaviria
 Rat parvovirus 2	vertebrates	Monodnaviria
 Rattus norvegicus polyomavirus 1	vertebrates	Monodnaviria
-Rattus norvegicus polyomavirus 2	vertebrates	Monodnaviria
 Raven circovirus	vertebrates	Monodnaviria
 Red-crowned crane parvovirus	vertebrates	Monodnaviria
 Rhinolophus associated gemykibivirus 2	vertebrates	Monodnaviria
@@ -5629,7 +5631,6 @@ Stenotrophomonas phage SMA6	bacteria	Monodnaviria
 Stenotrophomonas phage SMA7	bacteria	Monodnaviria
 Stenotrophomonas phage SMA9	bacteria	Monodnaviria
 Stenotrophomonas phage phiSHP2	bacteria	Monodnaviria
-Sturnira lilium polyomavirus 1	vertebrates	Monodnaviria
 Subterranean clover stunt virus	land plants	Monodnaviria
 Sugarcane chlorotic streak virus	land plants	Monodnaviria
 Sugarcane streak Reunion virus	land plants	Monodnaviria
@@ -5850,7 +5851,6 @@ Villovirus Vf33	bacteria	Monodnaviria
 Vibrio phage VfO3K6	bacteria	Monodnaviria
 Vibrio phage VfO4K68	bacteria	Monodnaviria
 Vibrio phage fs2	bacteria	Monodnaviria
-Vicugna pacos polyomavirus 1	vertebrates	Monodnaviria
 Vigna yellow mosaic virus	land plants	Monodnaviria
 Vinca leaf curl virus	land plants	Monodnaviria
 Vulpes vulpes papillomavirus 1	vertebrates	Monodnaviria
@@ -5878,6 +5878,7 @@ Xipapillomavirus 1	vertebrates	Monodnaviria
 Yellow baboon polyomavirus 1	vertebrates	Monodnaviria
 Yellow baboon polyomavirus 2	vertebrates	Monodnaviria
 Zebra finch circovirus	vertebrates	Monodnaviria
+Zetapolyomavirus delphini	vertebrates	Monodnaviria
 bat polyomavirus 2a	vertebrates	Monodnaviria
 bat polyomavirus 2b	vertebrates	Monodnaviria
 bat polyomavirus 3b	vertebrates	Monodnaviria
@@ -5985,11 +5986,11 @@ White spot syndrome virus	invertebrates	Naldaviricetes
 Xestia c-nigrum granulovirus	invertebrates	Naldaviricetes
 Sulfolobus ellipsoid virus 1	archaea	Ovaliviridae
 Plasmavirus L2	bacteria	Plasmaviridae
-Campoletis sonorensis ichnovirus	invertebrates	Polydnaviridae
-Cardiochiles nigriceps bracovirus	invertebrates	Polydnaviridae
+Bracoviriform nigricipitis	invertebrates	Polydnaviridae
 Cotesia congregata bracovirus	invertebrates	Polydnaviridae
 Glypta fumiferanae ichnovirus	invertebrates	Polydnaviridae
 Hyposoter fugitivus ichnovirus	invertebrates	Polydnaviridae
+Ichnoviriform sonorense	invertebrates	Polydnaviridae
 Microplitis demolitor bracovirus	invertebrates	Polydnaviridae
 Sulfolobus polyhedral virus 1	archaea	Portogloboviridae
 Sulfolobus polyhedral virus 2	archaea	Portogloboviridae
@@ -6034,7 +6035,6 @@ Achimota virus 2	vertebrates	Riboviria
 Acinetobacter phage AP205	bacteria	Riboviria
 Aconitum latent virus	land plants	Riboviria
 Actinidia chlorotic ringspot-associated virus	land plants	Riboviria
-Actinidia emaravirus 2	land plants	Riboviria
 Actinidia seed borne latent virus	land plants	Riboviria
 Actinidia virus 1	land plants	Riboviria
 Actinidia virus A	land plants	Riboviria
@@ -6078,8 +6078,13 @@ Allium cepa amalgavirus 1	land plants	Riboviria
 Allium cepa amalgavirus 2	land plants	Riboviria
 Allium virus X	land plants	Riboviria
 Allpahuayo mammarenavirus	vertebrates	Riboviria
+Almendravirus arboretum	invertebrates	Riboviria
+Almendravirus balsa	invertebrates	Riboviria
+Almendravirus cootbay	invertebrates	Riboviria
 Almpiwar virus	invertebrates:vertebrates	Riboviria
 Oak-Vale virus	invertebrates:vertebrates	Riboviria
+Alphachrysovirus aspergilli	fungi	Riboviria
+Alphachrysovirus cerasi	fungi	Riboviria
 Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015	vertebrates	Riboviria
 Alphacoronavirus BtMs-AlphaCoV/GS2013	vertebrates	Riboviria
 BtRf-AlphaCoV/HuB2013	vertebrates	Riboviria
@@ -6104,7 +6109,6 @@ Alternaria arborescens victorivirus 1	fungi	Riboviria
 Alternaria brassicicola betaendornavirus 1	fungi	Riboviria
 Alternaria longipes dsRNA virus 1	fungi	Riboviria
 Amaranthus leaf mottle virus	land plants	Riboviria
-Amasya cherry disease associated chrysovirus	fungi	Riboviria
 Amasya cherry disease-associated mycovirus	fungi	Riboviria
 Amazon lily mild mottle virus	land plants	Riboviria
 Ambe virus	invertebrates	Riboviria
@@ -6161,8 +6165,6 @@ Aquatic bird bornavirus 2	vertebrates	Riboviria
 Arabidopsis halleri partitivirus 1	land plants	Riboviria
 Arabis mosaic virus	land plants	Riboviria
 Arachis pintoi virus	land plants	Riboviria
-Aravan lyssavirus	vertebrates	Riboviria
-Arboretum almendravirus	invertebrates	Riboviria
 Areca palm necrotic ringspot virus	land plants	Riboviria
 Areca palm necrotic spindle-spot virus	land plants	Riboviria
 Areca palm velarivirus 1	land plants	Riboviria
@@ -6192,11 +6194,9 @@ Asparagus virus 2	land plants	Riboviria
 Asparagus virus 3	land plants	Riboviria
 Aspergillus foetidus dsRNA mycovirus	fungi	Riboviria
 Aspergillus foetidus slow virus 1	fungi	Riboviria
-Aspergillus fumigatus chrysovirus	fungi	Riboviria
 Aspergillus fumigatus partitivirus 2	fungi	Riboviria
 Aspergillus fumigatus polymycovirus 1	fungi	Riboviria
 Aspergillus ochraceous virus	fungi	Riboviria
-Aspergillus thermomutatus chrysovirus 1	fungi	Riboviria
 Astrovirus Er/SZAL6/HUN/2011	vertebrates	Riboviria
 Astrovirus MLB1	human	Riboviria
 Astrovirus MLB1 HK05	human	Riboviria
@@ -6220,7 +6220,6 @@ Atractylodes mottle virus	land plants	Riboviria
 Atypical porcine pestivirus 1	vertebrates	Riboviria
 Porcine pestivirus 1	vertebrates	Riboviria
 Australian Anopheles totivirus	invertebrates	Riboviria
-Australian bat lyssavirus	human:vertebrates	Riboviria
 Avalon virus	invertebrates	Riboviria
 Avian endogenous retrovirus EAV-HP	vertebrates	Riboviria
 Avian hepatitis E virus	vertebrates	Riboviria
@@ -6256,11 +6255,9 @@ Baboon orthoreovirus	vertebrates	Riboviria
 Bagaza virus	invertebrates:vertebrates	Riboviria
 Bahia Grande virus	invertebrates	Riboviria
 Ball python nidovirus 1	vertebrates	Riboviria
-Balsa almendravirus	invertebrates	Riboviria
 Bamaga virus	invertebrates	Riboviria
 Bamboo mosaic virus	land plants	Riboviria
 Banana bract mosaic virus	land plants	Riboviria
-Banana mild mosaic virus	land plants	Riboviria
 Banana streak CA virus	land plants	Riboviria
 Banana streak GF virus	land plants	Riboviria
 Banana streak IM virus	land plants	Riboviria
@@ -6272,6 +6269,7 @@ Banana streak UL virus	land plants	Riboviria
 Banana streak UM virus	land plants	Riboviria
 Banana streak VN virus	land plants	Riboviria
 Banana streak virus Acuminata Yunnan	land plants	Riboviria
+Banmivirus BanMMV	land plants	Riboviria
 Banna virus strain JKT-6423	human:invertebrates:vertebrates	Riboviria
 Banzi virus	invertebrates	Riboviria
 Barbacena virus Y	land plants	Riboviria
@@ -6288,10 +6286,8 @@ Barley yellow dwarf virus SGV	land plants	Riboviria
 Barley yellow dwarf virus kerII	land plants	Riboviria
 Barley yellow dwarf virus kerIII	land plants	Riboviria
 Barley yellow mosaic virus	land plants	Riboviria
-Barley yellow striate mosaic cytorhabdovirus	land plants	Riboviria
 Barmah Forest virus	human:invertebrates:vertebrates	Riboviria
 Barur virus	vertebrates	Riboviria
-Bas-Congo tibrovirus	human	Riboviria
 Basella alba alphaendornavirus 1	land plants	Riboviria
 Basella rugose mosaic virus	land plants	Riboviria
 Bastrovirus 7	human	Riboviria
@@ -6619,6 +6615,7 @@ Beihai zhaovirus-like virus 2	invertebrates	Riboviria
 Beihai zhaovirus-like virus 3	invertebrates	Riboviria
 Beihai zhaovirus-like virus 4	invertebrates	Riboviria
 Beihai zhaovirus-like virus 5	invertebrates	Riboviria
+Beilong virus	vertebrates	Riboviria
 Bell pepper alphaendornavirus	land plants	Riboviria
 Bell pepper mottle virus	land plants	Riboviria
 Belladonna mottle virus	land plants	Riboviria
@@ -6629,6 +6626,7 @@ Bellinger River virus	vertebrates	Riboviria
 Beluga whale coronavirus SW1	vertebrates	Riboviria
 Bermuda grass latent virus	land plants	Riboviria
 Berrimah virus	vertebrates	Riboviria
+Betachrysovirus aspergilli	fungi	Riboviria
 Betacoronavirus England 1	human:vertebrates	Riboviria
 Middle East respiratory syndrome-related coronavirus	human:vertebrates	Riboviria
 Betacoronavirus Erinaceus/VMC/DEU/2012	vertebrates	Riboviria
@@ -6677,7 +6675,6 @@ Blueberry shock virus	land plants	Riboviria
 Blueberry shoestring virus	land plants	Riboviria
 Blueberry virus A	land plants	Riboviria
 Bluetongue virus	invertebrates:vertebrates	Riboviria
-Bokeloh bat lyssavirus	vertebrates	Riboviria
 Bolahun virus variant 2	invertebrates	Riboviria
 Bole Tick Virus 2	invertebrates	Riboviria
 Bole tick virus 4	invertebrates:vertebrates	Riboviria
@@ -6861,7 +6858,6 @@ Carnation ringspot virus	land plants	Riboviria
 Carnation vein mottle virus	land plants	Riboviria
 Carnation yellow fleck virus	land plants	Riboviria
 Carp picornavirus 1	vertebrates	Riboviria
-Carp sprivivirus	vertebrates	Riboviria
 Carrot Ch virus 1	land plants	Riboviria
 Carrot Ch virus 2	land plants	Riboviria
 Carrot cryptic virus	land plants	Riboviria
@@ -7068,7 +7064,6 @@ Colorado tick fever virus	vertebrates	Riboviria
 Commelina yellow mottle virus	land plants	Riboviria
 Common moorhen coronavirus HKU21	vertebrates	Riboviria
 Coniothyrium diplodiella chrysovirus 1	fungi	Riboviria
-Coot Bay almendravirus	invertebrates	Riboviria
 Cordyline virus 1	land plants	Riboviria
 Cordyline virus 2	land plants	Riboviria
 Cordyline virus 3	land plants	Riboviria
@@ -7161,6 +7156,7 @@ Cypovirus 14	invertebrates	Riboviria
 Cypovirus 5	invertebrates	Riboviria
 Cypripedium virus Y	land plants	Riboviria
 Cyrtanthus elatus virus A	land plants	Riboviria
+Cytorhabdovirus hordei	land plants	Riboviria
 Dabieshan virus	vertebrates	Riboviria
 Dahlia mosaic virus	land plants	Riboviria
 Dante Muikkunen virus 1	vertebrates	Riboviria
@@ -7181,7 +7177,6 @@ Dengue virus 3	human:invertebrates:vertebrates	Riboviria
 Dengue virus 4	human:invertebrates:vertebrates	Riboviria
 Dera Ghazi Khan orthonairovirus	invertebrates:vertebrates	Riboviria
 Desmodus rotundus endogenous retrovirus	vertebrates	Riboviria
-Dhori thogotovirus	human	Riboviria
 Diachasmimorpha longicaudata rhabdovirus	invertebrates	Riboviria
 Diamondback moth iflavirus	invertebrates	Riboviria
 Dianke virus	invertebrates	Riboviria
@@ -7241,7 +7236,6 @@ Sheldgoose hepatitis B virus	vertebrates	Riboviria
 Snow goose hepatitis B virus	vertebrates	Riboviria
 Dugbe orthonairovirus	invertebrates	Riboviria
 Durham virus	vertebrates	Riboviria
-Duvenhage lyssavirus	human:vertebrates	Riboviria
 East Asian Passiflora distortion virus	land plants	Riboviria
 East Asian Passiflora virus	land plants	Riboviria
 Eastern chimpanzee simian foamy virus	human	Riboviria
@@ -7268,6 +7262,16 @@ Elderberry carlavirus D	land plants	Riboviria
 Elderberry carlavirus E	land plants	Riboviria
 Elderberry latent virus	land plants	Riboviria
 Elm mottle virus	land plants	Riboviria
+Emaravirus cajani	land plants	Riboviria
+Emaravirus cercidis	land plants	Riboviria
+Emaravirus cordylinae	land plants	Riboviria
+Emaravirus fici	land plants	Riboviria
+Emaravirus idaeobati	land plants	Riboviria
+Emaravirus kiwii	land plants	Riboviria
+Emaravirus rosae	land plants	Riboviria
+Emaravirus toordali	land plants	Riboviria
+Emaravirus tritici	land plants	Riboviria
+Emesvirus japonicum	bacteria	Riboviria
 Encephalomyocarditis virus	human:vertebrates	Riboviria
 Endive necrotic mosaic virus	land plants	Riboviria
 Enseada virus	invertebrates	Riboviria
@@ -7311,7 +7315,6 @@ Erysiphe necator mitovirus 1	fungi	Riboviria
 Erysiphe necator mitovirus 2	fungi	Riboviria
 Erysiphe necator mitovirus 3	fungi	Riboviria
 Escherichia phage MS2	bacteria	Riboviria
-Escherichia virus BZ13	bacteria	Riboviria
 Escherichia virus Qbeta	bacteria	Riboviria
 Estero Real virus	invertebrates	Riboviria
 Estrildid finch bornavirus 1	vertebrates	Riboviria
@@ -7361,13 +7364,11 @@ Ferret parechovirus	vertebrates	Riboviria
 Fig badnavirus 1	land plants	Riboviria
 Fig cryptic virus	land plants	Riboviria
 Fig fleck-associated virus	land plants	Riboviria
-Fig mosaic emaravirus	land plants	Riboviria
 Figwort mosaic virus	land plants	Riboviria
 Fiji disease virus	land plants	Riboviria
 Fikirini rhabdovirus	vertebrates	Riboviria
 Finkel-Biskis-Jinkins murine sarcoma virus	vertebrates	Riboviria
 Fisavirus 1	vertebrates	Riboviria
-Flanders hapavirus	invertebrates:vertebrates	Riboviria
 Flock House virus	invertebrates	Riboviria
 Foot-and-mouth disease virus O	vertebrates	Riboviria
 Formica exsecta virus 1	invertebrates	Riboviria
@@ -7558,6 +7559,9 @@ Hanko virus	invertebrates	Riboviria
 Hantaan orthohantavirus	human:vertebrates	Riboviria
 Hantavirus Fusong-Mf-682	vertebrates	Riboviria
 Hantavirus Z10	human	Riboviria
+Hapavirus flanders	invertebrates:vertebrates	Riboviria
+Hapavirus ngaingan	invertebrates: vertebrates	Riboviria
+Hapavirus wongabel	invertebrates	Riboviria
 Hardenbergia mosaic virus	land plants	Riboviria
 Hardenbergia virus A	land plants	Riboviria
 Harrier picornavirus 1	vertebrates	Riboviria
@@ -7616,7 +7620,6 @@ Hibiscus chlorotic ringspot virus	land plants	Riboviria
 Hibiscus green spot virus 2	land plants	Riboviria
 Hibiscus latent Fort Pierce virus	land plants	Riboviria
 Hibiscus latent Singapore virus	land plants	Riboviria
-High Plains wheat mosaic emaravirus	land plants	Riboviria
 Highlands J virus	invertebrates:vertebrates	Riboviria
 Himetobi P virus	invertebrates	Riboviria
 Hippeastrum latent virus	land plants	Riboviria
@@ -8030,7 +8033,6 @@ Iranian wheat stripe tenuivirus	land plants	Riboviria
 Iris mild mosaic virus	land plants	Riboviria
 Iris severe mosaic virus	land plants	Riboviria
 Iris yellow spot virus	invertebrates:land plants	Riboviria
-Irkut lyssavirus	vertebrates	Riboviria
 Isaria javanica chrysovirus 1	fungi	Riboviria
 Isfahan virus	invertebrates:vertebrates	Riboviria
 Israel turkey meningoencephalomyelitis virus	vertebrates	Riboviria
@@ -8065,7 +8067,6 @@ Joinjakaka virus	invertebrates	Riboviria
 Jonchet virus	invertebrates	Riboviria
 Jujube mosaic-associated virus	land plants	Riboviria
 Jungle carpet python virus	vertebrates	Riboviria
-Jurona vesiculovirus	human:invertebrates	Riboviria
 Jutiapa virus	vertebrates	Riboviria
 Kabuto mountain virus	invertebrates	Riboviria
 Kadipiro virus	invertebrates	Riboviria
@@ -8095,7 +8096,6 @@ Keunjorong mosaic virus	land plants	Riboviria
 Keuraliba virus	vertebrates	Riboviria
 Keystone virus	human:invertebrates	Riboviria
 Khabarovsk orthohantavirus	vertebrates	Riboviria
-Khujand lyssavirus	vertebrates	Riboviria
 Kibale red colobus virus 1	vertebrates	Riboviria
 Kibale red colobus virus 2	vertebrates	Riboviria
 Kibale red-tailed guenon virus 1	vertebrates	Riboviria
@@ -8129,7 +8129,6 @@ Lactate dehydrogenase-elevating virus	vertebrates	Riboviria
 Lagenaria mild mosaic virus	land plants	Riboviria
 Lagenaria siceraria endornavirus-California	land plants	Riboviria
 Lagenaria siceraria endornavirus-Hubei	land plants	Riboviria
-Lagos bat lyssavirus	human:vertebrates	Riboviria
 Laguna Negra orthohantavirus	human:vertebrates	Riboviria
 Laibin virus	vertebrates	Riboviria
 Lake Chad virus	vertebrates	Riboviria
@@ -8158,6 +8157,7 @@ Le Blanc nodavirus	invertebrates	Riboviria
 Le Dantec virus	human	Riboviria
 Leanyer virus	invertebrates	Riboviria
 Lebombo virus	human	Riboviria
+Ledantevirus nishimuro	vertebrates	Riboviria
 Leek yellow stripe virus	land plants	Riboviria
 Leishmania RNA virus 1 - 1	protozoa	Riboviria
 Leishmania RNA virus 1 - 4	protozoa	Riboviria
@@ -8227,6 +8227,16 @@ Lychnis ringspot virus	land plants	Riboviria
 Lygus lineolaris virus 1	invertebrates	Riboviria
 Lymantria dispar iflavirus 1	invertebrates	Riboviria
 Lymphocytic choriomeningitis mammarenavirus	human:vertebrates	Riboviria
+Lyssavirus aravan	vertebrates	Riboviria
+Lyssavirus australis	human:vertebrates	Riboviria
+Lyssavirus bokeloh	vertebrates	Riboviria
+Lyssavirus duvenhage	human:vertebrates	Riboviria
+Lyssavirus irkut	vertebrates	Riboviria
+Lyssavirus khujand	vertebrates	Riboviria
+Lyssavirus lagos	human:vertebrates	Riboviria
+Lyssavirus mokola	vertebrates	Riboviria
+Lyssavirus rabies	human:vertebrates	Riboviria
+Lyssavirus shimoni	vertebrates	Riboviria
 M'Poko virus	invertebrates	Riboviria
 Mac Peak virus	invertebrates	Riboviria
 Machupo mammarenavirus	human:vertebrates	Riboviria
@@ -8266,7 +8276,6 @@ Maize-associated totivirus 3	land plants	Riboviria
 Mal de Rio Cuarto virus	land plants	Riboviria
 Malakal virus	invertebrates	Riboviria
 Maldonado virus	human	Riboviria
-Malpais Spring vesiculovirus	invertebrates	Riboviria
 Malus domestica virus A	land plants	Riboviria
 Malva vein clearing virus	land plants	Riboviria
 Mamastrovirus 1	human:vertebrates	Riboviria
@@ -8331,7 +8340,6 @@ Mirabilis jalapa mottle virus	land plants	Riboviria
 Mobala mammarenavirus	vertebrates	Riboviria
 Mobuck virus	vertebrates	Riboviria
 Mojiang virus	vertebrates	Riboviria
-Mokola lyssavirus	vertebrates	Riboviria
 Moku virus	invertebrates	Riboviria
 Moloney murine sarcoma virus	vertebrates	Riboviria
 Mona Grita virus	invertebrates	Riboviria
@@ -8413,7 +8421,6 @@ Nerine virus X	land plants	Riboviria
 Nerine yellow stripe virus	land plants	Riboviria
 Nesidiocoris tenuis virus	invertebrates	Riboviria
 New Minto virus	invertebrates	Riboviria
-Ngaingan hapavirus	invertebrates: vertebrates	Riboviria
 Nhumirim virus	invertebrates	Riboviria
 Nienokoue virus	invertebrates	Riboviria
 Night heron coronavirus HKU19	vertebrates	Riboviria
@@ -8424,7 +8431,6 @@ Nilaparvata lugens honeydew virus-2	invertebrates	Riboviria
 Nilaparvata lugens honeydew virus-3	invertebrates	Riboviria
 Nipah henipavirus	human:vertebrates	Riboviria
 Nique virus	invertebrates	Riboviria
-Nishimuro ledantevirus	vertebrates	Riboviria
 Nkolbisson virus	invertebrates	Riboviria
 Nome phantom orthophasmavirus	invertebrates	Riboviria
 Non-primate hepacivirus NZP1	vertebrates	Riboviria
@@ -8626,7 +8632,6 @@ Pepper veinal mottle virus	land plants	Riboviria
 Pepper virus A	land plants	Riboviria
 Pepper yellow mosaic virus	land plants	Riboviria
 Perch perhabdovirus	vertebrates	Riboviria
-Perinet vesiculovirus	invertebrates	Riboviria
 Persea americana alphaendornavirus 1	land plants	Riboviria
 Persimmon cryptic virus	land plants	Riboviria
 Persimmon latent virus	land plants	Riboviria
@@ -8673,8 +8678,6 @@ Picornavirales Tottori-HG1	vertebrates	Riboviria
 Picornaviridae sp. rodent/Ee/PicoV/NX2015	vertebrates	Riboviria
 Pidgey virus	invertebrates	Riboviria
 Pigeon picornavirus B	vertebrates	Riboviria
-Pigeonpea sterility mosaic emaravirus 1	land plants	Riboviria
-Pigeonpea sterility mosaic emaravirus 2	land plants	Riboviria
 Pineapple bacilliform CO virus	land plants	Riboviria
 Pineapple bacilliform ER virus	land plants	Riboviria
 Pineapple mealybug wilt-associated virus 1	land plants	Riboviria
@@ -8707,6 +8710,7 @@ Pneumonia virus of mice J3666	vertebrates	Riboviria
 Pneumovirus dog/Bari/100-12/ITA/2012	vertebrates	Riboviria
 Poa semilatent virus	land plants	Riboviria
 Poecivirus BCCH-449	vertebrates	Riboviria
+Pohorje myodes paramyxovirus 1	vertebrates	Riboviria
 Poinsettia latent virus	land plants	Riboviria
 Poinsettia mosaic virus	land plants	Riboviria
 Pokeweed mosaic virus	land plants	Riboviria
@@ -8811,10 +8815,8 @@ Rabbit picobirnavirus	vertebrates	Riboviria
 Rabbit picornavirus	vertebrates	Riboviria
 rabbit kobuvirus	vertebrates	Riboviria
 Rabbit vesivirus	vertebrates	Riboviria
-Rabies lyssavirus	human:vertebrates	Riboviria
 Rabovirus B1	vertebrates	Riboviria
 Rabovirus D1	vertebrates	Riboviria
-Radi vesiculovirus	invertebrates	Riboviria
 Radish mosaic virus	land plants	Riboviria
 Rana hepevirus	vertebrates	Riboviria
 Ranunculus mild mosaic virus	land plants	Riboviria
@@ -8824,7 +8826,6 @@ Raphanus sativus cryptic virus 2	land plants	Riboviria
 Raphanus sativus cryptic virus 3	land plants	Riboviria
 Raspberry bushy dwarf virus	land plants	Riboviria
 Raspberry latent virus	land plants	Riboviria
-Raspberry leaf blotch emaravirus	land plants	Riboviria
 Raspberry leaf mottle virus	land plants	Riboviria
 Raspberry ringspot virus	land plants	Riboviria
 Raspberry vein chlorosis virus	invertebrates:land plants	Riboviria
@@ -8843,7 +8844,6 @@ Red clover powdery mildew-associated totivirus 6	fungi	Riboviria
 Red clover powdery mildew-associated totivirus 7	fungi	Riboviria
 Red clover powdery mildew-associated totivirus 9	fungi	Riboviria
 Red clover vein mosaic virus	land plants	Riboviria
-Redbud yellow ringspot-associated emaravirus	land plants	Riboviria
 Reed chlorotic stripe virus	land plants	Riboviria
 Rehmannia mosaic virus	land plants	Riboviria
 Rehmannia virus 1	land plants	Riboviria
@@ -8915,7 +8915,6 @@ Rosavirus B	vertebrates	Riboviria
 Rosavirus C	vertebrates	Riboviria
 Rose cryptic virus 1	land plants	Riboviria
 Rose leaf rosette-associated virus	land plants	Riboviria
-Rose rosette emaravirus	land plants	Riboviria
 Rose spring dwarf-associated virus	land plants	Riboviria
 Rose yellow mosaic virus	land plants	Riboviria
 Rose yellow vein virus	land plants	Riboviria
@@ -9135,7 +9134,6 @@ Shayang ascaridia galli virus 2	invertebrates	Riboviria
 Shayang fly virus 4	invertebrates	Riboviria
 Shayang spider virus 4	invertebrates	Riboviria
 Shayang virga-like virus 1	invertebrates	Riboviria
-Shimoni bat lyssavirus	vertebrates	Riboviria
 Shingleback nidovirus 1	vertebrates	Riboviria
 Shinobi tetravirus	invertebrates	Riboviria
 Shrew coronavirus	vertebrates	Riboviria
@@ -9230,6 +9228,7 @@ Spodoptera exigua iflavirus 1	invertebrates	Riboviria
 Spodoptera exigua iflavirus 2	invertebrates	Riboviria
 Spodoptera frugiperda rhabdovirus	invertebrates	Riboviria
 Spondweni virus	human:invertebrates	Riboviria
+Sprivirus cyprinus	vertebrates	Riboviria
 Squash chlorotic leaf spot virus	land plants	Riboviria
 Squash mosaic virus	land plants	Riboviria
 Squash vein yellowing virus	land plants	Riboviria
@@ -9330,13 +9329,14 @@ Thielaviopsis basicola mitovirus	fungi	Riboviria
 Thimiri orthobunyavirus	invertebrates:vertebrates	Riboviria
 Thin paspalum asymptomatic virus	land plants	Riboviria
 Thogoto thogotovirus	invertebrates:vertebrates	Riboviria
+Thogotovirus dhoriense	human	Riboviria
 Thottopalayam virus	vertebrates	Riboviria
 Thrush coronavirus HKU12-600	vertebrates	Riboviria
 Thunberg fritillary mosaic virus	land plants	Riboviria
-Ti ringspot-associated emaravirus	land plants	Riboviria
 Tianjin totivirus	vertebrates	Riboviria
 Tibetan frog hepatitis B virus	vertebrates	Riboviria
 Tibrogargan virus	invertebrates:vertebrates	Riboviria
+Tibrovirus congo	human	Riboviria
 Tick-borne encephalitis virus	human:invertebrates:vertebrates	Riboviria
 Tigray virus	vertebrates	Riboviria
 Tilapia lake virus	vertebrates	Riboviria
@@ -9478,6 +9478,11 @@ Walrus calicivirus	human:vertebrates	Riboviria
 Vesicular stomatitis Alagoas virus	vertebrates	Riboviria
 Vesicular stomatitis Indiana virus	vertebrates	Riboviria
 Vesicular stomatitis New Jersey virus	invertebrates:vertebrates	Riboviria
+Vesiculovirus bogdanovac	invertebrates	Riboviria
+Vesiculovirus jurona	human:invertebrates	Riboviria
+Vesiculovirus malpais	invertebrates	Riboviria
+Vesiculovirus perinet	invertebrates	Riboviria
+Vesiculovirus radi	invertebrates	Riboviria
 Vesivirus ferret badger/JX12/China/2012	vertebrates	Riboviria
 Veterinary Pathology Zurich virus 1	vertebrates	Riboviria
 Vicia cryptic virus	land plants	Riboviria
@@ -9684,7 +9689,6 @@ Wisteria badnavirus 1	land plants	Riboviria
 Wisteria vein mosaic virus	land plants	Riboviria
 Witwatersrand virus	invertebrates	Riboviria
 Wobbly possum disease virus	vertebrates	Riboviria
-Wongabel hapavirus	invertebrates	Riboviria
 Wongorr virus	invertebrates	Riboviria
 Woodchuck hepatitis virus	vertebrates	Riboviria
 Woolly monkey hepatitis B virus	vertebrates	Riboviria
@@ -9840,7 +9844,6 @@ Yongsan iflavirus 1	invertebrates	Riboviria
 Yongsan picorna-like virus 3	invertebrates	Riboviria
 Yongsan picorna-like virus 4	invertebrates	Riboviria
 Youcai mosaic virus	land plants	Riboviria
-Yug Bogdanovac vesiculovirus	invertebrates	Riboviria
 Yunnan orbivirus	invertebrates:vertebrates	Riboviria
 Zahedan rhabdovirus	invertebrates	Riboviria
 Zaire ebolavirus	human:vertebrates	Riboviria
@@ -10180,6 +10183,7 @@ Micromonas pusilla virus 12T	eukaryotic algae	Varidnaviria
 Micromonas pusilla virus SP1	eukaryotic algae	Varidnaviria
 Mimivirus terra2	protozoa	Varidnaviria
 Molluscum contagiosum virus subtype 1	human:vertebrates	Varidnaviria
+Monkeypox virus	human:vertebrates	Varidnaviria
 Monkeypox virus Zaire-96-I-16	human:vertebrates	Varidnaviria
 Murine adenovirus 2	vertebrates	Varidnaviria
 Murine adenovirus 3	vertebrates	Varidnaviria
