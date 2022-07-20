@@ -6,3 +6,6 @@ cp ../../../../../Experiments/5-MutationAnalysis/data/rscu_fc.csv ..
 
 # copy human endogenous codon optimality
 cp ../../../Main/Data/human_endo_csc.csv ..
+
+# copy volcano plot data
+cp ../../../Main/Data/uninfected*.csv ..
