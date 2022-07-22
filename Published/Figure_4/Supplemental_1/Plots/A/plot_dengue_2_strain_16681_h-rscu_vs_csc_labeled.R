@@ -70,7 +70,7 @@ ggsave(
   './dengue_2_strain_16681_h-rscu_vs_csc_labeled.pdf', 
   fig,
   height = 8, 
-  width = 8
+  width = 10
 )
 
 ################################################################################
