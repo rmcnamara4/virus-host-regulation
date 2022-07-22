@@ -150,8 +150,8 @@ fig = all_genes_fc %>%
 ggsave(
   './infrequenly_frequently_used_fc_mRNA_cum.pdf', 
   fig,
-  height = 7, 
-  width = 8
+  height = 8, 
+  width = 10
 )
 
 ################################################################################
