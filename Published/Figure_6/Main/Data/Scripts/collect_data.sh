@@ -8,4 +8,7 @@ cp ../../../../../Experiments/5-MutationAnalysis/data/rscu_fc.csv ..
 cp ../../../../../Experiments/5-MutationAnalysis/data/point_mutations_p9.csv ..
 
 # collect human optimality
-cp ../../../../../Experiments/0-Preprocessing/0.5-GetHumanOptimality/data/human_endo_csc.csv ..
+cp ../../../../../Experiments/2-ConcatenateOptimalities/data/codon_optimalities.csv ..
+
+# collect codon groups
+cp ../../../../../Experiments/5-MutationAnalysis/data/codon_groups.xlsx ..
