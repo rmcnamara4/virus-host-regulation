@@ -20,4 +20,4 @@ Rscript create_syn_mutations_mrf_per_species_p9.R
 Rscript create_syn_mutations_fitness_class_percent_per_species_p9.R
 
 # run script to create syn mutations MRF codon groups per species p9 table
-Rscript create_syn_mutations_mrf_codon_groups_per_species_p9.csv
+Rscript create_syn_mutations_mrf_codon_groups_per_species_p9.R
