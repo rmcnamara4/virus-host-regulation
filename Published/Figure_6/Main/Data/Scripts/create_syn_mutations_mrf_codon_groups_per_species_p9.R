@@ -27,8 +27,8 @@ codon_groups = Reduce('rbind', codon_groups)
 melted_codon_groups = melt(codon_groups, id = 'host')
 
 # add a group column to link the pairs of codon groups
-melted_codon_groups$group = ifelse(melted_codon_groups$variable %in% c('frequently used', 'infrequently used'), 1, 
-                                   ifelse(melted_codon_groups$variable %in% c('preferentially used', 'non_preferentially_used'), 2, 3))
+melted_codon_groups$group = ifelse(melted_codon_groups$variable %in% c('frequently_used', 'infrequently_used'), 1, 
+                                   ifelse(melted_codon_groups$variable %in% c('preferentially_used', 'non_preferentially_used'), 2, 3))
 
 # rename columns
 names(melted_codon_groups) = c('host', 'codon_class', 'mutcodon', 'group')
