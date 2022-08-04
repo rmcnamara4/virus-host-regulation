@@ -27,29 +27,29 @@ virus_codons = read.table(
 human_dna_string = DNAStringSet(human_seq$coding)
 human_codons = as.data.frame(trinucleotideFrequency(human_dna_string, step = 3))
 
-# melt the data 
-human_codons_melted = melt(human_codons)
-names(human_codons_melted) = c('codon', 'count')
+# get human codons total 
+human_codons_total = apply(human_codons, 2, sum)
 
-# get sum of each codon
-human_codons_melted = human_codons_melted %>%
-  group_by(codon) %>%
-  summarize_all(
-    sum
-  )
+# convert codon names to amino acid names 
+human_aa = human_codons_total
+names(human_aa) = codon_to_aa(names(human_aa))
 
-# make amino acid column 
-human_codons_melted$aa = codon_to_aa(human_codons_melted$codon)
+# get total counts for each amino acid 
+human_aa_total = sapply(split.default(human_aa, names(human_aa)), sum)
 
-# get sum of each amino acid 
-human_aa_melted = human_codons_melted %>%
-  group_by(aa) %>%
-  summarize(
-    count = sum(count)
-  )
+# melt human_aa_total 
+human_aa_total_melted = melt(human_aa_total)
+human_aa_total_melted = human_aa_total_melted %>%
+  mutate(
+    aa = rownames(.), 
+    .before = 1
+  ) 
 
-# get frequency of each aa 
-human_aa_melted$count = human_aa_melted$count / sum(human_aa_melted$count)
+names(human_aa_total_melted) = c('aa', 'count')
+rownames(human_aa_total_melted) = NULL
+
+# get frequency of each aa
+human_aa_total_melted$freq = human_aa_total_melted$count / sum(human_aa_total_melted$count)
 
 # get frequency of viral amino acids 
 virus_metadata = virus_codons[1:6]
@@ -62,7 +62,7 @@ virus_aa = as.data.frame(t(apply(virus_aa, 1, function(x) x / sum(x))))
 
 # get the log2 ratio of viral usage / human usage
 aa_fc = as.data.frame(sapply(1:ncol(virus_aa), function(x) {
-  virus_aa[[x]] = log2(virus_aa[[x]] / human_aa_melted$count[x])
+  virus_aa[[x]] = log2(virus_aa[[x]] / human_aa_total_melted$freq[x])
 }))
 names(aa_fc) = names(virus_aa)
 

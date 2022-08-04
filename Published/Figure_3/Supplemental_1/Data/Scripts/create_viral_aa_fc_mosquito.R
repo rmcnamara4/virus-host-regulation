@@ -25,31 +25,31 @@ virus_codons = read.table(
 
 # get mosquito codons 
 mosquito_dna_string = DNAStringSet(mosquito_seq$coding)
-mosquito_codons = as.data.frame(trinucleotideFrequency(mosquito_dna_string), step = 3)
+mosquito_codons = as.data.frame(trinucleotideFrequency(mosquito_dna_string, step = 3))
 
-# melt the data 
-mosquito_codons_melted = melt(mosquito_codons)
-names(mosquito_codons_melted) = c('codon', 'count') 
+# get mosquito codons total 
+mosquito_codons_total = apply(mosquito_codons, 2, sum)
 
-# get the sum of each codon 
-mosquito_codons_melted = mosquito_codons_melted %>%
-  group_by(codon) %>%
-  summarize_all(
-    sum
-  )
+# convert codon names to amino acid names 
+mosquito_aa = mosquito_codons_total
+names(mosquito_aa) = codon_to_aa(names(mosquito_aa))
 
-# make amino acid column 
-mosquito_codons_melted$aa = codon_to_aa(mosquito_codons_melted$codon)
+# get total counts for each amino acid 
+mosquito_aa_total = sapply(split.default(mosquito_aa, names(mosquito_aa)), sum)
 
-# get sum of each amino acid 
-mosquito_aa_melted = mosquito_codons_melted %>%
-  group_by(aa) %>%
-  summarize(
-    count = sum(count)
-  )
+# melt mosquito_aa_total 
+mosquito_aa_total_melted = melt(mosquito_aa_total)
+mosquito_aa_total_melted = mosquito_aa_total_melted %>%
+  mutate(
+    aa = rownames(.), 
+    .before = 1
+  ) 
+
+names(mosquito_aa_total_melted) = c('aa', 'count')
+rownames(mosquito_aa_total_melted) = NULL
 
 # get frequency of each aa 
-mosquito_aa_melted$count = mosquito_aa_melted$count / sum(mosquito_aa_melted$count)
+mosquito_aa_total_melted$freq = mosquito_aa_total_melted$count / sum(mosquito_aa_total_melted$count)
 
 # get frequency of viral amino acids 
 virus_metadata = virus_codons[1:6]
@@ -62,7 +62,7 @@ virus_aa = as.data.frame(t(apply(virus_aa, 1, function(x) x / sum(x))))
 
 # get the log2 ratio of viral usage / mosquito usage 
 aa_fc = as.data.frame(sapply(1:ncol(virus_aa), function(x) {
-  virus_aa[[x]] = log2(virus_aa[[x]] / mosquito_aa_melted$count[x])
+  virus_aa[[x]] = log2(virus_aa[[x]] / mosquito_aa_total_melted$freq[x])
 }))
 names(aa_fc) = names(virus_aa) 
 
