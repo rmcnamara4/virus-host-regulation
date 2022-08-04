@@ -21,8 +21,8 @@ melted_data = melt(aa_fc_human, id = 'virus')
 names(melted_data) = c('virus', 'aa', 'aa_fc') 
 
 # define order of amino acids 
-ordered_aa = c('Trp', 'Met', 'Cys', 'Tyr', 'His', 'Phe', 'Asn', 'Ile', 'Gln', 'Asp', 'Thr', 'Arg', 'Val', 'Lys',
-               'Pro', 'Gly', 'Ala', 'Glu', 'Ser', 'Leu')
+ordered_aa = c('Trp', 'Met', 'Cys', 'His', 'Tyr', 'Asn', 'Phe', 'Ile', 'Asp', 'Gln', 'Thr', 'Arg',
+               'Lys', 'Val', 'Pro', 'Gly', 'Ala', 'Glu', 'Ser', 'Leu')
 
 # plot function 
 plot_heatmap = function(table) {
