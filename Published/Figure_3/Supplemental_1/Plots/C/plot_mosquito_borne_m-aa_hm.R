@@ -21,8 +21,8 @@ melted_data = melt(aa_fc_mosquito, id = 'virus')
 names(melted_data) = c('virus', 'aa', 'aa_fc')
 
 # define order of amino acids 
-ordered_aa = c('Trp', 'Met', 'Cys', 'His', 'Tyr', 'Phe', 'Gln', 'Asn', 'Pro', 'Ile', 'Arg', 'Asp', 'Thr', 'Gly', 
-               'Lys', 'Val', 'Glu', 'Ala', 'Ser', 'Leu')
+ordered_aa = c('Trp', 'Cys', 'Met', 'His', 'Tyr', 'Phe', 'Gln', 'Asn', 'Pro', 'Ile', 'Arg', 'Asp', 'Thr',
+               'Gly', 'Lys', 'Val', 'Glu', 'Ala', 'Ser', 'Leu')
 
 # plot function 
 plot_heatmap = function(table) {
