@@ -31,7 +31,8 @@ make_plot = function(data, host_var, color_title) {
     filter(host == host_var) %>%
     ggplot(aes(x = A, y = B)) + 
     geom_point(aes(size = n_codons, color = range)) + 
-    scale_color_distiller(palette = 'YlOrBr', direction = 1) + 
+    scale_color_distiller(palette = 'YlOrBr', direction = 1, 
+                          limits = c(0, 5.5), breaks = c(0, 2.5, 5)) + 
     geom_text_repel(aes(label = mut_aa), max.overlaps = 20, size = 5) + 
     geom_hline(yintercept = 0, linetype = 'dashed', color = 'grey') +
     geom_vline(xintercept = 0, linetype = 'dashed', color = 'grey') + 
