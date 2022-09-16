@@ -11,7 +11,7 @@ coefficient (CSC) (optimality) values to this folder
 
 + **./Scripts/create_dengue_2_iso_and_human_codon_freq.R**: R script to calculate the
 codon composition of the Dengue 2 isolates and human gene sequences; also calculates the
-optimal to non-optimal ratio for each sequence
+optimal to non-optimal ratio for each sequence (relative to human)
 
 + **./Scripts/create_dengue_isolates_h-relative_rscu_fc.R**: R script to calculate the
 RSCU fold change relative to human for all of the Dengue isolate sequences
@@ -30,11 +30,11 @@ Wu, et al. in *Translation affects mRNA stability in a codon-dependent manner in
 
 + **./dengue_2_iso_and_human_codon_freq.csv**: contains codon frequency values for the Dengue
 2 isolates and human gene sequences; also contains the optimal to non-optimal ratio for each
-sequence
+sequence (relative to human)
 
 + **./dengue_isolates_h-relative_rscu_fc.csv**: contains the H-relative RSCU values for all of
 the Dengue isolates
 
 + **./viral_rscu_fc_human.csv**: contains the H-relative RSCU values for all of the viral
 genomes downloaded from RefSeq; also contains the Spearman correlation of these values with
-human optimality and the p-value 
+human optimality and the p-value
