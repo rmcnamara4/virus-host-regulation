@@ -5,6 +5,7 @@
 # load libraries
 library(tidyverse)
 library(biomaRt)
+library(stringr)
 
 # create mart variable 
 ensembl = useMart('ensembl', dataset = 'hsapiens_gene_ensembl')
@@ -14,6 +15,9 @@ go_terms = getBM(c('ensembl_gene_id', 'go_id', 'name_1006'), mart = ensembl, uni
 
 # rename columns 
 colnames(go_terms) = c('gene_ID', 'go_id', 'go_name')
+
+# replace empty cells with NA 
+go_terms[go_terms == ''] = NA
 
 # save 
 write.table(
