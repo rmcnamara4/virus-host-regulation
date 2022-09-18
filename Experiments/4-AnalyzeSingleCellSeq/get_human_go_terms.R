@@ -22,8 +22,8 @@ go_terms[go_terms == ''] = NA
 # save 
 write.table(
   go_terms, 
-  './data/go_terms/human_go_terms.csv', 
-  sep = ',', col.names = TRUE, row.names = FALSE, quote = FALSE
+  './data/go_terms/human_go_terms.tsv', 
+  sep = '\t', col.names = TRUE, row.names = FALSE, quote = FALSE
 )
 
 ################################################################################
