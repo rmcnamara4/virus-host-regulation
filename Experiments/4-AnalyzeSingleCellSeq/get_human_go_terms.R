@@ -19,11 +19,14 @@ colnames(go_terms) = c('gene_ID', 'go_id', 'go_name')
 # replace empty cells with NA 
 go_terms[go_terms == ''] = NA
 
+# replace commas with a semicolon 
+go_terms$go_name = str_replace_all(go_terms$go_name, ',', ';')
+
 # save 
 write.table(
   go_terms, 
-  './data/go_terms/human_go_terms.tsv', 
-  sep = '\t', col.names = TRUE, row.names = FALSE, quote = FALSE
+  './data/go_terms/human_go_terms.csv', 
+  sep = ',', col.names = TRUE, row.names = FALSE, quote = FALSE
 )
 
 ################################################################################
