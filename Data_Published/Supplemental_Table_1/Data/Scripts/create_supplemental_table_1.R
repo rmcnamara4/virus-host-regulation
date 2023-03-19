@@ -48,6 +48,9 @@ final_data = final_data[, c(1:6, iv, 7:8)]
 final_data = final_data %>%
   select(-c(locus_tag, shape))
 
+# fix host column 
+final_data$host = str_replace(final_data$host, 'vertebrates: human', 'human:vertebrates')
+
 # save 
 write.table(
   final_data, 
