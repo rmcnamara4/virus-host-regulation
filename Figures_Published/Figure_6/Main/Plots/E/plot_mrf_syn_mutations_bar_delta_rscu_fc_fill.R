@@ -51,7 +51,7 @@ make_plot = function(table, amino_acid, title) {
     ) + 
     labs(
       x = 'Mutated From', 
-      y = 'Mean Relative Fitness', 
+      y = 'log2 Mean Relative Fitness', 
       title = title,  
       fill = 'Delta RSCU FC'
     )
